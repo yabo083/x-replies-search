@@ -625,5 +625,6 @@ const saved = load(LS.data, null);
   } else {
     STATE.repoCache = load(LS.repoCache, {});
     showEmpty();
+    doFetch();
   }
 })();

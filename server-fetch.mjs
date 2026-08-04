@@ -123,7 +123,10 @@ async function fetchArchive() {
     if (!avail.ok) return [];
     const info = await avail.json();
     const snap = info?.archived_snapshots?.closest;
-    if (!snap?.url) return [];
+    if (!snap?.url) {
+      console.log("  archive.org 无可用快照");
+      return [];
+    }
     const resp = await fetch(snap.url, { headers: { "User-Agent": UA } });
     if (!resp.ok) return [];
     const html = await resp.text();
