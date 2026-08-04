@@ -461,12 +461,17 @@ const io = new IntersectionObserver((entries) => {
 async function enrich(fullName, cardEl) {
   const cached = STATE.repoCache[fullName];
   if (cached) { applyEnrich(cardEl, cached); return; }
+  const [owner, repo] = fullName.split("/");
+  const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`;
   try {
-    const resp = await fetchText(`https://api.github.com/repos/${encodeURIComponent(fullName)}`, {
-      headers: { Accept: "application/vnd.github+json" },
-    });
+    const resp = await fetch(url, { headers: { Accept: "application/vnd.github+json" } });
     const remaining = Number(resp.headers.get("X-RateLimit-Remaining"));
-    if (resp.status === 404) { applyEnrich(cardEl, { deleted: true }); return; }
+    if (resp.status === 404) {
+      STATE.repoCache[fullName] = { deleted: true };
+      save(LS.repoCache, STATE.repoCache);
+      applyEnrich(cardEl, { deleted: true });
+      return;
+    }
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     const j = await resp.json();
     const info = {
@@ -493,8 +498,8 @@ function applyEnrich(cardEl, info) {
   const meta = cardEl.querySelector(".card-meta");
   const avatar = cardEl.querySelector("[data-avatar]");
   if (info.deleted) {
-    desc.textContent = "该项目已不存在或为私有仓库";
     desc.classList.add("placeholder");
+    desc.innerHTML = `该项目不存在/私有/已改名 — <a href="https://github.com/search?q=${encodeURIComponent(cardEl.dataset.fullName)}&type=repositories" target="_blank" rel="noopener" style="color:var(--accent)">搜索 GitHub ↗</a>`;
     return;
   }
   desc.classList.remove("placeholder");
