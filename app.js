@@ -578,15 +578,44 @@ el.exportBtn.addEventListener("click", () => {
   URL.revokeObjectURL(a.href);
 });
 
+async function loadRemoteSnapshot() {
+  try {
+    const resp = await fetch("data/replies.json", { cache: "no-cache" });
+    if (!resp.ok) return null;
+    const j = await resp.json();
+    if (!j || !Array.isArray(j.replies) || j.replies.length === 0) return null;
+    return j;
+  } catch {
+    return null;
+  }
+}
+
 fetchTweetMeta();
 const saved = load(LS.data, null);
-if (saved && Array.isArray(saved.replies) && saved.replies.length > 0) {
-  STATE.replies = saved.replies;
-  STATE.repos = mergeRepos(saved.replies);
-  STATE.repoCache = load(LS.repoCache, {});
-  render();
-  log(`📦 已恢复上次缓存数据(${saved.replies.length} 条,来源: ${saved.source})。可重新「抓取回复」更新。`);
-} else {
-  STATE.repoCache = load(LS.repoCache, {});
-  showEmpty();
-}
+(async () => {
+  const remote = await loadRemoteSnapshot();
+  if (remote && remote.replies.length > 0) {
+    const remoteCount = remote.replies.length;
+    const localCount = saved ? saved.replies.length : 0;
+    if (!saved || remoteCount >= localCount) {
+      STATE.replies = remote.replies;
+      STATE.repos = mergeRepos(remote.replies);
+      STATE.repoCache = load(LS.repoCache, {});
+      render();
+      el.exportBtn.disabled = false;
+      const pct = CONFIG.expectedReplies ? `(帖子显示 ${CONFIG.expectedReplies} 条,完整度 ${Math.round((remoteCount / CONFIG.expectedReplies) * 100)}%)` : "";
+      log(`📦 已加载预抓取快照: ${remoteCount} 条回复 ${pct}\n快照时间: ${new Date(remote.fetchedAt).toLocaleString("zh-CN")}\n如数据过旧,可点击「抓取回复」实时刷新。`, "ok");
+      return;
+    }
+  }
+  if (saved && Array.isArray(saved.replies) && saved.replies.length > 0) {
+    STATE.replies = saved.replies;
+    STATE.repos = mergeRepos(saved.replies);
+    STATE.repoCache = load(LS.repoCache, {});
+    render();
+    log(`📦 已恢复上次缓存数据(${saved.replies.length} 条,来源: ${saved.source})。可重新「抓取回复」更新。`);
+  } else {
+    STATE.repoCache = load(LS.repoCache, {});
+    showEmpty();
+  }
+})();
