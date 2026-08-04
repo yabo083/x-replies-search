@@ -233,8 +233,8 @@ async function doFetch() {
     } else {
       log("❌ 自动抓取全部失败:\n  r.jina.ai 未解析出回复(X 可能要求登录)\n\n👉 请点击「粘贴文本解析」手动导入回复内容。", "err");
     }
-  } catch (e2) {
-    log(`❌ 自动抓取全部失败:\n  游客 API: ${e.message}\n  r.jina.ai: ${e2.message}\n\n👉 请点击「粘贴文本解析」手动导入回复内容。`, "err");
+  } catch (e) {
+    log(`❌ 自动抓取全部失败:\n  游客 API: ${e.message}\n  r.jina.ai: ${e2.message}\n\n👉 手动方案:打开 ${CONFIG.tweetUrl} 把回复文本复制后点「粘贴文本解析」;\n👉 或打开 https://r.jina.ai/${CONFIG.tweetUrl} 全选复制粘贴。`, "err");
   }
   el.fetchBtn.disabled = false;
 }
@@ -595,7 +595,10 @@ async function loadRemoteSnapshot() {
   }
 }
 
+const APP_VERSION = "2026-08-05b";
+
 fetchTweetMeta();
+$("version").textContent = "v" + APP_VERSION;
 const saved = load(LS.data, null);
 (async () => {
   const remote = await loadRemoteSnapshot();

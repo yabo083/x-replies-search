@@ -114,6 +114,38 @@ async function fetchNitter() {
   return [];
 }
 
+async function fetchArchive() {
+  try {
+    const avail = await fetch(
+      `https://archive.org/wayback/available?url=${encodeURIComponent(STATUS_URL)}`,
+      { headers: { "User-Agent": UA } }
+    );
+    if (!avail.ok) return [];
+    const info = await avail.json();
+    const snap = info?.archived_snapshots?.closest;
+    if (!snap?.url) return [];
+    const resp = await fetch(snap.url, { headers: { "User-Agent": UA } });
+    if (!resp.ok) return [];
+    const html = await resp.text();
+    const text = html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&amp;/g, "&")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&quot;/g, '"');
+    const out = parseAll(text);
+    if (out.replies.length > 0) {
+      console.log(`  archive.org 快照(${snap.timestamp})成功: ${out.replies.length} 条`);
+      return out.replies;
+    }
+  } catch (e) {
+    console.log("  archive.org 失败:", e.message);
+  }
+  return [];
+}
+
 function dedupe(list) {
   const seen = new Set();
   return list.filter((t) => {
@@ -157,7 +189,13 @@ if (replies.length === 0) {
 }
 
 if (replies.length === 0) {
-  console.log("来源 3: nitter 镜像…");
+  console.log("来源 3: archive.org 快照…");
+  replies = await fetchArchive();
+  if (replies.length > 0) sources.push(`archive.org(${replies.length} 条)`);
+}
+
+if (replies.length === 0) {
+  console.log("来源 4: nitter 镜像…");
   replies = await fetchNitter();
   if (replies.length > 0) sources.push(`nitter(${replies.length} 条)`);
 }

@@ -31,6 +31,8 @@ body {
 .tweet-link a { color: var(--accent); text-decoration: none; font-size: 13px; }
 .tweet-link a:hover { text-decoration: underline; }
 
+.version { position: fixed; bottom: 8px; right: 12px; font-size: 11px; color: var(--dim); opacity: .7; z-index: 20; }
+
 .hero { display: grid; grid-template-columns: 1.4fr 1fr; gap: 20px; padding: 24px 0; }
 @media (max-width: 760px) { .hero { grid-template-columns: 1fr; } }
 
