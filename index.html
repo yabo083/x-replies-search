@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>DSH 报名雷达 · X 报名帖检索</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">📡 <b>报名雷达</b><span class="brand-sub">X 帖子报名检索工具</span></div>
+    <div class="tweet-link"><a id="tweetLink" href="#" target="_blank" rel="noopener">查看原帖 ↗</a></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero" id="hero">
+    <div class="hero-left">
+      <div class="post-meta" id="postMeta">
+        <div class="post-author" id="postAuthor">加载帖子信息…</div>
+        <div class="post-text" id="postText"></div>
+        <div class="post-stats" id="postStats"></div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="actions">
+        <button id="fetchBtn" class="btn primary">⛏ 抓取回复</button>
+        <button id="pasteBtn" class="btn">📋 粘贴文本解析</button>
+        <button id="exportBtn" class="btn" disabled>⬇ 导出数据</button>
+      </div>
+      <div class="log" id="log">尚未抓取。抓取来源依次尝试：r.jina.ai 渲染 → X 游客 API → 手动粘贴。</div>
+    </div>
+  </section>
+
+  <section class="stats" id="statsRow" hidden>
+    <div class="stat"><b id="stReplies">0</b><span>回复总数</span></div>
+    <div class="stat"><b id="stProjects">0</b><span>唯一项目</span></div>
+    <div class="stat"><b id="stWithRepo">0</b><span>带项目回复</span></div>
+    <div class="stat"><b id="stStars">0</b><span>累计 ⭐</span></div>
+    <div class="stat"><b id="stLangs">0</b><span>语言种类</span></div>
+    <div class="stat"><b id="stContacts">0</b><span>熟人命中</span></div>
+  </section>
+
+  <section class="toolbar" id="toolbar" hidden>
+    <input id="search" class="search" type="search" placeholder="搜索 仓库/作者/GitHub ID/描述… (例: mcp, ui, 或某好友的 ID)" autocomplete="off" />
+    <div class="chips" id="chips">
+      <button class="chip active" data-filter="all">全部</button>
+      <button class="chip" data-filter="repo">仅项目</button>
+      <button class="chip" data-filter="people">仅提及</button>
+      <button class="chip highlight" data-filter="contacts">⭐ 熟人</button>
+    </div>
+  </section>
+
+  <details class="contacts" id="contactsBox">
+    <summary>👥 我的熟人名单 <span class="hint">(GitHub ID 每行一个,存入浏览器)</span></summary>
+    <div class="contacts-body">
+      <textarea id="contactsInput" rows="4" placeholder="每行一个 GitHub 用户名 / X 昵称,例如:&#10;zhang-san&#10;deepseek-ai&#10;wangwu5"></textarea>
+      <div class="row">
+        <button id="contactsSave" class="btn small">保存</button>
+        <span id="contactsStatus" class="hint"></span>
+      </div>
+    </div>
+  </details>
+
+  <section class="langs" id="langsBox" hidden>
+    <h3>📊 项目语言分布 <span class="hint">(GitHub API 按需加载)</span></h3>
+    <div id="langBars"></div>
+  </section>
+
+  <section id="results">
+    <div id="grid" class="grid"></div>
+    <div id="peopleSection"></div>
+  </section>
+
+  <div id="empty" class="empty" hidden>
+    <div class="empty-icon">🛰</div>
+    <p>还没有数据。点击「抓取回复」从 X 拉取报名回复,<br/>或「粘贴文本解析」手动导入帖子回复内容。</p>
+  </div>
+</main>
+
+<dialog id="pasteDialog">
+  <form method="dialog" class="paste-form">
+    <h3>📋 粘贴回复文本</h3>
+    <p class="hint">把原帖下的回复内容(纯文本,每行一条或带 @昵称 前缀)粘进来。也可以粘贴 r.jina.ai / 网页复制的内容。</p>
+    <textarea id="pasteInput" rows="10" placeholder="@bob&#10;GitHub id: bob,项目 https://github.com/bob/agent-harness-mcp&#10;&#10;@alice&#10;https://github.com/alice/dsh-ui 支持!"></textarea>
+    <div class="row">
+      <button value="cancel" class="btn">取消</button>
+      <button value="ok" class="btn primary">解析并加入</button>
+    </div>
+  </form>
+</dialog>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
