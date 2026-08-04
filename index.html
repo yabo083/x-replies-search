@@ -28,6 +28,7 @@
     <div class="hero-right">
       <div class="actions">
         <button id="fetchBtn" class="btn primary">⛏ 抓取回复</button>
+        <button id="tokenBtn" class="btn">🔑 填 token</button>
         <button id="pasteBtn" class="btn">📋 粘贴文本解析</button>
         <button id="exportBtn" class="btn" disabled>⬇ 导出数据</button>
       </div>
@@ -97,6 +98,18 @@
     <p>还没有数据。点击「抓取回复」从 X 拉取报名回复,<br/>或「粘贴文本解析」手动导入帖子回复内容。</p>
   </div>
 </main>
+
+<dialog id="tokenDialog">
+  <form method="dialog" class="paste-form">
+    <h3>🔑 手动填入 X guest token</h3>
+    <p class="hint">自动激活被代理拒绝时使用。获取方法:用浏览器打开 x.com(需代理),按 F12 → Application → Cookies → <b>gt</b> 的值,粘贴到下面。</p>
+    <input id="tokenInput" type="text" placeholder="粘贴 gt cookie 值…" style="width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--fg);padding:8px;font-size:13px" />
+    <div class="row">
+      <button value="cancel" class="btn">取消</button>
+      <button value="ok" class="btn primary">保存并重试抓取</button>
+    </div>
+  </form>
+</dialog>
 
 <dialog id="pasteDialog">
   <form method="dialog" class="paste-form">

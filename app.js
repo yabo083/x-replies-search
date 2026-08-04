@@ -19,6 +19,7 @@ const LS = {
   contacts: "xrs.contacts",
   repoCache: "xrs.repoCache",
   guestToken: "xrs.guestToken",
+  guestTokenManual: "xrs.guestTokenManual",
 };
 
 const STATE = {
@@ -54,6 +55,9 @@ const el = {
   bannerFilterBtn: $("bannerFilterBtn"),
   pasteDialog: $("pasteDialog"),
   pasteInput: $("pasteInput"),
+  tokenDialog: $("tokenDialog"),
+  tokenInput: $("tokenInput"),
+  tokenBtn: $("tokenBtn"),
   progressBox: $("progressBox"),
   progressFill: $("progressFill"),
   progressText: $("progressText"),
@@ -98,6 +102,8 @@ async function fetchJina() {
 }
 
 async function guestToken(force = false) {
+  const manual = load(LS.guestTokenManual, null);
+  if (manual && !force) return manual;
   const cached = load(LS.guestToken, null);
   if (cached && !force) return cached;
   const proxy = "https://corsproxy.io/?url=" + encodeURIComponent("https://x.com/i/api/1.1/guest/activate.json");
@@ -204,39 +210,51 @@ async function doFetch() {
   el.fetchBtn.disabled = true;
   el.progressBox.hidden = false;
   el.progressFill.style.width = "0%";
-  log("⏳ 来源 1: X 游客 API(翻页抓取全部回复)…");
+  log("⏳ 来源 1: r.jina.ai 渲染(先拿保底数据)…");
+  let jinaReplies = [];
+  try {
+    const text = await fetchJina();
+    jinaReplies = parseAll(text).replies;
+    if (jinaReplies.length > 0) {
+      log(`⏳ r.jina.ai 拿到 ${jinaReplies.length} 条,继续尝试游客 API 拿全量…`);
+      ingest(jinaReplies, "r.jina.ai");
+    } else {
+      log("⚠️ r.jina.ai 未解析出回复(X 可能要求登录)。\n来源 2: X 游客 API(翻页拿全量)…");
+    }
+  } catch (e) {
+    log(`⚠️ r.jina.ai 失败: ${e.message}\n来源 2: X 游客 API(翻页拿全量)…`);
+  }
 
   try {
     const replies = await fetchGuestReplies(async (count, page) => {
       await updateProgress(count, page);
     });
     if (replies.length === 0) throw new Error("游客 API 返回 0 条回复");
-    ingest(replies, "x-guest-api");
+    const merged = mergeDedupe([...jinaReplies, ...replies]);
+    ingest(merged, merged.length > replies.length ? "x-guest-api+r.jina.ai" : "x-guest-api");
     const total = CONFIG.expectedReplies;
     log(total
-      ? `✅ 抓取完成: ${replies.length} / ${total} 条回复(页面完整度 ${Math.round((replies.length / total) * 100)}%)`
-      : `✅ 抓取完成: ${replies.length} 条回复`, "ok");
+      ? `✅ 抓取完成: ${merged.length} / ${total} 条回复(完整度 ${Math.round((merged.length / total) * 100)}%)`
+      : `✅ 抓取完成: ${merged.length} 条回复`, "ok");
     el.progressFill.style.width = "100%";
     el.progressFill.classList.add("full");
     el.fetchBtn.disabled = false;
     return;
   } catch (e) {
-    log(`⚠️ 游客 API 失败: ${e.message}\n来源 2: r.jina.ai 渲染…`);
-  }
-
-  try {
-    const text = await fetchJina();
-    const out = parseAll(text);
-    if (out.replies.length > 0) {
-      ingest(out.replies, "r.jina.ai");
-      log(`✅ r.jina.ai 抓取成功: ${out.replies.length} 条回复(仅页面可见部分,建议重试游客 API)`, "ok");
-    } else {
-      log("❌ 自动抓取全部失败:\n  r.jina.ai 未解析出回复(X 可能要求登录)\n\n👉 请点击「粘贴文本解析」手动导入回复内容。", "err");
+    if (jinaReplies.length > 0) {
+      log(`⚠️ 游客 API 失败(${e.message})。当前展示 r.jina.ai 首屏数据。\n💡 想要全量:点「🔑 填 token」粘贴 x.com 的 gt cookie。`, "err");
+      el.fetchBtn.disabled = false;
+      return;
     }
-  } catch (e) {
-    log(`❌ 自动抓取全部失败:\n  游客 API: ${e.message}\n  r.jina.ai: ${e2.message}\n\n👉 手动方案:打开 ${CONFIG.tweetUrl} 把回复文本复制后点「粘贴文本解析」;\n👉 或打开 https://r.jina.ai/${CONFIG.tweetUrl} 全选复制粘贴。`, "err");
+    log(`❌ 游客 API 失败: ${e.message}\n\n👉 方案 A:点「🔑 填 token」粘贴 x.com 的 gt cookie 值\n👉 方案 B:打开原帖复制回复文本,点「📋 粘贴文本解析」`, "err");
   }
   el.fetchBtn.disabled = false;
+}
+
+function mergeDedupe(list) {
+  const byKey = new Map();
+  for (const r of list) byKey.set((r.author || "") + "|" + r.text.slice(0, 80), r);
+  return [...byKey.values()];
 }
 
 function ingest(replies, source) {
@@ -516,6 +534,19 @@ function applyEnrich(cardEl, info) {
 }
 
 el.fetchBtn.addEventListener("click", doFetch);
+
+el.tokenBtn.addEventListener("click", () => {
+  el.tokenInput.value = load(LS.guestTokenManual, "");
+  el.tokenDialog.showModal();
+});
+el.tokenDialog.addEventListener("close", () => {
+  if (el.tokenDialog.returnValue !== "ok") return;
+  const t = el.tokenInput.value.trim();
+  if (!t) return;
+  save(LS.guestTokenManual, t);
+  el.contactsStatus.textContent = "token 已保存,开始重试抓取…";
+  doFetch();
+});
 
 el.pasteBtn.addEventListener("click", () => el.pasteDialog.showModal());
 el.pasteDialog.addEventListener("close", () => {
