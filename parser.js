@@ -185,6 +185,31 @@
     return out;
   }
 
+  async function paginateReplies(fetchPage, opts = {}) {
+    const { maxPages = 40, delay = 0, rootId = null, onPage } = opts;
+    const acc = [];
+    const byKey = new Set();
+    let cursor = null;
+    for (let page = 1; page <= maxPages; page++) {
+      const { json, cursor: next } = await fetchPage(cursor);
+      const parsed = parseGuestJson(json, rootId);
+      let added = 0;
+      for (const r of parsed) {
+        const key = (r.author || "") + "|" + r.text.slice(0, 80);
+        if (byKey.has(key)) continue;
+        byKey.add(key);
+        acc.push(r);
+        added++;
+      }
+      cursor = next;
+      if (onPage) onPage(acc.length, page);
+      if (!cursor) break;
+      if (page > 1 && added === 0) break;
+      if (delay) await new Promise((r) => setTimeout(r, delay));
+    }
+    return acc;
+  }
+
   export {
     extractRepos,
     extractMentions,
@@ -196,4 +221,5 @@
     computeStats,
     expandEntities,
     parseGuestJson,
+    paginateReplies,
   };

@@ -9,6 +9,7 @@ import {
   parseAll,
   parseGuestJson,
   expandEntities,
+  paginateReplies,
 } from "../parser.js";
 
 const POST = {
@@ -191,4 +192,75 @@ test("parseGuestJson: 原帖(根回复)被跳过", () => {
     ] } } ] },
   };
   assert.equal(parseGuestJson(json, "2084693319188439211").length, 0);
+});
+
+function pageJson(tweets, cursor) {
+  const entries = tweets.map((t) => ({
+    content: { entryType: "TimelineTimelineItem", itemContent: { tweet_results: { result: {
+      rest_id: t.id, legacy: { id_str: t.id, full_text: t.text, entities: { urls: [] } },
+      core: { user_results: { result: { legacy: { screen_name: t.author } } } },
+    } } } },
+  }));
+  if (cursor) entries.push({ content: { entryType: "TimelineTimelineCursor", value: cursor } });
+  return { data: { thread: [{ conversation_timeline: { entries } }] } };
+}
+
+test("paginateReplies: 沿 cursor 链翻页抓取全部", async () => {
+  const pages = [
+    pageJson([{ id: "1", author: "a", text: "https://github.com/a/one" }], "cur2"),
+    pageJson([{ id: "2", author: "b", text: "https://github.com/b/two" }], "cur3"),
+    pageJson([{ id: "3", author: "c", text: "https://github.com/c/three" }], null),
+  ];
+  let calls = 0;
+  const fetchPage = async (cursor) => {
+    calls++;
+    assert.equal(cursor, calls === 1 ? null : "cur" + calls);
+    const p = pages[calls - 1];
+    return { json: p, cursor: p.data.thread[0].conversation_timeline.entries.at(-1).content.value ?? null };
+  };
+  const replies = await paginateReplies(fetchPage, { rootId: "root", delay: 0 });
+  assert.equal(calls, 3);
+  assert.equal(replies.length, 3);
+});
+
+test("paginateReplies: 跨页重复条目去重", async () => {
+  const pages = [
+    pageJson([{ id: "1", author: "a", text: "https://github.com/a/one" }], "cur2"),
+    pageJson([{ id: "1", author: "a", text: "https://github.com/a/one" }, { id: "2", author: "b", text: "https://github.com/b/two" }], null),
+  ];
+  let i = 0;
+  const fetchPage = async () => ({ json: pages[i++], cursor: i === 1 ? "cur2" : null });
+  const replies = await paginateReplies(fetchPage, { rootId: "root", delay: 0 });
+  assert.equal(replies.length, 2);
+});
+
+test("paginateReplies: 连续空页提前停止", async () => {
+  let calls = 0;
+  const fetchPage = async () => {
+    calls++;
+    if (calls === 1) return { json: pageJson([{ id: "1", author: "a", text: "hi" }], "cur2"), cursor: "cur2" };
+    return { json: pageJson([], null), cursor: null };
+  };
+  const replies = await paginateReplies(fetchPage, { rootId: "root", delay: 0 });
+  assert.equal(replies.length, 1);
+  assert.equal(calls, 2);
+});
+
+test("paginateReplies: maxPages 上限", async () => {
+  let calls = 0;
+  const fetchPage = async () => {
+    calls++;
+    return { json: pageJson([{ id: String(calls), author: "a", text: "x" + calls }], "cur" + calls), cursor: "cur" + calls };
+  };
+  const replies = await paginateReplies(fetchPage, { rootId: "root", delay: 0, maxPages: 5 });
+  assert.equal(calls, 5);
+  assert.equal(replies.length, 5);
+});
+
+test("paginateReplies: onPage 进度回调", async () => {
+  const seen = [];
+  const fetchPage = async (c) => c ? { json: pageJson([{ id: "2", author: "b", text: "y" }], null), cursor: null }
+    : { json: pageJson([{ id: "1", author: "a", text: "x" }], "c2"), cursor: "c2" };
+  await paginateReplies(fetchPage, { rootId: "root", delay: 0, onPage: (n, p) => seen.push([n, p]) });
+  assert.deepEqual(seen, [[1, 1], [2, 2]]);
 });

@@ -30,8 +30,20 @@
         <button id="pasteBtn" class="btn">📋 粘贴文本解析</button>
         <button id="exportBtn" class="btn" disabled>⬇ 导出数据</button>
       </div>
-      <div class="log" id="log">尚未抓取。抓取来源依次尝试：r.jina.ai 渲染 → X 游客 API → 手动粘贴。</div>
+      <div class="progress" id="progressBox" hidden>
+        <div class="progress-label"><span>抓取进度</span><b id="progressText">0 / 136</b></div>
+        <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      </div>
+      <div class="log" id="log">尚未抓取。抓取来源依次尝试：X 游客 API(翻页抓全部)→ r.jina.ai 渲染 → 手动粘贴。</div>
     </div>
+  </section>
+
+  <section class="banner" id="contactsBanner" hidden>
+    <div class="banner-head">
+      <div class="banner-title">🎯 <b id="bannerCount">0 位熟人</b> 参与了本次报名</div>
+      <button class="btn small" id="bannerFilterBtn">只看熟人 ⭐</button>
+    </div>
+    <div id="bannerList" class="banner-list"></div>
   </section>
 
   <section class="stats" id="statsRow" hidden>
@@ -40,11 +52,16 @@
     <div class="stat"><b id="stWithRepo">0</b><span>带项目回复</span></div>
     <div class="stat"><b id="stStars">0</b><span>累计 ⭐</span></div>
     <div class="stat"><b id="stLangs">0</b><span>语言种类</span></div>
-    <div class="stat"><b id="stContacts">0</b><span>熟人命中</span></div>
+    <div class="stat contact-stat" id="stContactsCard"><b id="stContacts">0</b><span>熟人命中</span></div>
   </section>
 
   <section class="toolbar" id="toolbar" hidden>
     <input id="search" class="search" type="search" placeholder="搜索 仓库/作者/GitHub ID/描述… (例: mcp, ui, 或某好友的 ID)" autocomplete="off" />
+    <select id="sort" class="sort">
+      <option value="stars">按 ⭐ 星数</option>
+      <option value="contributors">按参与人数</option>
+      <option value="name">按名称</option>
+    </select>
     <div class="chips" id="chips">
       <button class="chip active" data-filter="all">全部</button>
       <button class="chip" data-filter="repo">仅项目</button>
