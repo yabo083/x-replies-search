@@ -1,13 +1,15 @@
 {
   "tweetId": "2084693319188439211",
   "tweetUrl": "https://x.com/tianyi/status/2084693319188439211",
-  "fetchedAt": "2026-08-04T23:31:49.604Z",
+  "fetchedAt": "2026-08-04T23:34:42.051Z",
+  "sources": [],
+  "errors": [
+    "r.jina.ai: HTTP 403",
+    "x-guest-api: HTTP 403"
+  ],
   "summary": {
-    "pages": 0,
-    "tweets": 0,
-    "errors": [
-      "HTTP 403 for https://x.com/i/api/1.1/guest/activate.json"
-    ]
+    "tweets": 0
   },
-  "replies": []
+  "replies": [],
+  "merged": true
 }
