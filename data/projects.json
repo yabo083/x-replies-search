@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-05T01:00:22.143Z",
-  "sourceFetchedAt": "2026-08-05T00:50:58.723468+00:00",
-  "sourceReplyCount": 159,
-  "sourceAuthorCount": 156,
-  "projectCount": 141,
-  "availableProjectCount": 141,
-  "totalStars": 158645,
+  "generatedAt": "2026-08-05T01:03:04.299Z",
+  "sourceFetchedAt": "2026-08-05T01:02:36.396733+00:00",
+  "sourceReplyCount": 162,
+  "sourceAuthorCount": 159,
+  "projectCount": 144,
+  "availableProjectCount": 144,
+  "totalStars": 166767,
   "languages": {
-    "TypeScript": 58,
+    "TypeScript": 59,
     "Go": 9,
+    "Python": 35,
     "JavaScript": 13,
-    "Python": 34,
     "Swift": 6,
     "Rust": 9,
     "Lua": 2,
@@ -18,7 +18,7 @@
     "C": 1,
     "Shell": 2,
     "HTML": 1,
-    "Java": 1
+    "Java": 2
   },
   "projects": [
     {
@@ -58,7 +58,7 @@
       "fullName": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 30779,
+      "stars": 30780,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -79,6 +79,37 @@
       ],
       "excerpts": [
         "@tianyi 申请参与 harness 内测\nGithub id是：SivanCola\n项目简介：一款深度适配 DeepSeek、可在多操作系统和多平台运行的原生 AI 代码智能体。\nGithub项目地址：https://github.com/esengine/DeepSeek-Reasonix"
+      ]
+    },
+    {
+      "key": "omnigent-ai/omnigent",
+      "owner": "omnigent-ai",
+      "repo": "omnigent",
+      "fullName": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "stars": 8117,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T01:01:38Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/292215228?v=4",
+      "available": true,
+      "xUsers": [
+        "fanzeyi"
+      ],
+      "githubIds": [
+        "fanzeyi",
+        "omnigent-ai"
+      ],
+      "replyIds": [
+        "2084805050728321379"
+      ],
+      "excerpts": [
+        "@tianyi GitHub: fanzeyi\n\nAgent Orchestrator 项目，希望可以支持 DeepSeek harness :)\n\nhttps://github.com/omnigent-ai/omnigent\n\n谢谢！"
       ]
     },
     {
@@ -2557,6 +2588,36 @@
       ]
     },
     {
+      "key": "leyen-me/coder",
+      "owner": "leyen-me",
+      "repo": "coder",
+      "fullName": "leyen-me/coder",
+      "url": "https://github.com/leyen-me/coder",
+      "description": "An AI-native development environment with autonomous agent loop, remote SSH execution, cron-based automations, and a customizable skills system — built with Rust and React.",
+      "stars": 4,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T06:26:52Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40122873?u=193a061e66474c82c4f3922d436a34c63063c0d7&v=4",
+      "available": true,
+      "xUsers": [
+        "alanwchat"
+      ],
+      "githubIds": [
+        "leyen-me"
+      ],
+      "replyIds": [
+        "2084804672733458784"
+      ],
+      "excerpts": [
+        "@tianyi 3 个月完成的 10 万行 rust 加 react 代码，目标 codex：\n\n- 优雅的 web 界面，非 cli\n- 支持 win、mac、linux、docker\n- 支持主题、国际化、快捷键\n- 支持自动化、长任务代理\n- 支持MCP、SKILLS、远程连接、subagent、邮件发送\n- 支持虚拟滚动对超长上下文的渲染\n\nhttps://github.com/leyen-me/coder https://x.com/alanwchat/status/2084804672733458784"
+      ]
+    },
+    {
       "key": "longyijdos/kana",
       "owner": "longyijdos",
       "repo": "kana",
@@ -3760,6 +3821,36 @@
       ],
       "excerpts": [
         "@tianyi GitHub id：yak33\nGitHub项目地址：https://github.com/yak33/customs-mcp-server\n项目介绍：我们是海关进出口货代报关行业，给公司现有的关务系统写的MCP服务，方便各个业务系统快速接入AI，任何 AI Agent 即插即用。有14 个生产级关务/贸易能力：报关单、船信息、税则查询、两用物项判定、 AI 智能制单 等等功能。"
+      ]
+    },
+    {
+      "key": "axolotlxmdev/mananeutron",
+      "owner": "AxolotlXMDev",
+      "repo": "ManaNeutron",
+      "fullName": "AxolotlXMDev/ManaNeutron",
+      "url": "https://github.com/AxolotlXMDev/ManaNeutron",
+      "description": null,
+      "stars": 0,
+      "language": {
+        "name": "Java",
+        "color": "#b07219"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-02T15:18:09Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96782634?u=c7784667a7578c6effd906a725b954fc055f8104&v=4",
+      "available": true,
+      "xUsers": [
+        "jnxingu144988"
+      ],
+      "githubIds": [
+        "AxolotlXMDev"
+      ],
+      "replyIds": [
+        "2084806046607200264"
+      ],
+      "excerpts": [
+        "@tianyi Github Id:AxolotlXMDev\nrepo: https://github.com/AxolotlXMDev/ManaNeutron\n这是一个 Java 实现的前后端分离 harness，目前通过 REST API + SSE 提供交互与监听，希望探索更通用的数据交换协议，便于功能拆分和生态构建。项目仍在迭代中，希望申请 DSH 内测，学习借鉴，感谢！"
       ]
     },
     {
