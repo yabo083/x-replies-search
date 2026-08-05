@@ -1,0 +1,726 @@
+{
+  "model": "gpt-5.6-luna",
+  "updatedAt": "2026-08-05T01:20:31.398Z",
+  "items": {
+    "lobehub/lobehub": {
+      "signature": "b2bb69a3aced692b95a456e126c090bf0f970572529fc8cefbb8fb169cf8e709",
+      "summary": "arvin17x 报名的 lobehub/lobehub 是一个负责招募、调度和汇报 AI 智能体团队运行情况的总控平台。",
+      "generatedAt": "2026-08-05T01:14:00.908Z"
+    },
+    "esengine/deepseek-reasonix": {
+      "signature": "e31006f6b9281ce51fa77544d9a401f2d7f384cb7b9c3b7807a0b8576b5e1ee9",
+      "summary": "ZeroX2017 报名的 esengine/DeepSeek-Reasonix 是一款运行于终端、深度适配 DeepSeek 并保持前缀缓存稳定的 AI 编程智能体。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "omnigent-ai/omnigent": {
+      "signature": "109df32359ab2d8c7f13c95c34015ec712076d5813704c7748659ffa7fb1ab72",
+      "summary": "fanzeyi 报名的 omnigent-ai/omnigent 是开源 AI 智能体编排框架，可统一调度多种 harness，并提供策略控制、沙箱和实时协作。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "lilimozi/openhanako": {
+      "signature": "2053de71fc43a4d006f0c9b01af15015bcb248c3dc0648ecabb44fa964f9d585",
+      "summary": "lilililiMozi 报名的 liliMozi/openhanako 是一款具备记忆、个性与自主性的个人 AI 智能体。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "mindcraft-bots/mindcraft": {
+      "signature": "1f2ca2ffd7bfcfbab1ab1dd586ad29ca33a3d0c9ba78d9450b45f8dd12e5cddd",
+      "summary": "xiaozhugeQY 报名的 mindcraft-bots/mindcraft 让大语言模型通过 Mineflayer 在 Minecraft 中自主生存、建造，并支持单智能体、多智能体和人机协作。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "zhongerxin/cowart": {
+      "signature": "1174fe0701b70f0d29ba8e14d059a910a085da83f87cdebfc0a7762202a77ad5",
+      "summary": "zhongerxin 报名的 zhongerxin/Cowart 是面向 Codex 的原生无限画布插件，结合 tldraw 与 MCP Widget 支持视觉构思、标注及内容创作。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "primeintellect-ai/verifiers": {
+      "signature": "56cf3d01a6472f0277ed03c72692689b40378768cb23b86a38718d1cee2493b9",
+      "summary": "xeophon 报名的 PrimeIntellect-ai/verifiers 是用于强化学习环境、评测与训练的统一库，面向不同 harness 提供相关支持。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "crafter-station/petdex": {
+      "signature": "ba5e806249db9373fec3bc57cbe3fc6eef712e1eb806d4afaa6daead4e595980",
+      "summary": "henryisbusynow 报名的 crafter-station/petdex 是面向 Codex、Claude Code、OpenCode 和 Gemini CLI 的动画数字宠物图库与桌面伴侣客户端。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "maaend/maaend": {
+      "signature": "eb1e520a4b01100cff81654a442daa4289b1ac444b20f1e31d0a66ba683ce119",
+      "summary": "Winds_Land 报名的 MaaEnd/MaaEnd 是基于视觉 AI 的《明日方舟：终末地》自动化助手。",
+      "generatedAt": "2026-08-05T01:14:00.909Z"
+    },
+    "whiteguo233/openbiliclaw": {
+      "signature": "6a1b7acab07ddf5cb13930162e0ee40ac843b6ec4a55169b8fcdfd420de2a099",
+      "summary": "white233333 报名的 whiteguo233/OpenBiliClaw 是本地私有的跨平台内容发现智能体，可理解用户偏好并主动搜寻相关内容。",
+      "generatedAt": "2026-08-05T01:14:00.910Z"
+    },
+    "raybytes/chatmock": {
+      "signature": "61bced04174406e37365c674d0c34f4e24888c520be74a2f5ecb56f1609d72e3",
+      "summary": "raybytez 报名的 RayBytes/ChatMock 是兼容 OpenAI 与 Ollama API、由 Codex 驱动的 Python 项目。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "kenryu42/cc-safety-net": {
+      "signature": "c4cb7c4f9f0a643033d245e386aa6a1e955203adec848cec5339ade93d3a0da2",
+      "summary": "kenryu42 报名的 kenryu42/cc-safety-net 是编码代理 CLI 钩子，可在执行前拦截破坏性 Git、文件系统命令及敏感文件访问。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "mem9-ai/mem9": {
+      "signature": "f8999cde7cd637fb37fdfe7d79662e5176b1b04e1333ceb51423276b9cde8d56",
+      "summary": "xiaomabosn 报名的 mem9-ai/mem9 是面向 OpenClaw 的无限记忆项目，用于为其提供记忆存储能力。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "pharmolix/openbiomed": {
+      "signature": "3b7fa5ccda07c48d5294ec0caca2a3e37692c45d5d6bc86a001f4b64add4516b",
+      "summary": "khlwbk11 报名的 PharMolix/OpenBioMed 是水木分子与清华 AIR 团队用于 AIDD 工作的 Python 开源项目。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "ling71671/open-reverselab": {
+      "signature": "587ab6bcc10b3fdfab6291f270097ec37e9ca4a12c55162653b9f8e47d6c32ea",
+      "summary": "BELLOSHEHU14718 报名的 LING71671/open-reverselab 是面向智能代理的逆向工程实验室，提供知识库、MCP 工具及 CTF/APK/PE 自动化流程。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "repoprompt/repoprompt-ce": {
+      "signature": "bf4e93e8e40c4b73c0b09c9b5900a30506cad4d6de7a4bf9d39f80991ba01653",
+      "summary": "morluto 报名的 repoprompt/repoprompt-ce 是 RepoPrompt 社区版，为 AI 编码代理提供原生 macOS 上下文工程应用及 MCP CLI。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "vinhnx/vtcode": {
+      "signature": "2b5bfd5b3111206e32ca26e8ad166695c56079a40b0349df3b21d48b4c4a315b",
+      "summary": "vinhnx 报名的 vinhnx/VTCode 是 Rust 编写的编码代理，支持 LLM 原生代码理解、操作系统原生沙箱和多提供商接入。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "cai-aa/cae-agent-hub": {
+      "signature": "8b5a94d13a8eb6edab2f0f784c21016d7fc2c2a193d38e56c8d85e8160d3d30e",
+      "summary": "GoGoFly23 报名的 Cai-aa/CAE-Agent-Hub 汇集面向工程仿真软件的 MCP server、Agent Skill、求解器自动化脚本和浏览器结果查看器。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "xytom/coding-tools-mcp": {
+      "signature": "c45fd27585dce07a0407bd2b5aefd083db8a8cb8b315e0641efd759b46075883",
+      "summary": "xytom_ 报名的 xyTom/coding-tools-mcp 是一个通过 MCP 为 AI 代理提供编码能力的 Python 工具项目。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "exoharness/exo": {
+      "signature": "e3549cb48722811fdac7e3168d33b56bdfff39a385b71fc59aa65eec4f43a9ac",
+      "summary": "silicoville 报名的 exoharness/exo 是一种可递归的代理与 harness 架构，能够在运行时安全编辑自身各个部分以改进任务执行。",
+      "generatedAt": "2026-08-05T01:14:34.459Z"
+    },
+    "onevcat/prowl": {
+      "signature": "b570b03f1ed5b61346a40890bd47ad988d56438aa9d8870330ea970991fde159",
+      "summary": "X报名用户：onevcat，onevcat/Prowl是用于编排原生macOS编码代理的工具。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "nour833/stegoforge": {
+      "signature": "ee3231eb0c10b958ca5712a5b7067713df43203c06a008ae52eccf70c5704380",
+      "summary": "X报名用户：nourelislem83，Nour833/StegoForge用于在图像、音频、视频、文档和网络数据中隐藏、提取及检测隐写内容。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "sii-holos/synergy": {
+      "signature": "ae3a3aed2ee9c8215c2fbb4f13d13e4b92e25e59b08618381ff4533c7ce6c496",
+      "summary": "X报名用户：EricSanchez7777，SII-Holos/synergy是面向开放代理网络的通用智能代理项目。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "unifapi-agent/agents": {
+      "signature": "28e6afbce2d6478aeb9ebd4863ae465bfd91fefd0eda194315dc7da81d6bbbe5",
+      "summary": "X报名用户：desenmeng，unifapi-agent/agents提供基于MCP只读公开数据的营销代理，支持SEO审计、AI可见性分析、社交监听和竞品情报。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "catlog22/maestro-flow": {
+      "signature": "3fffc92eba3f9fe992f70d751c123fa585d733dea416a7f7516b2a8e58db9d58",
+      "summary": "X报名用户：d127yw，catlog22/maestro-flow用于多代理AI开发的意图驱动工作流编排，包含自适应生命周期、知识图谱和可视化仪表盘。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "zhangweijp/agentorientedtui": {
+      "signature": "3c8960fff14dd346f67a86c57cc72d71451881ae786478a6584512e7e6a40c47",
+      "summary": "X报名用户：JimmyPage6656，zhangweijp/AgentOrientedTUI是一个面向AI Agent的软件开发项目。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "n-wn/subgroupx": {
+      "signature": "8dbe3194803ae1010167d88a472817425136615d53c9feb29e9c7120e077c5b8",
+      "summary": "X报名用户：loopPoly，n-WN/SubgroupX提供可在云沙盒、SSH主机或无公网IP机器上运行的持久化多代理会话，并支持PWA。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "zgiai/zgi": {
+      "signature": "69f6de042c208e714503c44654bdf062b0bd21d9d3bbb6699cd67e9b21927433",
+      "summary": "X报名用户：xishu_ai，zgiai/zgi是可自托管的AI应用平台，支持代理、可视化工作流、知识记忆、模型路由和沙箱工具执行。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "xiaotonng/pikiloom": {
+      "signature": "1572723dbdac7349fa0c0f56bdabecfea444c4d10a62c210dbe0c64311738f54",
+      "summary": "X报名用户：sthnavy，xiaotonng/pikiloom是用于在网页端编排和使用AI代理及插件的开源工具。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "ttttmr/pi-context": {
+      "signature": "c5b0d8f8c854111f1fee6eeeb43b69d8b860779ae557f0aec66665f522f3abf2",
+      "summary": "X报名用户：tmr11235，ttttmr/pi-context是pi的上下文管理插件，可让代理主动标记、编排并压缩当前上下文。",
+      "generatedAt": "2026-08-05T01:14:58.031Z"
+    },
+    "openma-ai/open-managed-agents": {
+      "signature": "ba568c4e7629f512011aa4ccceb9b0cbb22071ae1584d82a6acd22586e782bfb",
+      "summary": "BoAIPlayHeads，openma-ai/open-managed-agents 是兼容 Claude Managed Agents API 的开源实现，可在 Cloudflare Workers、Durable Objects 或 Node.js 上自托管运行。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "geniushu-tgty/open-tgtylab": {
+      "signature": "caa3250087bddfa79130fb21f358ce528e5fcd4a8b0ab98447d6283cbd1e8a6b",
+      "summary": "GeniusHU66，GeniusHu-tgty/Open-tgtylab 是集成逆向工程、CTF、移动安全和 Web 安全的安全研究工作台。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "superagents-lab/search1api-mcp": {
+      "signature": "15bc2b0b9f061240086945e4bea697ede233bba1dbc6ed9b828ce1aba0238181",
+      "summary": "fatwang2ai，superagents-lab/search1api-mcp 是 Search1API 的 MCP 服务，支持网页搜索、新闻、抓取、站点地图和趋势查询。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "fakechris/obsidian_vault_pipeline": {
+      "signature": "3dfe3d003dbf8b7ea4c55ca9b8127fe10d960a76b6219d16c897f99fe5ee78d9",
+      "summary": "fakechris，fakechris/obsidian_vault_pipeline 是使用大语言模型自动处理 Obsidian 知识库内容的流水线。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "firstintent/ccteam": {
+      "signature": "a8f1f729d204cb0af0f4585ebffcd1abb4f57d2140be51c270afbf757c6af3b2",
+      "summary": "firstintentdev，firstintent/ccteam 将不同厂商和设备上的编程代理编排成团队，并支持通过 Telegram、飞书或浏览器统一派发和收集任务。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "z80dev/lemon": {
+      "signature": "0ea72467802bfc64767e916b8a23bf4a703f4c58447f50156f7294715ee0004b",
+      "summary": "0xz80，z80dev/lemon 是一个用于运行智能代理的 Elixir 运行时项目。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "zhuzhaoyun/molio": {
+      "signature": "e7be810278a598f472a0b96cdf842751afff045665d3737a8d52bcab8ff4c1de",
+      "summary": "yosn883271，zhuzhaoyun/Molio 将 Claude Code、Codex 等 AI 运行时接入 Obsidian 知识库，用于研究、分析、创作及结果回写。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "crabbuild/compass": {
+      "signature": "d7af424efdece1a01add0a511e3ef28d0949d6a3a66d3296b67aca9306fe3f8a",
+      "summary": "haipingfu，crabbuild/compass 是基于 Rust 的本地知识图谱引擎，可将源代码和项目制品转换为可搜索、查询、可视化的图谱。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "2921323707/cpa_orbit": {
+      "signature": "754fc0ec5f7731124289320ca08dc775b5f0cc305bf0aee30227a2c36c111ad4",
+      "summary": "lv_chen2006，2921323707/CPA_Orbit 是面向价格监测和代理运营的本地控制台，用于管理套餐、订阅、配额、GPT Plus 和短信。",
+      "generatedAt": "2026-08-05T01:15:21.643Z"
+    },
+    "try-works/role-model": {
+      "signature": "af11035db964575c496b4f51ee2a576ae0541f8be5cb9a7d9d2bec767910b788",
+      "summary": "trydotworks，try-works/role-model 是用于按任务分配合适模型的协议，支持组合本地与云端模型并在多个云服务商之间路由。",
+      "generatedAt": "2026-08-05T01:15:21.644Z"
+    },
+    "lloydzhou/bash-agent": {
+      "signature": "769a6ae49e6fe1f30d07b664b7a9df8a5c7e1be63e98f436bd07d0d0cc87381f",
+      "summary": "报名用户 lloydzhou1210 的 lloydzhou/bash-agent 是用 Bash 与 awk 实现、无需运行时依赖的极简 AI 编程代理运行时。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "blushyes/reef": {
+      "signature": "d1aabd889251953eff07ff7589f887c04218b163ce9c06348fa627f4d1644c70",
+      "summary": "报名用户 Pinkuo_ 的 Blushyes/reef 是面向 AI 编程的终端开发工具，用于在终端中编写和审查代码。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "shiquda/roadmap-skill": {
+      "signature": "a0b8fdbfb65ee836e4fb274774f222cad882d825b1a5f53872fd9ce383bd97ba",
+      "summary": "报名用户 shiquda123321 的 shiquda/roadmap-skill 提供人机共享的任务路线图，以看板、图谱及 Skills 和 MCP 服务支持协作。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "s1dashu/ousia": {
+      "signature": "3382dcfa4c87990b050632e627a0798c2d234ba0127a24772aefcb556561a0ed",
+      "summary": "报名用户 s1dashu 的 s1dashu/ousia 是一款轻量、极简的 Pi Agent 桌面客户端。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "catlog22/pi-maestro-flow": {
+      "signature": "de3fe677ee24f0755cc752b9a3dc715054e85b99fc0bc6077be72db7a44cc36c",
+      "summary": "报名用户 d127yw 的 catlog22/pi-maestro-flow 是 Pi 的 Maestro 工作流扩展，包含 pi-teammate 和 pi-maestro-agent 工具。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "fanfan-de/anybox": {
+      "signature": "2442068f08fb6cc1d83dbd874b4e8c80fa8060ddd913c498e2031fe66d31ccea",
+      "summary": "报名用户 fanfan45136808 的 fanfan-de/anybox 是开源 AI Agent 桌面工作空间，提供运行时、插件体系、多 Agent 工作流和工具调用追踪。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "levi-qiao/longgraph-skill": {
+      "signature": "3cc2ccd7c854204526186ffd9dfddc1d662892648707af76c6aeaacc3a00422c",
+      "summary": "报名用户 leviqiao 的 levi-qiao/longgraph-skill 是面向 Claude Code、Cursor、Codex 等工具的长周期多任务执行 Skill。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "aresbit/matebot": {
+      "signature": "15002b2c00f2fad398d7ca5eb784b80cb1728b262b6e0b77d08d157798007694",
+      "summary": "报名用户 emememerica 的 aresbit/MateBot 是一个名为 claudeclaw 的项目，用于提供面向 Claude 的代理工具。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "luneth90/lifeos": {
+      "signature": "88a64ccde59afb38e63c23c4f83caec44e3a0804ad95ac4fa58ea534b804065f",
+      "summary": "报名用户 luneth90 的 luneth90/lifeos 将 Obsidian 与 AI Agent 结合，用于组织终身学习中的知识、工作流、技能和记忆。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "dlyzzt/pi-desktop": {
+      "signature": "c92067279cc1f1025751c8b2284e249aca9b41b833a1f2a557e2023fff078d10",
+      "summary": "报名用户 dlyzzt 的 DLYZZT/pi-desktop 是面向 Pi Coding Agent 的本地优先跨平台桌面工作空间，支持会话、项目文件和插件等功能。",
+      "generatedAt": "2026-08-05T01:15:47.714Z"
+    },
+    "xnmk029/xnmk_prompt_library_1.0": {
+      "signature": "b5d69cfbf682c71f610917623a91f827c60656621f38c957cc7e2326aec25845",
+      "summary": "xiaoming470595 报名的 Xnmk029/Xnmk_Prompt_Library_1.0 是面向 AI harness 的测试用例库，用于以主流模型为基准评估能力边界。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "duh17/oppi": {
+      "signature": "229c9c4e248dd1eb45287a9e15059437adf2557eded4bd3e3568fb80ec61076d",
+      "summary": "chaosdonkey7 报名的 duh17/oppi 是 Pi coding agent 的原生 iOS/iPadOS 客户端与 TypeScript 自托管服务，支持移动端会话控制和内容查看。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "linxule/lotus-wisdom-mcp": {
+      "signature": "b34490328c86dfb7c2dca766f24a6839a16212e27038a07f779fe8f2161bf584",
+      "summary": "LinXule 报名的 linxule/lotus-wisdom-mcp 是基于《法华经》智慧框架的沉思式推理 MCP 服务，并提供交互式旅程可视化。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "pumblus/okf-harness": {
+      "signature": "c1e4a8ad765ae7b4c5f559de36c99558d3cf9035980eb8aef90e8f08c5da6b5b",
+      "summary": "yhzhou0921 报名的 pumblus/okf-harness 是面向 AI Agent 的本地知识库维护工具，将资料整理为带引用、可追溯的 Markdown 知识库。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "shiquda/mediawiki-mcp-server": {
+      "signature": "8f2cb7905407c51d9b57ddccdd286f8612d0209006739e209e7bc10c4229922e",
+      "summary": "shiquda123321 报名的 shiquda/mediawiki-mcp-server 是用于检索和读取 MediaWiki 网站内容的 MCP 服务，支持 Wikipedia、Fandom 等站点。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "834063245-creator/hologram": {
+      "signature": "61497f2f31e404b90a853f4818983b37db9408ff6cce7aa0510a324a421b3ef2",
+      "summary": "YxPlDFgrQT6RfiD 报名的 834063245-creator/HoloGram 是跨语言代码依赖图生成器，以三维图谱展示拓扑并提供耦合分析、文件监视和内置 Agent。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "robin111828/openclaw-control-center": {
+      "signature": "50414b68071d964ac2f0a7a332a265ed855d22461ff348a401b019479b4d4767",
+      "summary": "yongluo54738 报名的 robin111828/openclaw-control-center 是 OpenClaw 跨设备控制中心，提供引导式设置、连接器接入、移动端配对和诊断信息。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "tdwhere123/do-it": {
+      "signature": "01f217aa908f6dba1f1bbafee44740e86f90f8c8589aee27d3f8ec9f4c480b95",
+      "summary": "jamie_yellow 报名的 tdwhere123/do-it 是可安装的 AI 编程工作流，按风险路由任务、安排范围明确的子 Agent，并以证据支持完成结果。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "uisee-ai/zaofu": {
+      "signature": "16418e3e5f6ff689caf93c4c3fe5a7778f8507b8ac17cf426a1a1bf9dd11b3ec",
+      "summary": "LLins_s 报名的 uisee-ai/zaofu 是面向长程、多 Agent 软件交付的 Coding Harness 平台，支持 goal、loop、graph、swarm 和 workflow 编排。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "githubxsy/agent-skills": {
+      "signature": "15f13e0cf1d082bdfa493612dd1819e510ad805102b56cc141511816d0759f44",
+      "summary": "yanyanwen541 报名的 GitHubxsy/agent-skills 提供可复用的 AI 编程 Agent 技能，供编码 Agent 和人工评审者共同使用。",
+      "generatedAt": "2026-08-05T01:16:16.633Z"
+    },
+    "yuanlang12/kite": {
+      "signature": "0de1cf5913ef8c0114cd8f12864142660a4ecedabefbd616360c7fb16cad05a5",
+      "summary": "报名用户 yuanlang01 的 yuanlang12/Kite 是一个将本地 harness 接入 Telegram、微信、飞书等即时通信平台的开发启动器。",
+      "generatedAt": "2026-08-05T01:16:37.540Z"
+    },
+    "shiquda/weread-cli": {
+      "signature": "123c2c7cca4f4a97ea48575d27848cf2cdf0ccefd1d237d72d7982f102a7787f",
+      "summary": "报名用户 shiquda123321 的 shiquda/weread-cli 基于微信读书官方 API，提供书架、笔记、划线、书评和阅读统计等命令行操作。",
+      "generatedAt": "2026-08-05T01:16:37.540Z"
+    },
+    "xnmk029/etharness": {
+      "signature": "5bfa946d853a884b9a16f53d18a5aae42fb512886e5dbd52c5f6f438ec87443d",
+      "summary": "报名用户 xiaoming470595 的 Xnmk029/ETharness 是面向特化记忆场景的 harness 模块，利用长效 KV 机制增强记忆能力。",
+      "generatedAt": "2026-08-05T01:16:37.540Z"
+    },
+    "dlyzzt/bash-agent": {
+      "signature": "a4565d274cdf1dda7449e84061567ba90ea3df462173f4b5d37a8e6ca94c3df8",
+      "summary": "报名用户 dlyzzt 的 DLYZZT/bash-agent 是面向运维场景的轻量 Agent，用于理解并执行 Bash 命令。",
+      "generatedAt": "2026-08-05T01:16:37.540Z"
+    },
+    "zwrong/pi-discuss-mode": {
+      "signature": "23a5e8f2ccc3f1cc7c65a626c591f5d3ef1f87a6682200dc3ece2bdd975340ae",
+      "summary": "报名用户 Vinen77 的 zwrong/pi-discuss-mode 为 Pi Coding Agent 提供只读讨论模式，支持在不执行操作时进行分析交流。",
+      "generatedAt": "2026-08-05T01:16:37.541Z"
+    },
+    "zzir/agents-go": {
+      "signature": "3f8e80ddc1357c89e4261df1b751149e8e4a6c8760ab0d5bcaa1602285a7236f",
+      "summary": "报名用户 _zzir 的 zzir/agents-go 是一个使用 Go 构建生产级 AI Agent 的轻量框架，支持多智能体工作流。",
+      "generatedAt": "2026-08-05T01:16:37.541Z"
+    },
+    "balaenis/pi-x-ide": {
+      "signature": "fceef80b4d18a6388ef757b43246a892bc4a76c615da2edb6f25d4d6cd2816b8",
+      "summary": "报名用户 ilihziac 的 balaenis/pi-x-ide 是 Pi 的 TypeScript 扩展包，用于将 IDE 选择上下文集成到代理工作流中。",
+      "generatedAt": "2026-08-05T01:16:37.541Z"
+    },
+    "antony-jia/openanywork": {
+      "signature": "736b6c1add7871e3996c11eda9173a865b37726d1c6b3a1b98077cee86acf875",
+      "summary": "报名用户 jiafan890711 的 Antony-Jia/OpenAnyWork 是面向深度智能体的桌面工作台，整合文件系统、Docker、MCP 和子智能体。",
+      "generatedAt": "2026-08-05T01:16:37.541Z"
+    },
+    "balaenis/pi-toolset": {
+      "signature": "846de0bbfd8ce63c3af4a42b9544c8609d24c2459eba8aed99ddec2d8d79fba5",
+      "summary": "报名用户 ilihziac 的 balaenis/pi-toolset 是一个面向 Pi 生态的 TypeScript 工具集项目。",
+      "generatedAt": "2026-08-05T01:16:37.541Z"
+    },
+    "eloklam/oh-my-hermes-agent": {
+      "signature": "aca8e9873a3c5ccf7fa4906565e5c514c2baa03d29307cf54674a7e8fbf73d81",
+      "summary": "报名用户 elok_lam 的 eloklam/oh-my-hermes-agent 是一个用于组织多个智能体协作分工的 Hermes Agent 框架。",
+      "generatedAt": "2026-08-05T01:16:37.541Z"
+    },
+    "cnife/pi-extensions": {
+      "signature": "f5bf1e22f16bbdfc60a9815e5b5ef56811638d1e225756c10d5c0c0f08e70bd2",
+      "summary": "ArrayDeque 报名的 CNife/pi-extensions 是用于扩展 pi 的 TypeScript 插件集合，面向 Agent harness 相关使用场景。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "hanyo-ai/pulse": {
+      "signature": "d4928bfd6a934aea22c3c39b2cc91637794261153d451777cbe770a98cf62dce",
+      "summary": "kartboop 报名的 hanyo-ai/pulse 是面向 AI agent 的可观测层，可实时查看会话、提示词、工具调用和模型切换，并提供自托管网关。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "ltyfantasy/agent-chamber": {
+      "signature": "384a9d1f2c9052f1ea7093cf41ae8aa790d4192779f3d69869b0d34131d1e108",
+      "summary": "ayGDz0nRXwWYMLh 报名的 LtyFantasy/agent-chamber 是 AI agent 协作中间件，提供话题、任务看板、MCP 访问和供人监督的网页界面。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "weijt606/polyharness": {
+      "signature": "4863c065c49cf5ff9a03dd5a8a08b0a4549cf2b18754723bcb477c822ef84d7c",
+      "summary": "Insignie2049 报名的 weijt606/polyharness 是会通过迭代评估改进 AI agent 提示词、工具与 harness 逻辑的开源搜索引擎。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "cjackhwang/sunamai": {
+      "signature": "f45bbed10211238b6ceba7d7041482904069792f9c3bd3039773ed96beffd0d0",
+      "summary": "tetr5354 报名的 CJackHwang/SunamAI 是用 TypeScript 编写的实验性 AI agent 项目，仓库简介将其称为“无用 AI agent”。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "eloklam/siyuan-agent": {
+      "signature": "1db1683f778b5b6e55107cdba59c794c2a0a54692091c269cc97c38348e9bdf1",
+      "summary": "elok_lam 报名的 eloklam/siyuan-agent 是思源笔记 CLI，让 Agent 能够浏览和管理个人知识库。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "hxs996-beep/deepact": {
+      "signature": "6e2167adabb7c376e5c10ab62611da211a7858d631801f7dd90e9babc0ef50b4",
+      "summary": "exchanghz 报名的 hxs996-beep/deepAct 是 CLI coding agent，通过歧义检查、设计审查和范围控制约束执行操作。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "leo-ayh-oday/orcana-runtime": {
+      "signature": "1936880b6ed8328fc034008c76f5c594615d863a4df634c800e6ac36752372bb",
+      "summary": "leo_oday 报名的 Leo-Ayh-Oday/orcana-runtime 面向长期自主任务，支持 Agent 在代码库与操作系统环境中受控执行、验证和恢复。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "openagentinternet/open-agent-connect": {
+      "signature": "049dbe92bf2332612aee3fc434320f345e5450cc22152c419fda773ae0d7bf9e",
+      "summary": "newfish 报名的 openagentinternet/open-agent-connect 用于连接本地 AI agent，提供持久身份、公开页面及 Bot 间私信能力。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "timhanlon/arcwork": {
+      "signature": "015d2d3fc510c2d70c4b0200e8f0c40bc4b822f00579472878f5393ca8dbe9da",
+      "summary": "timhnln 报名的 timhanlon/arcwork 探索统一开发环境，将对话、任务、代码差异和多个 harness 纳入同一应用与工作流。",
+      "generatedAt": "2026-08-05T01:17:05.056Z"
+    },
+    "caiuswang/regin": {
+      "signature": "46461e4c78ef3095c4474ffcd84d770f49d83642684fe166ec668b5d9f8d14bb",
+      "summary": "X报名用户：stephen38401220；caiuswang/regin 是围绕智能体的工程化运行层，提供记忆树、技能、会话、知识库与消息管理。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "dothinkerlab/agentmeter": {
+      "signature": "0cc5c933758cfb913d30299aca2e02a7e252515b2731798d3ff99c646c8aeeff",
+      "summary": "X报名用户：dssheng；dothinkerlab/AgentMeter 用于查看 AI 计划额度、重置时间及 DeepSeek 余额，支持 iOS 与 macOS。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "dyzsasd/dev-loop": {
+      "signature": "6dfaf24d74455a454f018dc781942596ecf4794e7719aabc48bcf2a1aa226bfb",
+      "summary": "X报名用户：dyzsasd；dyzsasd/dev-loop 通过 Linear 协调产品、测试与开发智能体，自动化执行 AI 编程流程。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "fakechris/mreviewer": {
+      "signature": "70da5f01574f47b7871a83fc4afdee68212e8e8a5617a4c28953c82f73dc19b3",
+      "summary": "X报名用户：fakechris；fakechris/mreviewer 是面向代码审查的 reviewbot 项目，用于辅助检查代码变更。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "friendshl/skillforge": {
+      "signature": "8f1bbf1380d296f365661d024d395a85035839c5ed75185a78b47c899bf02c90",
+      "summary": "X报名用户：Huanglin5106；FriendsHL/skillforge 是 Java Agent Harness，支持工具与技能、上下文记忆、多智能体编排及评测。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "leyen-me/coder": {
+      "signature": "7c6503d717a5050d30e6393f6dc99b0205e153a904c6ed2d7c60ee7cd316cc0f",
+      "summary": "X报名用户：alanwchat；leyen-me/coder 是基于 Rust 与 React 的 AI 原生开发环境，支持自主代理、远程 SSH、定时自动化与技能系统。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "longyijdos/kana": {
+      "signature": "89ecd0874180924c2b31eeb40589fe0532fdf6e6cf40696bfe9a2e8ea551fa67",
+      "summary": "X报名用户：zhngyng29072186；longyijdos/kana 是本地优先的终端智能体，提供工具调度、技能、MCP、会话记忆与无头执行。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "xin-yi33/rxycode": {
+      "signature": "aebd20eadf57bdcb991a7b0dff276ed382152c31481313b81b12a8a25fadd661",
+      "summary": "X报名用户：runxny2；xin-yi33/RxyCode 是规划—执行—校验型 AI 编程助手，提供终端交互、工具断言、缓存与安全门控。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "chasey-myagi/harness-pi": {
+      "signature": "9dbd2ca5ac37f01db5f21853a9f95457565f8ca9bab0c3422e3b12a6a663ac95",
+      "summary": "X报名用户：chasey_myagi；chasey-myagi/harness-pi 是基于钩子的服务端 Agent Harness，包含智能体循环、插件工厂、控制器与内置工具。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "fenwii/deeporigo": {
+      "signature": "ebadaa82ef354f2e039429b407fbf0591d21809c788137bef9a4a767f2f18a02",
+      "summary": "X报名用户：SaimrT；fenwii/DeepOrigo 是面向商业结果的工程智能体，覆盖需求、规格、交付、事故根因分析与可验证修复。",
+      "generatedAt": "2026-08-05T01:17:26.325Z"
+    },
+    "mashiro2000/we0code": {
+      "signature": "3cc08af8fae7e6293243280b8128ae8671a8154c087ec081ec3eae3d2c12b5f5",
+      "summary": "报名用户 amashiro2233 的 Mashiro2000/We0Code 是一个提供代码代理交互界面的终端用户界面工具。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "skitre/pideck": {
+      "signature": "71fe226b86b60c9d3fd3d484781eade582d8fbc3c98316bf8d5460011fd2da18",
+      "summary": "报名用户 skitre5515 的 Skitre/PiDeck 是 Pi Coding Agent 的桌面客户端，提供对话、工具调用、会话、模型和包管理等可视化工作流。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "gfhdhytghd/hypr-agent-protal": {
+      "signature": "a8418f0c3d277b16991b7e8ab350187cada54ca3313a0f9206f3f1c03af90163",
+      "summary": "报名用户 Wilf_Lin 的 gfhdhytghd/Hypr-Agent-Protal 是面向 Hyprland 桌面环境的 Computer Use MCP，支持代理操作桌面。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "hanyo-ai/taus": {
+      "signature": "22d2b0b44446709a2d601b3214a8408e4033637ddf76447c6c112b53791f0290",
+      "summary": "报名用户 kartboop 的 hanyo-ai/taus 是一个以 Markdown Wiki 作为代理记忆与能力载体的循环式多代理框架，支持消息总线和反馈学习。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "hwei/unity-puer-exec": {
+      "signature": "c5af7e65c82d739d401fc4e2b2e22a2ba96a2a2d51d4744c7ae0a729d58297b2",
+      "summary": "报名用户 weihuan96907565 的 hwei/unity-puer-exec 提供 Unity 包与命令行工具，用于从外部命令行驱动 Puerts 宿主。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "ianfrog/senate-investment": {
+      "signature": "29972a9bec7f951a694bfb4d3b5827ce2c9256a8db38116b9a3ffaa80f297a08",
+      "summary": "报名用户 IanWangFrog 的 IanFrog/Senate-Investment 是一个由多个大语言模型代理组成的投资委员会系统，用于辅助投资决策研究。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "junjd/jingle": {
+      "signature": "e3f38f70ae9bcf7f0e646ee8bf0947526f3a310ce301e1c2fff6397b05b6e7b1",
+      "summary": "报名用户 alading22 的 JunJD/Jingle 是桌面命令启动器和可审计 AI Agent 工作台，用于启动工作流、连接扩展并提供工作上下文。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "kidimos/pi.nvim": {
+      "signature": "21d688f2bf5e96e2d01264f67039504e5e5cf360b2435bb547f631f738c36bb5",
+      "summary": "报名用户 KideeMos 的 Kidimos/pi.nvim 是 Neovim 集成插件，为 pi coding agent 提供终端界面、会话管理、上下文发送和快捷聊天功能。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "lagrangenss/lunascope": {
+      "signature": "a79cb0d01ab0ea92bee4769f069932244b0bfd449a3216080ef692d1fea173e0",
+      "summary": "报名用户 traxern2 的 LagrangeNSS/LunaScope 是面向 Windows 的本地多代理工作台，支持模型编排、工具调用、会话持久化与多代理隔离。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "learnmore-smart/file-guardian-skill": {
+      "signature": "de2f1f9a7adc83a4677d6c15e3ca8518ac76d32e4e2ffeffefdeba3036131cb6",
+      "summary": "报名用户 Learnmore_smart 的 Learnmore-smart/file-guardian-skill 是面向 Coding Agent 的 Skill，要求先编写文档再修改代码，并通过文件级文档提供约束与记忆。",
+      "generatedAt": "2026-08-05T01:17:54.643Z"
+    },
+    "putl-dream/ppt": {
+      "signature": "d5c44b3511163be5cde7a7f383b4b2e24a4234763a256151b3613dbd47c0e250",
+      "summary": "报名用户 Johnskwaov 的 putl-dream/ppt 是本地优先的 AI 演示文稿工作台，支持模型驱动创作、工具执行、校验审批与可审阅产物生成。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "scotthuang/agent-knock-knock": {
+      "signature": "50135467ef9115f5605be7604b280f97386bb5f4740d38b56926d2474ca2ba49",
+      "summary": "报名用户 scotthuang_claw 的 scotthuang/agent-knock-knock 通过共享 tmux 终端编排 Codex 与 Claude Code，支持任务监控、审批及人机接管。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "shelby-protocol/memory-forge": {
+      "signature": "cceef1094c642932dbc307b23844e732d61debd5ecc5f64a99486e9e52cce5d3",
+      "summary": "报名用户 BruceLe47647639 的 shelby-protocol/memory-forge 是 AI 编程助手持久化记忆引擎，提供 MCP 工具和自动引擎，支持本地使用与 Shelby 云端服务。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "simba119/janus-rag": {
+      "signature": "7ff3edafc173591a18664cfb9864416d99fc9cb9deffe756319607dca4b15a03",
+      "summary": "报名用户 Evante3 的 simba119/janus-rag 是基于博查 API 的低成本高精度 RAG 搜索方案，用于检索增强生成。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "yangliangyl/project-handoff-memory": {
+      "signature": "bbdf7b915a7cccf0597f6a5c330f271e48626f519b1a4e302e3c786b77be7cb8",
+      "summary": "报名用户 yanglia01183455 的 yangliangyl/project-handoff-memory 是将项目记忆沉淀为文件的 Agent Skill，帮助 AI 跨会话、模型和工具延续项目工作。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "zhoudongliang-lut/agent-runtime": {
+      "signature": "b2e40ad72ed7d95870d83eedfa0edfbfcce8b1a523cdacadc85bf33720f3f779",
+      "summary": "报名用户 dlzhou2 的 zhoudongliang-lut/agent-runtime 是一个基于 Claude Agent SDK 构建的轻量级 Agent Runtime。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "zl827654-source/prism-agent": {
+      "signature": "8c046ec757b7ef2fc30c9ef7df956d2b2f0f34f3414f6fd14cbd665ac773624e",
+      "summary": "报名用户 o4bBxxWIJx30730 的 zl827654-source/prism-agent 是一个初步开发的股市分析项目，依据生产资料或事件分析股市情况。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "249469326i-lang/api-monitor": {
+      "signature": "65b5bc86e7bb3d3e97d6292e3a0c21379214392f83958621b0f9de8d56bb4989",
+      "summary": "报名用户 AOTEMAN921 的 249469326i-lang/api-monitor 是 Windows 桌面端 API 供应商监控工具，支持定时测速、故障切换、托盘常驻和密钥加密。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "atomicslaboratory/atomstudio": {
+      "signature": "a9eeaad2c44a8f690e0076f1e37d3c096ae617d7908ac1fe0b078e50362b813e",
+      "summary": "报名用户 david0520782123 的 AtomicsLaboratory/atomstudio 是本地优先的文档工程开发环境，用于开发、调试、验证和发布可执行文档，并支持 Agent 会话管理。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "b143kc47/deep-research-skill": {
+      "signature": "1eb455ced83b27a79b4e0a8720977bbe5f56806b6f1ea300673cdf5248204d43",
+      "summary": "报名用户 B14ckc4t1337 的 B143KC47/deep-research-skill 为 AI Agent 提供证据优先的深度研究能力，支持来源追踪、引用、矛盾检查和不确定性感知综合。",
+      "generatedAt": "2026-08-05T01:18:23.046Z"
+    },
+    "bensstark/codex-conversation-navigator": {
+      "signature": "3f9f2e5c889682d1496913db85c6017c6d018cdecc4d39700b8b8d2d619172ae",
+      "summary": "报名用户 BenStark83847 的 bensstark/codex-conversation-navigator 是用于按用户消息快速定位历史对话的 JavaScript Agent skill。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "drdexter6000/windows-agent-orchestrator": {
+      "signature": "7a3e3f609ba84c069a13d701d8ba3e484e2cddc3f40998d01371c1f61724ccc9",
+      "summary": "报名用户 DexterDr1999 的 DrDexter6000/windows-agent-orchestrator 是 Windows 原生无界面编排器，用于跨运行时调度多个 Agent worker。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "duh17/yuwp": {
+      "signature": "5d009ccf6f78830315528cd131547ab080badad8cacb478f009d962663e87f53",
+      "summary": "报名用户 chaosdonkey7 的 duh17/yuwp 是 macOS 系统级语音听写工具，使用本地 Qwen3-ASR 进行语音识别。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "fakechris/lumen-asr": {
+      "signature": "ea56b21b9c1f0bf46837597a97549f6edd416a24ebba622982f9510f21c9726e",
+      "summary": "报名用户 fakechris 的 fakechris/lumen-asr 是一个以 Rust 编写的语音识别方向项目，用于将语音转换为文本。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "fakechris/turnkeyai": {
+      "signature": "054a6b4d7b006a78022ac693075c4238a0dfadeb711fc29fe5515bdc3baf83c0",
+      "summary": "报名用户 fakechris 的 fakechris/turnkeyai 是一个面向 Agent 场景的 TypeScript 项目，用于相关智能代理功能开发。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "feizhululu/webfa": {
+      "signature": "cc5684822a18682a57ac7bc3b334327a10e451dbdad2eed600d39fdf0dfc5484",
+      "summary": "报名用户 Fei2411 的 FeiZhuLulu/webFA 是面向 Agent 的浏览器工具，将网页信息转换为 JSON 等易读格式，支持互联网操作。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "hyp6666/palmiagent": {
+      "signature": "1e1c526d5e99055d8cdbbb860a5f338c534f62a1913e9df8426715f0f3a8bb46",
+      "summary": "报名用户 Hong_Yupeng 的 Hyp6666/PalmiAgent 是原生 Swift/SwiftUI iOS Agent 应用，用于与多种大语言模型协作。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "llm-insights-share/hx-lite": {
+      "signature": "925d9c2bad9c748cd832ab8a8ac549cefc1cdad2786c9eebc2c3d0a9597eeb38",
+      "summary": "报名用户 zhangjr1970 的 llm-insights-share/hx-lite 是用于提升企业 Vibe Coding 效率的 Harness 控制框架。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "openma-ai/backchat": {
+      "signature": "1c9252297b5100186b34b93f5444fa8a24b5cc154beedbe6e154e330b8b35aba",
+      "summary": "报名用户 BoAIPlayHeads 的 openma-ai/backchat 是本地优先的桌面工作区，用于管理 ACP agents、项目、工具、文件、浏览器和会话。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "seek-hope/pi-ex": {
+      "signature": "65a4efa9e3f47f7508ef6979e77d6bb7fd91d3d88be318b7c86df3f292956b5d",
+      "summary": "报名用户 guangye73789 的 seek-hope/pi-ex 是基于 Pi 的 coding agent 工具包，提供统一 LLM API、Agent 循环、TUI 和编码 CLI。",
+      "generatedAt": "2026-08-05T01:18:49.047Z"
+    },
+    "taekchef/agent-nocturne": {
+      "signature": "78bbe52b4b112fe89dc772bf40d8e065a821a93c782c3fcef5b697005099125a",
+      "summary": "tarkchef 报名的 taekchef/agent-nocturne：根据 coding agent 状态变化控制 MacBook 键盘背光，支持 Claude Code、Codex 与 Pi。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "tongducthanhnam/eragear-code-copilot": {
+      "signature": "0d902910b56ed611293323a1a2095962bb473c42e12c20dc91855d767dda9ee4",
+      "summary": "tongducthanhnam 报名的 TongDucThanhNam/eragear-code-copilot：一个以 TypeScript 开发的开源项目，具体用途待仓库资料进一步说明。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "windsland52/maaevidencekit": {
+      "signature": "2664bd0847c4e7ceb7d082f8b71816738af73a4f45e7f19f7f5c735b86140433",
+      "summary": "Winds_Land 报名的 Windsland52/MaaEvidenceKit：为 MaaFramework 提供确定性证据提取、诊断辅助的 SDK、CLI 与 agent skill。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "windwhiterain/liana": {
+      "signature": "edef31be568bb29748639713c1731a4b81faf8515b19ce9b10b35bac5e3d49b2",
+      "summary": "whitingyang 报名的 windwhiterain/liana：通过算法平衡 agent 记忆的可组合性与缓存命中率，并允许用户调节两者侧重。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "xiaozhenliu/canary-alpha": {
+      "signature": "ef06d0064c67288784853253b7d542f99629a7cbbb6096175b4748cacb892f5d",
+      "summary": "poolmoon6 报名的 xiaozhenliu/canary-alpha：本地优先的 AI 助手，通过 MCP 检索工作上下文与长期记忆，并支持隐私控制。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "yak33/customs-mcp-server": {
+      "signature": "edd7ec6ac7d73a918bb40e8bc2544f9ff5abe3190fe9b37acd09f46fbf79079b",
+      "summary": "dearmrzhang520 报名的 yak33/customs-mcp-server：将报关、船舶跟踪、税则查询等 14 项关务贸易能力以 MCP 工具提供给 AI 客户端。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "axolotlxmdev/mananeutron": {
+      "signature": "eb1169a172b3c8c3747c0c200c7a0f5d14f7382b0b855e54964fbaa76338db17",
+      "summary": "jnxingu144988 报名的 AxolotlXMDev/ManaNeutron：Java 实现的前后端分离 harness，通过 REST API 与 SSE 提供交互和监听。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "bytonylee/solar-code": {
+      "signature": "f98cd1608e06d6e023f8c83ad3258f114a991031fc16939f3676f06dd80a8075",
+      "summary": "humantonylee 报名的 bytonylee/solar-code：面向 Upstage Solar 模型的可测量、关注缓存的编码 agent harness。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "chasey-myagi/skills": {
+      "signature": "7b570c04c1e0defe6ba9568030ef1a782e59df87ce2a458c8e7ecfd0f873bd33",
+      "summary": "chasey_myagi 报名的 chasey-myagi/skills：收录日常使用的 Claude Code skills，涵盖 review gate、TDD、复现与跨 CLI 工作流。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "cnife/omp-extensions": {
+      "signature": "a6ec3f672cac87ff5bfd130bdd83d595781d81ea89764fa87ca406d3d99c2a24",
+      "summary": "ArrayDeque 报名的 CNife/omp-extensions：CNife 面向 Oh My Pi（OMP）的 agent 扩展集合，提供用于扩展 agent 的插件。",
+      "generatedAt": "2026-08-05T01:19:15.220Z"
+    },
+    "colornote/pigo": {
+      "signature": "0a194eb755ab47bc67b407113d74790e1e3b1cfb1a24e173ebce1455f493b179",
+      "summary": "X报名用户 colorn0te：colornote/pigo 是用 Go 编写的单二进制终端编码代理，面向 DeepSeek 和老旧设备。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "fanfan520zzq/hard-dsp-harness": {
+      "signature": "14761019ecb4a14c0b48a31a80bb888571f490033be2bf8c7d4d5c2cbb2a1785",
+      "summary": "X报名用户 fyinganyi：fanfan520zzq/hard-dsp-harness 是面向 MCU/FPGA 数字信号处理开发的 Agent 工具链，支持编译、烧录与串口调试验证。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "gmyxds/ai-markdown-translator": {
+      "signature": "dee93b8aa66ae05b7098b3dc0e7e8c7262fc962283ad5321124212027116598d",
+      "summary": "X报名用户 GMYXDS110：GMYXDS/AI-Markdown-Translator 是基于大语言模型的 Markdown 批量翻译工具，支持智能分片、并发控制和断点续传。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "hlxkurapika/qa-sys": {
+      "signature": "d74a927d98b06822f360b0f0acab83016ebc30ffd07e1620e4a1f0436b15fa89",
+      "summary": "X报名用户 Novaisi99587：hlxkurapika/qa-sys 是一个使用 Python 编写的问答系统。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "hoooou/project_skills": {
+      "signature": "1f56c415e661af3aa36a438fc5412960467a210f406f70c1a01c2e1ffa80d03c",
+      "summary": "X报名用户 wen_hou44030：hoooou/project_skills 是为个人使用编写的技能集合仓库，用于扩展相关工作流。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "michael910321/mwrs": {
+      "signature": "025e5714fb616f9fdcacaf4fcc2f5cdec6f2b9e88303657c5b05debbbf22f064",
+      "summary": "X报名用户 XinBuilds：michael910321/mwrs 是面向 Agent 世界状态的运行时，通过 MCP 提供状态、规则、权限与历史信息。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "qinchaomeishenmeshi/book-note-ddg": {
+      "signature": "08b8b75a97ab6ea7e7e04715f4eca7afe1b16da8e82add0a5dde089fc9b319c2",
+      "summary": "X报名用户 ZhaoxuanQ：qinchaomeishenmeshi/book-note-ddg 是使用 DuckDuckGo MCP 在线搜索并整理结构化中文读书笔记的技能。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "roacherm/open-managed-agents": {
+      "signature": "55ef933cd910aae29006b48219b0d3c987691784560566668d7651e362cc2ad3",
+      "summary": "X报名用户 ByronVon1：RoacherM/open-managed-agents 是开源自托管 Managed Agents 运行时，提供会话、沙箱、MCP 与崩溃恢复能力。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "sk123qaq/useful_skill": {
+      "signature": "bd49f549b7cce582de5a4d75ef24b9d8d5a46ff0a7209af19ce6dcc10081571a",
+      "summary": "X报名用户 shike49012264：sk123qaq/useful_skill 是面向 AI Agent、Codex 和 Claude 工作流的本地技能集合，支持搜索、分析与自动化任务。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "tinysnake/pi-snake-extensions": {
+      "signature": "3c89ca8988f9a404ff4fb66b26fd39166d2a28e0cdc3a90e9364bd766d327bf3",
+      "summary": "X报名用户 tinysnake：tinysnake/pi-snake-extensions 是面向 pi-coding-agent 的 MCP 扩展，用于缓存工具 schema 并处理调用失败。",
+      "generatedAt": "2026-08-05T01:19:39.076Z"
+    },
+    "wilsen0/vigil": {
+      "signature": "bd8eff0c27fee3fcf53dbb9ff454ab92b465ad86dbaeed1b4509e5a36b29d138",
+      "summary": "报名用户 weixiong0 的 wilsen0/Vigil：以 skill 形式组合信号监控、交易套利与安全通信 hook，便于拆装使用。",
+      "generatedAt": "2026-08-05T01:19:57.613Z"
+    },
+    "x2x5/code-audit-paper": {
+      "signature": "a1b95b5c91216df08d851ea8a0f8694b9a8bc1b6f0c118aab7dbc675a0fc0345",
+      "summary": "报名用户 SleepSky66 的 x2x5/code-audit-paper：通过代码审核论文，验证论文声明，评估代码可信度与论文可复现性。",
+      "generatedAt": "2026-08-05T01:19:57.613Z"
+    },
+    "yiheng8023/agent-autonomy-harness": {
+      "signature": "b5ba8a5a07e58a2069c2d2f194962ec2e59d57faeae9bf9bca2d69570f2d55ea",
+      "summary": "报名用户 Yiheng_8023 的 yiheng8023/agent-autonomy-harness：用于智能体自治、协作和能力编排的中立化工具。",
+      "generatedAt": "2026-08-05T01:19:57.613Z"
+    },
+    "zenbordercom/agents-memory-sidecar": {
+      "signature": "7a7944d0ae43badfc7cd68c4ed4c2be9f1777ea1cb92c866fd27afdbfb066c5e",
+      "summary": "报名用户 zenisless 的 zenbordercom/agents-memory-sidecar：为支持 MCP 的 AI 智能体提供本地优先的共享记忆侧车，管理多智能体记忆。",
+      "generatedAt": "2026-08-05T01:19:57.613Z"
+    }
+  }
+}

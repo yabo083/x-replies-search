@@ -33,11 +33,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/build-projects.mjs
 
+      - name: Generate incremental project summaries
+        env:
+          LLM_BASE_URL: https://moyuu.cc/v1
+          LLM_API_KEY: ${{ secrets.MOYUU_API_KEY }}
+          LLM_MODEL: gpt-5.6-luna
+        run: node scripts/summarize-projects.mjs
+
       - name: Commit catalog
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/projects.json
+          git add data/projects.json data/summaries.json
           if git diff --cached --quiet; then
             echo "Catalog unchanged"
           else

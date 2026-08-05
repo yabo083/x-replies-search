@@ -10,8 +10,9 @@
 2. 脚本使用 twscrape `tweet_thread` 抓取整个 conversation；无计数变化时立即退出。
 3. 有变化时轻量扫描并按 tweet ID 增量合并，只展开新回复里的 t.co 短链；每日执行一次完整校准且只增不删。
 4. 服务器推送 `data/replies.json` 后，GitHub Actions 运行 `scripts/build-projects.mjs`。
-5. Actions 使用 GitHub GraphQL API 批量补齐描述、Stars、语言、头像和更新时间，生成 `data/projects.json`。
-6. GitHub Pages 前端只读取 `projects.json`，不在浏览器内访问 X 或 GitHub API。
+5. Actions 使用 GitHub GraphQL API 批量补齐描述、Stars、语言、头像和更新时间。
+6. `scripts/summarize-projects.mjs` 使用签名缓存，只为新增或资料变化的项目生成一句中文概览。
+7. GitHub Pages 前端只读取 `projects.json`，不在浏览器内访问 X、GitHub API 或 LLM。
 
 ## 本地开发
 
@@ -43,6 +44,7 @@ data/replies.json             X 会话增量快照
 data/projects.json            GitHub 富化后的前端目录
 scripts/update-replies.py     服务器增量抓取器
 scripts/build-projects.mjs    GitHub 项目目录构建器
+scripts/summarize-projects.mjs 增量 LLM 摘要生成器
 parser.js                     GitHub URL / ID 解析器
 app.js                        纯静态目录渲染和搜索
 ```

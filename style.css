@@ -162,7 +162,8 @@ button, input, select { font: inherit; letter-spacing: 0; }
 .project-copy { min-width: 0; }
 .project-name { display: block; overflow: hidden; color: var(--foreground); font-family: var(--font-mono); font-size: 13px; font-weight: 600; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; }
 .project-name:hover { text-decoration: underline; text-underline-offset: 3px; }
-.project-description { margin-top: 4px; overflow: hidden; color: var(--muted); font-size: 12px; text-overflow: ellipsis; white-space: nowrap; }
+.project-description { margin-top: 4px; overflow: hidden; color: var(--muted); font-size: 12px; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.summary-badge { display: inline-block; margin-right: 6px; padding: 0 4px; border: 1px solid var(--border-strong); border-radius: 3px; color: var(--foreground); font-family: var(--font-mono); font-size: 8px; line-height: 14px; vertical-align: 1px; }
 .project-stars { font-family: var(--font-mono); font-size: 12px; font-variant-numeric: tabular-nums; }
 .project-language { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 12px; }
 .language-dot { width: 8px; height: 8px; flex: 0 0 8px; border-radius: 50%; background: #999; }
@@ -175,6 +176,8 @@ button, input, select { font: inherit; letter-spacing: 0; }
 .catalog-state { padding: 54px 20px; color: var(--muted); text-align: center; }
 
 .site-footer { height: 72px; border-top: 1px solid var(--border); color: var(--muted); font-family: var(--font-mono); font-size: 11px; }
+.site-footer a { color: var(--muted); text-decoration: none; }
+.site-footer a:hover { color: var(--foreground); text-decoration: underline; text-underline-offset: 4px; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 
 @media (max-width: 900px) {

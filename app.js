@@ -52,6 +52,8 @@ function row(project, index) {
   const avatar = project.avatarUrl
     ? `<img class="project-avatar" src="${escapeHtml(project.avatarUrl)}" alt="" loading="lazy" />`
     : `<span class="project-avatar avatar-fallback">${escapeHtml(project.owner.slice(0, 2).toUpperCase())}</span>`;
+  const description = project.aiSummary || project.description || "GitHub 暂无项目描述";
+  const summaryBadge = project.aiSummary ? '<span class="summary-badge">AI</span>' : "";
   return `
     <article class="project-row">
       <div class="project-rank ${index < 3 ? "top" : ""}">${String(index + 1).padStart(2, "0")}</div>
@@ -59,7 +61,7 @@ function row(project, index) {
         ${avatar}
         <div class="project-copy">
           <a class="project-name" href="${escapeHtml(project.url)}" target="_blank" rel="noopener">${escapeHtml(project.fullName)}</a>
-          <div class="project-description">${escapeHtml(project.description || "GitHub 暂无项目描述")}</div>
+          <div class="project-description" title="${escapeHtml(description)}">${summaryBadge}${escapeHtml(description)}</div>
         </div>
       </div>
       <div class="project-stars">★ ${project.stars == null ? "-" : formatNumber(project.stars)}</div>

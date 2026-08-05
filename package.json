@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test test/parse.test.mjs",
-    "build:data": "node scripts/build-projects.mjs"
+    "build:data": "node scripts/build-projects.mjs",
+    "summarize:data": "node scripts/summarize-projects.mjs"
   }
 }
