@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T17:07:34.873113+00:00",
+  "fetchedAt": "2026-08-05T18:07:21.657352+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 531,
-      "capturedReplyCount": 412,
-      "lastCheckedAt": "2026-08-05T17:07:27.267590+00:00"
+      "sourceReplyCount": 538,
+      "capturedReplyCount": 414,
+      "lastCheckedAt": "2026-08-05T18:07:18.323177+00:00"
     }
   ],
   "summary": {
-    "tweets": 795,
-    "authors": 702,
-    "sourceCount": 1681,
-    "added": 4,
+    "tweets": 797,
+    "authors": 703,
+    "sourceCount": 1688,
+    "added": 2,
     "mode": "incremental"
   },
   "replies": [
@@ -6393,6 +6393,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "cicialgo",
       "text": "github id: cicialgo github 项目：cicialgo/rockycode\n项目介绍：原生适配 DeepSeek 的 agent harness，自带 Docker sandbox 与一键benchmark评测流水线。现已支持SWE-bench Verified 与 DeepSWE，评测模型包括DeepSeek V4 Pro-Preview, MiniMax M3, V4-Flash 正式版等；正在接入 mini-swe-agent、pi 作为对照 harness，做 model / harness / benchmark 多维度解耦的可复现评测。可支持DSH adapter接入评测流水线，进行同任务集的一键复现与对比。\n项目地址链接：https://github.com/cicialgo/rockycode",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085051183581012035",
+      "sourceTweetId": "2084693319188439211",
+      "author": "TinsleyShi",
+      "text": "@tianyi GitHub ID: tinsleyshi\n项目地址：Kubenetes 官方agent sandbox: https://github.com/kubernetes-sigs/agent-sandbox/\nSubstrate (Google): https://github.com/agent-substrate/substrate\n已通过私信发送联系邮箱，期待交流！🤝",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085064579420422484",
+      "sourceTweetId": "2084693319188439211",
+      "author": "white233333",
+      "text": "Github id:whiteguo233\n\n申请deepseek harness内测，下面是我最近在做的项目\n\n自进化的跨平台内容发现 harness Agent。\nOpenBiliClaw 从跨平台使用、项目内反馈与对话中持续深化心理画像，让 Agent 带着越来越准确的用户理解，主动去 B 站、小红书、抖音、知乎、YouTube、Bangumi 等来源寻找你会喜欢的内容。\n\n项目地址: https://github.com/whiteguo233/OpenBiliClaw\n\n项目首页: https://whiteguo233.github.io/OpenBiliClaw/",
       "createdAt": null,
       "likes": 1
     }
