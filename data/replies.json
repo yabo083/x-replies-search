@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T20:07:15.845634+00:00",
+  "fetchedAt": "2026-08-05T21:07:15.141841+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 550,
-      "capturedReplyCount": 417,
-      "lastCheckedAt": "2026-08-05T20:07:13.494739+00:00"
+      "sourceReplyCount": 551,
+      "capturedReplyCount": 418,
+      "lastCheckedAt": "2026-08-05T21:07:12.815268+00:00"
     }
   ],
   "summary": {
-    "tweets": 800,
-    "authors": 706,
-    "sourceCount": 1700,
+    "tweets": 801,
+    "authors": 707,
+    "sourceCount": 1701,
     "added": 1,
     "mode": "incremental"
   },
@@ -6435,6 +6435,14 @@
       "text": "@tianyi 报名报名👋\n GitHub ID: good-boy4069\n项目:https://github.com/good-boy4069/Deepseek-omnimodal\nOmnimodal是为纯文本模型补齐多模态能力的开源 MCP 插件，已适配 Codex 与 Claude Code，支持图片、视频、音频识别与生成，兼容 Qwen、https://z.ai/GLM 和 OpenAI 兼容服务。含 CI、测试、文档与 Release\n希望参与 DSH 内测",
       "createdAt": null,
       "likes": 1
+    },
+    {
+      "id": "2085102446620324072",
+      "sourceTweetId": "2084693319188439211",
+      "author": "chuf1120340",
+      "text": "@tianyi https://github.com/chuf-China/nexus-memory\n  项目类型: agent memory 层\n  项目简介: Nexus Memory 为 AI agent 提供跨会话持久记忆—零 LLM 调用、20ms 向量检索、自动知识升级。自带 MCP\n  server、CLI、REST API，已发布 PyPI 包。\n 可作为 DSH 的记忆/状态持久化后端，适配 harness 的 skill/plugin 生态。",
+      "createdAt": null,
+      "likes": 0
     }
   ]
 }
