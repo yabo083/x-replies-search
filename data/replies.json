@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T05:08:14.870827+00:00",
+  "fetchedAt": "2026-08-05T06:08:01.180078+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1134,
-      "capturedReplyCount": 374,
-      "lastCheckedAt": "2026-08-05T05:07:52.021323+00:00"
+      "sourceReplyCount": 1136,
+      "capturedReplyCount": 376,
+      "lastCheckedAt": "2026-08-05T06:07:23.432368+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 361,
-      "capturedReplyCount": 284,
-      "lastCheckedAt": "2026-08-05T05:08:07.161185+00:00"
+      "sourceReplyCount": 378,
+      "capturedReplyCount": 291,
+      "lastCheckedAt": "2026-08-05T06:07:44.023649+00:00"
     }
   ],
   "summary": {
-    "tweets": 658,
-    "authors": 587,
-    "sourceCount": 1495,
-    "added": 14,
+    "tweets": 667,
+    "authors": 596,
+    "sourceCount": 1514,
+    "added": 9,
     "mode": "incremental"
   },
   "replies": [
@@ -99,6 +99,14 @@
       "text": "@tianyi 报名！GitHub id：yuezengwu\n开源项目 https://github.com/agent-team-foundation/first-tree",
       "createdAt": null,
       "likes": 3
+    },
+    {
+      "id": "2083528100856672470",
+      "sourceTweetId": "2083519855203078320",
+      "author": "lapis0x065612",
+      "text": "@tianyi 报名报名！GitHub id：Lapis0x0\n项目：https://github.com/Lapis0x0/obsidian-yolo",
+      "createdAt": null,
+      "likes": 5
     },
     {
       "id": "2083528375101251845",
@@ -2689,6 +2697,14 @@
       "sourceTweetId": "2083519855203078320",
       "author": "qiaoqian88",
       "text": "@tianyi PhysiClaw 可以物理操作iPhone的agent。 https://github.com/physiclaw/PhysiClaw",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084149240490803711",
+      "sourceTweetId": "2083519855203078320",
+      "author": "Red1933432",
+      "text": "@tianyi hi，我想申请参与 DeepSeek harness 的内测。\n\n这是我的 GitHub：\nhttps://github.com/RedHuang-0622\n我主要关注 LLM Agent infrastructure 和 coding agent harness 方向，目前自己在开发一个基于 Go 的无产品语意的 Agent framework（Seele），以及通过这个做了一个framework做的一个agent harness(seelex)",
       "createdAt": null,
       "likes": 0
     },
@@ -5297,6 +5313,62 @@
       "sourceTweetId": "2084693319188439211",
       "author": "onestep4mankind",
       "text": "@tianyi GitHub id：@neuneed\n项目：https://github.com/neuneed/loop-engineering\n类型：AI Agent Loop engineering project。Loop Engineering 是面向 AI Coding Agent 的工程框架，提供 Loop、Memory、State、MCP、Human Gate 等能力，构建任务执行、验证、状态更新的自主开发闭环。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084869031862182371",
+      "sourceTweetId": "2084693319188439211",
+      "author": "dandreyang",
+      "text": "你好，很期待第一时间体验DSH！\n\nGithub ID：dandre126\n项目地址：https://github.com/DandreYang/DyroEngineeringFlow\n\nDyroEngineeringFlow 是面向多仓团队的本地优先工程自动化与交付控制平台。它将开发线、Git worktree、任务编排、 Agent 启动、质量门禁、独立复核与合并审计统一到可版本化配置中，帮助团队从任务创建到交付合并形成清晰、安全、 可追溯的自动化流程。日常通过简洁命令 dyro 即可完成初始化、环境检查、任务执行与协作交付。",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2084869136635875338",
+      "sourceTweetId": "2084693319188439211",
+      "author": "jazzMichael2019",
+      "text": "@tianyi GitHub ID：YinshawnRao\n相关项目：\nSticker Hub：Codex 微信表情包工作流，涵盖母版确认、批量生图、单张返工与自动验收。\nhttps://github.com/YinshawnRao/sticker-hub\n\ncc-media：可复现的短视频生产流水线，串联素材处理、TTS、合成与 QA。\nhttps://github.com/YinshawnRao/cc-media\n\n愿意第一时间尝试并反馈真实场景问题，谢谢☺️",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084869438759895390",
+      "sourceTweetId": "2084693319188439211",
+      "author": "njiangn",
+      "text": "@tianyi GitHub id: njiangk\n项目：https://github.com/njiangk/dairp-mvp\n方向：ai 大模型共享网关通用协议方向",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084875712159420897",
+      "sourceTweetId": "2084693319188439211",
+      "author": "JahoJiang",
+      "text": "@tianyi GitHub Id: The-JiahaoJiang\n项目：https://the-jiahaojiang.github.io/oh-my-task/\n介绍：一个简洁的Pi Agent Extension + 针对其他Agent的Skill心，以workspace为基准进行跨Agent、Session的工作任务管理，例如创建Task，更新进度，跨Agent/Session恢复某个Task相关context进行工作",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2084880228128878880",
+      "sourceTweetId": "2084693319188439211",
+      "author": "alvinran08",
+      "text": "@tianyi 纯paperwork用户不行吗？你们的agent只给开发者用？",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084880455300768094",
+      "sourceTweetId": "2084693319188439211",
+      "author": "hellodigua",
+      "text": "@tianyi id: hellodigua \nrepo: https://github.com/ChatLab/ChatLab\n\n目前已有7k+ Star  \n\nChatLab 实现了用于聊天记录分析的垂直 Agent Harness，包括多模型适配、Agent/Tool Calling 循环、24+ 专用工具、问题 Router/Planner、上下文压缩、工具历史重放，以及 Desktop、CLI/headless、Web WASM 和 MCP 运行形态。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084881609942278382",
+      "sourceTweetId": "2084693319188439211",
+      "author": "WukongNumber1",
+      "text": "抛砖引玉。\nGitHub ID: sutongwuyanzu\n项目: https://github.com/sutongwuyanzu/TaskHandoff\n类型: Skill + CLI + MCP（同一 .handoff/ 契约）\n版本: v0.2.6 (479f3bd)\n\n一句话: DeepSeek 友好的「长任务交接 / 项目记忆 / 跨会话 handoff」。\n状态写入仓库 .handoff/；新会话可用 recall --brief 恢复 goal 与结构化 next。\n\n能力:\n- handoff init/save/recall/status/doctor/memory\n- MCP stdio（纯 stdlib）：handoff-mcp\n- save --auto、hooks（SessionStart→recall / SessionEnd→save）\n- 连续性证据（CI）: pytest tests/test_continuity.py -q\n  说明: https://github.com/sutongwuyanzu/TaskHandoff/blob/main/examples/continuity-proof.md\n  口径: 证明磁盘级状态恢复；LLM 执行质量需 harness 级评测\n\nDSH 发布第一时间做 skill/MCP 适配与兼容验证\n邮箱已私信，谢谢！",
       "createdAt": null,
       "likes": 0
     }
