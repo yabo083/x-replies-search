@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T10:08:00.857270+00:00",
+  "fetchedAt": "2026-08-05T11:08:05.814471+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1143,
-      "capturedReplyCount": 378,
-      "lastCheckedAt": "2026-08-05T10:07:14.251417+00:00"
+      "sourceReplyCount": 1145,
+      "capturedReplyCount": 380,
+      "lastCheckedAt": "2026-08-05T11:07:49.541580+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 456,
-      "capturedReplyCount": 375,
-      "lastCheckedAt": "2026-08-05T10:07:33.640253+00:00"
+      "sourceReplyCount": 465,
+      "capturedReplyCount": 378,
+      "lastCheckedAt": "2026-08-05T11:08:00.694180+00:00"
     }
   ],
   "summary": {
-    "tweets": 753,
-    "authors": 667,
-    "sourceCount": 1599,
-    "added": 86,
+    "tweets": 758,
+    "authors": 672,
+    "sourceCount": 1610,
+    "added": 5,
     "mode": "incremental"
   },
   "replies": [
@@ -1585,6 +1585,14 @@
       "sourceTweetId": "2083519855203078320",
       "author": "tianpan_co",
       "text": "@tianyi https://github.com/bex-co/beancount-io/",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2083736813680861294",
+      "sourceTweetId": "2083519855203078320",
+      "author": "stometaverse",
+      "text": "@tianyi https://github.com/stone16/harness-engineering-skills  github: stone16",
       "createdAt": null,
       "likes": 0
     },
@@ -6057,6 +6065,38 @@
       "sourceTweetId": "2084693319188439211",
       "author": "pp50490376",
       "text": "@tianyi 报名。\n开源项目，Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool：https://github.com/MigoXLab/dingo\ngithub id：https://github.com/e06084",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084945280504615035",
+      "sourceTweetId": "2084693319188439211",
+      "author": "stevwjroa9",
+      "text": "@tianyi GitHub ID：1while1\n项目：https://github.com/1while1/FriendForge⁠�\n 我正在持续开发的一个开源数字分身项目。希望根据获得授权的聊天记录，构建可以长期交流和持续更新的关系型数字分身，而不是简单地把聊天记录塞进 Prompt。\n目前项目主要通过 Persona Bundle 管理人格、风格、示例和上下文，已经实现基础构建",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084946382125961659",
+      "sourceTweetId": "2083519855203078320",
+      "author": "AsaadSayed61",
+      "text": "@tianyi Albeit late but..\n\nInterested",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2084951371128922266",
+      "sourceTweetId": "2084693319188439211",
+      "author": "DamingYy",
+      "text": "@tianyi 正在做强业务类型的数字人agent，workflow+harness+事件驱动架构，已经落地上生产，目前正在做harness架构重构（原本是传统架构方式,上下文管理混乱，token命中率低，skill无法渐进式披露）\n但无法开源，闭源项目能够申请吗🥺🥺🥺🥺 \nemail：yxmsjob@163.com",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084952582519423009",
+      "sourceTweetId": "2084693319188439211",
+      "author": "wang_myun",
+      "text": "@tianyi 报名 DeepSeek Harness 内测 🙋\nGitHub ID：myunwang\n项目：https://github.com/myunwang/LLMPET\nLLMPET 是 Claude Code/Codex 的开源桌面交互层，可视化多 Session 状态、权限、Token 和任务进度，并加入表情包 Prompt 与 Agent 自主旅行。希望测试 DeepSeek Harness 的多会话和长任务能力。",
       "createdAt": null,
       "likes": 0
     }
