@@ -6,6 +6,8 @@ on:
       - data/replies.json
       - parser.js
       - scripts/build-projects.mjs
+      - scripts/summarize-projects.mjs
+      - .github/workflows/build-projects.yml
   workflow_dispatch:
 
 permissions:
