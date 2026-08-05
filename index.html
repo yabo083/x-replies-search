@@ -16,7 +16,7 @@
       </a>
       <div class="header-meta">
         <span class="live-status"><span class="status-dot"></span>每小时更新</span>
-        <a class="header-link" href="https://x.com/tianyi/status/2084693319188439211" target="_blank" rel="noopener">原帖 <span aria-hidden="true">↗</span></a>
+        <a class="header-link" href="#sources">2 篇原帖 <span aria-hidden="true">↓</span></a>
       </div>
     </div>
   </header>
@@ -30,35 +30,15 @@
       </div>
     </section>
 
-    <section class="shell source-section" aria-labelledby="source-title">
+    <section class="shell source-section" id="sources" aria-labelledby="source-title">
       <div class="section-heading">
         <div>
           <span class="eyebrow">Source Post</span>
           <h2 id="source-title">原帖内容</h2>
         </div>
-        <a class="text-link" href="https://x.com/tianyi/status/2084693319188439211" target="_blank" rel="noopener">在 X 查看 <span aria-hidden="true">↗</span></a>
+        <span class="source-count-label">2 篇征集帖</span>
       </div>
-
-      <article class="source-post">
-        <div class="source-author">
-          <div class="source-avatar" aria-hidden="true">TC</div>
-          <div>
-            <strong>Tianyi Cui</strong>
-            <span>@tianyi</span>
-          </div>
-        </div>
-        <blockquote>
-          如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。
-          <br /><br />
-          我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。
-          <br /><br />
-          请同时私信我您的邮箱，我们会使用 email 联系您。
-        </blockquote>
-        <div class="source-footer">
-          <span>DeepSeek Harness 开源生态征集</span>
-          <span>帖子 ID 2084693319188439211</span>
-        </div>
-      </article>
+      <div class="source-posts" id="sourcePosts"><div class="source-loading">正在加载原帖...</div></div>
     </section>
 
     <section class="directory-section" aria-labelledby="directory-title">
@@ -67,13 +47,13 @@
           <div>
             <span class="eyebrow">Project Directory</span>
             <h2 id="directory-title">评论整理</h2>
-            <p>按 GitHub Star 降序排列。项目资料和 Star 来自 GitHub，报名人与相关者来自原帖回复。</p>
+            <p>按 GitHub Star 降序排列。X 计数包含平台过滤或不可访问的回复，目录仅整理已收录公开回复中的仓库。</p>
           </div>
           <div class="updated-at" id="updatedAt">数据加载中</div>
         </div>
 
         <div class="metrics" id="metrics" aria-label="数据概览">
-          <div class="metric"><span>回复</span><strong id="replyCount">-</strong></div>
+          <div class="metric"><span>已收录 / X 计数</span><strong><span id="replyCount">-</span> / <span id="sourceReplyCount">-</span></strong></div>
           <div class="metric"><span>项目</span><strong id="projectCount">-</strong></div>
           <div class="metric"><span>相关者</span><strong id="peopleCount">-</strong></div>
           <div class="metric"><span>累计 Stars</span><strong id="starCount">-</strong></div>
@@ -89,6 +69,12 @@
             <span class="sr-only">按语言筛选</span>
             <select id="languageFilter">
               <option value="">全部语言</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span class="sr-only">按来源筛选</span>
+            <select id="sourceFilter">
+              <option value="">全部来源</option>
             </select>
           </label>
           <span class="result-count" id="resultCount">-</span>

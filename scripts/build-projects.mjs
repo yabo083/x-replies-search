@@ -20,12 +20,14 @@ for (const raw of snapshot.replies) {
         url: `https://github.com/${repo.owner}/${repo.repo}`,
         xUsers: new Set(),
         githubIds: new Set([repo.owner]),
+        sourceTweetIds: new Set(),
         replyIds: [],
         excerpts: [],
       });
     }
     const item = projects.get(key);
     if (raw.author) item.xUsers.add(raw.author);
+    if (raw.sourceTweetId) item.sourceTweetIds.add(String(raw.sourceTweetId));
     for (const id of reply.githubIds) item.githubIds.add(id);
     if (raw.id) item.replyIds.push(String(raw.id));
     if (item.excerpts.length < 3) item.excerpts.push(raw.text.slice(0, 280));
@@ -96,6 +98,7 @@ const normalized = items.map((item) => ({
   available: Boolean(item.github),
   xUsers: [...item.xUsers].sort((a, b) => a.localeCompare(b)),
   githubIds: [...item.githubIds].sort((a, b) => a.localeCompare(b)),
+  sourceTweetIds: [...item.sourceTweetIds],
   replyIds: [...new Set(item.replyIds)],
   excerpts: item.excerpts,
 })).sort((a, b) => (b.stars ?? -1) - (a.stars ?? -1) || a.fullName.localeCompare(b.fullName));
@@ -108,7 +111,9 @@ for (const item of normalized) {
 const output = {
   generatedAt: new Date().toISOString(),
   sourceFetchedAt: snapshot.fetchedAt,
+  sourcePosts: snapshot.sourcePosts || [],
   sourceReplyCount: snapshot.replies.length,
+  sourceDisplayedReplyCount: snapshot.sourcePosts?.reduce((sum, source) => sum + (source.sourceReplyCount || 0), 0) || snapshot.replies.length,
   sourceAuthorCount: snapshot.summary?.authors || new Set(snapshot.replies.map((reply) => reply.author)).size,
   projectCount: normalized.length,
   availableProjectCount: normalized.filter((item) => item.available).length,

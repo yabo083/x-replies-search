@@ -2,6 +2,7 @@ const state = {
   data: null,
   query: "",
   language: "",
+  source: "",
 };
 
 const $ = (id) => document.getElementById(id);
@@ -45,6 +46,15 @@ function identities(values, kind) {
   }).join("");
 }
 
+function sourceBadges(project) {
+  const sources = new Map((state.data.sourcePosts || []).map((source) => [source.id, source]));
+  return (project.sourceTweetIds || []).map((id) => {
+    const source = sources.get(id);
+    if (!source) return "";
+    return `<a class="source-badge" href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.label)}</a>`;
+  }).join("");
+}
+
 function row(project, index) {
   const language = project.language?.name || "-";
   const languageColor = project.language?.color || "#999999";
@@ -61,7 +71,7 @@ function row(project, index) {
         ${avatar}
         <div class="project-copy">
           <a class="project-name" href="${escapeHtml(project.url)}" target="_blank" rel="noopener">${escapeHtml(project.fullName)}</a>
-          <div class="project-description" title="${escapeHtml(description)}">${summaryBadge}${escapeHtml(description)}</div>
+          <div class="project-description" title="${escapeHtml(description)}">${sourceBadges(project)}${summaryBadge}${escapeHtml(description)}</div>
         </div>
       </div>
       <div class="project-stars">★ ${project.stars == null ? "-" : formatNumber(project.stars)}</div>
@@ -76,6 +86,7 @@ function filteredProjects() {
   const query = state.query.toLowerCase();
   return state.data.projects.filter((project) => {
     if (state.language && project.language?.name !== state.language) return false;
+    if (state.source && !(project.sourceTweetIds || []).includes(state.source)) return false;
     if (!query) return true;
     const haystack = [
       project.fullName,
@@ -93,8 +104,28 @@ function render() {
   const projects = filteredProjects();
   rows.innerHTML = projects.map(row).join("");
   catalogState.hidden = projects.length > 0;
-  catalogState.textContent = state.query || state.language ? "没有匹配的项目" : "暂无项目数据";
+  catalogState.textContent = state.query || state.language || state.source ? "没有匹配的项目" : "暂无项目数据";
   $("resultCount").textContent = `${projects.length} / ${state.data.projectCount}`;
+}
+
+function renderSourcePosts() {
+  const sources = state.data.sourcePosts || [];
+  $("sourcePosts").innerHTML = sources.map((source) => `
+    <article class="source-post">
+      <div class="source-author">
+        <div class="source-avatar" aria-hidden="true">TC</div>
+        <div>
+          <strong>${escapeHtml(source.authorName || source.author)}</strong>
+          <span>@${escapeHtml(source.author)}</span>
+        </div>
+        <a class="text-link source-open" href="${escapeHtml(source.url)}" target="_blank" rel="noopener" aria-label="在 X 查看${escapeHtml(source.label)}">在 X 查看 ↗</a>
+      </div>
+      <blockquote>${escapeHtml(source.text).replace(/\n/g, "<br />")}</blockquote>
+      <div class="source-footer">
+        <span>${escapeHtml(source.label)}</span>
+        <span>已收录 ${formatNumber(source.capturedReplyCount)} / X 计数 ${formatNumber(source.sourceReplyCount)}</span>
+      </div>
+    </article>`).join("");
 }
 
 async function loadCatalog() {
@@ -105,15 +136,19 @@ async function loadCatalog() {
     state.data.projects.sort((a, b) => (b.stars ?? -1) - (a.stars ?? -1) || a.fullName.localeCompare(b.fullName));
 
     $("replyCount").textContent = formatNumber(state.data.sourceReplyCount);
+    $("sourceReplyCount").textContent = formatNumber(state.data.sourceDisplayedReplyCount);
     $("projectCount").textContent = formatNumber(state.data.projectCount);
     const people = new Set(state.data.projects.flatMap((project) => [...project.xUsers, ...project.githubIds].map((value) => value.toLowerCase())));
     $("peopleCount").textContent = formatNumber(people.size);
     $("starCount").textContent = formatNumber(state.data.totalStars);
     $("updatedAt").textContent = formatTime(state.data.sourceFetchedAt || state.data.generatedAt);
+    renderSourcePosts();
 
     const languages = Object.entries(state.data.languages).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     $("languageFilter").insertAdjacentHTML("beforeend", languages.map(([name, count]) =>
       `<option value="${escapeHtml(name)}">${escapeHtml(name)} (${count})</option>`).join(""));
+    $("sourceFilter").insertAdjacentHTML("beforeend", (state.data.sourcePosts || []).map((source) =>
+      `<option value="${escapeHtml(source.id)}">${escapeHtml(source.label)}</option>`).join(""));
     render();
   } catch (error) {
     catalogState.hidden = false;
@@ -128,6 +163,11 @@ $("searchInput").addEventListener("input", (event) => {
 
 $("languageFilter").addEventListener("change", (event) => {
   state.language = event.target.value;
+  render();
+});
+
+$("sourceFilter").addEventListener("change", (event) => {
+  state.source = event.target.value;
   render();
 });
 
