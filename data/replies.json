@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T19:07:19.687095+00:00",
+  "fetchedAt": "2026-08-05T20:07:15.845634+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 544,
-      "capturedReplyCount": 416,
-      "lastCheckedAt": "2026-08-05T19:07:15.784379+00:00"
+      "sourceReplyCount": 550,
+      "capturedReplyCount": 417,
+      "lastCheckedAt": "2026-08-05T20:07:13.494739+00:00"
     }
   ],
   "summary": {
-    "tweets": 799,
-    "authors": 705,
-    "sourceCount": 1694,
-    "added": 2,
+    "tweets": 800,
+    "authors": 706,
+    "sourceCount": 1700,
+    "added": 1,
     "mode": "incremental"
   },
   "replies": [
@@ -6427,6 +6427,14 @@
       "text": "@tianyi Github id:zioder\nhttps://github.com/zioder/taskbarquota\nIt injects your limits/agent activity into the windows taskbar , would love to implement it early detection for DSH",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2085080512159191347",
+      "sourceTweetId": "2084693319188439211",
+      "author": "s9p3o",
+      "text": "@tianyi 报名报名👋\n GitHub ID: good-boy4069\n项目:https://github.com/good-boy4069/Deepseek-omnimodal\nOmnimodal是为纯文本模型补齐多模态能力的开源 MCP 插件，已适配 Codex 与 Claude Code，支持图片、视频、音频识别与生成，兼容 Qwen、https://z.ai/GLM 和 OpenAI 兼容服务。含 CI、测试、文档与 Release\n希望参与 DSH 内测",
+      "createdAt": null,
+      "likes": 1
     }
   ]
 }
