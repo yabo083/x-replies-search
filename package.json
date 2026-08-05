@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test test/parse.test.mjs"
+    "test": "node --test test/parse.test.mjs",
+    "build:data": "node scripts/build-projects.mjs"
   }
 }

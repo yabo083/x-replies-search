@@ -1,128 +1,123 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>DSH 报名雷达 · X 报名帖检索</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>" />
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DeepSeek Harness 开源项目报名索引，按 GitHub Star 整理参与项目和相关者。" />
+  <title>DSH Open Source Index</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="topbar">
-  <div class="wrap">
-    <div class="brand">📡 <b>报名雷达</b><span class="brand-sub">X 帖子报名检索工具</span></div>
-    <div class="tweet-link"><a id="tweetLink" href="#" target="_blank" rel="noopener">查看原帖 ↗</a></div>
-  </div>
-</header>
-<div class="version" id="version">v?</div>
-
-<main class="wrap">
-  <section class="hero" id="hero">
-    <div class="hero-left">
-      <div class="post-meta" id="postMeta">
-        <div class="post-author" id="postAuthor">加载帖子信息…</div>
-        <div class="post-text" id="postText"></div>
-        <div class="post-stats" id="postStats"></div>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="./" aria-label="DSH Open Source Index 首页">
+        <span class="wordmark-mark">D</span>
+        <span>DSH Open Source Index</span>
+      </a>
+      <div class="header-meta">
+        <span class="live-status"><span class="status-dot"></span>每小时更新</span>
+        <a class="header-link" href="https://x.com/tianyi/status/2084693319188439211" target="_blank" rel="noopener">原帖 <span aria-hidden="true">↗</span></a>
       </div>
     </div>
-    <div class="hero-right">
-      <div class="actions">
-        <button id="fetchBtn" class="btn primary">⛏ 抓取回复</button>
-        <button id="tokenBtn" class="btn">🔑 填 token</button>
-        <button id="pasteBtn" class="btn">📋 粘贴文本解析</button>
-        <button id="exportBtn" class="btn" disabled>⬇ 导出数据</button>
+  </header>
+
+  <main>
+    <section class="shell announcement" aria-labelledby="announcement-title">
+      <div class="announcement-label">公告</div>
+      <div>
+        <h1 id="announcement-title">快速确认熟悉的人和项目是否参与 DSH 报名</h1>
+        <p>本站整理 Tianyi 发布的 DeepSeek Harness 开源项目征集帖，将回复中的报名人、GitHub 项目与相关者汇总为可搜索目录。数据来自 X 会话快照，每小时增量更新；本站非 DeepSeek 官方页面。</p>
       </div>
-      <div class="progress" id="progressBox" hidden>
-        <div class="progress-label"><span>抓取进度</span><b id="progressText">0 / 136</b></div>
-        <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    </section>
+
+    <section class="shell source-section" aria-labelledby="source-title">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Source Post</span>
+          <h2 id="source-title">原帖内容</h2>
+        </div>
+        <a class="text-link" href="https://x.com/tianyi/status/2084693319188439211" target="_blank" rel="noopener">在 X 查看 <span aria-hidden="true">↗</span></a>
       </div>
-      <div class="log" id="log">尚未抓取。抓取来源依次尝试：X 游客 API(翻页抓全部)→ r.jina.ai 渲染 → 手动粘贴。</div>
-    </div>
-  </section>
 
-  <section class="banner" id="contactsBanner" hidden>
-    <div class="banner-head">
-      <div class="banner-title">🎯 <b id="bannerCount">0 位熟人</b> 参与了本次报名</div>
-      <button class="btn small" id="bannerFilterBtn">只看熟人 ⭐</button>
-    </div>
-    <div id="bannerList" class="banner-list"></div>
-  </section>
+      <article class="source-post">
+        <div class="source-author">
+          <div class="source-avatar" aria-hidden="true">TC</div>
+          <div>
+            <strong>Tianyi Cui</strong>
+            <span>@tianyi</span>
+          </div>
+        </div>
+        <blockquote>
+          如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。
+          <br /><br />
+          我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。
+          <br /><br />
+          请同时私信我您的邮箱，我们会使用 email 联系您。
+        </blockquote>
+        <div class="source-footer">
+          <span>DeepSeek Harness 开源生态征集</span>
+          <span>帖子 ID 2084693319188439211</span>
+        </div>
+      </article>
+    </section>
 
-  <section class="stats" id="statsRow" hidden>
-    <div class="stat"><b id="stReplies">0</b><span>回复总数</span></div>
-    <div class="stat"><b id="stProjects">0</b><span>唯一项目</span></div>
-    <div class="stat"><b id="stWithRepo">0</b><span>带项目回复</span></div>
-    <div class="stat"><b id="stStars">0</b><span>累计 ⭐</span></div>
-    <div class="stat"><b id="stLangs">0</b><span>语言种类</span></div>
-    <div class="stat contact-stat" id="stContactsCard"><b id="stContacts">0</b><span>熟人命中</span></div>
-  </section>
+    <section class="directory-section" aria-labelledby="directory-title">
+      <div class="shell">
+        <div class="section-heading directory-heading">
+          <div>
+            <span class="eyebrow">Project Directory</span>
+            <h2 id="directory-title">评论整理</h2>
+            <p>按 GitHub Star 降序排列。项目资料和 Star 来自 GitHub，报名人与相关者来自原帖回复。</p>
+          </div>
+          <div class="updated-at" id="updatedAt">数据加载中</div>
+        </div>
 
-  <section class="toolbar" id="toolbar" hidden>
-    <input id="search" class="search" type="search" placeholder="搜索 仓库/作者/GitHub ID/描述… (例: mcp, ui, 或某好友的 ID)" autocomplete="off" />
-    <select id="sort" class="sort">
-      <option value="stars">按 ⭐ 星数</option>
-      <option value="contributors">按参与人数</option>
-      <option value="name">按名称</option>
-    </select>
-    <div class="chips" id="chips">
-      <button class="chip active" data-filter="all">全部</button>
-      <button class="chip" data-filter="repo">仅项目</button>
-      <button class="chip" data-filter="people">仅提及</button>
-      <button class="chip highlight" data-filter="contacts">⭐ 熟人</button>
-    </div>
-  </section>
+        <div class="metrics" id="metrics" aria-label="数据概览">
+          <div class="metric"><span>回复</span><strong id="replyCount">-</strong></div>
+          <div class="metric"><span>项目</span><strong id="projectCount">-</strong></div>
+          <div class="metric"><span>相关者</span><strong id="peopleCount">-</strong></div>
+          <div class="metric"><span>累计 Stars</span><strong id="starCount">-</strong></div>
+        </div>
 
-  <details class="contacts" id="contactsBox">
-    <summary>👥 我的熟人名单 <span class="hint">(GitHub ID 每行一个,存入浏览器)</span></summary>
-    <div class="contacts-body">
-      <textarea id="contactsInput" rows="4" placeholder="每行一个 GitHub 用户名 / X 昵称,例如:&#10;zhang-san&#10;deepseek-ai&#10;wangwu5"></textarea>
-      <div class="row">
-        <button id="contactsSave" class="btn small">保存</button>
-        <span id="contactsStatus" class="hint"></span>
+        <div class="directory-toolbar">
+          <label class="search-field">
+            <span class="sr-only">搜索项目</span>
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" autocomplete="off" placeholder="搜索项目、X 用户、GitHub ID、描述" />
+          </label>
+          <label class="filter-field">
+            <span class="sr-only">按语言筛选</span>
+            <select id="languageFilter">
+              <option value="">全部语言</option>
+            </select>
+          </label>
+          <span class="result-count" id="resultCount">-</span>
+        </div>
+
+        <div class="catalog" id="catalog" aria-live="polite">
+          <div class="catalog-head" aria-hidden="true">
+            <span>排名</span>
+            <span>项目</span>
+            <span>Stars</span>
+            <span>语言</span>
+            <span>报名人</span>
+            <span>相关者</span>
+            <span></span>
+          </div>
+          <div id="projectRows"></div>
+          <div class="catalog-state" id="catalogState">正在加载项目目录...</div>
+        </div>
       </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span>DSH Open Source Index</span>
+      <span>数据源: root@bren9np / twscrape tweet_thread</span>
     </div>
-  </details>
+  </footer>
 
-  <section class="langs" id="langsBox" hidden>
-    <h3>📊 项目语言分布 <span class="hint">(GitHub API 按需加载)</span></h3>
-    <div id="langBars"></div>
-  </section>
-
-  <section id="results">
-    <div id="grid" class="grid"></div>
-    <div id="peopleSection"></div>
-  </section>
-
-  <div id="empty" class="empty" hidden>
-    <div class="empty-icon">🛰</div>
-    <p>还没有数据。点击「抓取回复」从 X 拉取报名回复,<br/>或「粘贴文本解析」手动导入帖子回复内容。</p>
-  </div>
-</main>
-
-<dialog id="tokenDialog">
-  <form method="dialog" class="paste-form">
-    <h3>🔑 手动填入 X guest token</h3>
-    <p class="hint">自动激活被代理拒绝时使用。获取方法:用浏览器打开 x.com(需代理),按 F12 → Application → Cookies → <b>gt</b> 的值,粘贴到下面。</p>
-    <input id="tokenInput" type="text" placeholder="粘贴 gt cookie 值…" style="width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;color:var(--fg);padding:8px;font-size:13px" />
-    <div class="row">
-      <button value="cancel" class="btn">取消</button>
-      <button value="ok" class="btn primary">保存并重试抓取</button>
-    </div>
-  </form>
-</dialog>
-
-<dialog id="pasteDialog">
-  <form method="dialog" class="paste-form">
-    <h3>📋 粘贴回复文本</h3>
-    <p class="hint">把原帖下的回复内容(纯文本,每行一条或带 @昵称 前缀)粘进来。也可以粘贴 r.jina.ai / 网页复制的内容。</p>
-    <textarea id="pasteInput" rows="10" placeholder="@bob&#10;GitHub id: bob,项目 https://github.com/bob/agent-harness-mcp&#10;&#10;@alice&#10;https://github.com/alice/dsh-ui 支持!"></textarea>
-    <div class="row">
-      <button value="cancel" class="btn">取消</button>
-      <button value="ok" class="btn primary">解析并加入</button>
-    </div>
-  </form>
-</dialog>
-
-<script type="module" src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

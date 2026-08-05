@@ -57,10 +57,12 @@
   function extractGithubIds(text) {
     const out = [];
     const seen = new Set();
+    const reserved = new Set(["github", "project", "repo", "repository", "username", "name", "id", "http", "https", "com"]);
     GH_ID_RE.lastIndex = 0;
     let m;
     while ((m = GH_ID_RE.exec(text)) !== null) {
       const id = m[1];
+      if (reserved.has(id.toLowerCase())) continue;
       if (seen.has(id.toLowerCase())) continue;
       seen.add(id.toLowerCase());
       out.push(id);
@@ -71,6 +73,7 @@
     );
     while ((m = profileRe.exec(text)) !== null) {
       const id = m[1];
+      if (reserved.has(id.toLowerCase())) continue;
       if (seen.has(id.toLowerCase())) continue;
       seen.add(id.toLowerCase());
       out.push(id);
