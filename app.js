@@ -627,7 +627,7 @@ async function loadRemoteSnapshot() {
   }
 }
 
-const APP_VERSION = "2026-08-05b";
+const APP_VERSION = "2026-08-05c";
 
 fetchTweetMeta();
 $("version").textContent = "v" + APP_VERSION;

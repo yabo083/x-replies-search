@@ -83,6 +83,10 @@ test("extractGithubIds: 各种中文/英文标识", () => {
   assert.deepEqual(extractGithubIds(t5), ["grace-yan"]);
   const t6 = "gh：emma_chen，仓库 https://github.com/emma_chen/runtime";
   assert.deepEqual(extractGithubIds(t6), ["emma_chen"]);
+  const t7 = "ID: LtyFantasy Proj: Agent Chamber";
+  assert.deepEqual(extractGithubIds(t7), ["LtyFantasy"]);
+  const t8 = "项目主页 https://github.com/hackdeacon";
+  assert.deepEqual(extractGithubIds(t8), ["hackdeacon"]);
 });
 
 test("splitReplies: 拆分 jina 风格的 @ 开头块", () => {

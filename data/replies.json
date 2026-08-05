@@ -3,10 +3,12 @@
   "tweetUrl": "https://x.com/tianyi/status/2084693319188439211",
   "fetchedAt": "2026-08-05T08:30:00Z",
   "sources": [
-    "twscrape(server)"
+    "twscrape.tweet_thread(server)"
   ],
   "summary": {
-    "tweets": 36
+    "tweets": 145,
+    "authors": 142,
+    "resolvedShortUrls": 149
   },
   "replies": [
     {
@@ -14,8 +16,28 @@
       "text": "@tianyi GitHub ID：tdwhere123\n项目地址：\nhttps://github.com/tdwhere123/do-it\ndo-it作为代码工作流，是我在自己研究agentmemory项目时，反复自行优化迭代的完整体系。从开始的重流程子智能体的逻辑，现在优化为更适合顶尖ai的元提示词逻辑。在长程代码任务中表现良好，不会过度限制ai的能力 同时可以提升代码质量。"
     },
     {
-      "author": "weihuan96907565",
-      "text": "@tianyi Github ID : hwei\n项目：https://github.com/hwei/unity-puer-exec\n这是一个让 AI Agent 完全闭环自主操作和开发 Unity 项目的 CLI 和 package。\nDeepseek-v4-flash 操作它现在其实已经很溜了。做渲染 Debug 非常专业，自己写 debug shader，甚至还能通过 16*16 渲染再转成 ASCII 图强行“多摸态”分析画面。"
+      "author": "d127yw",
+      "text": "@tianyi githubid：catlog22。代表作：Maestro flow是涵盖关注知识搜索、沉淀和演化，自适应、长周期自校正的harness工程，pi-Maestro-flow是为工作流适配底层harness工程开发，包括增强状态机，监督器。\nhttps://github.com/catlog22/maestro-flow\nhttps://github.com/catlog22/pi-maestro-flow"
+    },
+    {
+      "author": "Johnskwaov",
+      "text": "@tianyi Github ID：120707613\n项目地址：https://github.com/putl-dream/ppt\nPPT Harness 最终形成的是一个本地优先、模型驱动、代码约束的 AI 演示文稿工作台。PPT Harness 以 PPT 为垂直验证场景，建设了一套具备模型调用、工具执行、持久化恢复、安全提交和产品交付能力的 Agent Harness。"
+    },
+    {
+      "author": "dssheng",
+      "text": "@tianyi 申请加入内测。\n不需要api额度，我可以挪用a÷预算。\nGitHub ID: dothinkerlab\n项目: https://github.com/dothinkerlab/A…\n随时获取plan的使用情况，第一时间获取reset信息。支持Deepseek余额查看\niOS三端可用，Mac端开源。"
+    },
+    {
+      "author": "exchanghz",
+      "text": "@tianyi 分享这个轻量级coding agent—deepact\n一方面给llm加守卫，防止危险操作rm delete\n多agent，执行并行，多性格开发互呛方案.\nSkill遵循，能用尽用\n\nhttps://github.com/hxs996-beep/deepAct"
+    },
+    {
+      "author": "whitingyang",
+      "text": "@tianyi github id: windwhiterain\nharness: https://github.com/windwhiterain/liana\n实现了一种算法让agent的记忆在可组合性(稀疏性)和缓存命中率上兼得。用户可以根据需要自由调整更倾向于可组合性还是缓存命中"
+    },
+    {
+      "author": "BruceLe47647639",
+      "text": "@tianyi Github Id：CryptoOrange-team\n项目介绍：一款专为 AI 编程助手打造的跨设备持久化记忆引擎。无论你在哪台电脑上工作，它都能让 AI 助手记住你的项目上下文、技术偏好和历史决策，真正做到“一次配置，处处知晓”。核心优势：跨设备无缝同步，云端存储，按需选择\n项目地址：https://github.com/shelby-protocol/memory-forge"
     },
     {
       "author": "shike49012264",
@@ -30,10 +52,6 @@
       "text": "@tianyi ID: seek-hope\nproject: https://github.com/seek-hope/pi-ex\n基于pi的升级版coding agent，支持本地无感操作服务器、智能上下文裁剪与压缩等功能"
     },
     {
-      "author": "ayGDz0nRXwWYMLh",
-      "text": "@tianyi ID: LtyFantasy\nProj: 跨Harness环境的Agent协作平台，能开多个话题聊天室、项目看板、项目文档空间。让不同环境的agent像人类做项目一样配合起来，而不是只本地sub agent派遣模式。\nRepo: https://github.com/LtyFantasy/agent-chamber"
-    },
-    {
       "author": "GeniusHU66",
       "text": "@tianyi 非常希望可以加入 Deepseek 的内测，长时间使用，非常期望可以见证国产 Agent 的发展。\n申请加入内测，非常希望申请能够通过\nGitHub ID:GeniusHu-tgty\n项目地址：\nhttps://github.com/GeniusHu-tgty/Open-tgtylab"
     },
@@ -42,48 +60,48 @@
       "text": "@tianyi skill：在线搜索的读书笔记skill\nhttps://github.com/qinchaomeishenmeshi/book-note-ddg"
     },
     {
-      "author": "yuanlang01",
-      "text": "@tianyi 申请参与 harness 内测\n\nGitHub ID : yuanlang12\n\n项目:\n一个harness启动器，将本地harness桥接到Telegram、飞书、微信、企业微信等IM平台，实现无缝随时开发。\n\nhttps://github.com/yuanlang12/Kite"
-    },
-    {
-      "author": "weixiong0",
-      "text": "@tianyi 一 个包含信号监控、交易套利、安全通信 hook 的 skill，不只是 skill，但用 skill 的形态实现了拆装的便利性和概念易懂。\nhttps://github.com/wilsen0/Vigil"
-    },
-    {
       "author": "GoGoFly23",
       "text": "@tianyi 来报名了，GitHub ID：Cai-aa\n我的代表项目CAE Agent Hub 是一个面向主流工程仿真软件的 MCP server、Agent Skill、求解器自动化脚本和浏览器结果查看器集合。目标是让 Codex、Claude Code等 AI 客户端进行AI驱动的CAE有限元仿真工程任务。\nhttps://github.com/Cai-aa/CAE-Agent-Hub"
     },
     {
-      "author": "SaimrT",
-      "text": "@tianyi 报名：DeepOrigo   githubID：fenwii \nCommercial Outcome Native Engineering Agent\n从需求原点、商业模式和SPEC，到可信交付、事故根因、可验证修复、经验学习与有效商业结果。https://github.com/fenwii/DeepOrigo"
+      "author": "weihuan96907565",
+      "text": "@tianyi Github ID : hwei\n项目：https://github.com/hwei/unity-puer-exec\n这是一个让 AI Agent 完全闭环自主操作和开发 Unity 项目的 CLI 和 package。\nDeepseek-v4-flash 操作它现在其实已经很溜了。做渲染 Debug 非常专业，自己写 debug shader，甚至还能通过 16*16 渲染再转成 ASCII 图强行“多摸态”分析画面。"
     },
     {
-      "author": "lloydzhou1210",
-      "text": "@tianyi 希望能参加 DeepSeek Harness 测试\ngithub id: lloydzhou\n你star过的agent项目: https://github.com/lloydzhou/bash-agent"
-    },
-    {
-      "author": "XinBuilds",
-      "text": "@tianyi GitHub ID：michael910321 \n项目地址：https://github.com/michael910321/mwrs\nMWRS是一个为 Agent 世界状态设计的“世界运行时”：完全脱离“模型说什么就是什么”的写法，通过 MCP 把世界状态、规则、权限与历史暴露成Agent 易读、易验证的格式.初衷是给 Agent 提供一个真正属于它的世界边界"
+      "author": "ayGDz0nRXwWYMLh",
+      "text": "@tianyi ID: LtyFantasy\nProj: 跨Harness环境的Agent协作平台，能开多个话题聊天室、项目看板、项目文档空间。让不同环境的agent像人类做项目一样配合起来，而不是只本地sub agent派遣模式。\nRepo: https://github.com/LtyFantasy/agent-chamber"
     },
     {
       "author": "GMYXDS110",
       "text": "@tianyi GitHub ID：GMYXDS\n开源代表作：AI-Markdown-Translator\n地址：https://github.com/GMYXDS/AI-Markdown-Translator\n希望参与 DSH 内测"
     },
     {
+      "author": "weixiong0",
+      "text": "@tianyi 一 个包含信号监控、交易套利、安全通信 hook 的 skill，不只是 skill，但用 skill 的形态实现了拆装的便利性和概念易懂。\nhttps://github.com/wilsen0/Vigil"
+    },
+    {
+      "author": "SaimrT",
+      "text": "@tianyi 报名：DeepOrigo   githubID：fenwii \nCommercial Outcome Native Engineering Agent\n从需求原点、商业模式和SPEC，到可信交付、事故根因、可验证修复、经验学习与有效商业结果。https://github.com/fenwii/DeepOrigo"
+    },
+    {
+      "author": "XinBuilds",
+      "text": "@tianyi GitHub ID：michael910321 \n项目地址：https://github.com/michael910321/mwrs\nMWRS是一个为 Agent 世界状态设计的“世界运行时”：完全脱离“模型说什么就是什么”的写法，通过 MCP 把世界状态、规则、权限与历史暴露成Agent 易读、易验证的格式.初衷是给 Agent 提供一个真正属于它的世界边界"
+    },
+    {
+      "author": "yuanlang01",
+      "text": "@tianyi 申请参与 harness 内测\n\nGitHub ID : yuanlang12\n\n项目:\n一个harness启动器，将本地harness桥接到Telegram、飞书、微信、企业微信等IM平台，实现无缝随时开发。\n\nhttps://github.com/yuanlang12/Kite"
+    },
+    {
+      "author": "zhongerxin",
+      "text": "不知道一期会不会支持类似 MCP Widget 的协议。\n\nGitHub ID：zhongerxin\n项目标识：zhongerxin/Cowart\n项目地址：https://github.com/zhongerxin/Cowart\n简介：Cowart 是一个面向 Codex 的开源原生无限画布插件，基于 tldraw 和 MCP Widget，将视觉构思、图片标注、AI 图片生成与迭代、HTML 页面生成及 Slides 创作集成到 Agent 工作流中。项目同时提供 Codex Plugin、Skills 和 MCP 工具。"
+    },
+    {
+      "author": "lloydzhou1210",
+      "text": "@tianyi 希望能参加 DeepSeek Harness 测试\ngithub id: lloydzhou\n你star过的agent项目: https://github.com/lloydzhou/bash-agent"
+    },
+    {
       "author": "sthnavy",
       "text": "@tianyi 一款开源的web orchestrator https://github.com/xiaotonng/pikiloom"
-    },
-    {
-      "author": "ArrayDeque",
-      "text": "@tianyi 希望能参加 DeepSeek Harness 测试，我对 agent harness 设计有自己的理解，做了一些 pi 和 omp 的插件。\ngithub id 是 CNife https://github.com/CNife/pi-extensions\nhttps://github.com/CNife/omp-extensions"
-    },
-    {
-      "author": "leo_oday",
-      "text": "@tianyi 这次我早点来 我是真想用 deepseek都充了好多钱了 Orcana 面向长期自主任务的可信 Agent Runtime，让 AI 能在真实代码库与 Linux 或者win 环境中可控地执行、验证、恢复并完成工作。https://github.com/Leo-Ayh-Oday/orcana-runtime"
-    },
-    {
-      "author": "Huanglin5106",
-      "text": "@tianyi GitHub ID：FriendsHL \n开源代表作：SkillForge \n地址：https://github.com/FriendsHL/skillforge\n希望参与 DSH 内测"
     },
     {
       "author": "amashiro2233",
@@ -94,8 +112,16 @@
       "text": "@tianyi GitHub ID：Hyp6666\n项目：https://github.com/Hyp6666/PalmiAgent\n\n这是我做的的原生 Swift/SwiftUI iOS Agent，核心 runtime 独立实现，包含 agent loop、工具调用、上下文压缩和 subagent，已上架 App Store。平时重度用 Codex、Claude Code。想报名 DeepSeek Harness 内测，求博主给个名额🥹～谢谢！🥲🥲"
     },
     {
-      "author": "stephen38401220",
-      "text": "@tianyi 期待，目前项目是围绕claude/kimi 这类agent做工程化落地的项目，有记忆树/SKILL管理/会话管理/知识库管理/消息管理 等。目标是更好地落地AI在Coding工程实践中的问题。\nGitHub ID: caiuswang\n介绍页: https://regin.ccday.top/\ngithub地址：https://github.com/caiuswang/regin"
+      "author": "ArrayDeque",
+      "text": "@tianyi 希望能参加 DeepSeek Harness 测试，我对 agent harness 设计有自己的理解，做了一些 pi 和 omp 的插件。\ngithub id 是 CNife https://github.com/CNife/pi-extensions\nhttps://github.com/CNife/omp-extensions"
+    },
+    {
+      "author": "leo_oday",
+      "text": "@tianyi 这次我早点来 我是真想用 deepseek都充了好多钱了 Orcana 面向长期自主任务的可信 Agent Runtime，让 AI 能在真实代码库与 Linux 或者win 环境中可控地执行、验证、恢复并完成工作。https://github.com/Leo-Ayh-Oday/orcana-runtime"
+    },
+    {
+      "author": "fyinganyi",
+      "text": "@tianyi Github id:fanfan520zzq \n项目：以嵌入式开发为目标的agent工具集 涵盖读取datasheet与自动烧录验证 以后会开发接入外部真实仪器  项目链接：https://github.com/fanfan520zzq/hard-dsp-harness"
     },
     {
       "author": "LLins_s",
@@ -106,52 +132,464 @@
       "text": "@tianyi 非程序员，平时工作用的pi+deepseek，很期待deepseek harness，希望可以内测体验harness，可以不用api额度，非常感谢"
     },
     {
-      "author": "YxPlDFgrQT6RfiD",
-      "text": "@tianyi GitHub ID：834063245-creator\nhttps://github.com/834063245-creator/HoloGram\n\n非常希望参加 DSH 的内测"
-    },
-    {
-      "author": "fyinganyi",
-      "text": "@tianyi Github id:fanfan520zzq \n项目：以嵌入式开发为目标的agent工具集 涵盖读取datasheet与自动烧录验证 以后会开发接入外部真实仪器  项目链接：https://github.com/fanfan520zzq/hard-dsp-harness"
+      "author": "Huanglin5106",
+      "text": "@tianyi GitHub ID：FriendsHL \n开源代表作：SkillForge \n地址：https://github.com/FriendsHL/skillforge\n希望参与 DSH 内测"
     },
     {
       "author": "henryisbusynow",
       "text": "@tianyi 报名，Petdex 是全球最大数字宠物图库，提供面向 Coding Agent 的开源桌面伴侣客户端，通过 Hooks 将 Agent 活动映射为实时动画与通知。目前客户端也在探索 Agent 记忆优化，希望参与内测与接入。\n\nGitHub ID: henryjing96\nhttps://github.com/crafter-station/petdex"
     },
     {
+      "author": "Winds_Land",
+      "text": "@tianyi GitHub id: Windsland52\n项目: https://github.com/Windsland52/MaaEvidenceKit\nMaaEvidenceKit 是 MaaFramework 生态的确定性证据提取工具,SDK + CLI,附带 agent skill。用于配合 harness 辅助诊断。目前正在 https://github.com/MaaEnd/MaaEnd 投入使用"
+    },
+    {
+      "author": "stephen38401220",
+      "text": "@tianyi 期待，目前项目是围绕claude/kimi 这类agent做工程化落地的项目，有记忆树/SKILL管理/会话管理/知识库管理/消息管理 等。目标是更好地落地AI在Coding工程实践中的问题。\nGitHub ID: caiuswang\n介绍页: https://regin.ccday.top/\ngithub地址：https://github.com/caiuswang/regin"
+    },
+    {
       "author": "ByronVon1",
       "text": "@tianyi open-managed-agents（orchestrator / aggregator / UI）：开源自托管 Managed Agents 运行时——写好 harness 直接部署，sessions / sandbox / MCP / crash recovery 开箱即用。DSH 发布当天即可作为新 backend 接入。\nhttps://github.com/RoacherM/open-managed-agents"
+    },
+    {
+      "author": "YxPlDFgrQT6RfiD",
+      "text": "@tianyi GitHub ID：834063245-creator\nhttps://github.com/834063245-creator/HoloGram\n\n非常希望参加 DSH 的内测"
     },
     {
       "author": "elok_lam",
       "text": "@tianyi 思源筆記CLI，讓Agent可以瀏覽和管理個人知識庫：https://github.com/eloklam/siyuan-agent\nHermes Agent多代理分工框架：https://github.com/eloklam/oh-my-hermes-agent\nGROW全方位AI學習平台（未完成）：https://usegrow.io/\n\n邮箱已經私信，謝謝！"
     },
     {
-      "author": "Winds_Land",
-      "text": "@tianyi GitHub id: Windsland52\n项目: https://github.com/Windsland52/MaaEvidenceKit\nMaaEvidenceKit 是 MaaFramework 生态的确定性证据提取工具,SDK + CLI,附带 agent skill。用于配合 harness 辅助诊断。目前正在 https://github.com/MaaEnd/MaaEnd 投入使用"
-    },
-    {
-      "author": "xiaozhugeQY",
-      "text": "@tianyi Github仓库：https://github.com/mindcraft-bots/mindcraft\nGithub id：Ninot1Quyi\n简介：\n一个让LLM在MineCraft中自主生存、建造的Agent Harness，支持单Agent工作、多Agent协作、人机协作，Agent可以自主制造装备、搭建地狱门，建造复杂建筑。目前5.6k star，本人目前是核心团队成员之一，希望可以参与内测。"
+      "author": "wen_hou44030",
+      "text": "@tianyi GitHub ID：hoooou\n给自己写的skill:https://github.com/hoooou/project_skills \n从你第一次发 dsh消息的时候就开始等，非常希望能参与 dsh 内测"
     },
     {
       "author": "yhzhou0921",
       "text": "@tianyi GitHub ID: pumblus\nRepo: https://github.com/pumblus/okf-harness\n\nOKF Harness 是一个面向 AI Agent 的本地知识库维护工具，Inspired by LLM Wiki 与 Google OKF 标准，将资料整理为带引用、可追溯的 Markdown 知识库。支持常用 Agent，强调本地优先、跨工具兼容与终端原生工作流。"
     },
     {
-      "author": "wen_hou44030",
-      "text": "@tianyi GitHub ID：hoooou\n给自己写的skill:https://github.com/hoooou/project_skills \n从你第一次发 dsh消息的时候就开始等，非常希望能参与 dsh 内测"
+      "author": "dyzsasd",
+      "text": "@tianyi GitHub ID: dyzsasd\nhttps://github.com/dyzsasd/dev-loop\n\ndev-loop 是用于自动化 AI coding 的开源 agent harness / multi-agent orchestrator。不是概念验证：已用于真实生产项目，并在累计 200B+ tokens 的 Agent 运行中持续构建与验证。希望第一时间接入 DeepSeek Harness，也愿意参与 DSH 内测。"
+    },
+    {
+      "author": "shiquda123321",
+      "text": "@tianyi github id: shiquda\n• Roadmap Skill：https://github.com/shiquda/roadmap-skill —— 人机共享的任务与路线图工具。\n• mediawiki-mcp-server：https://github.com/shiquda/mediawiki-mcp-server —— 让 Agent 检索和读取 MediaWiki 内容的 MCP 服务。\n• weread-cli：https://github.com/shiquda/weread-cli —— 微信读书的 Agent CLI 与配套 Skill。"
     },
     {
       "author": "Insignie2049",
       "text": "@tianyi 项目repo: https://github.com/weijt606/polyharness\nGitHub ID: weijt606"
     },
     {
-      "author": "dyzsasd",
-      "text": "@tianyi GitHub ID: dyzsasd\nhttps://github.com/dyzsasd/dev-loop\n\ndev-loop 是用于自动化 AI coding 的开源 agent harness / multi-agent orchestrator。不是概念验证：已用于真实生产项目，并在累计 200B+ tokens 的 Agent 运行中持续构建与验证。希望第一时间接入 DeepSeek Harness，也愿意参与 DSH 内测。"
+      "author": "xiaozhugeQY",
+      "text": "@tianyi Github仓库：https://github.com/mindcraft-bots/mindcraft\nGithub id：Ninot1Quyi\n简介：\n一个让LLM在MineCraft中自主生存、建造的Agent Harness，支持单Agent工作、多Agent协作、人机协作，Agent可以自主制造装备、搭建地狱门，建造复杂建筑。目前5.6k star，本人目前是核心团队成员之一，希望可以参与内测。"
+    },
+    {
+      "author": "BenStark83847",
+      "text": "@tianyi - GitHub ID：bensstark  \n- 相关项目：  \nconversation-navigator — https://github.com/bensstark/codex-conversation-navigator — 类型：UI(JavaScript )（skill）\n\n- 简短说明：在使用各类 agent 时，若需要查看历史消息会比较麻烦，需要划很久找，这个skill能根据用户消息快速定位，是查看历史消息，尤其是利用 agent 学习的好助手"
+    },
+    {
+      "author": "scotthuang_claw",
+      "text": "@tianyi 项目：Agent Knock Knock (https://github.com/scotthuang/agent-knock-knock)\n\n这个项目的宗旨是希望将 OpenClaw 打造成一个orchestrator 更好地去编排 Codex、Claude Code 的工作，支持 Coding Agent 的发现与路由、任务监控、审批回调，以及人类随时接管和交还控制权。\n\n希望参与DSH的内测：）"
+    },
+    {
+      "author": "Benda95787",
+      "text": "@tianyi 所以有人内测上了吗？"
     },
     {
       "author": "luneth90",
       "text": "@tianyi GitHub ID： luneth90\nGitHub 项目地址：https://github.com/luneth90/lifeos\n\nLifeOS 是一套学习系统，帮助你将碎片灵感发展为结构化知识，把学习工作流、技能、模板、提示词和记忆系统整合成一套可以直接落地的完整方案，支持多Agent间自由迁移，并延续已有的知识、偏好与工作进度。"
+    },
+    {
+      "author": "dlyzzt",
+      "text": "@tianyi 希望能参加 DeepSeek Harness 内测\nbash-agent（2025）\n面向运维场景的轻量 Agent Harness\nhttps://github.com/DLYZZT/bash-agent\npi-desktop（2026）\n基于 Pi 的本地优先桌面客户端\nhttps://github.com/DLYZZT/pi-desktop"
+    },
+    {
+      "author": "xeophon",
+      "text": "@tianyi Github project: https://github.com/PrimeIntellect-ai/verifiers\nGithub ID: https://github.com/xeophon\n\nWorking on verifiers, a unified eval + training library supporting all the different harnesses :) We are currently running DSv4 in Pi or Codex due to not having access to DSH :("
+    },
+    {
+      "author": "SleepSky66",
+      "text": "@tianyi github id: x2x5\nskill项目: https://github.com/x2x5/code-audit-paper\n这个 skill 的主要目的是通过代码来审核论文，包括下载论文的源码、代码的源码，对论文里所有的 claim 进行代码的验证，获取这个代码的可信度和论文的可复现性。"
+    },
+    {
+      "author": "BELLOSHEHU14718",
+      "text": "@tianyi Github id: LING71671\n项目：开源逆向工程实验环境 —— 178 篇知识库文章，100+ MCP 自动化工具\n项目地址：https://github.com/LING71671/open-reverselab"
+    },
+    {
+      "author": "Evante3",
+      "text": "@tianyi GitHub ID: simba119\nGitHub 仓库地址：https://github.com/simba119/janus-rag\n非常期待能在 DeepSeek Harness (DSH) 发布的第一时间进行接入支持！虽然没有什么⭐和fork但是这是我跟ds一起的产出。希望能有机会参与内测！"
+    },
+    {
+      "author": "xiaomabosn",
+      "text": "@tianyi 项目repo: https://github.com/mem9-ai/mem9/\nID: bosn"
+    },
+    {
+      "author": "zhngyng29072186",
+      "text": "@tianyi GitHub ID：@longyijdos\n项目：https://github.com/longyijdos/kana⁠\nKana 是一个本地优先的终端 Agent Harness，自研 Agent loop、工具调度、Skills、MCP/OAuth、TUI、会话与记忆及无头执行接口，目前已支持 DeepSeek API。希望参与 DSH 内测并第一时间完成接入适配与反馈。"
+    },
+    {
+      "author": "poolmoon6",
+      "text": "GitHub id: xiaozhenliu，开源项目 canary-alpha-mcp：https://github.com/xiaozhenliu/canary-alpha\n\ncanary-alpha-mcp 是一个本地优先的 AI Agent 记忆 MCP Server：它将 Screenpipe 捕获的工作活动转化为可检索的本地记忆，通过标准 MCP 协议提供工作上下文检索、会话回忆、长期记忆、文件分析、隐私控制与定时 Routines 等能力；支持 Streamable HTTP 和 stdio 接入，数据与服务均保留在用户本机。\n\n希望参与 DeepSeek Harness 内测，并在发布后第一时间完成接入与适配"
+    },
+    {
+      "author": "tmr11235",
+      "text": "@tianyi ttttmr https://github.com/ttttmr/pi-context\n为pi开发的上下文管理插件，agent主动标记和编排管理当前上下文，实现压缩效果"
+    },
+    {
+      "author": "chaosdonkey7",
+      "text": "gh i’d: duh17\n\nOppi：原生 iOS/iPadOS 客户端 + TypeScript 自托管 server，是 Pi coding agent 的完整移动端。支持 SDK session 和终端 session 实时镜像，可在手机上 steer Agent、响应 Pi extension UI，并内置文件浏览、代码与 diff 阅读、图片/音视频播放、custom theme、Agents 和定时任务。\nhttps://github.com/duh17/oppi\n\nYuwp：Swift 原生的 macOS 本地语音工具。Qwen3 ASR/TTS 的 swift native MLX 推理引擎，支持实时流式识别、动态修正、VAD、流式语音合成，以及 CLI 和 HTTP Server。\nhttps://github.com/duh17/yuwp\n\n有兴趣参加 DSH 内测和首发接入，邮箱已私信，谢谢！"
+    },
+    {
+      "author": "firstintentdev",
+      "text": "@tianyi 项目：ccteam\n描述：跨厂商多harness 会话编排 + 远程控制，轻松编排50+ agent执行长程任务，使用已有的AI 订阅账户。\n\nhttps://github.com/firstintent/ccteam"
+    },
+    {
+      "author": "Alex_GOODDIY",
+      "text": "@tianyi 我是一个非程序员用户 但是我使用过很多agent，codex、claude、reasonix、deepseek GUI等进行网站前段后端制作与维护，我是deepseek的忠实粉丝，我非常希望第一时间感受deepseek官方agent的能力，我可以提供普通用户对于agent的使用感受，不赠送我api额度也是可以的，请务必让我尝试下agent 🙏🏻🙏🏻🙏🏻"
+    },
+    {
+      "author": "lilililiMozi",
+      "text": "@tianyi 我的 hanaAgent 应该是目前美术风格独一份的 Harness，基于 PISDK，对 DS 的各方面特性支持最好。\n支持 2000 个 Agent 运行的 Agent workflow，提示此工程非常干练，跟 Flash 配合完美。\n后续如果 DeepSeek Harness 开源的话也能很轻松作为 UI 移植。\n\nhttps://github.com/liliMozi/openhanako"
+    },
+    {
+      "author": "silicoville",
+      "text": "@tianyi 项目： https://github.com/exoharness/exo\nGitHub id:  Alexsun1one"
+    },
+    {
+      "author": "david0520782123",
+      "text": "GitHub ID：https://github.com/IndenScale\n开源项目：https://github.com/AtomicsLaboratory/atomstudio\nAtomStudio 是一个本地优先的文档工程开发环境，目前包含 Agent Panel、ACP v1 Client、Agent Provider 配置及会话管理能力，可通过 stdio 接入外部 Agent Harness。非常希望参与 DeepSeek Harness 内测。待 DSH 提供接口、CLI 或协议文档后，我们计划第一时间完成 Provider Adapter 接入，并适配会话生命周期、流式事件、权限确认、模式及模型配置等能力。"
+    },
+    {
+      "author": "Learnmore_smart",
+      "text": "您好，我希望参与 DeepSeek Harness 的内测和首批适配。\n\nGitHub ID：Learnmore-smart\n\n相关开源项目：\n\nFile Guardian Skill\nhttps://github.com/Learnmore-smart/file-guardian-skill\n这是一个面向 Coding Agent 的 Skill，通过文件级 .ai/ 文档镜像，为 Agent 提供持续约束、跨会话记忆、未完成任务恢复和代码修改前的检查机制。我计划在 DSH 发布后，第一时间适配其 Skill/Plugin 规范，并测试与 DSH Harness 的集成。"
+    },
+    {
+      "author": "Vinen77",
+      "text": "@tianyi Github id: zwrong\n\nhttps://github.com/zwrong/pi-discuss-mode\n\n想要探索Harness权限的设置，思考除了ask mode，auto mode，bypass，plan mode还可以有哪些mode可以帮助用户更好的使用coding agent"
+    },
+    {
+      "author": "white233333",
+      "text": "Github id:whiteguo233\n\n申请deepseek harness内测，下面是我最近在做的项目\n\n自进化的跨平台内容发现 harness Agent。\nOpenBiliClaw 从跨平台使用、项目内反馈与对话中持续深化心理画像，让 Agent 带着越来越准确的用户理解，主动去 B 站、小红书、抖音、知乎、YouTube、Bangumi 等来源寻找你会喜欢的内容。\n\n项目地址: https://github.com/whiteguo233/OpenBiliClaw\n\n项目首页: https://whiteguo233.github.io/OpenBiliClaw/"
+    },
+    {
+      "author": "newfish",
+      "text": "@tianyi GitHub id: newfish\nopen-agent-connect: https://github.com/openagentinternet/open-agent-connect\n一个让 各个 Coding Agent 以去中心化方式进行连接、沟通、协作的组件（CLI+Skills）。希望能第一时间支持上DeepSeek Harness"
+    },
+    {
+      "author": "ninja1339498168",
+      "text": "@tianyi 大佬，考虑下reasonix ? 不是我做的，但真的很好用！~"
+    },
+    {
+      "author": "runxny2",
+      "text": "@tianyi Github ID：xin-yi33\n开源代表作：RxyCode\nrepo：https://github.com/xin-yi33/RxyCode\n\nRxyCode：LangGraph 规划—执行—校验流水线 + OpenTUI 终端原生交互，内置真实 Agent 评测 harness（基线对比/工具断言），双层缓存与安全门控一体。"
+    },
+    {
+      "author": "khlwbk11",
+      "text": "@tianyi https://github.com/PharMolix/OpenBioMed  我们是做AIDD的团队，水木分子，清华AIR团队。非常期待能够提前使用DeepSeek Harness !!!"
+    },
+    {
+      "author": "puterjam",
+      "text": "@tianyi 虽然不是 开源的 Agent Harness，但是也算是个开放的 Agent，开放插件，mcp，不支持有没有机会参与🤓\nAgent：https://finchwork.app/zh\n社区：https://github.com/finchtoys/"
+    },
+    {
+      "author": "huan_li0311",
+      "text": "@tianyi 您好 我的github ID是 huanli 这是我方向比较契合的一个开源项目 将agent搭建与基模训练的全过程收敛为可运行的最简框架 用每文件不超过100行的代码量梳理清晰全过程的数据流/函数/类定义 希望可以有一次内测的机会 我也在积极寻找后训练/多模态方向的实习机会 感谢您~ https://x.com/huan_li0311/status/2084702008976736343"
+    },
+    {
+      "author": "loopPoly",
+      "text": "@tianyi n-WN https://github.com/n-WN/SubgroupX\n体验: https://oiia.cauchy.top/\n\n&gt; 暂时提供免费的 GPT 5.6 Sol / luna 访问, 支持 BYOK &amp; BYOA &amp; BYOM\n介绍 oiia — 托管代理会话，在您指向的任何地方执行：云沙盒、SSH主机或没有公共IP的机器。可作为PWA安装。由 SubgroupX 构建。"
+    },
+    {
+      "author": "Yes_its_Clare",
+      "text": "@tianyi 好古朴但真诚的方法hhh"
+    },
+    {
+      "author": "xiaoming470595",
+      "text": "@tianyi Github id：Xnmk029\n项目：1、ETharness 特化微调型记忆模块，依赖了Ds模型的长效kv，目前作为pi组件，后续独立并图形化：https://github.com/Xnmk029/ETharness\n2、测试用例库，当前Sota模型作为基准，能有效的测试harness能力边界：https://github.com/Xnmk029/Xnmk_Prompt_Library_1.0"
+    },
+    {
+      "author": "s1dashu",
+      "text": "@tianyi Ousia，目前是 Pi Agent 客户端，希望可以接入 Deepseek Harness，极简设计风格。\nhttps://github.com/s1dashu/ousia https://x.com/s1dashu/status/2084703491034099902"
+    },
+    {
+      "author": "Pinkuo_",
+      "text": "@tianyi GitHub ID：Blushyes\nGitHub 仓库地址：https://github.com/Blushyes/reef\nAI 时代下，将 vscode 剩下的能用到的功能剥离出来，放到 TUI。"
+    },
+    {
+      "author": "alading22",
+      "text": "@tianyi github: https://github.com/JunJD/Jingle\n项目简介：\nJingle 是一个桌面命令中心，用来启动工作流、连接扩展，并把必要上下文交给 Agent，接管你的工作空间\n\n它是开源版本的raycast，拥有增强版Agent。 harness部分目前是自研，测试用的模型是国内deepseek。希望切换成deepseek 官方harness ，持续迭代。"
+    },
+    {
+      "author": "FradSer",
+      "text": "@tianyi 项目：https://codeterrier.com/\n\nCode Terrier 是一个使用多个模型、多个 agent 并行去 review 代码的项目。"
+    },
+    {
+      "author": "tarkchef",
+      "text": "@tianyi GitHub id:taekchef \n我的nocturne能让coding agent状态发生变化的时候,MacBook键盘背光跟着变化,对我这样容易走神的人十分有帮助;很简单的东西但是非常实用就对了,希望能第一时间适配DSH,现已支持cc\\codex\\pi:https://github.com/taekchef/agent-nocturne"
+    },
+    {
+      "author": "hooxingzhao",
+      "text": "@tianyi https://x.com/hooxingzhao/status/2083790998233387411?s=46"
+    },
+    {
+      "author": "IanWangFrog",
+      "text": "@tianyi IanFrog\n\n多LLM Agents辩论议会制量化交易系统：https://github.com/IanFrog/Senate-Investment"
+    },
+    {
+      "author": "Wilf_Lin",
+      "text": "https://github.com/gfhdhytghd/Hypr-Agent-Protal\n这是应用于Linux hyprland桌面环境的computer use MCP，虽然几乎没什么人用，但它绝对是这个桌面环境下甚至整个Linux下最好用的，它可以让agent与人并行操作，允许agent在后台操作，也允许Agent操控另一个工作区的窗口，同时支持了基于无障碍的UI操作，尽可能还原了codex在macos上的使用体验。"
+    },
+    {
+      "author": "DexterDr1999",
+      "text": "@tianyi Github id: DrDexter6000\nhttps://github.com/DrDexter6000/windows-agent-orchestrator\n\n一个跨agent runtime的orchestrator，一个lead+多workers"
+    },
+    {
+      "author": "xiao69928598602",
+      "text": "@tianyi 介不介意一个非程序员的普通用户来给你提点普通的建议"
+    },
+    {
+      "author": "Yiheng_8023",
+      "text": "@tianyi github id:yiheng8023\nhttps://github.com/yiheng8023/agent-autonomy-harness"
+    },
+    {
+      "author": "fanfan45136808",
+      "text": "@tianyi GitHub ID：fanfan-de\n项目：https://github.com/fanfan-de/anybox\n\nAnybox 是开源 AI Agent 桌面工作空间，包含 Agent runtime、MCP / Skill / CLI 插件体系、多 Agent 工作流、工具调用追踪，以及 Windows / macOS / Linux 桌面 UI。希望第一时间接入 DeepSeek Harness，也愿意参与 DSH 内测并配合适配验证。"
+    },
+    {
+      "author": "nourelislem83",
+      "text": "@tianyi I'd love to participate in the DeepSeek Harness beta.  GitHub ID: Nour833 \nProject: StegoForge (https://github.com/Nour833/StegoForge) — 573 ⭐ / 80🍴\nExcited to test out the agent execution and tool-calling capabilities on complex multistep digital forensics &amp; security workflows!"
+    },
+    {
+      "author": "yanyanwen541",
+      "text": "@tianyi ID: GitHubxsy\nReusable skills for AI coding agents and human reviewers\nhttps://github.com/GitHubxsy/agent-skills"
+    },
+    {
+      "author": "yongluo54738",
+      "text": "@tianyi GitHub ID:robin111828\nhttps://github.com/robin111828/openclaw-control-center\nA cross-device control hub for OpenClaw with guided setup, connector onboarding, mobile pairing, and visible diagnostics."
+    },
+    {
+      "author": "zhangjr1970",
+      "text": "@tianyi 这是为提升企业Vibe Coding效率的Harness控制框架。 https://github.com/llm-insights-share/hx-lite"
+    },
+    {
+      "author": "xytom_",
+      "text": "@tianyi Github id: xytom\nGitHub Repo: https://github.com/xyTom/coding-tools-mcp"
+    },
+    {
+      "author": "xishu_ai",
+      "text": "@tianyi GitHub ID：wsdo\n项目地址：https://github.com/zgiai/zgi\nZGI 是一个可自托管的 Agent Runtime，涵盖 Agent 应用、可视化工作流编排、Skills、知识与记忆、模型路由及沙箱工具执行。\n\n希望第一时间接入 DeepSeek Harness，也非常愿意参与 DSH 内测和兼容性验证。邮箱已私信，感谢！"
+    },
+    {
+      "author": "traxern2",
+      "text": "@tianyi gh ID:LagrangeNSS\n\n使用Rust+Tauri开发的多agent架构Harness，可以独立选择编排模型以及多种不同类型的worker模型。具备 Rust 原生执行核心、持久化对话、有界工具、多提供商路由、隔离式多 Agent、真实浏览器验收、动态 Skills、MCP 与 UltraNote 学习工作流。https://github.com/LagrangeNSS/LunaScope"
+    },
+    {
+      "author": "JimmyPage6656",
+      "text": "@tianyi Github ID: zhangweijp\n开源 Repo: https://github.com/zhangweijp/AgentOrientedTUI"
+    },
+    {
+      "author": "colorn0te",
+      "text": "@tianyi colornote\n\nhttps://github.com/colornote/pigo\n\nA minimal, self-evolving coding agent for the terminal — written in Go, tailored for DeepSeek, built for old machines.\nPiGo is a single-binary reimplementation of pi — the minimal terminal coding harness — in pure Go. It keeps pi's philosophy"
+    },
+    {
+      "author": "raybytez",
+      "text": "@tianyi Github ID: https://github.com/RayBytes\nGithub Project: https://github.com/RayBytes/ChatMock"
+    },
+    {
+      "author": "B14ckc4t1337",
+      "text": "@tianyi github id:B143KC47 \nGithub 项目地址: https://github.com/B143KC47/deep-research-skill"
+    },
+    {
+      "author": "kartboop",
+      "text": "@tianyi github id:  kartboop\n\nagent 框架： https://github.com/hanyo-ai/taus\nagent可观测： https://github.com/hanyo-ai/pulse"
+    },
+    {
+      "author": "Novaisi99587",
+      "text": "@tianyi Github：hlxkurapika\nhttps://github.com/hlxkurapika/qa-sys\nplease😭"
+    },
+    {
+      "author": "lv_chen2006",
+      "text": "@tianyi ID:2921323707\nProject: https://github.com/2921323707/CPA_Orbit"
+    },
+    {
+      "author": "ilihziac",
+      "text": "@tianyi github id: pzyyll\ngithub 项目:\nhttps://github.com/balaenis/pi-toolset\nhttps://github.com/balaenis/pi-x-ide"
+    },
+    {
+      "author": "dlzhou2",
+      "text": "@tianyi ID: zhoudongliang-lit\n\nhttps://github.com/zhoudongliang-lut/agent-runtime"
+    },
+    {
+      "author": "yosn883271",
+      "text": "@tianyi https://github.com/zhuzhaoyun/Molio"
+    },
+    {
+      "author": "Fei2411",
+      "text": "我的id：FeiZhuLuLu\n项目地址：https://github.com/FeiZhuLulu/webFA\n这是一个原生为Agent设计的“浏览器”，完全脱离于传统人类浏览器的ui界面，通过将网页信息暴露成json等Agent易读易理解的格式，让Agent能更轻松、高效地进行互联网操作，而不是通过传统浏览器+浏览器自动化工具的方式。\n\nwebFA的初衷是给Agent提供一个互联网的入口，让Agent能够像真人用户一样上网。\n非常希望能参加DeepSeek Harness 的测试，我本人非常喜欢DeepSeek相关产品，也希望webFA能第一时间支持DeepSeekHarness。谢谢！"
+    },
+    {
+      "author": "zenisless",
+      "text": "@tianyi agents-memory-sidecar \nMulti-agents memory management.\nhttps://github.com/zenbordercom/agents-memory-sidecar"
+    },
+    {
+      "author": "morluto",
+      "text": "@tianyi Github ID: morluto \nGithub: https://github.com/repoprompt/repoprompt-ce在帮忙贡献repoprompt, 一个context IDE for agents\n\ncc @fermatcha"
+    },
+    {
+      "author": "zhangsan1974614",
+      "text": "@tianyi 还在内测吗，这周能发布吗"
+    },
+    {
+      "author": "baokaixing233",
+      "text": "@tianyi 支持支持，祝一切顺利"
+    },
+    {
+      "author": "TonyWong2021",
+      "text": "YuuMira 是一款免费的桌面 Agent Harness，集成了知识库、任务看板、四象限管理、自动化工作流、跨会话记忆、权限控制与 Token 追踪等能力，让 Agent 能够持续、透明地完成复杂任务。\n\n目前 YuuMira 已接入 DeepSeek API，希望第一时间接入 DSH，完善 DeepSeek 模型的 Agent 执行、工具调用与长任务协作体验。\n\nhttps://agents.yuuone.app/"
+    },
+    {
+      "author": "tongducthanhnam",
+      "text": "@tianyi Github Id: TongDucThanhNam\nhttps://github.com/TongDucThanhNam/eragear-code-copilot"
+    },
+    {
+      "author": "tetr5354",
+      "text": "@tianyi ID：\nCJackHwang\n\nAgent Harness：\nhttps://github.com/CJackHwang/SunamAI\n\n技术栈：TypeScript"
+    },
+    {
+      "author": "chasey_myagi",
+      "text": "GitHub id: chasey-myagi\n\n· harness-pi https://github.com/chasey-myagi/harness-pi — hook-first 的服务端 agent harness（自研 agent loop + 22 plugin + 内置 tools，npm 已发）\n· skills https://github.com/chasey-myagi/skills — Claude Code skills（review-gate / tdd / repro / 跨 CLI workflow runner）\n\n想在 DSH 发布第一时间做接入，邮箱已私信。"
+    },
+    {
+      "author": "AtmaBlabber",
+      "text": "@tianyi @CommandCodeAI @opencode \nGuys hope u both inetgrate DSH at launch"
+    },
+    {
+      "author": "BoAIPlayHeads",
+      "text": "@tianyi github id: hrhrng\ngithub repo:\nhttps://github.com/openma-ai/open-managed-agents\nhttps://github.com/openma-ai/backchat"
+    },
+    {
+      "author": "_zzir",
+      "text": "@tianyi GitHub id: zzir\n\nhttps://github.com/zzir/agents-go"
+    },
+    {
+      "author": "Vally1785625",
+      "text": "@tianyi DSH会有桌面端吗"
+    },
+    {
+      "author": "teknopawn",
+      "text": "@tianyi will the harness be open source ?"
+    },
+    {
+      "author": "EricSanchez7777",
+      "text": "@tianyi Github Id:EricSanchezok\nRepo:https://github.com/SII-Holos/synergy"
+    },
+    {
+      "author": "vinhnx",
+      "text": "@tianyi GitHub ID https://github.com/vinhnx \n\nProject: https://github.com/vinhnx/VTCode\n\nVT Code is a Rust coding agent with LLM-native code understanding, OS-native sandboxing, and multi-provider support.\n\nThank you!"
+    },
+    {
+      "author": "haipingfu",
+      "text": "GitHub Id: forhappy\n\nGitHub link: https://github.com/crabbuild/compass Compass turns source code and project artifacts into a graph you can search, query, visualize, compare across Git history, and share with development tools. 我目前正在优化compass的性能和它生成的 code graph 的质量，希望接入 Deepseek Harness。"
+    },
+    {
+      "author": "yongluo54738",
+      "text": "@tianyi albbly@sina.com"
+    },
+    {
+      "author": "baboonAI4S",
+      "text": "@tianyi 留个马扎围观一下"
+    },
+    {
+      "author": "baboonAI4S",
+      "text": "@tianyi 如果这哥们说的是真的话，那现在做本地通用领域agent harness的同志们也要好好思考一下策略了。deepseek的harness也要赶紧出啊，鬼子那边换思路了，这个帖子惊吓度比较高！💯💯💯 https://x.com/baboonAI4S/status/2084703524672377020"
+    },
+    {
+      "author": "trydotworks",
+      "text": "@tianyi role-model model router: https://github.com/try-works/role-model"
+    },
+    {
+      "author": "ilexax",
+      "text": "@tianyi 支持下，虽然没有开源项目"
+    },
+    {
+      "author": "k34tyt",
+      "text": "@tianyi 一个开放的线束代理（插件/技能/管弦乐队）。 我准备参加DSH的内部测试，并在发布当天对项目进行调整。"
+    },
+    {
+      "author": "fn27199756224",
+      "text": "@tianyi 美国的各大AI的黑白界面的TUI工具已经可以用一句提示词解决所有问题了 已经完全不需要agent和harness了\n但是国内好像没有厂商做TUI或者CLI命令行工具"
+    },
+    {
+      "author": "timhnln",
+      "text": "@tianyi https://github.com/timhanlon/arcwork"
+    },
+    {
+      "author": "stevencheng",
+      "text": "@tianyi 为了内测名额，我的 GitHub ID 是：Ctrl+C。项目地址在剪贴板里，请自行粘贴。"
+    },
+    {
+      "author": "mrealityAazmine",
+      "text": "@tianyi When will release it? 🥹"
+    },
+    {
+      "author": "arvin17x",
+      "text": "@tianyi GitHub Project: https://github.com/lobehub/lobehub/\n\nLobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team."
+    },
+    {
+      "author": "stevencheng",
+      "text": "@tianyi 刚把 MCP 协议跑通，正愁没地方试水，这机会来得太巧了。"
+    },
+    {
+      "author": "kenryu42",
+      "text": "@tianyi gh id: kenryu42\n\nhttps://github.com/kenryu42/cc-safety-net"
+    },
+    {
+      "author": "subhrajitdotme",
+      "text": "@tianyi @iotcoi Worked on some plugins of the open-source Pi harness Rust version. \n\nhttps://github.com/Avyukth"
+    },
+    {
+      "author": "PQTonX",
+      "text": "@tianyi GitHub id: yourname Agent 플러그인 개발 중, 이메일 보냄"
+    },
+    {
+      "author": "dee_hw",
+      "text": "@tianyi Tianyi, would love to integrate DSH with our Harness device.\n\nDM you now.\n\nhttps://www.autonomous.ai/harness"
+    },
+    {
+      "author": "mkurman88",
+      "text": "@tianyi pick me, pick me :D"
+    },
+    {
+      "author": "LinXule",
+      "text": "@tianyi GitHub: linxule\nGitHub (mcp): https://github.com/linxule/lotus-wisdom-mcp"
+    },
+    {
+      "author": "onevcat",
+      "text": "@tianyi onevcat https://github.com/onevcat/Prowl"
+    },
+    {
+      "author": "emememerica",
+      "text": "@tianyi aresbit https://github.com/aresbit/MateBot"
+    },
+    {
+      "author": "hackdeacon",
+      "text": "@tianyi https://github.com/hackdeacon"
+    },
+    {
+      "author": "humantonylee",
+      "text": "@tianyi GITHUB https://github.com/bytonylee\nPROJECT https://github.com/bytonylee/solar-code\n\nThank you!"
+    },
+    {
+      "author": "fatwang2ai",
+      "text": "@tianyi MCP for search：https://github.com/superagents-lab/search1api-mcp"
+    },
+    {
+      "author": "0xz80",
+      "text": "@tianyi me please\n\nhttps://github.com/z80dev/lemon"
+    },
+    {
+      "author": "LynnChristeecp",
+      "text": "@tianyi b"
     }
   ]
 }

@@ -8,6 +8,7 @@
 
 ## 功能
 
+- **内置完整会话快照**:服务器上的 twscrape `tweet_thread` 抓取整个 conversation thread,当前内置 145 条回复 / 142 位作者 / 127 个唯一 GitHub 项目;149 个 t.co 短链全部展开
 - **翻页抓取全部回复**:X 游客 API(guest token + conversation timeline)沿 cursor 逐页抓取直到翻完,多代理轮换、token 失效自动重试、跨页去重;失败时降级 r.jina.ai 渲染 → 手动粘贴
 - **抓取完整度**:进度条实时显示「已抓 N / 帖子显示 M 条」,判断是否漏数据
 - **正则解析**:GitHub 直链(https/www/git@ssh 形式、剥除 `#fragment`、`?query`、`/tree/` 子路径)、`GitHub id:` / `gh:` / `github 用户名:` 等标识、`@提及`

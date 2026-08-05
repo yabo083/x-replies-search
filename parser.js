@@ -10,7 +10,7 @@
   const MENTION_RE = /(?:^|[^\w@#])@([A-Za-z0-9_]{1,15})/g;
 
   const GH_ID_PREFIX =
-    "(?:github\\s*(?:id|name|用户名|账号)|(?<![\\w])gh\\s*(?:id|name)|(?<![\\w])gh(?=[\\s:：])|(?<![\\w])github(?=[\\s:：]))";
+    "(?:github\\s*(?:id|name|用户名|账号)|(?<![\\w])gh\\s*(?:id|name)|(?<![\\w])gh(?=[\\s:：])|(?<![\\w])github(?=[\\s:：])|(?<![\\w])id(?=[\\s:：]))";
   const GH_ID_RE = new RegExp(
     GH_ID_PREFIX + "\\s*[:：]?\\s*@?(" + GH_USER + ")",
     "gi"
@@ -60,6 +60,16 @@
     GH_ID_RE.lastIndex = 0;
     let m;
     while ((m = GH_ID_RE.exec(text)) !== null) {
+      const id = m[1];
+      if (seen.has(id.toLowerCase())) continue;
+      seen.add(id.toLowerCase());
+      out.push(id);
+    }
+    const profileRe = new RegExp(
+      "(?:https?:\\/\\/)?(?:www\\.)?github\\.com/(" + GH_USER + ")(?=[/?#\\s,，。；;]|$)",
+      "gi"
+    );
+    while ((m = profileRe.exec(text)) !== null) {
       const id = m[1];
       if (seen.has(id.toLowerCase())) continue;
       seen.add(id.toLowerCase());
