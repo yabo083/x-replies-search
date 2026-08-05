@@ -3,7 +3,11 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const baseUrl = (process.env.LLM_BASE_URL || "https://moyuu.cc/v1").replace(/\/$/, "");
 const apiKey = process.env.LLM_API_KEY;
-const model = process.env.LLM_MODEL || "gpt-5.6-luna";
+const models = (process.env.LLM_MODELS || process.env.LLM_MODEL || "gpt-5.6-luna,gpt-5.6-sol")
+  .split(",")
+  .map((value) => value.trim())
+  .filter(Boolean);
+let activeModel = models[0];
 const cachePath = "data/summaries.json";
 const projectsPath = "data/projects.json";
 
@@ -50,7 +54,7 @@ function parseContent(content) {
   return JSON.parse(text.slice(start, end + 1));
 }
 
-async function summarize(batch) {
+async function summarizeWithModel(batch, selectedModel) {
   const system = [
     "你是一个克制、准确的开源项目目录编辑。",
     "请根据报名用户、实际 GitHub 仓库资料与报名回复，为每个项目写一句中文摘要。",
@@ -60,7 +64,7 @@ async function summarize(batch) {
     "只返回 JSON 对象，键必须与输入 key 完全一致，值为摘要字符串。",
   ].join("\n");
   const body = {
-    model,
+    model: selectedModel,
     messages: [
       { role: "system", content: system },
       { role: "user", content: JSON.stringify(promptProjects(batch)) },
@@ -79,12 +83,36 @@ async function summarize(batch) {
         },
         body: JSON.stringify(body),
       });
-      if (!response.ok) throw new Error(`LLM HTTP ${response.status}: ${(await response.text()).slice(0, 240)}`);
+      if (!response.ok) {
+        const detail = (await response.text()).slice(0, 240);
+        const error = new Error(`LLM HTTP ${response.status}: ${detail}`);
+        error.channelUnavailable = detail.includes("get_channel_failed") || detail.includes("可用渠道不存在");
+        throw error;
+      }
       const payload = await response.json();
       return parseContent(payload.choices?.[0]?.message?.content);
     } catch (error) {
       lastError = error;
+      if (error.channelUnavailable) break;
       if (attempt < 3) await new Promise((resolve) => setTimeout(resolve, 1000 * 2 ** (attempt - 1)));
+    }
+  }
+  throw lastError;
+}
+
+async function summarize(batch) {
+  const candidates = [activeModel, ...models.filter((model) => model !== activeModel)];
+  let lastError;
+  for (const candidate of candidates) {
+    try {
+      const result = await summarizeWithModel(batch, candidate);
+      if (candidate !== activeModel) console.log(`Switched summary model to ${candidate}`);
+      activeModel = candidate;
+      return result;
+    } catch (error) {
+      lastError = error;
+      if (!error.channelUnavailable) throw error;
+      console.warn(`Summary model unavailable: ${candidate}`);
     }
   }
   throw lastError;
@@ -92,7 +120,7 @@ async function summarize(batch) {
 
 const catalog = await readJson(projectsPath, null);
 if (!catalog?.projects) throw new Error("data/projects.json is missing or invalid");
-const cache = await readJson(cachePath, { model, updatedAt: null, items: {} });
+const cache = await readJson(cachePath, { model: activeModel, updatedAt: null, items: {} });
 cache.items ||= {};
 
 const pending = catalog.projects.filter((project) => {
@@ -123,15 +151,16 @@ for (let offset = 0; offset < pending.length; offset += 10) {
 
 const activeKeys = new Set(catalog.projects.map((project) => project.key));
 cache.items = Object.fromEntries(Object.entries(cache.items).filter(([key]) => activeKeys.has(key)));
-cache.model = model;
+cache.model = activeModel;
 cache.updatedAt = new Date().toISOString();
 
 for (const project of catalog.projects) {
   project.aiSummary = cache.items[project.key]?.summary || null;
 }
-catalog.summaryModel = model;
+catalog.summaryModel = activeModel;
 catalog.summaryGeneratedAt = cache.updatedAt;
 
 await writeFile(cachePath, JSON.stringify(cache, null, 2) + "\n", "utf8");
 await writeFile(projectsPath, JSON.stringify(catalog, null, 2) + "\n", "utf8");
 console.log(`Generated ${generated}; reused ${catalog.projects.length - pending.length}; available ${catalog.projects.filter((project) => project.aiSummary).length}`);
+if (pending.length > 0 && generated === 0) throw new Error("No pending project summaries were generated");

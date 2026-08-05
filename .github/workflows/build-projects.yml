@@ -39,7 +39,7 @@ jobs:
         env:
           LLM_BASE_URL: https://moyuu.cc/v1
           LLM_API_KEY: ${{ secrets.MOYUU_API_KEY }}
-          LLM_MODEL: gpt-5.6-luna
+          LLM_MODELS: gpt-5.6-luna,gpt-5.6-sol
         run: node scripts/summarize-projects.mjs
 
       - name: Commit catalog
