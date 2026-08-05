@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T12:08:21.857622+00:00",
+  "fetchedAt": "2026-08-05T13:07:20.636151+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 483,
-      "capturedReplyCount": 388,
-      "lastCheckedAt": "2026-08-05T12:08:15.055915+00:00"
+      "sourceReplyCount": 495,
+      "capturedReplyCount": 393,
+      "lastCheckedAt": "2026-08-05T13:07:16.185765+00:00"
     }
   ],
   "summary": {
-    "tweets": 769,
-    "authors": 683,
-    "sourceCount": 1630,
-    "added": 11,
+    "tweets": 774,
+    "authors": 687,
+    "sourceCount": 1642,
+    "added": 5,
     "mode": "incremental"
   },
   "replies": [
@@ -6185,6 +6185,46 @@
       "sourceTweetId": "2084693319188439211",
       "author": "zhngzhmng28226",
       "text": "https://github.com/firewolf189/GetClowhub\n基于openclaw开发的一个agent，主要进行了渲染优化，agent执行工具追踪可视化(thinking里面的内容)，整个的UI设计，原本的太丑了\nhttps://github.com/zephyrwing-ai/GetClowHubSkills，这是上面软件的skill仓库\nhttps://github.com/zephyrwing-ai/GetClawHubPlugins\n这是上面软件的插件仓库\nhttps://github.com/zephyrwing-ai/tax-exemption-ai-review\n这是嵌入到具体业务中的免税证审核技能，帮助外贸电商客服团队更快审核对方公司的免税证有没有效果，稳定运行在前面开发的软件中",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084979441621742081",
+      "sourceTweetId": "2084693319188439211",
+      "author": "HuaiXu63291",
+      "text": "@tianyi 项目：Scholar Assistant\nhttps://github.com/zuowen7/scholar-assistant-agent⁠\n面向学术写作与投稿的开源桌面 Agent 工作站，定位“Claude Code for Papers”。已实现 Agent Runtime、工具调用、Skills、Hooks、Plugin、Sub-agent 委派、权限审批、RAG 与双语 UI，并支持 DeepSeek。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084982671252619735",
+      "sourceTweetId": "2084693319188439211",
+      "author": "movezone",
+      "text": "@tianyi Tianyi，你好 \nGitHub ID：JiayuanUXD \n项目地址：https://github.com/JiayuanUXD/ddmcwebdesignsystem\n该项目是一套面向即时电商管理后台的 Web UI 设计系统的 Skill，提供组件与页面模板，可用于 Agent 相关产品界面搭建。希望能够拿到内测权限，期待 DeepSeek Harness能够给项目带来惊喜",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084983487652921384",
+      "sourceTweetId": "2084693319188439211",
+      "author": "kurzgesagtcraft",
+      "text": "@tianyi githubId：kurzcraft \n项目地址：https://github.com/kurzcraft/DeepTask\n特色功能： \n1.可控数量的集成终端，长时服务器命令管理管理友好 \n2.内置Agent模式、提供商模型自动切换工具且解耦 \n3.工作进度文件化，EXTRA目录统一存档跨对话任务进度md(task)，执行的命令(bash)与输出日志(output)",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084983880910774766",
+      "sourceTweetId": "2084693319188439211",
+      "author": "hFeZ5uhIY7Rmnar",
+      "text": "@tianyi GitHub id: WY-74\n项目地址: https://github.com/WY-74/Walnut",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084984741598822529",
+      "sourceTweetId": "2084693319188439211",
+      "author": "dirtydorfy39465",
+      "text": "@tianyi Github id:fancydirty\nGitHub: @fancydirty https://github.com/fancydirty/mediary-scout\n\nMediary Scout —— agent 驱动的自托管媒体库。\nagent 工作流引擎 79 个模块 / 245 个测试，跑的是有真实副作用的长任务（搜资源 → LLM 决策 → 转存到网盘 → 验证落地 → 追踪缺集）",
       "createdAt": null,
       "likes": 0
     }
