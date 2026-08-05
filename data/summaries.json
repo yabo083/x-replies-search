@@ -1,6 +1,6 @@
 {
   "model": "gpt-5.6-luna",
-  "updatedAt": "2026-08-05T17:08:44.892Z",
+  "updatedAt": "2026-08-05T18:08:31.598Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -48,9 +48,9 @@
       "generatedAt": "2026-08-05T01:14:00.909Z"
     },
     "whiteguo233/openbiliclaw": {
-      "signature": "4a8faa0784aaf9f93ce5bef89fb04389994bb81a7abd45b02bc4b0ae707dd2a2",
-      "summary": "white233333 报名的 whiteguo233/OpenBiliClaw 是本地优先的跨平台 AI 内容发现 Agent，可从多个平台寻找用户感兴趣的内容。",
-      "generatedAt": "2026-08-05T05:09:40.741Z"
+      "signature": "d6a191c0ca3c39d028f1baf9a7076b3f22c1e8d100455a1e4cdf56852db000cc",
+      "summary": "white233333 报名的 whiteguo233/OpenBiliClaw 是本地私有的跨平台内容发现 Agent，依据用户偏好主动寻找推荐内容。",
+      "generatedAt": "2026-08-05T18:08:31.595Z"
     },
     "raybytes/chatmock": {
       "signature": "61bced04174406e37365c674d0c34f4e24888c520be74a2f5ecb56f1609d72e3",
@@ -1713,9 +1713,9 @@
       "generatedAt": "2026-08-05T03:40:40.781Z"
     },
     "g023/g023code": {
-      "signature": "04a2110c24b07e48261b2c1ef1edc53d827f158c29e20404941e0a6a930de7e4",
-      "summary": "g023dev 报名用户的 g023/g023code 是一个纯 Python、终端原生的 AI 编程智能体，采用子智能体优先架构。",
-      "generatedAt": "2026-08-05T03:40:40.781Z"
+      "signature": "4df0d411d93ed828851208b39c7e4d154a3ea55fdf1bddc3344a9b7eb0e3fafb",
+      "summary": "g023dev 报名的 g023/g023code 是基于 DeepSeek V4 的纯 Python AI 编程 Agent，支持终端使用及连接 Ollama 模型。",
+      "generatedAt": "2026-08-05T18:08:31.595Z"
     },
     "green-dalii/pi-shift-router": {
       "signature": "74d1485d109fe9cd4f3ccfa05b5470b4b5c069166a81234cdd9ee964b356d3c5",
@@ -3331,6 +3331,16 @@
       "signature": "6ecf266aa1de717974e6e1202858971f0d81830469b6b4472709c248320028d0",
       "summary": "X报名用户 Tedli8 的 ge3m0r/langfuse-autocheck 是基于 Langfuse 的自动化巡检工具，目前处于基础阶段。",
       "generatedAt": "2026-08-05T17:08:44.888Z"
+    },
+    "kubernetes-sigs/agent-sandbox": {
+      "signature": "b0eafcf270e888370ef280548d3241f126202250823e3d569ee0ddfd6b3206ee",
+      "summary": "TinsleyShi 报名的 kubernetes-sigs/agent-sandbox 用于管理隔离、有状态且单例运行的工作负载，适合 AI Agent 运行时等场景。",
+      "generatedAt": "2026-08-05T18:08:31.595Z"
+    },
+    "agent-substrate/substrate": {
+      "signature": "fc2164c297009799f88512d7267148cb240654ba5a9456e4c6b7d5f15a35e176",
+      "summary": "TinsleyShi 报名的 agent-substrate/substrate 是 Agent Substrate 核心系统，用于构建和支撑 AI Agent 运行。",
+      "generatedAt": "2026-08-05T18:08:31.595Z"
     }
   }
 }
