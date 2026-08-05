@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T14:07:24.388356+00:00",
+  "fetchedAt": "2026-08-05T15:07:34.417172+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1147,
-      "capturedReplyCount": 381,
-      "lastCheckedAt": "2026-08-05T12:08:00.605145+00:00"
+      "sourceReplyCount": 1149,
+      "capturedReplyCount": 382,
+      "lastCheckedAt": "2026-08-05T15:07:17.730493+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 502,
-      "capturedReplyCount": 396,
-      "lastCheckedAt": "2026-08-05T14:07:19.084387+00:00"
+      "sourceReplyCount": 517,
+      "capturedReplyCount": 404,
+      "lastCheckedAt": "2026-08-05T15:07:26.937107+00:00"
     }
   ],
   "summary": {
-    "tweets": 777,
-    "authors": 689,
-    "sourceCount": 1649,
-    "added": 3,
+    "tweets": 786,
+    "authors": 697,
+    "sourceCount": 1666,
+    "added": 9,
     "mode": "incremental"
   },
   "replies": [
@@ -6205,6 +6205,14 @@
       "likes": 0
     },
     {
+      "id": "2084982030165807329",
+      "sourceTweetId": "2084693319188439211",
+      "author": "alger",
+      "text": "@tianyi D1Table\nLightweight data table manager on Cloudflare Workers + D1 — spreadsheet-like UI, REST API with OpenAPI docs, AI Agent ready.\nhttps://github.com/laomoai/D1Table",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2084982671252619735",
       "sourceTweetId": "2084693319188439211",
       "author": "movezone",
@@ -6251,6 +6259,70 @@
       "text": "@tianyi Github ID: libukai\nGithub Repo: https://github.com/libukai/awesome-agent-skills\n\n汇总 Skill 优质资源，并在打造适配自研 Harness 的 Skill Creator/Evaluator/Uploader 系列 Meta Skill",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2085008115054059651",
+      "sourceTweetId": "2084693319188439211",
+      "author": "bruc3van",
+      "text": "@tianyi GitHub ID：bruc3van\n项目地址：https://github.com/bruc3van/agent-skills-guard  \nAgent Skills Guard 是一个开源桌面端 Agent Skills 管理与安全工具，提供技能/插件的发现、安装、更新、安全扫描及跨 Agent 工具同步，支持 Claude Code、Codex、OpenCode 等。希望参与 DSH 内测，并在发布后第一时间提供适配支持，谢谢！",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085010055817200046",
+      "sourceTweetId": "2083519855203078320",
+      "author": "havingautism",
+      "text": "@tianyi Codemini 是一个面向企业级开发场景的 AI Coding Agent Harness，提供 CLI、TUI 和 WebUI，支持 DeepSeek 等模型，重点关注模型在真实代码仓库中的工程化执行能力。\n\ngithub id：havingautism\n\nhttps://github.com/havingautism/Codemini-CLI https://x.com/havingautism/status/2085010055817200046",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085010093905752491",
+      "sourceTweetId": "2084693319188439211",
+      "author": "gether_youyu",
+      "text": "@tianyi 你好，报名申请使用资格。\ngithub id:gether-youyu\n开源项目:\n1.traework上下文保存skill:https://github.com/Gether-youyu/trae-context-keeper\n2.飞书多维表格自动化操作工具:https://github.com/Gether-youyu/reviewflow",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085010622731927612",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Past_Passed",
+      "text": "@tianyi GitHub id：aero-memories\n项目：https://github.com/aero-memories/tau-rs\n简介：Rust 复刻的 tau 终端编码 Agent（MIT），含完整 agent harness、provider 适配层和 TUI，计划在 DSH 发布时接入 DeepSeek 适配器。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085013465346036161",
+      "sourceTweetId": "2084693319188439211",
+      "author": "FengLia30824456",
+      "text": "@tianyi 报名！\n\nGitHub ID: ifsheldon\nGitHub 项目: https://github.com/agentic-science/Agentics",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085014143514677314",
+      "sourceTweetId": "2084693319188439211",
+      "author": "bingordinary",
+      "text": "@tianyi Github ID: Bingordinary\n项目地址：https://github.com/Bingordinary/SpecFlow \nSpecFlow 是一个面向 AI Agent 的规格驱动开发框架，通过可验证规范约束 Agent 行为，让 AI 从“生成代码”走向“可靠构建软件”。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085014439267549611",
+      "sourceTweetId": "2084693319188439211",
+      "author": "yuhao2222",
+      "text": "@tianyi GitHub ID：ZHYfeng  项目地址：https://github.com/ZHYfeng/paihuo 个人自托管的 agent 调度平台：把各类任务派给你指定的 agent 角色（claude/codex/pi/opencode），看板实时跟踪进度，审批关卡、定时任务、技能模板。希望能够拿到内测权限，期待 DeepSeek Harness能够给项目带来惊喜",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085016771938144510",
+      "sourceTweetId": "2084693319188439211",
+      "author": "relakkesyang",
+      "text": "Github ID:  NanmiCoder\n项目地址：https://github.com/NanmiCoder/cc-haha \n\nClaude Code Haha 是一个桌面端 Claude Code Agent工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5 远程访问、IM 接入和定时任务，集中在一个 macOS / Windows / Linux APP 里。",
+      "createdAt": null,
+      "likes": 1
     }
   ]
 }
