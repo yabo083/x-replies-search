@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T18:07:21.657352+00:00",
+  "fetchedAt": "2026-08-05T19:07:19.687095+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 538,
-      "capturedReplyCount": 414,
-      "lastCheckedAt": "2026-08-05T18:07:18.323177+00:00"
+      "sourceReplyCount": 544,
+      "capturedReplyCount": 416,
+      "lastCheckedAt": "2026-08-05T19:07:15.784379+00:00"
     }
   ],
   "summary": {
-    "tweets": 797,
-    "authors": 703,
-    "sourceCount": 1688,
+    "tweets": 799,
+    "authors": 705,
+    "sourceCount": 1694,
     "added": 2,
     "mode": "incremental"
   },
@@ -6411,6 +6411,22 @@
       "text": "Github id:whiteguo233\n\n申请deepseek harness内测，下面是我最近在做的项目\n\n自进化的跨平台内容发现 harness Agent。\nOpenBiliClaw 从跨平台使用、项目内反馈与对话中持续深化心理画像，让 Agent 带着越来越准确的用户理解，主动去 B 站、小红书、抖音、知乎、YouTube、Bangumi 等来源寻找你会喜欢的内容。\n\n项目地址: https://github.com/whiteguo233/OpenBiliClaw\n\n项目首页: https://whiteguo233.github.io/OpenBiliClaw/",
       "createdAt": null,
       "likes": 1
+    },
+    {
+      "id": "2085069549997797446",
+      "sourceTweetId": "2084693319188439211",
+      "author": "X_SwarmMind",
+      "text": "@tianyi GitHub ID: KuaaMU\n项目: https://github.com/KuaaMU/mcp-vision-bridge\n给纯文本 coding agent 补\"感知层\"的 MCP+skill+auto-loop hook。\n把截图路由到任意多模态模型，图像不进 agent context。\n已跨 Claude Code/Codex 等agent验证，DSH 即插即用。\nDeepSeek writes the code; mcp-vision-bridge reads the screen.",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085075149863186624",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Ziyedkallel",
+      "text": "@tianyi Github id:zioder\nhttps://github.com/zioder/taskbarquota\nIt injects your limits/agent activity into the windows taskbar , would love to implement it early detection for DSH",
+      "createdAt": null,
+      "likes": 0
     }
   ]
 }
