@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T16:07:24.907598+00:00",
+  "fetchedAt": "2026-08-05T17:07:34.873113+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1149,
-      "capturedReplyCount": 382,
-      "lastCheckedAt": "2026-08-05T15:07:17.730493+00:00"
+      "sourceReplyCount": 1150,
+      "capturedReplyCount": 383,
+      "lastCheckedAt": "2026-08-05T17:07:14.652951+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 527,
-      "capturedReplyCount": 409,
-      "lastCheckedAt": "2026-08-05T16:07:18.307880+00:00"
+      "sourceReplyCount": 531,
+      "capturedReplyCount": 412,
+      "lastCheckedAt": "2026-08-05T17:07:27.267590+00:00"
     }
   ],
   "summary": {
-    "tweets": 791,
-    "authors": 701,
-    "sourceCount": 1676,
-    "added": 5,
+    "tweets": 795,
+    "authors": 702,
+    "sourceCount": 1681,
+    "added": 4,
     "mode": "incremental"
   },
   "replies": [
@@ -6357,12 +6357,44 @@
       "likes": 1
     },
     {
+      "id": "2085031719397445999",
+      "sourceTweetId": "2083519855203078320",
+      "author": "yyyyyyyyxi",
+      "text": "@tianyi 内测报名档案库再更新一版，增加22人，17个仓库，，共 数据截止至北京时间2026年8月5日23:46 https://github.com/Octo-o-o-o/deepseek-harness-applicants https://x.com/yyyyyyyyxi/status/2085031719397445999",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
       "id": "2085033026535510201",
       "sourceTweetId": "2084693319188439211",
       "author": "ZaneZaneZzZZ",
       "text": "@tianyi GitHub ID Zane456\nhttps://github.com/Zane456/skill-checkup\n\n这个 skill 用于对 skill 修改后的最终检查。检查 skill 结构，路由与字数等。保证 skill 在复杂场景下，也能被大模型有效的按需提取到子文件内容",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2085034801745264655",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ZaneZaneZzZZ",
+      "text": "@tianyi GitHub ID Zane456\nhttps://github.com/Zane456/PCB-Agent-Teams\n\n为有设计 pcb 电路板的硬件工程师制作的 multi Agent 与 harness 框架。9 个 skill 分别相辅相成，项目管理，电路设计，记忆，搜索工具，回路布局算法，全流程自检工具等。\n注重于 AI 稳定输出可信任的结果。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085034971828461902",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Tedli8",
+      "text": "@tianyi https://github.com/ge3m0r/langfuse-autocheck 报名，不知道算不算，只是基于 langfuse 的自动化巡检工具，目前处于基础阶段",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085038685284929949",
+      "sourceTweetId": "2084693319188439211",
+      "author": "cicialgo",
+      "text": "github id: cicialgo github 项目：cicialgo/rockycode\n项目介绍：原生适配 DeepSeek 的 agent harness，自带 Docker sandbox 与一键benchmark评测流水线。现已支持SWE-bench Verified 与 DeepSWE，评测模型包括DeepSeek V4 Pro-Preview, MiniMax M3, V4-Flash 正式版等；正在接入 mini-swe-agent、pi 作为对照 harness，做 model / harness / benchmark 多维度解耦的可复现评测。可支持DSH adapter接入评测流水线，进行同任务集的一键复现与对比。\n项目地址链接：https://github.com/cicialgo/rockycode",
+      "createdAt": null,
+      "likes": 1
     }
   ]
 }
