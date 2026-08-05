@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-05T01:07:37.066Z",
+  "generatedAt": "2026-08-05T01:25:26.381Z",
   "sourceFetchedAt": "2026-08-05T01:07:13.595918+00:00",
   "sourceReplyCount": 164,
   "sourceAuthorCount": 161,
   "projectCount": 145,
   "availableProjectCount": 145,
-  "totalStars": 168539,
+  "totalStars": 168561,
   "languages": {
     "TypeScript": 60,
     "Go": 9,
@@ -28,7 +28,7 @@
       "fullName": "lobehub/lobehub",
       "url": "https://github.com/lobehub/lobehub",
       "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "stars": 81259,
+      "stars": 81260,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -59,13 +59,13 @@
       "fullName": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 30780,
+      "stars": 30794,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T01:03:57Z",
+      "pushedAt": "2026-08-05T01:19:41Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?u=fc4ecdcb50e317c5c8104135158a8bc4608c5ea5&v=4",
       "available": true,
@@ -90,13 +90,13 @@
       "fullName": "omnigent-ai/omnigent",
       "url": "https://github.com/omnigent-ai/omnigent",
       "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-      "stars": 8118,
+      "stars": 8119,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T01:01:38Z",
+      "pushedAt": "2026-08-05T01:22:37Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/292215228?v=4",
       "available": true,
@@ -122,7 +122,7 @@
       "fullName": "liliMozi/openhanako",
       "url": "https://github.com/liliMozi/openhanako",
       "description": "A personal AI agent with memory, personality, and autonomy.",
-      "stars": 5783,
+      "stars": 5785,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -185,7 +185,7 @@
       "fullName": "zhongerxin/Cowart",
       "url": "https://github.com/zhongerxin/Cowart",
       "description": null,
-      "stars": 5292,
+      "stars": 5294,
       "language": {
         "name": "JavaScript",
         "color": "#f1e05a"
@@ -333,7 +333,8 @@
       ],
       "excerpts": [
         "@tianyi GitHub：phodal \n\nhttps://github.com/phodal/routa"
-      ]
+      ],
+      "aiSummary": "报名用户 phodal_huang 的 phodal/routa 是面向 AI 开发的多智能体协作平台，提供共享规范、看板编排及 MCP、ACP、A2A 支持。"
     },
     {
       "key": "whiteguo233/openbiliclaw",
@@ -1190,7 +1191,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-04T15:09:10Z",
+      "pushedAt": "2026-08-05T01:22:01Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/49101861?v=4",
       "available": true,
@@ -1552,6 +1553,37 @@
       "aiSummary": "报名用户 emememerica 的 aresbit/MateBot 是一个名为 claudeclaw 的项目，用于提供面向 Claude 的代理工具。"
     },
     {
+      "key": "dlyzzt/pi-desktop",
+      "owner": "DLYZZT",
+      "repo": "pi-desktop",
+      "fullName": "DLYZZT/pi-desktop",
+      "url": "https://github.com/DLYZZT/pi-desktop",
+      "description": "A local-first, cross-platform Electron desktop workspace for Pi Coding Agent, with sessions, project files, browser tools, skills, plugins, and messaging integrations.",
+      "stars": 37,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-20T15:50:48Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91056284?u=564212ca5b483840c05cbbf8891a8b28a23a1ef3&v=4",
+      "available": true,
+      "xUsers": [
+        "dlyzzt"
+      ],
+      "githubIds": [
+        "DLYZZT"
+      ],
+      "replyIds": [
+        "2084754733823352853"
+      ],
+      "excerpts": [
+        "@tianyi 希望能参加 DeepSeek Harness 内测\nbash-agent（2025）\n面向运维场景的轻量 Agent Harness\nhttps://github.com/DLYZZT/bash-agent\npi-desktop（2026）\n基于 Pi 的本地优先桌面客户端\nhttps://github.com/DLYZZT/pi-desktop"
+      ],
+      "aiSummary": "报名用户 dlyzzt 的 DLYZZT/pi-desktop 是面向 Pi Coding Agent 的本地优先跨平台桌面工作空间，支持会话、项目文件和插件等功能。"
+    },
+    {
       "key": "luneth90/lifeos",
       "owner": "luneth90",
       "repo": "lifeos",
@@ -1581,37 +1613,6 @@
         "@tianyi GitHub ID： luneth90\nGitHub 项目地址：https://github.com/luneth90/lifeos\n\nLifeOS 是一套学习系统，帮助你将碎片灵感发展为结构化知识，把学习工作流、技能、模板、提示词和记忆系统整合成一套可以直接落地的完整方案，支持多Agent间自由迁移，并延续已有的知识、偏好与工作进度。"
       ],
       "aiSummary": "报名用户 luneth90 的 luneth90/lifeos 将 Obsidian 与 AI Agent 结合，用于组织终身学习中的知识、工作流、技能和记忆。"
-    },
-    {
-      "key": "dlyzzt/pi-desktop",
-      "owner": "DLYZZT",
-      "repo": "pi-desktop",
-      "fullName": "DLYZZT/pi-desktop",
-      "url": "https://github.com/DLYZZT/pi-desktop",
-      "description": "A local-first, cross-platform Electron desktop workspace for Pi Coding Agent, with sessions, project files, browser tools, skills, plugins, and messaging integrations.",
-      "stars": 36,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "archived": false,
-      "pushedAt": "2026-07-20T15:50:48Z",
-      "license": "Apache-2.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/91056284?u=564212ca5b483840c05cbbf8891a8b28a23a1ef3&v=4",
-      "available": true,
-      "xUsers": [
-        "dlyzzt"
-      ],
-      "githubIds": [
-        "DLYZZT"
-      ],
-      "replyIds": [
-        "2084754733823352853"
-      ],
-      "excerpts": [
-        "@tianyi 希望能参加 DeepSeek Harness 内测\nbash-agent（2025）\n面向运维场景的轻量 Agent Harness\nhttps://github.com/DLYZZT/bash-agent\npi-desktop（2026）\n基于 Pi 的本地优先桌面客户端\nhttps://github.com/DLYZZT/pi-desktop"
-      ],
-      "aiSummary": "报名用户 dlyzzt 的 DLYZZT/pi-desktop 是面向 Pi Coding Agent 的本地优先跨平台桌面工作空间，支持会话、项目文件和插件等功能。"
     },
     {
       "key": "xnmk029/xnmk_prompt_library_1.0",
@@ -2299,6 +2300,37 @@
       "aiSummary": "kartboop 报名的 hanyo-ai/pulse 是面向 AI agent 的可观测层，可实时查看会话、提示词、工具调用和模型切换，并提供自托管网关。"
     },
     {
+      "key": "hxs996-beep/deepact",
+      "owner": "hxs996-beep",
+      "repo": "deepAct",
+      "fullName": "hxs996-beep/deepAct",
+      "url": "https://github.com/hxs996-beep/deepAct",
+      "description": "CLI coding agent that guards every action: ambiguity check,   design review, scope control.",
+      "stars": 7,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-01T15:31:03Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/229309945?v=4",
+      "available": true,
+      "xUsers": [
+        "exchanghz"
+      ],
+      "githubIds": [
+        "hxs996-beep"
+      ],
+      "replyIds": [
+        "2084797494563926351"
+      ],
+      "excerpts": [
+        "@tianyi 分享这个轻量级coding agent—deepact\n一方面给llm加守卫，防止危险操作rm delete\n多agent，执行并行，多性格开发互呛方案.\nSkill遵循，能用尽用\n\nhttps://github.com/hxs996-beep/deepAct"
+      ],
+      "aiSummary": "exchanghz 报名的 hxs996-beep/deepAct 是 CLI coding agent，通过歧义检查、设计审查和范围控制约束执行操作。"
+    },
+    {
       "key": "ltyfantasy/agent-chamber",
       "owner": "LtyFantasy",
       "repo": "agent-chamber",
@@ -2421,37 +2453,6 @@
         "@tianyi 思源筆記CLI，讓Agent可以瀏覽和管理個人知識庫：https://github.com/eloklam/siyuan-agent\nHermes Agent多代理分工框架：https://github.com/eloklam/oh-my-hermes-agent\nGROW全方位AI學習平台（未完成）：https://usegrow.io/\n\n邮箱已經私信，謝謝！"
       ],
       "aiSummary": "elok_lam 报名的 eloklam/siyuan-agent 是思源笔记 CLI，让 Agent 能够浏览和管理个人知识库。"
-    },
-    {
-      "key": "hxs996-beep/deepact",
-      "owner": "hxs996-beep",
-      "repo": "deepAct",
-      "fullName": "hxs996-beep/deepAct",
-      "url": "https://github.com/hxs996-beep/deepAct",
-      "description": "CLI coding agent that guards every action: ambiguity check,   design review, scope control.",
-      "stars": 6,
-      "language": {
-        "name": "Go",
-        "color": "#00ADD8"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-01T15:31:03Z",
-      "license": "MIT",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/229309945?v=4",
-      "available": true,
-      "xUsers": [
-        "exchanghz"
-      ],
-      "githubIds": [
-        "hxs996-beep"
-      ],
-      "replyIds": [
-        "2084797494563926351"
-      ],
-      "excerpts": [
-        "@tianyi 分享这个轻量级coding agent—deepact\n一方面给llm加守卫，防止危险操作rm delete\n多agent，执行并行，多性格开发互呛方案.\nSkill遵循，能用尽用\n\nhttps://github.com/hxs996-beep/deepAct"
-      ],
-      "aiSummary": "exchanghz 报名的 hxs996-beep/deepAct 是 CLI coding agent，通过歧义检查、设计审查和范围控制约束执行操作。"
     },
     {
       "key": "leo-ayh-oday/orcana-runtime",
@@ -2622,7 +2623,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-04T21:28:05Z",
+      "pushedAt": "2026-08-05T01:23:54Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4630571?v=4",
       "available": true,
@@ -4536,5 +4537,5 @@
     }
   ],
   "summaryModel": "gpt-5.6-luna",
-  "summaryGeneratedAt": "2026-08-05T01:20:31.398Z"
+  "summaryGeneratedAt": "2026-08-05T01:25:36.396Z"
 }
