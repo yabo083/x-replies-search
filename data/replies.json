@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T04:08:05.385494+00:00",
+  "fetchedAt": "2026-08-05T05:08:14.870827+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1133,
-      "capturedReplyCount": 373,
-      "lastCheckedAt": "2026-08-05T04:07:47.450398+00:00"
+      "sourceReplyCount": 1134,
+      "capturedReplyCount": 374,
+      "lastCheckedAt": "2026-08-05T05:07:52.021323+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 336,
-      "capturedReplyCount": 271,
-      "lastCheckedAt": "2026-08-05T04:08:00.122668+00:00"
+      "sourceReplyCount": 361,
+      "capturedReplyCount": 284,
+      "lastCheckedAt": "2026-08-05T05:08:07.161185+00:00"
     }
   ],
   "summary": {
-    "tweets": 644,
-    "authors": 574,
-    "sourceCount": 1469,
-    "added": 20,
+    "tweets": 658,
+    "authors": 587,
+    "sourceCount": 1495,
+    "added": 14,
     "mode": "incremental"
   },
   "replies": [
@@ -1379,6 +1379,14 @@
       "text": "@tianyi 👋 Built this solo\n https://github.com/proxysoul/Empryo",
       "createdAt": null,
       "likes": 4
+    },
+    {
+      "id": "2083657092662186315",
+      "sourceTweetId": "2083519855203078320",
+      "author": "MastwetC",
+      "text": "@tianyi Id :mastwet \n项目名称：agent-diva \n对接人：mastwet \nAgent-diva 是轻量与极致性能的纯血rust 网关类 agent ，灵感来源于薇薇莹眼石之歌。引入完整harness之外，独特的人格系统， 记忆系统，自主进化与行为系统。与此同时还具有完整的vrm 数字人体验，可以进行沉浸式对话。\n\nhttps://github.com/ProjectViVy/agent-diva",
+      "createdAt": null,
+      "likes": 1
     },
     {
       "id": "2083659462229787103",
@@ -5185,6 +5193,110 @@
       "sourceTweetId": "2084693319188439211",
       "author": "AsValsss",
       "text": "@tianyi https://yabo083.github.io/x-replies-search/",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084854989974081811",
+      "sourceTweetId": "2084693319188439211",
+      "author": "qufei1993",
+      "text": "@tianyi GitHub ID: qufei1993\n项目地址：https://github.com/qufei1993/skills‑hub\n\n项目是跨平台桌面工具，专注 Agent Skill 统一管理与多工具同步，期待接入 DeepSeek Harness，希望参与本次内测。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084856531455975924",
+      "sourceTweetId": "2084693319188439211",
+      "author": "gantrols",
+      "text": "@tianyi 在开发一个AIY生图管理工具，尝试把AI生成图片Agent化、极简化，并且兼顾产出管理，让AI帮忙整理。如果有一个统一、快速的Agent会很好。会开源，不过目前还在优化。\n\ngithub id: gantrol\n\n最近的开源项目也更Agent有点关系，手柄控制Codex，附带Codex小键盘模拟器： https://github.com/gantrol/AgentController https://x.com/gantrols/status/2084856531455975924",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084860629882744876",
+      "sourceTweetId": "2084693319188439211",
+      "author": "fengeto",
+      "text": "@tianyi GitHub ID: WEIFENG2333\n\n项目地址：https://github.com/WEIFENG2333/phistory\n站点：https://phistory.cc/ 自动归档 Claude Code、Codex 等 Harness 每个版本的 system prompt 快照与 diff。\n\n claude-tap（https://github.com/liaohch3/claude-tap）的核心贡献者，本地代理抓 coding agent 真实 API 流量，可同步适配 DSH。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084861879336505459",
+      "sourceTweetId": "2084693319188439211",
+      "author": "dssheng",
+      "text": "@tianyi 申请加入DSH内测。\n不需要api额度，我可以挪用a÷预算。\nGitHub ID: dothinkerlab\n项目: https://github.com/dothinkerlab/AgentMeter\n\n随时获取plan的使用情况，第一时间获取reset信息。支持Deepseek余额查看\niOS三端可用，Mac端开源。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084863533645496383",
+      "sourceTweetId": "2084693319188439211",
+      "author": "mrbone_11",
+      "text": "@tianyi GitHub：https://github.com/senweiliang/DeepDive\nGitHub ID：senweiliang\n\nDeepSeek-native 终端 Coding Agent，专为 V4 打造，优化 prefix cache。\nAuto Memory：项目级记忆，自动提取与召回  \n智能路由：自动选 pro / flash  \nAuto 审批：flash 快判 allow / ask / block   \n另有 Subagent、后台任务、MCP、Skill",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084863761278816482",
+      "sourceTweetId": "2084693319188439211",
+      "author": "JasonS17215901",
+      "text": "@tianyi 你好，ID 是 fengjunhui31\n\nBzzz：声明式多 Agent 编排引擎，支持 SwarmFile、A2A/MCP 及 9 种编排模式；\nBuilding Autonomous Team：面向 Claude Code 的自治开发团队插件，可完成从需求讨论、Spec、实现到多角色审查和合并的完整流程。\nhttps://github.com/fengjunhui31/bzzz\nhttps://github.com/fengjunhui31/building-autonomous-team",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084864146013904907",
+      "sourceTweetId": "2084693319188439211",
+      "author": "xingranya",
+      "text": "@tianyi GitHub ID: xingranya \n开源代表作：https://github.com/xingranya/GitHub-Stars-AI-Tools\n这是一个优秀的AI桌面应用，它将用户收藏的星标项目转化为一个可搜索可总结可追问的本地知识库，项目核心采用Rust + Tauri构建，通过本地向量数据库zvec 和Embedding模型实现离线语义检索，并结合AI进行多阶段的精准筛选与结果解释",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084864453007536217",
+      "sourceTweetId": "2084693319188439211",
+      "author": "n0madsky",
+      "text": "@tianyi 再次报名:\nGitHub Id: n0madsky\n为Phi项目, agent harness的运行环境做maintainer, 目前支持agy, claude code, pi和opencode:\n\nhttps://github.com/hypernewbie/phi",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084864788694491284",
+      "sourceTweetId": "2084693319188439211",
+      "author": "misakimei0331",
+      "text": "@tianyi Skill：Paper Alchemist。\n它可以从指定中英文论文语料中蒸馏各模块的写作结构，再基于明确的研究上下文生成 LaTeX/Markdown；重点将“怎么写”和“事实是什么”分开，避免编造贡献、引用。\n我校有本地部署DS模型，希望能在DSH里进行测试。如果允许，希望将DSH作为课程学习使用：\nhttps://github.com/Wang-Ruibin/paper-alchemist",
+      "createdAt": null,
+      "likes": 2
+    },
+    {
+      "id": "2084866529313894837",
+      "sourceTweetId": "2084693319188439211",
+      "author": "killYou889671",
+      "text": "@tianyi GitHub ID：sudo-Yangziran\ngithub项目：https://github.com/sudo-Yangziran/human\n\n目前我是26届刚毕业的大学生，普通本科，我开源项目比较少，目前做过企业的智能导购这块、自动化渗透这块，包括dify，comfy等项目都搭建过。我希望能够参与deepseek harness 想更好的了解harness 能够给我的生活和工作带来提升。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084866837343609045",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ai_xiaohui",
+      "text": "@tianyi GitHub id: @aurochs-code\n项目： https://github.com/aurochs-code/agentos\n类型： orchestrator + desktop UI。AgentOS 是 macOS 本地优先的多 Agent 决策与编程工作台，把CLI 包装成可 @ 的参与者——冻结模型与原生推理配置快照、\n有界讨论/独立作答/方案 PK 协议、Decision Artifact、审批门禁的 Worktree 执行闭环",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084867602015223970",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Benlihuijie",
+      "text": "@tianyi skill 竞品分析 消费电子6年海外GTM，目前Base 巴西。https://github.com/HuijieL/Competition-analysis-Skills",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084868184101044377",
+      "sourceTweetId": "2084693319188439211",
+      "author": "onestep4mankind",
+      "text": "@tianyi GitHub id：@neuneed\n项目：https://github.com/neuneed/loop-engineering\n类型：AI Agent Loop engineering project。Loop Engineering 是面向 AI Coding Agent 的工程框架，提供 Loop、Memory、State、MCP、Human Gate 等能力，构建任务执行、验证、状态更新的自主开发闭环。",
       "createdAt": null,
       "likes": 0
     }
