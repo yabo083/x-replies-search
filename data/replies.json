@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T15:07:34.417172+00:00",
+  "fetchedAt": "2026-08-05T16:07:24.907598+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 517,
-      "capturedReplyCount": 404,
-      "lastCheckedAt": "2026-08-05T15:07:26.937107+00:00"
+      "sourceReplyCount": 527,
+      "capturedReplyCount": 409,
+      "lastCheckedAt": "2026-08-05T16:07:18.307880+00:00"
     }
   ],
   "summary": {
-    "tweets": 786,
-    "authors": 697,
-    "sourceCount": 1666,
-    "added": 9,
+    "tweets": 791,
+    "authors": 701,
+    "sourceCount": 1676,
+    "added": 5,
     "mode": "incremental"
   },
   "replies": [
@@ -6323,6 +6323,46 @@
       "text": "Github ID:  NanmiCoder\n项目地址：https://github.com/NanmiCoder/cc-haha \n\nClaude Code Haha 是一个桌面端 Claude Code Agent工作台：多会话与全局搜索、分支 / Worktree 启动、Diff 审阅、内置浏览器预览、图形化权限审批、模型自选（Claude / ChatGPT / Grok / 预设 / 本地端点）、图片生成、MCP 与 SubAgent 可视化管理、模型请求追踪、Computer Use、技能市场、多主题、桌面宠物、H5 远程访问、IM 接入和定时任务，集中在一个 macOS / Windows / Linux APP 里。",
       "createdAt": null,
       "likes": 1
+    },
+    {
+      "id": "2085020349499080744",
+      "sourceTweetId": "2084693319188439211",
+      "author": "rcywjo",
+      "text": "@tianyi GitHub：rcyw\n开源代表作：https://t.co/7GUKVfR5Cg\n\nAxern 是近期刚刚开源的 AI Agent 执行与评测基础设施，支持 runsc 隔离沙箱、runc 长期服务、CLI、多语言 SDK 及自托管部署。Axrun 覆盖 TaskSet、并发、验证、轨迹、产物和可复现 Rollout。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085023613112177048",
+      "sourceTweetId": "2084693319188439211",
+      "author": "xiaomoyu123",
+      "text": "@tianyi Github ID: AnacondaKC\n项目地址：https://github.com/AnacondaKC/Aniu\nAniu是面向股票交易工作流的Agent系统，后端提供认证、运行编排、调度、持久化与 Agent/LLM 集成，前端为 React 工作台，前后端分离，已具备 Agent 核心、阶段式执行与多模型接入能力。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085023823842394288",
+      "sourceTweetId": "2084693319188439211",
+      "author": "douyipu",
+      "text": "@tianyi 你好 我的GitHub ID是douyipu \n\n我做过llm和agent的评估工作：\nhttps://arxiv.org/abs/2601.10971\nhttps://github.com/douyipu/ajar",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085025869949788612",
+      "sourceTweetId": "2084693319188439211",
+      "author": "luckyyishan",
+      "text": "@tianyi GitHub id∶MG-duan\n地址∶https://github.com/MGdaasLab/WHartTest\nWHartTest 是基于Django 5.2 + DRF与现代大模型技术打造的AI 驱动的智能自动化测试平台 ，实现从需求到自动化生成、管理与执行的可执行测试示例，为测试团队提供完整的智能测试管理解决方案。",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085033026535510201",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ZaneZaneZzZZ",
+      "text": "@tianyi GitHub ID Zane456\nhttps://github.com/Zane456/skill-checkup\n\n这个 skill 用于对 skill 修改后的最终检查。检查 skill 结构，路由与字数等。保证 skill 在复杂场景下，也能被大模型有效的按需提取到子文件内容",
+      "createdAt": null,
+      "likes": 0
     }
   ]
 }
