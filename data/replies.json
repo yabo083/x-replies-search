@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T11:08:05.814471+00:00",
+  "fetchedAt": "2026-08-05T12:08:21.857622+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1145,
-      "capturedReplyCount": 380,
-      "lastCheckedAt": "2026-08-05T11:07:49.541580+00:00"
+      "sourceReplyCount": 1147,
+      "capturedReplyCount": 381,
+      "lastCheckedAt": "2026-08-05T12:08:00.605145+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 465,
-      "capturedReplyCount": 378,
-      "lastCheckedAt": "2026-08-05T11:08:00.694180+00:00"
+      "sourceReplyCount": 483,
+      "capturedReplyCount": 388,
+      "lastCheckedAt": "2026-08-05T12:08:15.055915+00:00"
     }
   ],
   "summary": {
-    "tweets": 758,
-    "authors": 672,
-    "sourceCount": 1610,
-    "added": 5,
+    "tweets": 769,
+    "authors": 683,
+    "sourceCount": 1630,
+    "added": 11,
     "mode": "incremental"
   },
   "replies": [
@@ -6097,6 +6097,94 @@
       "sourceTweetId": "2084693319188439211",
       "author": "wang_myun",
       "text": "@tianyi 报名 DeepSeek Harness 内测 🙋\nGitHub ID：myunwang\n项目：https://github.com/myunwang/LLMPET\nLLMPET 是 Claude Code/Codex 的开源桌面交互层，可视化多 Session 状态、权限、Token 和任务进度，并加入表情包 Prompt 与 Agent 自主旅行。希望测试 DeepSeek Harness 的多会话和长任务能力。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084959318424813970",
+      "sourceTweetId": "2084693319188439211",
+      "author": "anion_ex",
+      "text": "GitHub ID: Anionex\n项目地址: https://github.com/Anionex/agent-vision-toolkit \n项目简介: 这是一个为像deepseek一样的纯文本 agent 提供视觉能力的开源工具箱，项目从一开始就是围绕 deepseek+codex 的使用场景设计的，并引入了多种context-aware机制来减少无关视觉信息、降低消耗，并提升模型在多步视觉任务中的准确性。\n它通过 skill + cli、透明代理或原生 plugin，让文本模型无需重新训练即可完成图片理解、GUI使用和多步需视觉的推理任务，如UI截图复原。目前已经适配 codex、claude code、opencode、pi/ omp，也可以接入任何支持 shell 的 agent harness。",
+      "createdAt": null,
+      "likes": 4
+    },
+    {
+      "id": "2084960073906884685",
+      "sourceTweetId": "2083519855203078320",
+      "author": "aleksandar_xyz",
+      "text": "@tianyi Github: https://github.com/agjs\n Harness: https://tsforge.dev/",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2084960965775499318",
+      "sourceTweetId": "2084693319188439211",
+      "author": "liveinXyc",
+      "text": "@tianyi GitHub ID: l1veIn\n项目地址：https://github.com/l1veIn/rambledesk\n\nRambleDesk —— 把人类封装成 API，提供给 Coding Agent。收集你的胡言乱语，整理成提示词。\n本地桌面工作台 + MCP：\n- Generic MCP Adapter（request_feedback / get_feedback / cancel_feedback）\n- 支持截图标注、语音本地转写、剪贴板/文件",
+      "createdAt": null,
+      "likes": 2
+    },
+    {
+      "id": "2084961185766715502",
+      "sourceTweetId": "2084693319188439211",
+      "author": "sheepycn",
+      "text": "@tianyi https://github.com/little-sheepycn/crom-mcp\n一个使ai连接到crom以搜索scp基金会文档的mcp服务器，提供了多种工具",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084964162728522165",
+      "sourceTweetId": "2084693319188439211",
+      "author": "tttpob",
+      "text": "@tianyi https://github.com/tttpob/jcli jupyter能力 https://github.com/TTTPOB/opencode-task-plugin opencode插件可以自由选择subagent model   jcli是我目前主要维护的项目，我高强度使用它作为我科研的脚手架，用到hook特性做上下文管理。虽然只有我和同学用但我觉得在jupyter体验这块还是很优秀的。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084964602316833209",
+      "sourceTweetId": "2084693319188439211",
+      "author": "chg80333",
+      "text": "@tianyi https://github.com/chenhg5/cc-connect",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2084966297209798716",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ltoddygen",
+      "text": "@tianyi 毛遂自荐一下自己日常开发，并且使用的 Agent, Github 链接: https://github.com/ltoddy/aries , 使用方式类似 claude-code,同时也支持 acp 协议,目前 Harness 能力也比较成熟，能满足我当然肯定也能满足其他人日常工作需要。也在不断拓展中.想获取 DeepSeek Harness 的内测资格,邮箱 liutao.rs@bytedance.com",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2084969406149656926",
+      "sourceTweetId": "2084693319188439211",
+      "author": "cug_denghy",
+      "text": "@tianyi GitHub ID：e29denghy 项目地址：https://github.com/e29denghy/kaiwu\n开物是一个本地优先、人工批准、跨 Agent Harness 的工作台，提供 Quest 生命周期管理、JSONL Inbox/Outbox、人工审批和可审计执行历史。目前已具备通用 Harness Adapter 接入边界，DeepSeek Harness 公共协议发布后可以快速增加 DSH Adapter",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084969597313458584",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ax2_zicode",
+      "text": "@tianyi 我是 QVeris 团队的 ax2。QVeris 是一个 Agent-Native 的能力路由与工具执行平台，日常正好覆盖 DSH 公告里提到的多个接入面，希望参与内测、在 DSH 发布时第一时间接入支持。项目地址：1. qveris-agent-toolkit（251★）https://github.com/QVerisAI/qveris-agent-toolkit 2. QVerisFlow（700★）3. QVerisBot（186★）",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084970357254136251",
+      "sourceTweetId": "2084693319188439211",
+      "author": "choo_richie",
+      "text": "@tianyi githubId：RichieChoo\n项目地址：https://github.com/RichieChoo/grill-lite在codex深度用superpowers，grill-me后，发现日常开发变得越来越慢，因此开发了这个skill，除执行简报外，根据需求的复杂度来智能判断，小任务直接跑，大任务批量澄清...期待国产Agent，梁神牛🍺\n邮箱：richiechoo1993@gmail.com",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084973653629055472",
+      "sourceTweetId": "2084693319188439211",
+      "author": "zhngzhmng28226",
+      "text": "https://github.com/firewolf189/GetClowhub\n基于openclaw开发的一个agent，主要进行了渲染优化，agent执行工具追踪可视化(thinking里面的内容)，整个的UI设计，原本的太丑了\nhttps://github.com/zephyrwing-ai/GetClowHubSkills，这是上面软件的skill仓库\nhttps://github.com/zephyrwing-ai/GetClawHubPlugins\n这是上面软件的插件仓库\nhttps://github.com/zephyrwing-ai/tax-exemption-ai-review\n这是嵌入到具体业务中的免税证审核技能，帮助外贸电商客服团队更快审核对方公司的免税证有没有效果，稳定运行在前面开发的软件中",
       "createdAt": null,
       "likes": 0
     }
