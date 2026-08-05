@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T13:07:20.636151+00:00",
+  "fetchedAt": "2026-08-05T14:07:24.388356+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 495,
-      "capturedReplyCount": 393,
-      "lastCheckedAt": "2026-08-05T13:07:16.185765+00:00"
+      "sourceReplyCount": 502,
+      "capturedReplyCount": 396,
+      "lastCheckedAt": "2026-08-05T14:07:19.084387+00:00"
     }
   ],
   "summary": {
-    "tweets": 774,
-    "authors": 687,
-    "sourceCount": 1642,
-    "added": 5,
+    "tweets": 777,
+    "authors": 689,
+    "sourceCount": 1649,
+    "added": 3,
     "mode": "incremental"
   },
   "replies": [
@@ -6149,6 +6149,14 @@
       "likes": 1
     },
     {
+      "id": "2084966046629269702",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Toby_Elk",
+      "text": "@tianyi 报名，Github：hilt21\n在探索自我进化的工程化Harness框架，最小治理内核，项目级治理配置集中共享，任务、证据与审批记录按工作树身份隔离，任务完成状态依赖外部事实判断。\n下一步完善Harness可观测系统、失败模式库和全生命周期配置清单...\nhttps://github.com/hilt21/Adaptive-Harness",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
       "id": "2084966297209798716",
       "sourceTweetId": "2084693319188439211",
       "author": "ltoddygen",
@@ -6225,6 +6233,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "dirtydorfy39465",
       "text": "@tianyi Github id:fancydirty\nGitHub: @fancydirty https://github.com/fancydirty/mediary-scout\n\nMediary Scout —— agent 驱动的自托管媒体库。\nagent 工作流引擎 79 个模块 / 245 个测试，跑的是有真实副作用的长任务（搜资源 → LLM 决策 → 转存到网盘 → 验证落地 → 追踪缺集）",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084989477144113437",
+      "sourceTweetId": "2084693319188439211",
+      "author": "qufei1993",
+      "text": "@tianyi GitHub ID: qufei1993 \n项目地址：https://github.com/qufei1993/skills-hub  \n项目是跨平台桌面工具，专注 Agent Skill 统一管理与多工具同步，期待接入 DeepSeek Harness，希望参与本次内测。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084997374133600364",
+      "sourceTweetId": "2084693319188439211",
+      "author": "libukai",
+      "text": "@tianyi Github ID: libukai\nGithub Repo: https://github.com/libukai/awesome-agent-skills\n\n汇总 Skill 优质资源，并在打造适配自研 Harness 的 Skill Creator/Evaluator/Uploader 系列 Meta Skill",
       "createdAt": null,
       "likes": 0
     }
