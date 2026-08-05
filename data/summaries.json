@@ -1,6 +1,6 @@
 {
   "model": "gpt-5.6-luna",
-  "updatedAt": "2026-08-05T11:10:15.100Z",
+  "updatedAt": "2026-08-05T12:11:04.464Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -408,9 +408,9 @@
       "generatedAt": "2026-08-05T03:37:52.737Z"
     },
     "dothinkerlab/agentmeter": {
-      "signature": "52f71aaf3374202cbf086e4eb1eea4ab3bbc07f74939becf1ea256c2e30bf13c",
-      "summary": "dssheng报名用户的 dothinkerlab/AgentMeter 用于查看 AI 服务套餐用量与重置时间，并支持余额查询。",
-      "generatedAt": "2026-08-05T03:38:10.355Z"
+      "signature": "b83abac0f6b35de48ca4f685dc5ec1e63aa110e9e08bbc64f05c12dae6cada3c",
+      "summary": "dssheng 报名的 dothinkerlab/AgentMeter 用于查看 AI 服务计划的额度使用情况和重置时间，并支持查看 DeepSeek 余额。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
     },
     "dyzsasd/dev-loop": {
       "signature": "6dfaf24d74455a454f018dc781942596ecf4794e7719aabc48bcf2a1aa226bfb",
@@ -1528,9 +1528,9 @@
       "generatedAt": "2026-08-05T03:39:13.633Z"
     },
     "foxrick/collie": {
-      "signature": "647c7e959505cccfb3cd5ca3b55e35b63b834fc24b5380d665c892d4fbccde13",
-      "summary": "FoxRick01 报名的 FoxRick/Collie 是面向 Windows 的本地优先、聊天交互式 AI 助手。",
-      "generatedAt": "2026-08-05T03:39:13.633Z"
+      "signature": "d3abf9b9a05935e990aa07db101218f7e549f311655f41d8163eb647774c16e1",
+      "summary": "FoxRick01 报名的 FoxRick/Collie 是面向 Windows 非技术用户的本地优先聊天式 AI 助手，提供权限控制、计划和人工审批。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
     },
     "gobing-ai/spur": {
       "signature": "a630b20fcd1487b5f2fece2733e9ae246a4807fac6bcfd8adccdb7e404dd7804",
@@ -1568,9 +1568,9 @@
       "generatedAt": "2026-08-05T03:39:32.341Z"
     },
     "oines/astral-code": {
-      "signature": "956a8dedf86c70e68b12ed66e0abdfbf579b67fc1dd2904cd9469236d1a35d61",
-      "summary": "oines_报名用户，oines/astral-code是基于Codex运行时的中立代理框架，兼容Chat Completions和Anthropic Messages协议。",
-      "generatedAt": "2026-08-05T03:39:32.341Z"
+      "signature": "fe027fc77dbf2c7402e67fd50e54b375d837fe54e084ef2893526e03fc82a049",
+      "summary": "oines_ 报名的 oines/astral-code 是基于 Codex 架构的中立 Coding Agent 运行时，兼容 OpenAI Chat Completions 与 Anthropic Messages API，并提供常用代码工具。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
     },
     "oliverzhu823/vizruna": {
       "signature": "f23f73ada933f4ded29236d13ffee5237699f4a67b5128a93af1f7d5ad282e30",
@@ -2866,6 +2866,191 @@
       "signature": "2339896ff245a5afe3112b0cde3008c0e1e8989320de28c5721b1bd554ae9c67",
       "summary": "Harold_W_Chen 报名的 wen-chen/dr-cook 是面向学术研究者的模块化 AI 技能套件，覆盖文献、写作、评审和科研分析流程。",
       "generatedAt": "2026-08-05T11:10:15.097Z"
+    },
+    "chenhg5/cc-connect": {
+      "signature": "84bc00bd2259fc8e3fc9e45b1544fafc3224f440e5462f611a00e4d5269b9b6e",
+      "summary": "chg80333 报名的 chenhg5/cc-connect 可将本地 AI 编程代理接入飞书、钉钉、Slack 等消息平台，便于远程对话。",
+      "generatedAt": "2026-08-05T12:09:41.991Z"
+    },
+    "anionex/agent-vision-toolkit": {
+      "signature": "fc8d027b02eb15010f6289c399b0a83bd8f397ba4e4f1dbf7bdad4f4f950b7e7",
+      "summary": "anion_ex 报名的 Anionex/agent-vision-toolkit 为纯文本 LLM Agent 提供图片问答、OCR、截图分析和视觉定位等工具，并支持多种 Agent 接入。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "qverisai/qveris-agent-toolkit": {
+      "signature": "e00c2e846d43fa4883d2b2f9ab8824ffae096f57b2fe16906561fbc09669ef72",
+      "summary": "ax2_zicode 报名的 QVerisAI/qveris-agent-toolkit 提供 CLI、MCP 服务、Python SDK 和 REST API，帮助 Agent 发现、调用并审计工具。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "anctyenly453/mc-architect-mcp": {
+      "signature": "9a72e4e94bf3fbb8f817b2e1b5e39eb2a0a7011a570e1bd848d0b0fc0bf30b5a",
+      "summary": "GaricaRosen6779 报名的 AnctyEnly453/mc-architect-mcp 通过 Fabric 模组与 MCP 服务，让 AI 检查和修改 Minecraft Java 世界，并支持建造、验证、截图及撤销。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "dandreyang/dyroengineeringflow": {
+      "signature": "d3c3daad42c59b3baeca984c57f32e5cde47d09d25cd18c246191054e42a1c2d",
+      "summary": "dandreyang 报名的 DandreYang/DyroEngineeringFlow 面向多仓团队统一任务编排、Git worktree、Agent 启动、质量门禁和合并审计，支持本地化交付流程。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "tttpob/jcli": {
+      "signature": "392a5ead495f38048b0d0afa6d889c07f663f86049e67d4198aaa934e5f6023c",
+      "summary": "tttpob 报名的 TTTPOB/jcli 是面向科研工作的 Jupyter 脚手架，使用 hook 机制进行上下文管理，改善交互式研究开发体验。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "uforz/echoshot": {
+      "signature": "6a2bc8912e099316ca56650ac19334765a631c6c7069505560099473fd7eee80",
+      "summary": "EhcoRelay 报名的 UFOrz/EchoShot 是 Chrome 和 Edge 扩展，可从网页图片或截图反推提示词、生成同款图片，并在本机管理结果。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "wanghenan/codereview-agent": {
+      "signature": "fd2ee7291fe5a5e9a3a246387219338f5b248cc710baf9a862bb535af5e085e8",
+      "summary": "Holmes0o0 报名的 wanghenan/codereview-agent 使用 AI 分析代码变更，识别安全风险和质量缺陷，并通过 CLI 输出结构化审查结果。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "yeemio/owlcoda": {
+      "signature": "e8c158bcb2a5359d86342dc3ea8ef5d2499559195430dafbbaa734f26cd6ff89",
+      "summary": "yeemio 报名的 yeemio/owlcoda 是本地优先的 AI 编程工作台，提供原生 REPL、工具集和可学习技能，辅助日常代码开发。",
+      "generatedAt": "2026-08-05T12:09:41.992Z"
+    },
+    "yinshawnrao/sticker-hub": {
+      "signature": "3baec7f02885fbe492e51817bde3015faaad6dc4e07e1b9e262b9f04863c85ff",
+      "summary": "jazzMichael2019报名的YinshawnRao/sticker-hub提供微信表情包制作工作流，支持母版确认、批量生图、单张返工和自动验收，产出可直接上传的文件。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "bigfatsea/vmr": {
+      "signature": "cc09e06b3f065510f7ee1de4ba6c957e5b9287cf8fcaeb776b8ab88cef47338f",
+      "summary": "dahaipangpang报名的bigfatsea/vmr是本地优先的单二进制大模型路由器与Agent日志记录器，可将日志整理为任务故事、比较行为并提供虚拟端点故障转移。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "coding-chimera/chimera": {
+      "signature": "a655b5095ca658122dcbe6cf346af3b0c1bd877cd56589fc4279163c936e2a6d",
+      "summary": "fukujusou_dev报名的coding-chimera/chimera是AI编程代理命令行工具，结合CodeGraph与AST进行影响分析和传播审计，并提供面向Kimi、DeepSeek的适配工作流。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "ktkid/kongming-agent": {
+      "signature": "672ec881ff8d28b479d2c66300b988b9fbf79fa600afed05073701b36a78a912",
+      "summary": "KID1287062报名的KtKID/kongming-agent是通用Agent运行框架，可主动感知工作区状态，提供内置工作流并协调多个Agent协同执行。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "l1vein/rambledesk": {
+      "signature": "8c32f56d06b1c5ba7d257b67a4e2ada693298cdd2eb6c167e1fdd7c60c17d9b7",
+      "summary": "liveinXyc报名的l1veIn/rambledesk是面向编程代理的本地反馈工作台，通过MCP收集人类语音、截图标注和文件信息并整理为提示词。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "puffo-ai/puffo-agent": {
+      "signature": "e4e64aa990326e56cb957261dba176cb62daa6e229a193dac373d34726857451",
+      "summary": "HetongLi报名的puffo-ai/puffo-agent是运行在设备上的守护进程，用于统一管理设备中的Puffo agents。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "rosmarinas/code-ssh-without-proxy": {
+      "signature": "49fbf4a5df79c41941be71a2c385e2cadeea3523bc62390d60e9493b996214a3",
+      "summary": "LHS1923911报名的RosMarinas/Code-SSH-Without-PROXY通过rsync同步本地代码到远端，执行安全检查并返回结果，支持无需提交代码的本地开发远程运行流程。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "soia-team/soia-open-skills": {
+      "signature": "63059700c4e6b35d841918b97fd954062e2e46e886f912784fbdaf5358fa72a7",
+      "summary": "yuezhou1990报名的soia-team/soia-open-skills是SOIA技能生态门户，提供技能规范真源、技能目录和跨仓库路由清单，便于发现与安装相关技能。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "test27818/rikkahub-math-plus": {
+      "signature": "ed0c4c203760f28d78396d14359afc173ccf662f6a446a545a7739890d19d4ac",
+      "summary": "phylosra报名的test27818/rikkahub-math-plus增强RikkaHub的TikZ图表自动渲染与缓存显示，并附带ai4math-lean数学形式化技能和案例。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "amsonntagchow/ratemycode": {
+      "signature": "dfbf4170f7a86ac08f3e09eea3cbcb1c45f3c64f3026746948f7556dc452a316",
+      "summary": "AmsonntagC报名的AmsonntagChow/ratemycode是用于代码审计和修复的Agent Skill，通过真实流程测试发现上线风险，生成修复提示并按同一标准复测。",
+      "generatedAt": "2026-08-05T12:10:06.786Z"
+    },
+    "fengjunhui31/building-autonomous-team": {
+      "signature": "fa181b3a2303360649febcb9bb4b1e5ec7f65941ce8f0a3e2eb7ab9bf74be2bc",
+      "summary": "JasonS17215901 报名的 fengjunhui31/building-autonomous-team 是面向 Claude Code 的自治开发团队插件，支持从需求讨论、规范制定到实现、审查和合并的协作流程。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "firewolf189/getclowhub": {
+      "signature": "57d5b06bc4855470c1526edf0ef4c0b788bbc5a952baa22d6c3986d3b2ca8fdb",
+      "summary": "zhngzhmng28226 报名的 firewolf189/GetClowhub 是基于 OpenClaw 的 Agent 应用，提供界面优化和执行工具追踪可视化。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "kilin-space/kilin": {
+      "signature": "60cf121e1214404e06b87f9def23c5169f3f5a1755e3fdbdb2106ea9555526d7",
+      "summary": "QiYijiazhen 报名的 kilin-space/kilin 是本地优先的 CLI 工作流运行时，可为 Codex、Claude Code 和 OpenCode 编排执行、审批、恢复并持久化运行记录。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "lora-sys/ai-engineering-harness": {
+      "signature": "434bb622414a461b47ef5ce976d793c8f3a2e0e000b1763c79ced619bcb0e850",
+      "summary": "lorasys_ 报名的 lora-sys/ai-engineering-harness 面向 AI 原生软件工程，以多 Agent 和多种工作流串联 Issue、构建、审查、证据、合并与记忆。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "njiangk/dairp-mvp": {
+      "signature": "ca9f24b576af0de02e667e493192c5e863b12c7a60cd8ca99626cdd8ec407f61",
+      "summary": "njiangn 报名的 njiangk/dairp-mvp 是分布式 AI 中继协议的 MVP，用于探索大模型共享网关、双签结算和基于信誉的路由。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "qimen039-code/claim-boundary-harness": {
+      "signature": "0a92730a72b872afff6b5ff44ec008d45ad47c2ed3115b3b409a0f4dff28a793",
+      "summary": "sevendreami 报名的 qimen039-code/claim-boundary-harness 面向编码 Agent，提供任务路由、分域记忆、证据核验及危险操作前人工审核，以便追踪和复核执行。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "roarpeng/graphflow": {
+      "signature": "b0a9bfe118cbba22b704d66c0c9175ff7ef4ee3c94610e0b416678656d84b6ad",
+      "summary": "PengRoar 报名的 Roarpeng/GraphFlow 是一个结合 MCP 与 Skill 的工具，使用知识图谱、技能学习和 DAG 组织信息与流程，并减少输入 Token。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "s87343472/selfctx": {
+      "signature": "e195937b9ccfa8185f437fbd11f4ee0da573078cfa70f4236bf68e15ddc4fc49",
+      "summary": "sujingshen 报名的 s87343472/selfctx，现有报名回复未说明仓库的具体用途或功能。",
+      "generatedAt": "2026-08-05T12:10:37.050Z"
+    },
+    "sudo-yangziran/human": {
+      "signature": "5e8d622e3cd77c67be1bdb0e244a302f08fd314013c377d6d0e4c2551b47e32e",
+      "summary": "X报名用户：killYou889671，sudo-Yangziran/human 是采用 Go、React 与 TypeScript 的人性化后台管理系统，用于任务协作、资源管理和数字化运营。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "1while1/friendforge": {
+      "signature": "7b4cb380beb438102ed82a55869fc32be6c5c803cd17231d7a127e28d36fde18",
+      "summary": "X报名用户：stevwjroa9，1while1/FriendForge 将获授权的聊天记录整理为可复用的 AI 朋友分身，并通过 Persona Bundle 管理人格、风格与上下文。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "doctorchaos-ai/doctor-chaos": {
+      "signature": "0f603fafa862faaad7a8f6dc8b8df1b9c20b2f61f0f9325e373c92cac201536f",
+      "summary": "X报名用户：Chaosxinglong，doctorchaos-ai/doctor-chaos 是用于降低对话混乱度的 TypeScript 项目，含 DeepSeek 适配器。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "feyker5642/harness-routebench": {
+      "signature": "c17bed990aed242f9914eeebea0b9b973f07f815bbe597e3a9d573c805dcdd73",
+      "summary": "X报名用户：Feyker8，Feyker5642/Harness-routebench 提供面向 Agent Harness 的中立决策层，负责 Skill 路由、显式拒绝和 Subagent 执行判断。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "flashpoint493/vibecollab": {
+      "signature": "ce0a04498ffd6b9920311b246896c19fa2307c8966498a9255f76f0ce431c93e",
+      "summary": "X报名用户：Flashpoint493，flashpoint493/VibeCollab 根据 YAML 配置生成标准化的 AI 协作规则 llm.txt。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "gray0128/multi-agent-decision-making": {
+      "signature": "d41e6efb2c9567fb04a6aac5e1f92cfc29bb1a6d052c64cd659ab911d44364c1",
+      "summary": "X报名用户：IfiflyL95010，gray0128/Multi-agent-decision-making 是本地、可审计且可恢复的多 Agent 审议工具。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "howe829/team-first-development": {
+      "signature": "0f2f41b562eab4b4e3956fc16d89e329b9e38526c156991c1a971fc43fba8e14",
+      "summary": "X报名用户：alexhowe829，Howe829/team-first-development 是支持动态组队、渐进式交付门禁和证据驱动多 Agent 开发的 Codex Skill。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "hugfeature/engram": {
+      "signature": "51e3e805fbb779f733f32f18a9df81bfd1453e2962ab229d15ac31b82407aa4c",
+      "summary": "X报名用户：agentruntimeX，hugfeature/engram 是面向 AI 编程代理的运行时连续性与中断恢复组件，支持检查点、语义召回及任务交接记录。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "huijiel/competition-analysis-skills": {
+      "signature": "1482745b440ce8bd4a2f7993f558b2b64c639916fadf9efb67d1ca3c6f61197a",
+      "summary": "X报名用户：Benlihuijie，HuijieL/Competition-analysis-Skills 提供竞品分析 Skill，用于辅助开展竞争产品研究。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
+    },
+    "ltoddy/aries": {
+      "signature": "23918c4387d089b266e1e584102e0698b1fcf2689b04d234b23f596a7b560f9a",
+      "summary": "X报名用户：ltoddygen，ltoddy/aries 是采用 Rust 开发的通用 AI Agent，用于辅助日常开发，并支持类似 Claude Code 的使用方式和 ACP 协议。",
+      "generatedAt": "2026-08-05T12:11:04.461Z"
     }
   }
 }
