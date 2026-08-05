@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-05T00:51:47.579Z",
+  "generatedAt": "2026-08-05T01:00:22.143Z",
   "sourceFetchedAt": "2026-08-05T00:50:58.723468+00:00",
   "sourceReplyCount": 159,
   "sourceAuthorCount": 156,
   "projectCount": 141,
   "availableProjectCount": 141,
-  "totalStars": 158633,
+  "totalStars": 158645,
   "languages": {
     "TypeScript": 58,
     "Go": 9,
@@ -58,13 +58,13 @@
       "fullName": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 30776,
+      "stars": 30779,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T00:50:17Z",
+      "pushedAt": "2026-08-05T00:56:46Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?u=fc4ecdcb50e317c5c8104135158a8bc4608c5ea5&v=4",
       "available": true,
@@ -88,7 +88,7 @@
       "fullName": "liliMozi/openhanako",
       "url": "https://github.com/liliMozi/openhanako",
       "description": "A personal AI agent with memory, personality, and autonomy.",
-      "stars": 5782,
+      "stars": 5783,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -179,7 +179,7 @@
       "fullName": "PrimeIntellect-ai/verifiers",
       "url": "https://github.com/PrimeIntellect-ai/verifiers",
       "description": "Our library for RL environments + evals",
-      "stars": 4425,
+      "stars": 4426,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -272,7 +272,7 @@
       "fullName": "whiteguo233/OpenBiliClaw",
       "url": "https://github.com/whiteguo233/OpenBiliClaw",
       "description": "本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are, then hunts content you'll love across platforms.",
-      "stars": 1616,
+      "stars": 1617,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -575,7 +575,7 @@
       "fullName": "exoharness/exo",
       "url": "https://github.com/exoharness/exo",
       "description": "Exo is an agent + harness architecture that is fully recursive, able to safely edit all aspects of itself at runtime to get better at your tasks.",
-      "stars": 623,
+      "stars": 624,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -1299,7 +1299,7 @@
       "fullName": "s1dashu/ousia",
       "url": "https://github.com/s1dashu/ousia",
       "description": "Ousia — a lightweight, minimalist desktop app for Pi.",
-      "stars": 64,
+      "stars": 65,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1329,7 +1329,7 @@
       "fullName": "catlog22/pi-maestro-flow",
       "url": "https://github.com/catlog22/pi-maestro-flow",
       "description": "Maestro workflow tools as Pi extensions — pi-teammate + pi-maestro-agent",
-      "stars": 59,
+      "stars": 60,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1866,6 +1866,36 @@
       ]
     },
     {
+      "key": "xnmk029/etharness",
+      "owner": "Xnmk029",
+      "repo": "ETharness",
+      "fullName": "Xnmk029/ETharness",
+      "url": "https://github.com/Xnmk029/ETharness",
+      "description": "灵感来源于everything的精品记忆专精类型harness端",
+      "stars": 15,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-01T20:53:16Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/247926875?u=a007bdb3513705479395ce5775cac700be8a5e57&v=4",
+      "available": true,
+      "xUsers": [
+        "xiaoming470595"
+      ],
+      "githubIds": [
+        "Xnmk029"
+      ],
+      "replyIds": [
+        "2084702084025491939"
+      ],
+      "excerpts": [
+        "@tianyi Github id：Xnmk029\n项目：1、ETharness 特化微调型记忆模块，依赖了Ds模型的长效kv，目前作为pi组件，后续独立并图形化：https://github.com/Xnmk029/ETharness\n2、测试用例库，当前Sota模型作为基准，能有效的测试harness能力边界：https://github.com/Xnmk029/Xnmk_Prompt_Library_1.0"
+      ]
+    },
+    {
       "key": "dlyzzt/bash-agent",
       "owner": "DLYZZT",
       "repo": "bash-agent",
@@ -1893,36 +1923,6 @@
       ],
       "excerpts": [
         "@tianyi 希望能参加 DeepSeek Harness 内测\nbash-agent（2025）\n面向运维场景的轻量 Agent Harness\nhttps://github.com/DLYZZT/bash-agent\npi-desktop（2026）\n基于 Pi 的本地优先桌面客户端\nhttps://github.com/DLYZZT/pi-desktop"
-      ]
-    },
-    {
-      "key": "xnmk029/etharness",
-      "owner": "Xnmk029",
-      "repo": "ETharness",
-      "fullName": "Xnmk029/ETharness",
-      "url": "https://github.com/Xnmk029/ETharness",
-      "description": "灵感来源于everything的精品记忆专精类型harness端",
-      "stars": 12,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-01T20:53:16Z",
-      "license": null,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/247926875?u=a007bdb3513705479395ce5775cac700be8a5e57&v=4",
-      "available": true,
-      "xUsers": [
-        "xiaoming470595"
-      ],
-      "githubIds": [
-        "Xnmk029"
-      ],
-      "replyIds": [
-        "2084702084025491939"
-      ],
-      "excerpts": [
-        "@tianyi Github id：Xnmk029\n项目：1、ETharness 特化微调型记忆模块，依赖了Ds模型的长效kv，目前作为pi组件，后续独立并图形化：https://github.com/Xnmk029/ETharness\n2、测试用例库，当前Sota模型作为基准，能有效的测试harness能力边界：https://github.com/Xnmk029/Xnmk_Prompt_Library_1.0"
       ]
     },
     {
@@ -3564,7 +3564,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-04T21:59:34Z",
+      "pushedAt": "2026-08-05T00:58:08Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/140579809?u=ee68d03ffde6c3a60dd8924b30d37812c8309791&v=4",
       "available": true,
