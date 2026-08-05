@@ -10,6 +10,7 @@ const models = (process.env.LLM_MODELS || process.env.LLM_MODEL || "gpt-5.6-luna
 let activeModel = models[0];
 const cachePath = "data/summaries.json";
 const projectsPath = "data/projects.json";
+const maxPending = Number.parseInt(process.env.LLM_MAX_PENDING || "40", 10);
 
 if (!apiKey) throw new Error("LLM_API_KEY is required");
 
@@ -127,10 +128,11 @@ const pending = catalog.projects.filter((project) => {
   const item = cache.items[project.key];
   return !item || item.signature !== signature(project) || !item.summary;
 });
+const work = pending.slice(0, Number.isFinite(maxPending) && maxPending > 0 ? maxPending : 40);
 
 let generated = 0;
-for (let offset = 0; offset < pending.length; offset += 10) {
-  const batch = pending.slice(offset, offset + 10);
+for (let offset = 0; offset < work.length; offset += 10) {
+  const batch = work.slice(offset, offset + 10);
   try {
     const result = await summarize(batch);
     for (const project of batch) {
@@ -143,9 +145,10 @@ for (let offset = 0; offset < pending.length; offset += 10) {
       };
       generated++;
     }
-    console.log(`Summarized ${Math.min(offset + batch.length, pending.length)} / ${pending.length}`);
+    console.log(`Summarized ${Math.min(offset + batch.length, work.length)} / ${work.length} this run (${pending.length} pending)`);
   } catch (error) {
     console.warn(`Summary batch failed: ${error.message}`);
+    break;
   }
 }
 
@@ -163,4 +166,4 @@ catalog.summaryGeneratedAt = cache.updatedAt;
 await writeFile(cachePath, JSON.stringify(cache, null, 2) + "\n", "utf8");
 await writeFile(projectsPath, JSON.stringify(catalog, null, 2) + "\n", "utf8");
 console.log(`Generated ${generated}; reused ${catalog.projects.length - pending.length}; available ${catalog.projects.filter((project) => project.aiSummary).length}`);
-if (pending.length > 0 && generated === 0) throw new Error("No pending project summaries were generated");
+if (work.length > 0 && generated === 0) throw new Error("No pending project summaries were generated");
