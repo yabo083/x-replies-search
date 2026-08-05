@@ -1,0 +1,1 @@
+7 * * * * root /root/x-replies-search-sync/scripts/sync-and-push.sh >> /var/log/x-replies-search-sync.log 2>&1
