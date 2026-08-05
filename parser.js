@@ -79,8 +79,8 @@
       if (cur && (cur.lines.length > 0 || cur.author)) blocks.push(cur);
     };
     for (const line of lines) {
-      const author = /^@([A-Za-z0-9_-]{1,20})\b/.exec(line.trim());
-      if (author && line.trim().length < 40) {
+      const author = /^@([A-Za-z0-9_-]{1,20})$/.exec(line.trim());
+      if (author) {
         push();
         cur = { author: author[1], lines: [] };
         continue;

@@ -620,6 +620,7 @@ async function loadRemoteSnapshot() {
     if (!resp.ok) return null;
     const j = await resp.json();
     if (!j || !Array.isArray(j.replies) || j.replies.length === 0) return null;
+    j.replies = j.replies.map((r) => parseReplyBlock(r.author || "", r.text || ""));
     return j;
   } catch {
     return null;
