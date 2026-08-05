@@ -1,26 +1,59 @@
 {
-  "generatedAt": "2026-08-05T01:25:26.381Z",
-  "sourceFetchedAt": "2026-08-05T01:07:13.595918+00:00",
-  "sourceReplyCount": 164,
-  "sourceAuthorCount": 161,
-  "projectCount": 145,
-  "availableProjectCount": 145,
-  "totalStars": 168561,
+  "generatedAt": "2026-08-05T02:08:28.549Z",
+  "sourceFetchedAt": "2026-08-05T02:07:56.733376+00:00",
+  "sourceReplyCount": 205,
+  "sourceAuthorCount": 200,
+  "projectCount": 194,
+  "availableProjectCount": 193,
+  "totalStars": 267324,
   "languages": {
-    "TypeScript": 60,
-    "Go": 9,
-    "Python": 35,
-    "JavaScript": 13,
+    "TypeScript": 79,
+    "Go": 14,
+    "Python": 45,
+    "JavaScript": 17,
+    "Rust": 15,
     "Swift": 6,
-    "Rust": 9,
     "Lua": 2,
     "Elixir": 1,
+    "Nix": 1,
     "C": 1,
-    "Shell": 2,
+    "Shell": 4,
     "HTML": 1,
     "Java": 2
   },
   "projects": [
+    {
+      "key": "nexu-io/open-design",
+      "owner": "nexu-io",
+      "repo": "open-design",
+      "fullName": "nexu-io/open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+      "stars": 83686,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T01:59:11Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/263625318?v=4",
+      "available": true,
+      "xUsers": [
+        "RuiXi328"
+      ],
+      "githubIds": [
+        "nexu-io",
+        "Siri-Ray"
+      ],
+      "replyIds": [
+        "2084815615991402869"
+      ],
+      "excerpts": [
+        "@tianyi 申请 DeepSeek Harness 内测\nGitHub ID: Siri-Ray\n项目：OpenDesign，开源的 Claude Design 替代方案https://github.com/nexu-io/open-design"
+      ],
+      "aiSummary": null
+    },
     {
       "key": "lobehub/lobehub",
       "owner": "lobehub",
@@ -28,7 +61,7 @@
       "fullName": "lobehub/lobehub",
       "url": "https://github.com/lobehub/lobehub",
       "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "stars": 81260,
+      "stars": 81265,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -59,13 +92,13 @@
       "fullName": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 30794,
+      "stars": 30836,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T01:19:41Z",
+      "pushedAt": "2026-08-05T01:35:09Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?u=fc4ecdcb50e317c5c8104135158a8bc4608c5ea5&v=4",
       "available": true,
@@ -90,13 +123,13 @@
       "fullName": "omnigent-ai/omnigent",
       "url": "https://github.com/omnigent-ai/omnigent",
       "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-      "stars": 8119,
+      "stars": 8121,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T01:22:37Z",
+      "pushedAt": "2026-08-05T01:43:31Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/292215228?v=4",
       "available": true,
@@ -116,13 +149,45 @@
       "aiSummary": "fanzeyi 报名的 omnigent-ai/omnigent 是开源 AI 智能体编排框架，可统一调度多种 harness，并提供策略控制、沙箱和实时协作。"
     },
     {
+      "key": "yaoapp/yao",
+      "owner": "yaoapp",
+      "repo": "yao",
+      "fullName": "YaoApp/yao",
+      "url": "https://github.com/YaoApp/yao",
+      "description": "✨ Build AI agents and web apps — with a single binary.",
+      "stars": 7560,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-03T01:11:33Z",
+      "license": "NOASSERTION",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61642237?v=4",
+      "available": true,
+      "xUsers": [
+        "MaxYaoapp"
+      ],
+      "githubIds": [
+        "trheyi",
+        "yaoapp"
+      ],
+      "replyIds": [
+        "2084813550556750033"
+      ],
+      "excerpts": [
+        "@tianyi 申请内测!\nGithub ID: trheyi\n项目: https://github.com/yaoapp/yao"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "lilimozi/openhanako",
       "owner": "liliMozi",
       "repo": "openhanako",
       "fullName": "liliMozi/openhanako",
       "url": "https://github.com/liliMozi/openhanako",
       "description": "A personal AI agent with memory, personality, and autonomy.",
-      "stars": 5785,
+      "stars": 5787,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -185,7 +250,7 @@
       "fullName": "zhongerxin/Cowart",
       "url": "https://github.com/zhongerxin/Cowart",
       "description": null,
-      "stars": 5294,
+      "stars": 5299,
       "language": {
         "name": "JavaScript",
         "color": "#f1e05a"
@@ -222,7 +287,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T00:35:58Z",
+      "pushedAt": "2026-08-05T01:56:41Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/148051844?v=4",
       "available": true,
@@ -337,13 +402,44 @@
       "aiSummary": "报名用户 phodal_huang 的 phodal/routa 是面向 AI 开发的多智能体协作平台，提供共享规范、看板编排及 MCP、ACP、A2A 支持。"
     },
     {
+      "key": "makecindy/cindy",
+      "owner": "makecindy",
+      "repo": "cindy",
+      "fullName": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "stars": 1712,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T01:50:06Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306974279?v=4",
+      "available": true,
+      "xUsers": [
+        "DashHuang"
+      ],
+      "githubIds": [
+        "makecindy"
+      ],
+      "replyIds": [
+        "2084819713381822801"
+      ],
+      "excerpts": [
+        "@tianyi 报名报名！\nhttps://github.com/makecindy/cindy"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "whiteguo233/openbiliclaw",
       "owner": "whiteguo233",
       "repo": "OpenBiliClaw",
       "fullName": "whiteguo233/OpenBiliClaw",
       "url": "https://github.com/whiteguo233/OpenBiliClaw",
       "description": "本地私有的跨平台 AI 内容发现 Agent——先深度理解你，再主动去 B站/小红书/抖音/YouTube/X/知乎/Reddit 找你会喜欢的内容。Local-first AI agent that learns who you are, then hunts content you'll love across platforms.",
-      "stars": 1617,
+      "stars": 1618,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -430,6 +526,37 @@
       "aiSummary": "kenryu42 报名的 kenryu42/cc-safety-net 是编码代理 CLI 钩子，可在执行前拦截破坏性 Git、文件系统命令及敏感文件访问。"
     },
     {
+      "key": "gcwing/bitfun",
+      "owner": "GCWing",
+      "repo": "BitFun",
+      "fullName": "GCWing/BitFun",
+      "url": "https://github.com/GCWing/BitFun",
+      "description": "BitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "stars": 1428,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T09:17:41Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29406332?u=5d7bd60dac6c135d37b593d602ea926ccdc1df35&v=4",
+      "available": true,
+      "xUsers": [
+        "CWing_Gyu"
+      ],
+      "githubIds": [
+        "GCWing"
+      ],
+      "replyIds": [
+        "2084808423255007545"
+      ],
+      "excerpts": [
+        "@tianyi We have developed a desktop application based on Tauri that supports Mac, Windows, Linux, and mobile devices. \nID：GCWing； Blog: https://gcwing.com/projects/bitfun\nProject: https://github.com/GCWing/BitFun"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "mem9-ai/mem9",
       "owner": "mem9-ai",
       "repo": "mem9",
@@ -493,6 +620,71 @@
       "aiSummary": "khlwbk11 报名的 PharMolix/OpenBioMed 是水木分子与清华 AIR 团队用于 AIDD 工作的 Python 开源项目。"
     },
     {
+      "key": "alisa0808/vox-director",
+      "owner": "Alisa0808",
+      "repo": "vox-director",
+      "fullName": "Alisa0808/vox-director",
+      "url": "https://github.com/Alisa0808/vox-director",
+      "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+      "stars": 1063,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-03T12:27:02Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68321694?u=12192f295a419fd84a9788e39da4842738b3e5f0&v=4",
+      "available": true,
+      "xUsers": [
+        "alisaqqt"
+      ],
+      "githubIds": [
+        "alisa0808",
+        "Alisa0808",
+        "AtlasCloudAI"
+      ],
+      "replyIds": [
+        "2084821797799973257"
+      ],
+      "excerpts": [
+        "@tianyi Github id: alisa0808\n我在多模态AI infra行业工作，如果你们关注agent的多模态生成能力，我可以提供丰富的测试用例，同时为所有内测用户提供多模态模型插件和免费额度。\n\n以下是我的视频生成skill。\nhttps://github.com/Alisa0808/vox-director\nhttps://github.com/AtlasCloudAI/atlas-cloud-skills"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "usewhale/whale",
+      "owner": "usewhale",
+      "repo": "whale",
+      "fullName": "usewhale/Whale",
+      "url": "https://github.com/usewhale/Whale",
+      "description": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
+      "stars": 975,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T10:25:08Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/282163618?v=4",
+      "available": true,
+      "xUsers": [
+        "shayne_snape"
+      ],
+      "githubIds": [
+        "shayne-snap",
+        "usewhale"
+      ],
+      "replyIds": [
+        "2084804673232625698"
+      ],
+      "excerpts": [
+        "@tianyi Github ID: shayne-snap\nGithub  Project: https://github.com/usewhale/whale\n\n一个专注于 DeepSeek 的 Coding Agent，目前 900+ stars"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "ling71671/open-reverselab",
       "owner": "LING71671",
       "repo": "open-reverselab",
@@ -530,13 +722,13 @@
       "fullName": "repoprompt/repoprompt-ce",
       "url": "https://github.com/repoprompt/repoprompt-ce",
       "description": "Community edition of RepoPrompt: a native macOS context engineering app for AI coding agents, with an MCP CLI.",
-      "stars": 850,
+      "stars": 849,
       "language": {
         "name": "Swift",
         "color": "#F05138"
       },
       "archived": false,
-      "pushedAt": "2026-08-04T22:37:26Z",
+      "pushedAt": "2026-08-05T01:45:09Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/289327073?v=4",
       "available": true,
@@ -593,7 +785,7 @@
       "fullName": "Cai-aa/CAE-Agent-Hub",
       "url": "https://github.com/Cai-aa/CAE-Agent-Hub",
       "description": null,
-      "stars": 679,
+      "stars": 680,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -688,7 +880,7 @@
       "fullName": "onevcat/Prowl",
       "url": "https://github.com/onevcat/Prowl",
       "description": "native macOS codings agent orchestrator",
-      "stars": 580,
+      "stars": 581,
       "language": {
         "name": "Swift",
         "color": "#F05138"
@@ -805,6 +997,37 @@
       "aiSummary": "X报名用户：desenmeng，unifapi-agent/agents提供基于MCP只读公开数据的营销代理，支持SEO审计、AI可见性分析、社交监听和竞品情报。"
     },
     {
+      "key": "ronglecat/grok-app",
+      "owner": "RongleCat",
+      "repo": "grok-app",
+      "fullName": "RongleCat/grok-app",
+      "url": "https://github.com/RongleCat/grok-app",
+      "description": "Desktop workbench for Grok Build CLI — sessions, projects, media, automations (Tauri 2 · unofficial)",
+      "stars": 513,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T10:03:26Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15684751?u=6a4f9d237f06c6c3394fd130037ab49b8eea3aac&v=4",
+      "available": true,
+      "xUsers": [
+        "cgnot996"
+      ],
+      "githubIds": [
+        "RongleCat"
+      ],
+      "replyIds": [
+        "2084810078247690593"
+      ],
+      "excerpts": [
+        "@tianyi GitHub ID：RongleCat \n项目标识：RongleCat/grok-app\n项目地址：https://github.com/RongleCat/grok-app\n简介：为 Grok 打造的桌面端，最新版本支持接入 DeepSeek，借助 Grok 模型拓展图片识别，搜索，图片生成等能力。 \n申请内测 DeepSeek Harness！ https://x.com/cgnot996/status/2084810078247690593"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "catlog22/maestro-flow",
       "owner": "catlog22",
       "repo": "maestro-flow",
@@ -834,6 +1057,69 @@
         "@tianyi githubid：catlog22。代表作：Maestro flow是涵盖关注知识搜索、沉淀和演化，自适应、长周期自校正的harness工程，pi-Maestro-flow是为工作流适配底层harness工程开发，包括增强状态机，监督器。\nhttps://github.com/catlog22/maestro-flow\nhttps://github.com/catlog22/pi-maestro-flow"
       ],
       "aiSummary": "X报名用户：d127yw，catlog22/maestro-flow用于多代理AI开发的意图驱动工作流编排，包含自适应生命周期、知识图谱和可视化仪表盘。"
+    },
+    {
+      "key": "notnotype/neuro-book",
+      "owner": "notnotype",
+      "repo": "neuro-book",
+      "fullName": "notnotype/neuro-book",
+      "url": "https://github.com/notnotype/neuro-book",
+      "description": "An AI-powered IDE for long-form fiction writing, combining software engineering workflows, modern storytelling methodologies, and multi-agent systems.",
+      "stars": 437,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T01:54:14Z",
+      "license": "AGPL-3.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53962334?u=afe43a62e5b260d751e7aea953e4faea2ea710e0&v=4",
+      "available": true,
+      "xUsers": [
+        "notnotype"
+      ],
+      "githubIds": [
+        "notnotype"
+      ],
+      "replyIds": [
+        "2084809516022214895"
+      ],
+      "excerpts": [
+        "@tianyi notnotype：Agent 驱动的创意写作 IDE\nhttps://github.com/notnotype/neuro-book"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "mnemon-dev/mnemon",
+      "owner": "mnemon-dev",
+      "repo": "mnemon",
+      "fullName": "mnemon-dev/mnemon",
+      "url": "https://github.com/mnemon-dev/mnemon",
+      "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with Claude Code, OpenClaw, and any CLI agent.",
+      "stars": 392,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T02:03:49Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/262709594?v=4",
+      "available": true,
+      "xUsers": [
+        "grivn_eth"
+      ],
+      "githubIds": [
+        "Grivn",
+        "mnemon-dev"
+      ],
+      "replyIds": [
+        "2084813133710000601"
+      ],
+      "excerpts": [
+        "GitHub ID: Grivn\n\n项目 mnemon：https://github.com/mnemon-dev/mnemon\nLLM-supervised persistent memory for AI agents.\n支持一键接入任何实现了标准 hook 的 ai agent。\n\n目前正在基于 mnemon 的设计思想，实现记忆驱动的 mnemon-harness 框架，目前处于实验阶段。\n\n其他相关介绍：\nhttps://x.com/grivn_eth/status/2055942989545955369\nhttps://x.com/aiDot"
+      ],
+      "aiSummary": null
     },
     {
       "key": "zhangweijp/agentorientedtui",
@@ -992,6 +1278,37 @@
       "aiSummary": "X报名用户：tmr11235，ttttmr/pi-context是pi的上下文管理插件，可让代理主动标记、编排并压缩当前上下文。"
     },
     {
+      "key": "caxson/swiftagentx",
+      "owner": "Caxson",
+      "repo": "swiftagentx",
+      "fullName": "Caxson/swiftagentx",
+      "url": "https://github.com/Caxson/swiftagentx",
+      "description": "Enterprise-grade fast-response Agent framework.",
+      "stars": 221,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T01:23:45Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101972681?u=b328fb9a193722d809f26376da0834b64be10772&v=4",
+      "available": true,
+      "xUsers": [
+        "CamusMyth"
+      ],
+      "githubIds": [
+        "Caxson"
+      ],
+      "replyIds": [
+        "2084817360851251366"
+      ],
+      "excerpts": [
+        "@tianyi 申请报名内测，我的开源项目包括Agent框架：https://github.com/Caxson/swiftagentx\n执行约束的plugin：https://github.com/Caxson/proof-of-work\n还有AI数字人：https://github.com/Caxson/mere-fusion"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "openma-ai/open-managed-agents",
       "owner": "openma-ai",
       "repo": "open-managed-agents",
@@ -1123,7 +1440,7 @@
       "fullName": "firstintent/ccteam",
       "url": "https://github.com/firstintent/ccteam",
       "description": "ccteam turns the coding agents you already run (Claude Code, Codex, Grok, Kimi…) into one team — any session can spawn, dispatch, and collect work from any vendor on any machine, while you steer it all from Telegram, Lark, or a browser tab. 把你在用的编程 agent 编成一支团队,跨厂商跨机器派活,Telegram/飞书/网页统一指挥。",
-      "stars": 130,
+      "stars": 131,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -1179,6 +1496,37 @@
       "aiSummary": "0xz80，z80dev/lemon 是一个用于运行智能代理的 Elixir 运行时项目。"
     },
     {
+      "key": "wenjinnn/.dotfiles",
+      "owner": "wenjinnn",
+      "repo": ".dotfiles",
+      "fullName": "wenjinnn/.dotfiles",
+      "url": "https://github.com/wenjinnn/.dotfiles",
+      "description": "Personal NixOS configurations and more",
+      "stars": 115,
+      "language": {
+        "name": "Nix",
+        "color": "#7e7eff"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T15:09:23Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30885216?u=1f4d86f3dc0f569cbdeea8caf816a3e771fd9c69&v=4",
+      "available": true,
+      "xUsers": [
+        "wenwenwen121212"
+      ],
+      "githubIds": [
+        "wenjinnn"
+      ],
+      "replyIds": [
+        "2084814298011054276"
+      ],
+      "excerpts": [
+        "@tianyi 报名\ngithub id: wenjinnn\n\n一个长期维护的dotfiles，目前包含一些自用skill，主要是nix相关\nhttps://github.com/wenjinnn/.dotfiles\n一个pi coding agent的插件，集成mimo tts模型\nhttps://github.com/wenjinnn/pi-mimo-voice"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "zhuzhaoyun/molio",
       "owner": "zhuzhaoyun",
       "repo": "Molio",
@@ -1191,7 +1539,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T01:22:01Z",
+      "pushedAt": "2026-08-05T02:05:55Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/49101861?v=4",
       "available": true,
@@ -1222,7 +1570,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T00:12:20Z",
+      "pushedAt": "2026-08-05T02:01:40Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/284182986?v=4",
       "available": true,
@@ -1398,6 +1746,68 @@
       "aiSummary": "报名用户 shiquda123321 的 shiquda/roadmap-skill 提供人机共享的任务路线图，以看板、图谱及 Skills 和 MCP 服务支持协作。"
     },
     {
+      "key": "aaravarr/openrouter-proxy",
+      "owner": "aaravarr",
+      "repo": "openrouter-proxy",
+      "fullName": "aaravarr/openrouter-proxy",
+      "url": "https://github.com/aaravarr/openrouter-proxy",
+      "description": "A zero-dependency proxy that unlocks free Xiaomi MiMo on OpenRouter for any client, and fixes SSE streaming issues with the VS Code Claude Code extension.",
+      "stars": 68,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-30T03:50:47Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92586826?u=9527833fcb8a768ca5465b7d9870900ad1ea4a32&v=4",
+      "available": true,
+      "xUsers": [
+        "aaravarr"
+      ],
+      "githubIds": [
+        "aaravarr"
+      ],
+      "replyIds": [
+        "2084812783032705159"
+      ],
+      "excerpts": [
+        "@tianyi 报名 DeepSeek Harness 内测\n\nGitHub ID: aaravarr\n\n项目: \n- OpenRouter 接口兼容工具：https://github.com/aaravarr/openrouter-proxy\n- Claude Code 远程控制工具：https://github.com/aaravarr/claudex\n- 7*24小时自主运行智能体，内置能量、压力等内驱系统：https://github.com/aaravarr/animapower"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "simple-agent-lab/simple-long-horizon-agent",
+      "owner": "simple-agent-lab",
+      "repo": "simple-long-horizon-agent",
+      "fullName": "simple-agent-lab/simple-long-horizon-agent",
+      "url": "https://github.com/simple-agent-lab/simple-long-horizon-agent",
+      "description": "Simple Long Horizon Agent - A simple yet effective AI agent for learning, experimentation, and long horizon work.",
+      "stars": 68,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-03T06:05:00Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/283423986?v=4",
+      "available": true,
+      "xUsers": [
+        "SiyuYeAndy"
+      ],
+      "githubIds": [
+        "simple-agent-lab"
+      ],
+      "replyIds": [
+        "2084814407264313603"
+      ],
+      "excerpts": [
+        "@tianyi 我们做了一个 long horizon agent \n\nhttps://github.com/simple-agent-lab/simple-long-horizon-agent\n\n主要目标是在超长任务上表现优异，并保证系统的简单，目前在我们构造的长难 bench 上都已经达到 sota。\n\ngithub id 是 Andyyesiyu 欢迎考虑我们"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "s1dashu/ousia",
       "owner": "s1dashu",
       "repo": "ousia",
@@ -1435,7 +1845,7 @@
       "fullName": "catlog22/pi-maestro-flow",
       "url": "https://github.com/catlog22/pi-maestro-flow",
       "description": "Maestro workflow tools as Pi extensions — pi-teammate + pi-maestro-agent",
-      "stars": 60,
+      "stars": 61,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1458,6 +1868,40 @@
         "@tianyi githubid：catlog22。代表作：Maestro flow是涵盖关注知识搜索、沉淀和演化，自适应、长周期自校正的harness工程，pi-Maestro-flow是为工作流适配底层harness工程开发，包括增强状态机，监督器。\nhttps://github.com/catlog22/maestro-flow\nhttps://github.com/catlog22/pi-maestro-flow"
       ],
       "aiSummary": "报名用户 d127yw 的 catlog22/pi-maestro-flow 是 Pi 的 Maestro 工作流扩展，包含 pi-teammate 和 pi-maestro-agent 工具。"
+    },
+    {
+      "key": "ephemeral-ai-lab/ephemeral-sandbox",
+      "owner": "Ephemeral-AI-Lab",
+      "repo": "ephemeral-sandbox",
+      "fullName": "Ephemeral-AI-Lab/ephemeral-sandbox",
+      "url": "https://github.com/Ephemeral-AI-Lab/ephemeral-sandbox",
+      "description": "Open-source agent sandbox infrastructure for parallel coding agents: isolated workspaces, MCP/CLI control, observability, and atomic publication.",
+      "stars": 61,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T04:10:39Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/301956475?v=4",
+      "available": true,
+      "xUsers": [
+        "yifanxu_ephai"
+      ],
+      "githubIds": [
+        "Ephemeral-AI-Lab",
+        "yifanxuaaa"
+      ],
+      "replyIds": [
+        "2084810762946810206",
+        "2084811436577214651"
+      ],
+      "excerpts": [
+        "yifanxuaaa\n\n希望申请加入DeepSeek Harness plugin生态。我主要做 Agent Harness 与基础设施。    Ephemeral Sandbox是 Rust 构建的多 Agent 执行底座：多个 Coding Agent 可在同一代码库并行工作，同时拥有隔离的可写 Workspace。项目提供 MCP/CLI 工具接口与可观测性能力，并在任务完成后检查并发冲突、原子发布完整 change set，重点解决 Harness 的隔离、执行、观测与安全交付。\n\nhttps://github.com/Ephemeral-AI-",
+        "githubid： yifanxuaaa  \n\n希望申请加入DeepSeek Harness plugin生态。我主要做 Agent Harness 与基础设施。    Ephemeral Sandbox是 Rust 构建的多 Agent 执行底座：多个 Coding Agent 可在同一代码库并行工作，同时拥有隔离的可写 Workspace。项目提供 MCP/CLI 工具接口与可观测性能力，并在任务完成后检查并发冲突、原子发布完整 change set，重点解决 Harness 的隔离、执行、观测与安全交付。\n\nhttps://github.com/E"
+      ],
+      "aiSummary": null
     },
     {
       "key": "fanfan-de/anybox",
@@ -1522,6 +1966,37 @@
       "aiSummary": "报名用户 leviqiao 的 levi-qiao/longgraph-skill 是面向 Claude Code、Cursor、Codex 等工具的长周期多任务执行 Skill。"
     },
     {
+      "key": "caxson/mere-fusion",
+      "owner": "Caxson",
+      "repo": "mere-fusion",
+      "fullName": "Caxson/mere-fusion",
+      "url": "https://github.com/Caxson/mere-fusion",
+      "description": "An AI digital human real-time streaming video voice call project, including picture and voice input and picture voice output",
+      "stars": 52,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-05-29T07:28:01Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101972681?u=b328fb9a193722d809f26376da0834b64be10772&v=4",
+      "available": true,
+      "xUsers": [
+        "CamusMyth"
+      ],
+      "githubIds": [
+        "Caxson"
+      ],
+      "replyIds": [
+        "2084817360851251366"
+      ],
+      "excerpts": [
+        "@tianyi 申请报名内测，我的开源项目包括Agent框架：https://github.com/Caxson/swiftagentx\n执行约束的plugin：https://github.com/Caxson/proof-of-work\n还有AI数字人：https://github.com/Caxson/mere-fusion"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "aresbit/matebot",
       "owner": "aresbit",
       "repo": "MateBot",
@@ -1553,13 +2028,106 @@
       "aiSummary": "报名用户 emememerica 的 aresbit/MateBot 是一个名为 claudeclaw 的项目，用于提供面向 Claude 的代理工具。"
     },
     {
+      "key": "universepeak/supervisor.skill",
+      "owner": "UniversePeak",
+      "repo": "Supervisor.skill",
+      "fullName": "UniversePeak/Supervisor.skill",
+      "url": "https://github.com/UniversePeak/Supervisor.skill",
+      "description": "导师skill，让导师再次伟大！Make Supervisor Great Again！Inspired by colleague-skill（同事skill）and ex-skill (前任skill)",
+      "stars": 42,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-03T06:42:02Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113168673?u=a61feafa203258a11c1e4c9041eefa27ea08a2e5&v=4",
+      "available": true,
+      "xUsers": [
+        "backsouthday"
+      ],
+      "githubIds": [
+        "UniversePeak"
+      ],
+      "replyIds": [
+        "2084811654483812379"
+      ],
+      "excerpts": [
+        "@tianyi 申请 DeepSeek Agent Harness 内测。\nGitHub ID：UniversePeak\n项目：https://github.com/UniversePeak/Supervisor.skill⁠�\n项目是一个支持多阶段 Agent Loop、工具调用、上下文压缩和持续更新的开源 Skill。希望参与内测，并提供真实场景反馈与适配支持，谢谢！"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "zhenhuanglab/collaborating-with-claude-code",
+      "owner": "ZhenHuangLab",
+      "repo": "collaborating-with-claude-code",
+      "fullName": "ZhenHuangLab/collaborating-with-claude-code",
+      "url": "https://github.com/ZhenHuangLab/collaborating-with-claude-code",
+      "description": "Let codex (main agent) collaborate with claude code Through codex skills",
+      "stars": 40,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-02-15T06:14:36Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72512698?u=789b48d9bea7c85a700acb6114646a7edf72070a&v=4",
+      "available": true,
+      "xUsers": [
+        "ZhenVictorHuang"
+      ],
+      "githubIds": [
+        "ZhenHuangLab"
+      ],
+      "replyIds": [
+        "2084818525751754841"
+      ],
+      "excerpts": [
+        "申请报名\n\nGithub: ZhenHuangLab\n\n项目: \n- pi-xai-search: 一个简洁优雅的 x search tool for Pi agent, https://github.com/ZhenHuangLab/pi-xai-search\n- collaborating-with-claude-code: Let codex (main agent) collaborate with claude code Through codex skills, https://github.com/ZhenHuangLab/collabor"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "coooolfan/onlyboxes",
+      "owner": "Coooolfan",
+      "repo": "onlyboxes",
+      "fullName": "Coooolfan/onlyboxes",
+      "url": "https://github.com/Coooolfan/onlyboxes",
+      "description": "Code Execution Sandbox Platform Solution for Individuals and Small Teams with MCP",
+      "stars": 39,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-31T04:26:29Z",
+      "license": "AGPL-3.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78391548?u=bacabb72222fdd94dbc7094ffca8ee9acb5165d2&v=4",
+      "available": true,
+      "xUsers": [
+        "Coofan1024"
+      ],
+      "githubIds": [
+        "Coooolfan"
+      ],
+      "replyIds": [
+        "2084817076347363593"
+      ],
+      "excerpts": [
+        "@tianyi Github id 为 coooolfan\nhttps://github.com/Coooolfan/onlyboxes\n专为个人和小型团队设计的沙盒服务。支持自托管所有基础设施，也支持以沙盒网关的形式对接e2b、阿里云等公有云服务。是lobehub的私有化沙盒的实现之一\n我也是lobehub的贡献者，参与私有化沙盒、私有化设备网关、私有化agent消息网关等内容的实现"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "dlyzzt/pi-desktop",
       "owner": "DLYZZT",
       "repo": "pi-desktop",
       "fullName": "DLYZZT/pi-desktop",
       "url": "https://github.com/DLYZZT/pi-desktop",
       "description": "A local-first, cross-platform Electron desktop workspace for Pi Coding Agent, with sessions, project files, browser tools, skills, plugins, and messaging integrations.",
-      "stars": 37,
+      "stars": 38,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1678,6 +2246,37 @@
       "aiSummary": "chaosdonkey7 报名的 duh17/oppi 是 Pi coding agent 的原生 iOS/iPadOS 客户端与 TypeScript 自托管服务，支持移动端会话控制和内容查看。"
     },
     {
+      "key": "p-a-n-52/kimi-code-desktop",
+      "owner": "P-A-N-52",
+      "repo": "kimi-code-desktop",
+      "fullName": "P-A-N-52/kimi-code-desktop",
+      "url": "https://github.com/P-A-N-52/kimi-code-desktop",
+      "description": "Windows desktop shell for the Kimi CLI runtime.",
+      "stars": 32,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T17:36:23Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/233015466?u=297d3807b3948d1018be863896d286029cb56f38&v=4",
+      "available": true,
+      "xUsers": [
+        "PHR2042379"
+      ],
+      "githubIds": [
+        "P-A-N-52"
+      ],
+      "replyIds": [
+        "2084817093191778657"
+      ],
+      "excerpts": [
+        "@tianyi 申请报名，这里是我的项目，给harness做的GUI外壳，基于ACP链接\nhttps://github.com/P-A-N-52/kimi-code-desktop"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "linxule/lotus-wisdom-mcp",
       "owner": "linxule",
       "repo": "lotus-wisdom-mcp",
@@ -1740,6 +2339,37 @@
       "aiSummary": "yhzhou0921 报名的 pumblus/okf-harness 是面向 AI Agent 的本地知识库维护工具，将资料整理为带引用、可追溯的 Markdown 知识库。"
     },
     {
+      "key": "zhenhuanglab/collaborating-with-gemini-cli",
+      "owner": "ZhenHuangLab",
+      "repo": "collaborating-with-gemini-cli",
+      "fullName": "ZhenHuangLab/collaborating-with-gemini-cli",
+      "url": "https://github.com/ZhenHuangLab/collaborating-with-gemini-cli",
+      "description": "Let codex (main agent) collaborate with gemini-cli through skills",
+      "stars": 31,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-01-17T07:40:56Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72512698?u=789b48d9bea7c85a700acb6114646a7edf72070a&v=4",
+      "available": true,
+      "xUsers": [
+        "ZhenVictorHuang"
+      ],
+      "githubIds": [
+        "ZhenHuangLab"
+      ],
+      "replyIds": [
+        "2084818525751754841"
+      ],
+      "excerpts": [
+        "申请报名\n\nGithub: ZhenHuangLab\n\n项目: \n- pi-xai-search: 一个简洁优雅的 x search tool for Pi agent, https://github.com/ZhenHuangLab/pi-xai-search\n- collaborating-with-claude-code: Let codex (main agent) collaborate with claude code Through codex skills, https://github.com/ZhenHuangLab/collabor"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "shiquda/mediawiki-mcp-server",
       "owner": "shiquda",
       "repo": "mediawiki-mcp-server",
@@ -1769,6 +2399,68 @@
         "@tianyi github id: shiquda\n• Roadmap Skill：https://github.com/shiquda/roadmap-skill —— 人机共享的任务与路线图工具。\n• mediawiki-mcp-server：https://github.com/shiquda/mediawiki-mcp-server —— 让 Agent 检索和读取 MediaWiki 内容的 MCP 服务。\n• weread-cli：https://github.com/shiquda/weread-cli —— 微信读书的 Agent CL"
       ],
       "aiSummary": "shiquda123321 报名的 shiquda/mediawiki-mcp-server 是用于检索和读取 MediaWiki 网站内容的 MCP 服务，支持 Wikipedia、Fandom 等站点。"
+    },
+    {
+      "key": "flippedround/deepseek-kit",
+      "owner": "FliPPeDround",
+      "repo": "deepseek-kit",
+      "fullName": "FliPPeDround/deepseek-kit",
+      "url": "https://github.com/FliPPeDround/deepseek-kit",
+      "description": "The DeepSeek-native Agent Framework",
+      "stars": 25,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-01T15:03:33Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70848683?u=94e07362514ede0faefa6a69c0b423e9f80b5fbe&v=4",
+      "available": true,
+      "xUsers": [
+        "FliPPeDround"
+      ],
+      "githubIds": [
+        "FliPPeDround"
+      ],
+      "replyIds": [
+        "2084816676760297767"
+      ],
+      "excerpts": [
+        "@tianyi 报名\nGitHub ID: FliPPeDround\n\ndeepseek-kit\nhttps://github.com/FliPPeDround/deepseek-kit"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "zane-0x5a/remotion-director",
+      "owner": "Zane-0x5a",
+      "repo": "remotion-director",
+      "fullName": "Zane-0x5a/remotion-director",
+      "url": "https://github.com/Zane-0x5a/remotion-director",
+      "description": "A Claude Code plugin that designs and builds a finished motion piece from a one-line brief — via the 甲乙环 (critic-loop) pipeline, judged on its real rendered frames.",
+      "stars": 23,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-26T09:33:06Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/264556028?u=2b7ea545863652469f00224ca5ba1f2c616f6607&v=4",
+      "available": true,
+      "xUsers": [
+        "zzaneyes"
+      ],
+      "githubIds": [
+        "Zane-0x5a"
+      ],
+      "replyIds": [
+        "2084821146256679084"
+      ],
+      "excerpts": [
+        "@tianyi 我耗时很久制作了一个claude code插件，充分利用了上下文管理、多agent合作、工作流编排，旨在解决AI自主设计动画的瓶颈：\nhttps://github.com/Zane-0x5a/remotion-director"
+      ],
+      "aiSummary": null
     },
     {
       "key": "834063245-creator/hologram",
@@ -2021,6 +2713,69 @@
       "aiSummary": "报名用户 xiaoming470595 的 Xnmk029/ETharness 是面向特化记忆场景的 harness 模块，利用长效 KV 机制增强记忆能力。"
     },
     {
+      "key": "atlascloudai/atlas-cloud-skills",
+      "owner": "AtlasCloudAI",
+      "repo": "atlas-cloud-skills",
+      "fullName": "AtlasCloudAI/atlas-cloud-skills",
+      "url": "https://github.com/AtlasCloudAI/atlas-cloud-skills",
+      "description": "Atlas Cloud skills for Claude Code, Codex & Gemini CLI — generate images/videos and call 300+ AI models from your coding agent.",
+      "stars": 14,
+      "language": {
+        "name": "Shell",
+        "color": "#89e051"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T05:26:31Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/249862100?v=4",
+      "available": true,
+      "xUsers": [
+        "alisaqqt"
+      ],
+      "githubIds": [
+        "alisa0808",
+        "AtlasCloudAI"
+      ],
+      "replyIds": [
+        "2084821797799973257"
+      ],
+      "excerpts": [
+        "@tianyi Github id: alisa0808\n我在多模态AI infra行业工作，如果你们关注agent的多模态生成能力，我可以提供丰富的测试用例，同时为所有内测用户提供多模态模型插件和免费额度。\n\n以下是我的视频生成skill。\nhttps://github.com/Alisa0808/vox-director\nhttps://github.com/AtlasCloudAI/atlas-cloud-skills"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "qiyuanhuakai/opencode-visualizer-cn",
+      "owner": "qiyuanhuakai",
+      "repo": "opencode-visualizer-cn",
+      "fullName": "qiyuanhuakai/opencode-visualizer-cn",
+      "url": "https://github.com/qiyuanhuakai/opencode-visualizer-cn",
+      "description": "OpenCode Visualizer.An enhanced Chinese-localized third-party webui/desktop GUI for OpenCode, based on Vis and independently maintained.   OpenCode可视化工具。OpenCode 的增强版中文本地化第三方 webui/桌面GUI，基于 Vis 并独立维护。",
+      "stars": 14,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-01T11:16:00Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/244143969?u=b76b6de437cf4658e604d125700cb57063b332cc&v=4",
+      "available": true,
+      "xUsers": [
+        "qiyuanhuakai"
+      ],
+      "githubIds": [
+        "qiyuanhuakai"
+      ],
+      "replyIds": [
+        "2084816046704267463"
+      ],
+      "excerpts": [
+        "@tianyi github id：qiyuanhuakai\n项目：为开源harness适配的第三方gui\nhttps://github.com/qiyuanhuakai/opencode-visualizer-cn"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "dlyzzt/bash-agent",
       "owner": "DLYZZT",
       "repo": "bash-agent",
@@ -2209,6 +2964,68 @@
       "aiSummary": "报名用户 ilihziac 的 balaenis/pi-toolset 是一个面向 Pi 生态的 TypeScript 工具集项目。"
     },
     {
+      "key": "nullskymc/aurevoy",
+      "owner": "nullskymc",
+      "repo": "Aurevoy",
+      "fullName": "nullskymc/Aurevoy",
+      "url": "https://github.com/nullskymc/Aurevoy",
+      "description": "Personal AI agent  — tell it what you want, it figures out how. Runs locally, plans autonomously, writes code, browses the web, and gets things done. ",
+      "stars": 10,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-31T07:43:53Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/103869462?u=11a5cddc280fd11d3d324106796865cb47008ed3&v=4",
+      "available": true,
+      "xUsers": [
+        "skymc123"
+      ],
+      "githubIds": [
+        "nullskymc"
+      ],
+      "replyIds": [
+        "2084816172323930430"
+      ],
+      "excerpts": [
+        "@tianyi 想报名 DeepSeek Harness 内测！ \nGitHub ID：nullskymc \n项目 Aurevoy：一个跨平台、本地运行的开源桌面 Agent Harness，支持 MCP、Skills、Subagents、长期记忆与知识库 \nhttps://github.com/nullskymc/Aurevoy"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "aa2246740/ultimate-design",
+      "owner": "aa2246740",
+      "repo": "ultimate-design",
+      "fullName": "aa2246740/ultimate-design",
+      "url": "https://github.com/aa2246740/ultimate-design",
+      "description": "Self-contained OKF design workflow for AI agents: DESIGN.md contracts, taste checks, critique/repair, and rendered verification.",
+      "stars": 9,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-03T01:52:35Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10174279?v=4",
+      "available": true,
+      "xUsers": [
+        "WuDavidxx"
+      ],
+      "githubIds": [
+        "aa2246740"
+      ],
+      "replyIds": [
+        "2084817579638702136"
+      ],
+      "excerpts": [
+        "@tianyi https://github.com/aa2246740/ultimate-design"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "eloklam/oh-my-hermes-agent",
       "owner": "eloklam",
       "repo": "oh-my-hermes-agent",
@@ -2235,6 +3052,99 @@
         "@tianyi 思源筆記CLI，讓Agent可以瀏覽和管理個人知識庫：https://github.com/eloklam/siyuan-agent\nHermes Agent多代理分工框架：https://github.com/eloklam/oh-my-hermes-agent\nGROW全方位AI學習平台（未完成）：https://usegrow.io/\n\n邮箱已經私信，謝謝！"
       ],
       "aiSummary": "报名用户 elok_lam 的 eloklam/oh-my-hermes-agent 是一个用于组织多个智能体协作分工的 Hermes Agent 框架。"
+    },
+    {
+      "key": "genesiscosmos/downcity",
+      "owner": "genesiscosmos",
+      "repo": "downcity",
+      "fullName": "genesiscosmos/downcity",
+      "url": "https://github.com/genesiscosmos/downcity",
+      "description": "Inspired by the idea of the Upside Down, Downcity is a parallel city built for agents — a hidden operating layer beneath the surface. It is where agents are organized, coordinated, and put to work.",
+      "stars": 9,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T01:36:53Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/269104380?v=4",
+      "available": true,
+      "xUsers": [
+        "iamwangenius"
+      ],
+      "githubIds": [
+        "genesiscosmos"
+      ],
+      "replyIds": [
+        "2084810649037898198"
+      ],
+      "excerpts": [
+        "@tianyi https://downcity.ai/ https://github.com/genesiscosmos/downcity"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "geminixiang/mikan",
+      "owner": "geminixiang",
+      "repo": "mikan",
+      "fullName": "geminixiang/mikan",
+      "url": "https://github.com/geminixiang/mikan",
+      "description": "A multi-platform AI coding agent for Slack, Telegram, and Discord.",
+      "stars": 8,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T01:55:52Z",
+      "license": "NOASSERTION",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11078827?u=f9f02328966106dbb3a204ede54cbb8753695b0a&v=4",
+      "available": true,
+      "xUsers": [
+        "geminixiang"
+      ],
+      "githubIds": [
+        "geminixiang"
+      ],
+      "replyIds": [
+        "2084820633205244052"
+      ],
+      "excerpts": [
+        "@tianyi Github id: geminixiang \nhttps://github.com/geminixiang/mikan"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "tianyuio/worldbank-mcp",
+      "owner": "tianyuio",
+      "repo": "worldbank-mcp",
+      "fullName": "tianyuio/worldbank-mcp",
+      "url": "https://github.com/tianyuio/worldbank-mcp",
+      "description": "World Bank Model Context Protocol service based on World Bank Open Data API",
+      "stars": 8,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "archived": false,
+      "pushedAt": "2026-03-01T06:19:43Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13074204?u=e745173b701ee48b52d65ff3a64bd0d8a7f46a63&v=4",
+      "available": true,
+      "xUsers": [
+        "xid_tianyu"
+      ],
+      "githubIds": [
+        "tianyuio"
+      ],
+      "replyIds": [
+        "2084814081853464903"
+      ],
+      "excerpts": [
+        "@tianyi GitHub ID:  tianyuio\nWorldBank MCP: https://github.com/tianyuio/worldbank-mcp"
+      ],
+      "aiSummary": null
     },
     {
       "key": "cnife/pi-extensions",
@@ -2329,6 +3239,37 @@
         "@tianyi 分享这个轻量级coding agent—deepact\n一方面给llm加守卫，防止危险操作rm delete\n多agent，执行并行，多性格开发互呛方案.\nSkill遵循，能用尽用\n\nhttps://github.com/hxs996-beep/deepAct"
       ],
       "aiSummary": "exchanghz 报名的 hxs996-beep/deepAct 是 CLI coding agent，通过歧义检查、设计审查和范围控制约束执行操作。"
+    },
+    {
+      "key": "liaocaoxuezhe/figmax",
+      "owner": "liaocaoxuezhe",
+      "repo": "FigmaX",
+      "fullName": "liaocaoxuezhe/FigmaX",
+      "url": "https://github.com/liaocaoxuezhe/FigmaX",
+      "description": "Best practics of figam-use with Codex or ClaudeCode",
+      "stars": 7,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "archived": false,
+      "pushedAt": "2026-05-24T08:45:21Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48851266?u=d00a2598ad737cf77e6c30d5e29effb36aca30f0&v=4",
+      "available": true,
+      "xUsers": [
+        "liaocaoxuezhe"
+      ],
+      "githubIds": [
+        "liaocaoxuezhe"
+      ],
+      "replyIds": [
+        "2084823208621130013"
+      ],
+      "excerpts": [
+        "@tianyi 报名报名 \nhttps://github.com/liaocaoxuezhe/ChromeX\n\nhttps://github.com/liaocaoxuezhe/FigmaX"
+      ],
+      "aiSummary": null
     },
     {
       "key": "ltyfantasy/agent-chamber",
@@ -2486,6 +3427,37 @@
       "aiSummary": "leo_oday 报名的 Leo-Ayh-Oday/orcana-runtime 面向长期自主任务，支持 Agent 在代码库与操作系统环境中受控执行、验证和恢复。"
     },
     {
+      "key": "luoziyan100/lumen",
+      "owner": "luoziyan100",
+      "repo": "lumen",
+      "fullName": "luoziyan100/lumen",
+      "url": "https://github.com/luoziyan100/lumen",
+      "description": "本机个人 AI 工作台:聊天是操作面,活儿写进真实工作区 | Local-first personal AI workbench",
+      "stars": 6,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-05T01:37:06Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/199953103?u=ced1d12f479583f81cbcca065170e59d57098c87&v=4",
+      "available": true,
+      "xUsers": [
+        "Ziyan00001"
+      ],
+      "githubIds": [
+        "luoziyan100"
+      ],
+      "replyIds": [
+        "2084814894797672922"
+      ],
+      "excerpts": [
+        "@tianyi https://github.com/luoziyan100/lumen\n这个是我的个人工作台，原生支持Deepseek，并且从开始到现在一直用的都是deepseek，希望可以参加Deepseek的harness内测，并且用他来改善自己的harness https://x.com/Ziyan00001/status/2084814894797672922"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "openagentinternet/open-agent-connect",
       "owner": "openagentinternet",
       "repo": "open-agent-connect",
@@ -2547,6 +3519,68 @@
         "@tianyi https://github.com/timhanlon/arcwork"
       ],
       "aiSummary": "timhnln 报名的 timhanlon/arcwork 探索统一开发环境，将对话、任务、代码差异和多个 harness 纳入同一应用与工作流。"
+    },
+    {
+      "key": "zhenhuanglab/pi-xai-search",
+      "owner": "ZhenHuangLab",
+      "repo": "pi-xai-search",
+      "fullName": "ZhenHuangLab/pi-xai-search",
+      "url": "https://github.com/ZhenHuangLab/pi-xai-search",
+      "description": "Model-independent live X search for Pi, powered by xAI's native x_search tool",
+      "stars": 5,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-31T14:45:38Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72512698?u=789b48d9bea7c85a700acb6114646a7edf72070a&v=4",
+      "available": true,
+      "xUsers": [
+        "ZhenVictorHuang"
+      ],
+      "githubIds": [
+        "ZhenHuangLab"
+      ],
+      "replyIds": [
+        "2084818525751754841"
+      ],
+      "excerpts": [
+        "申请报名\n\nGithub: ZhenHuangLab\n\n项目: \n- pi-xai-search: 一个简洁优雅的 x search tool for Pi agent, https://github.com/ZhenHuangLab/pi-xai-search\n- collaborating-with-claude-code: Let codex (main agent) collaborate with claude code Through codex skills, https://github.com/ZhenHuangLab/collabor"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "aaravarr/claudex",
+      "owner": "aaravarr",
+      "repo": "claudex",
+      "fullName": "aaravarr/claudex",
+      "url": "https://github.com/aaravarr/claudex",
+      "description": "Mobile-first remote control for Claude Code — drive your local claude CLI from your phone. Self-hosted, your keys, your machine.",
+      "stars": 4,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-06-02T06:35:25Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92586826?u=9527833fcb8a768ca5465b7d9870900ad1ea4a32&v=4",
+      "available": true,
+      "xUsers": [
+        "aaravarr"
+      ],
+      "githubIds": [
+        "aaravarr"
+      ],
+      "replyIds": [
+        "2084812783032705159"
+      ],
+      "excerpts": [
+        "@tianyi 报名 DeepSeek Harness 内测\n\nGitHub ID: aaravarr\n\n项目: \n- OpenRouter 接口兼容工具：https://github.com/aaravarr/openrouter-proxy\n- Claude Code 远程控制工具：https://github.com/aaravarr/claudex\n- 7*24小时自主运行智能体，内置能量、压力等内驱系统：https://github.com/aaravarr/animapower"
+      ],
+      "aiSummary": null
     },
     {
       "key": "caiuswang/regin",
@@ -2623,7 +3657,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T01:23:54Z",
+      "pushedAt": "2026-08-05T01:33:41Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4630571?v=4",
       "available": true,
@@ -2702,6 +3736,37 @@
         "@tianyi GitHub ID：FriendsHL \n开源代表作：SkillForge \n地址：https://github.com/FriendsHL/skillforge\n希望参与 DSH 内测"
       ],
       "aiSummary": "X报名用户：Huanglin5106；FriendsHL/skillforge 是 Java Agent Harness，支持工具与技能、上下文记忆、多智能体编排及评测。"
+    },
+    {
+      "key": "gordonlu/deeplossless",
+      "owner": "gordonlu",
+      "repo": "deeplossless",
+      "fullName": "gordonlu/deeplossless",
+      "url": "https://github.com/gordonlu/deeplossless",
+      "description": "Inference-aware runtime for AI coding agents that reuses execution state to reduce repeated reasoning, repo rereads, tool calls, and failure loops.",
+      "stars": 4,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-10T08:24:59Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3125629?u=56c3974919f0047276f1b8baf37fad6e923cd4d8&v=4",
+      "available": true,
+      "xUsers": [
+        "gordonl75165499"
+      ],
+      "githubIds": [
+        "gordonlu"
+      ],
+      "replyIds": [
+        "2084814791890346428"
+      ],
+      "excerpts": [
+        "@tianyi 申请报名DSH内测。\n\nGitHub ID：gordonlu\n\nAuraPilot：\nhttps://github.com/gordonlu/AuraPilot\n\nZhongShu：\nhttps://github.com/gordonlu/zhongshu\n\nDeepLossless：\nhttps://github.com/gordonlu/deeplossless\n\n这几个项目分别涉及Coding Agent任务管理、桌面Agent工具和上下文运行时，希望能参与内测，并根据DSH实际接口尝试接入支持。"
+      ],
+      "aiSummary": null
     },
     {
       "key": "leyen-me/coder",
@@ -2890,6 +3955,37 @@
       "aiSummary": "报名用户 amashiro2233 的 Mashiro2000/We0Code 是一个提供代码代理交互界面的终端用户界面工具。"
     },
     {
+      "key": "openvetta/open-vetta",
+      "owner": "openvetta",
+      "repo": "open-vetta",
+      "fullName": "openvetta/open-vetta",
+      "url": "https://github.com/openvetta/open-vetta",
+      "description": "Open-source desktop AI agent built for real work — local-first, extensible, and under your control.",
+      "stars": 3,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T10:04:42Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/310452651?v=4",
+      "available": true,
+      "xUsers": [
+        "openvetta"
+      ],
+      "githubIds": [
+        "openvetta"
+      ],
+      "replyIds": [
+        "2084810516325970340"
+      ],
+      "excerpts": [
+        "@tianyi https://github.com/openvetta/open-vetta\n报名"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "skitre/pideck",
       "owner": "Skitre",
       "repo": "PiDeck",
@@ -2921,6 +4017,68 @@
       "aiSummary": "报名用户 skitre5515 的 Skitre/PiDeck 是 Pi Coding Agent 的桌面客户端，提供对话、工具调用、会话、模型和包管理等可视化工作流。"
     },
     {
+      "key": "caxson/proof-of-work",
+      "owner": "Caxson",
+      "repo": "proof-of-work",
+      "fullName": "Caxson/proof-of-work",
+      "url": "https://github.com/Caxson/proof-of-work",
+      "description": "A disciplined-engineer + persistent-self layer for Claude Code",
+      "stars": 2,
+      "language": {
+        "name": "Shell",
+        "color": "#89e051"
+      },
+      "archived": false,
+      "pushedAt": "2026-06-02T06:53:10Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101972681?u=b328fb9a193722d809f26376da0834b64be10772&v=4",
+      "available": true,
+      "xUsers": [
+        "CamusMyth"
+      ],
+      "githubIds": [
+        "Caxson"
+      ],
+      "replyIds": [
+        "2084817360851251366"
+      ],
+      "excerpts": [
+        "@tianyi 申请报名内测，我的开源项目包括Agent框架：https://github.com/Caxson/swiftagentx\n执行约束的plugin：https://github.com/Caxson/proof-of-work\n还有AI数字人：https://github.com/Caxson/mere-fusion"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "cylonix/openscope",
+      "owner": "cylonix",
+      "repo": "openscope",
+      "fullName": "cylonix/openscope",
+      "url": "https://github.com/cylonix/openscope",
+      "description": "OpenScope is a local application access broker for AI agents.",
+      "stars": 2,
+      "language": {
+        "name": "Go",
+        "color": "#00ADD8"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-01T07:44:07Z",
+      "license": "BSD-3-Clause",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/178825881?v=4",
+      "available": true,
+      "xUsers": [
+        "dryricenoodle"
+      ],
+      "githubIds": [
+        "cylonix"
+      ],
+      "replyIds": [
+        "2084821889957151200"
+      ],
+      "excerpts": [
+        "@tianyi https://github.com/cylonix/openscope"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "gfhdhytghd/hypr-agent-protal",
       "owner": "gfhdhytghd",
       "repo": "Hypr-Agent-Protal",
@@ -2950,6 +4108,68 @@
         "https://github.com/gfhdhytghd/Hypr-Agent-Protal\n这是应用于Linux hyprland桌面环境的computer use MCP，虽然几乎没什么人用，但它绝对是这个桌面环境下甚至整个Linux下最好用的，它可以让agent与人并行操作，允许agent在后台操作，也允许Agent操控另一个工作区的窗口，同时支持了基于无障碍的UI操作，尽可能还原了codex在macos上的使用体验。"
       ],
       "aiSummary": "报名用户 Wilf_Lin 的 gfhdhytghd/Hypr-Agent-Protal 是面向 Hyprland 桌面环境的 Computer Use MCP，支持代理操作桌面。"
+    },
+    {
+      "key": "godonlykn0w/mnema",
+      "owner": "GodOnlyKn0w",
+      "repo": "mnema",
+      "fullName": "GodOnlyKn0w/mnema",
+      "url": "https://github.com/GodOnlyKn0w/mnema",
+      "description": "Append-only semantic topology for durable human and multi-agent work — structure over sessions, coordinates not tutorials.",
+      "stars": 2,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-01T15:56:43Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/233592454?v=4",
+      "available": true,
+      "xUsers": [
+        "soul_ka58882"
+      ],
+      "githubIds": [
+        "GodOnlyKn0w"
+      ],
+      "replyIds": [
+        "2084822613331939686"
+      ],
+      "excerpts": [
+        "@tianyi Github id : GodOnlyKn0w  一个项目级别memory项目 ，同时亦可为跨harness，跨模型orchestrator提供底座https://github.com/GodOnlyKn0w/mnema"
+      ],
+      "aiSummary": null
+    },
+    {
+      "key": "gordonlu/zhongshu",
+      "owner": "gordonlu",
+      "repo": "zhongshu",
+      "fullName": "gordonlu/zhongshu",
+      "url": "https://github.com/gordonlu/zhongshu",
+      "description": "Desktop AI assistant overlay with DeepSeek-optimized reasoning, long-term memory, skill/equipment self-evolution, Chrome CDP browser automation, and task tracking. Built in Rust with wry WebView.",
+      "stars": 2,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "archived": false,
+      "pushedAt": "2026-07-27T08:58:27Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3125629?u=56c3974919f0047276f1b8baf37fad6e923cd4d8&v=4",
+      "available": true,
+      "xUsers": [
+        "gordonl75165499"
+      ],
+      "githubIds": [
+        "gordonlu"
+      ],
+      "replyIds": [
+        "2084814791890346428"
+      ],
+      "excerpts": [
+        "@tianyi 申请报名DSH内测。\n\nGitHub ID：gordonlu\n\nAuraPilot：\nhttps://github.com/gordonlu/AuraPilot\n\nZhongShu：\nhttps://github.com/gordonlu/zhongshu\n\nDeepLossless：\nhttps://github.com/gordonlu/deeplossless\n\n这几个项目分别涉及Coding Agent任务管理、桌面Agent工具和上下文运行时，希望能参与内测，并根据DSH实际接口尝试接入支持。"
+      ],
+      "aiSummary": null
     },
     {
       "key": "hanyo-ai/taus",
@@ -3167,6 +4387,37 @@
       "aiSummary": "报名用户 Learnmore_smart 的 Learnmore-smart/file-guardian-skill 是面向 Coding Agent 的 Skill，要求先编写文档再修改代码，并通过文件级文档提供约束与记忆。"
     },
     {
+      "key": "liaocaoxuezhe/chromex",
+      "owner": "liaocaoxuezhe",
+      "repo": "ChromeX",
+      "fullName": "liaocaoxuezhe/ChromeX",
+      "url": "https://github.com/liaocaoxuezhe/ChromeX",
+      "description": "通过浏览器插件和 MCP，提供给 Agent 最好的 Chrome 操控体验",
+      "stars": 2,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-02T07:54:29Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48851266?u=d00a2598ad737cf77e6c30d5e29effb36aca30f0&v=4",
+      "available": true,
+      "xUsers": [
+        "liaocaoxuezhe"
+      ],
+      "githubIds": [
+        "liaocaoxuezhe"
+      ],
+      "replyIds": [
+        "2084823208621130013"
+      ],
+      "excerpts": [
+        "@tianyi 报名报名 \nhttps://github.com/liaocaoxuezhe/ChromeX\n\nhttps://github.com/liaocaoxuezhe/FigmaX"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "putl-dream/ppt",
       "owner": "putl-dream",
       "repo": "ppt",
@@ -3197,6 +4448,37 @@
         "@tianyi Github ID：120707613\n项目地址：https://github.com/putl-dream/ppt\nPPT Harness 最终形成的是一个本地优先、模型驱动、代码约束的 AI 演示文稿工作台。PPT Harness 以 PPT 为垂直验证场景，建设了一套具备模型调用、工具执行、持久化恢复、安全提交和产品交付能力的 Agent Harness。"
       ],
       "aiSummary": "报名用户 Johnskwaov 的 putl-dream/ppt 是本地优先的 AI 演示文稿工作台，支持模型驱动创作、工具执行、校验审批与可审阅产物生成。"
+    },
+    {
+      "key": "reon-jin/jyy-code",
+      "owner": "Reon-Jin",
+      "repo": "JYY-Code",
+      "fullName": "Reon-Jin/JYY-Code",
+      "url": "https://github.com/Reon-Jin/JYY-Code",
+      "description": "A multi-agent system based on opencode",
+      "stars": 2,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-04T13:31:00Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/212997485?u=5136dc76526a27ba3dd6735763293c2bc740c01c&v=4",
+      "available": true,
+      "xUsers": [
+        "EeR1718877"
+      ],
+      "githubIds": [
+        "Reon-Jin"
+      ],
+      "replyIds": [
+        "2084821745777901857"
+      ],
+      "excerpts": [
+        "@tianyi 希望能参与deepseek harness的测试\nGithub ID：Reon-Jin\n项目地址：https://github.com/Reon-Jin/JYY-Code\n简介：JYY-Code 是一个面向复杂任务的开源多智能体开发平台，支持根据任务状态动态生成和调整执行方案。多个 Agent 可进行角色分工与协同执行，并通过共享黑板同步上下文、阶段结果。"
+      ],
+      "aiSummary": null
     },
     {
       "key": "scotthuang/agent-knock-knock",
@@ -3291,6 +4573,35 @@
         "@tianyi GitHub ID: simba119\nGitHub 仓库地址：https://github.com/simba119/janus-rag\n非常期待能在 DeepSeek Harness (DSH) 发布的第一时间进行接入支持！虽然没有什么⭐和fork但是这是我跟ds一起的产出。希望能有机会参与内测！"
       ],
       "aiSummary": "报名用户 Evante3 的 simba119/janus-rag 是基于博查 API 的低成本高精度 RAG 搜索方案，用于检索增强生成。"
+    },
+    {
+      "key": "ucloud/skills",
+      "owner": "ucloud",
+      "repo": "skills",
+      "fullName": "ucloud/skills",
+      "url": "https://github.com/ucloud/skills",
+      "description": null,
+      "stars": 2,
+      "language": null,
+      "archived": false,
+      "pushedAt": "2026-08-05T01:30:01Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14289247?v=4",
+      "available": true,
+      "xUsers": [
+        "jAevW2tb"
+      ],
+      "githubIds": [
+        "mingming-cn",
+        "ucloud"
+      ],
+      "replyIds": [
+        "2084809953437737331"
+      ],
+      "excerpts": [
+        "@tianyi GitHub ID：mingming-cn\n项目地址：https://github.com/ucloud/skills \n让Agent接入UCloud云平台资源管理， 希望参与 DSH 内测。"
+      ],
+      "aiSummary": null
     },
     {
       "key": "yangliangyl/project-handoff-memory",
@@ -3418,6 +4729,37 @@
       "aiSummary": "报名用户 AOTEMAN921 的 249469326i-lang/api-monitor 是 Windows 桌面端 API 供应商监控工具，支持定时测速、故障切换、托盘常驻和密钥加密。"
     },
     {
+      "key": "aaravarr/animapower",
+      "owner": "aaravarr",
+      "repo": "animapower",
+      "fullName": "aaravarr/animapower",
+      "url": "https://github.com/aaravarr/animapower",
+      "description": null,
+      "stars": 1,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-06-30T15:01:59Z",
+      "license": null,
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92586826?u=9527833fcb8a768ca5465b7d9870900ad1ea4a32&v=4",
+      "available": true,
+      "xUsers": [
+        "aaravarr"
+      ],
+      "githubIds": [
+        "aaravarr"
+      ],
+      "replyIds": [
+        "2084812783032705159"
+      ],
+      "excerpts": [
+        "@tianyi 报名 DeepSeek Harness 内测\n\nGitHub ID: aaravarr\n\n项目: \n- OpenRouter 接口兼容工具：https://github.com/aaravarr/openrouter-proxy\n- Claude Code 远程控制工具：https://github.com/aaravarr/claudex\n- 7*24小时自主运行智能体，内置能量、压力等内驱系统：https://github.com/aaravarr/animapower"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "atomicslaboratory/atomstudio",
       "owner": "AtomicsLaboratory",
       "repo": "atomstudio",
@@ -3510,6 +4852,37 @@
         "@tianyi - GitHub ID：bensstark  \n- 相关项目：  \nconversation-navigator — https://github.com/bensstark/codex-conversation-navigator — 类型：UI(JavaScript )（skill）\n\n- 简短说明：在使用各类 agent 时，若需要查看历史消息会比较麻烦，需要划很久找，这个skill能根据用户消息快速定位，是查看历史消息，尤其是利用 agent 学习的好助手"
       ],
       "aiSummary": "报名用户 BenStark83847 的 bensstark/codex-conversation-navigator 是用于按用户消息快速定位历史对话的 JavaScript Agent skill。"
+    },
+    {
+      "key": "bowugit/news-report",
+      "owner": "BoWuGit",
+      "repo": "news-report",
+      "fullName": "BoWuGit/news-report",
+      "url": "https://github.com/BoWuGit/news-report",
+      "description": "面向用户 Agent 的新闻简报 / News Report For User Agent",
+      "stars": 1,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-05-18T01:18:43Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6310246?u=90bbd73c8d62a1accb6c22131f9232b98a421262&v=4",
+      "available": true,
+      "xUsers": [
+        "xawubo"
+      ],
+      "githubIds": [
+        "BoWuGit"
+      ],
+      "replyIds": [
+        "2084812884996190329"
+      ],
+      "excerpts": [
+        "@tianyi 之前回复过，也做了个Agent相关的项目https://github.com/BoWuGit/news-report，再申请下：https://x.com/xawubo/status/2083752948274991410"
+      ],
+      "aiSummary": null
     },
     {
       "key": "drdexter6000/windows-agent-orchestrator",
@@ -3700,6 +5073,37 @@
       "aiSummary": "报名用户 Hong_Yupeng 的 Hyp6666/PalmiAgent 是原生 Swift/SwiftUI iOS Agent 应用，用于与多种大语言模型协作。"
     },
     {
+      "key": "kourivar/craft-agents",
+      "owner": "KouriVar",
+      "repo": "Craft-Agents",
+      "fullName": "KouriVar/Craft-Agents",
+      "url": "https://github.com/KouriVar/Craft-Agents",
+      "description": null,
+      "stars": 1,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-02T10:47:31Z",
+      "license": "NOASSERTION",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26496841?u=c354e15d129f085e768a57b42bbf3fe3a9754a37&v=4",
+      "available": true,
+      "xUsers": [
+        "HulaSup"
+      ],
+      "githubIds": [
+        "KouriVar"
+      ],
+      "replyIds": [
+        "2084816143043244279"
+      ],
+      "excerpts": [
+        "@tianyi Hi，希望有机会参与内测 谢谢\n我在维护一个基于 Craft Agents OSS 的开源深度二开项目，主要涉及多模型运行时、MCP/插件、浏览器、上下文与记忆、权限审计、任务恢复和自动化工作流等 Agent Harness 能力，目前持续迭代至 v0.20.0。 GitHub ID：KouriVar https://github.com/KouriVar/Craft-Agents"
+      ],
+      "aiSummary": null
+    },
+    {
       "key": "llm-insights-share/hx-lite",
       "owner": "llm-insights-share",
       "repo": "hx-lite",
@@ -3775,7 +5179,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-05T00:58:08Z",
+      "pushedAt": "2026-08-05T01:54:56Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/140579809?u=ee68d03ffde6c3a60dd8924b30d37812c8309791&v=4",
       "available": true,
@@ -3854,6 +5258,37 @@
         "@tianyi Github Id: TongDucThanhNam\nhttps://github.com/TongDucThanhNam/eragear-code-copilot"
       ],
       "aiSummary": "tongducthanhnam 报名的 TongDucThanhNam/eragear-code-copilot：一个以 TypeScript 开发的开源项目，具体用途待仓库资料进一步说明。"
+    },
+    {
+      "key": "wenjinnn/pi-mimo-voice",
+      "owner": "wenjinnn",
+      "repo": "pi-mimo-voice",
+      "fullName": "wenjinnn/pi-mimo-voice",
+      "url": "https://github.com/wenjinnn/pi-mimo-voice",
+      "description": "Voice input (STT) and output (TTS) for https://github.com/earendil-works/pi powered by Xiaomi MiMo TTS API",
+      "stars": 1,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-06-01T10:49:19Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30885216?u=1f4d86f3dc0f569cbdeea8caf816a3e771fd9c69&v=4",
+      "available": true,
+      "xUsers": [
+        "wenwenwen121212"
+      ],
+      "githubIds": [
+        "wenjinnn"
+      ],
+      "replyIds": [
+        "2084814298011054276"
+      ],
+      "excerpts": [
+        "@tianyi 报名\ngithub id: wenjinnn\n\n一个长期维护的dotfiles，目前包含一些自用skill，主要是nix相关\nhttps://github.com/wenjinnn/.dotfiles\n一个pi coding agent的插件，集成mimo tts模型\nhttps://github.com/wenjinnn/pi-mimo-voice"
+      ],
+      "aiSummary": null
     },
     {
       "key": "windsland52/maaevidencekit",
@@ -4010,6 +5445,37 @@
         "@tianyi Github Id:AxolotlXMDev\nrepo: https://github.com/AxolotlXMDev/ManaNeutron\n这是一个 Java 实现的前后端分离 harness，目前通过 REST API + SSE 提供交互与监听，希望探索更通用的数据交换协议，便于功能拆分和生态构建。项目仍在迭代中，希望申请 DSH 内测，学习借鉴，感谢！"
       ],
       "aiSummary": "jnxingu144988 报名的 AxolotlXMDev/ManaNeutron：Java 实现的前后端分离 harness，通过 REST API 与 SSE 提供交互和监听。"
+    },
+    {
+      "key": "bazingaedward/deepseek-code",
+      "owner": "bazingaedward",
+      "repo": "deepseek-code",
+      "fullName": "bazingaedward/deepseek-code",
+      "url": "https://github.com/bazingaedward/deepseek-code",
+      "description": null,
+      "stars": 0,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-04-29T11:50:40Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6486768?u=3bcd2c71f22a86c78a517981a7022be569107a2b&v=4",
+      "available": true,
+      "xUsers": [
+        "bazingaedward"
+      ],
+      "githubIds": [
+        "bazingaedward"
+      ],
+      "replyIds": [
+        "2084823412934049865"
+      ],
+      "excerpts": [
+        "@tianyi 怎么感觉我的项目更合适呢，名字都是早前定好的：https://github.com/bazingaedward/deepseek-code"
+      ],
+      "aiSummary": null
     },
     {
       "key": "bytonylee/solar-code",
@@ -4196,6 +5662,37 @@
         "@tianyi GitHub ID：GMYXDS\n开源代表作：AI-Markdown-Translator\n地址：https://github.com/GMYXDS/AI-Markdown-Translator\n希望参与 DSH 内测"
       ],
       "aiSummary": "X报名用户 GMYXDS110：GMYXDS/AI-Markdown-Translator 是基于大语言模型的 Markdown 批量翻译工具，支持智能分片、并发控制和断点续传。"
+    },
+    {
+      "key": "gordonlu/aurapilot",
+      "owner": "gordonlu",
+      "repo": "AuraPilot",
+      "fullName": "gordonlu/AuraPilot",
+      "url": "https://github.com/gordonlu/AuraPilot",
+      "description": "A local-first, agent-agnostic control plane for managing AI coding tasks across repositories through a Git-native file protocol.",
+      "stars": 0,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-03T09:42:26Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3125629?u=56c3974919f0047276f1b8baf37fad6e923cd4d8&v=4",
+      "available": true,
+      "xUsers": [
+        "gordonl75165499"
+      ],
+      "githubIds": [
+        "gordonlu"
+      ],
+      "replyIds": [
+        "2084814791890346428"
+      ],
+      "excerpts": [
+        "@tianyi 申请报名DSH内测。\n\nGitHub ID：gordonlu\n\nAuraPilot：\nhttps://github.com/gordonlu/AuraPilot\n\nZhongShu：\nhttps://github.com/gordonlu/zhongshu\n\nDeepLossless：\nhttps://github.com/gordonlu/deeplossless\n\n这几个项目分别涉及Coding Agent任务管理、桌面Agent工具和上下文运行时，希望能参与内测，并根据DSH实际接口尝试接入支持。"
+      ],
+      "aiSummary": null
     },
     {
       "key": "hlxkurapika/qa-sys",
@@ -4486,7 +5983,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-04T23:57:50Z",
+      "pushedAt": "2026-08-05T01:52:11Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/127850894?u=a739568c1dba336c4b276ab295dbba075745969d&v=4",
       "available": true,
@@ -4534,8 +6031,36 @@
         "@tianyi agents-memory-sidecar \nMulti-agents memory management.\nhttps://github.com/zenbordercom/agents-memory-sidecar"
       ],
       "aiSummary": "报名用户 zenisless 的 zenbordercom/agents-memory-sidecar：为支持 MCP 的 AI 智能体提供本地优先的共享记忆侧车，管理多智能体记忆。"
+    },
+    {
+      "key": "firegnu/herdr-interactive-worker",
+      "owner": "firegnu",
+      "repo": "herdr-interactive-worker",
+      "fullName": "firegnu/herdr-interactive-worker",
+      "url": "https://github.com/firegnu/herdr-interactive-worker",
+      "description": null,
+      "stars": null,
+      "language": null,
+      "archived": false,
+      "pushedAt": null,
+      "license": null,
+      "avatarUrl": null,
+      "available": false,
+      "xUsers": [
+        "Xin_Jin1018"
+      ],
+      "githubIds": [
+        "firegnu"
+      ],
+      "replyIds": [
+        "2084812636513001776"
+      ],
+      "excerpts": [
+        "@tianyi 一套模型无关的持久化\"协调者-工作者\"(Coordinator-Worker)智能体协作协议及配套工具集,用于在目标代码仓库中安全地创建、监督、审核、修复和集成由 Claude/Codex/Pi 等不同 AI 模型驱动的交互式编码任务。\n\nhttps://github.com/firegnu/herdr-interactive-worker"
+      ],
+      "aiSummary": null
     }
   ],
   "summaryModel": "gpt-5.6-luna",
-  "summaryGeneratedAt": "2026-08-05T01:25:36.396Z"
+  "summaryGeneratedAt": "2026-08-05T02:09:45.505Z"
 }
