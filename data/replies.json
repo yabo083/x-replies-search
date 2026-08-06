@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T18:07:39.603648+00:00",
+  "fetchedAt": "2026-08-06T20:07:24.984352+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 656,
-      "capturedReplyCount": 507,
-      "lastCheckedAt": "2026-08-06T18:07:36.558091+00:00"
+      "sourceReplyCount": 657,
+      "capturedReplyCount": 525,
+      "lastCheckedAt": "2026-08-06T20:07:22.346588+00:00"
     }
   ],
   "summary": {
-    "tweets": 986,
-    "authors": 865,
-    "sourceCount": 1813,
-    "added": 1,
+    "tweets": 1004,
+    "authors": 882,
+    "sourceCount": 1814,
+    "added": 18,
     "mode": "incremental"
   },
   "replies": [
@@ -7485,6 +7485,14 @@
       "likes": 0
     },
     {
+      "id": "2085205635285807596",
+      "sourceTweetId": "2084693319188439211",
+      "author": "drq_ai",
+      "text": "@tianyi github id : Leon-Drq\ngithub project address: https://github.com/Leon-Drq/openagentskill",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
       "id": "2085207227665907794",
       "sourceTweetId": "2083519855203078320",
       "author": "langcli_",
@@ -7497,6 +7505,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "S0UIMateK",
       "text": "@tianyi 老师您好，我非常喜欢deepseek，想第一时间体验到deepseek harness用于优化当前的项目：\nGithub ID:Wdclouds\n项目地址：https://github.com/Wdclouds/FEAGLEwxbot\n想通过deepseek harness优化自身的处理逻辑 https://x.com/S0UIMateK/status/2085209567491948967",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085216098635632764",
+      "sourceTweetId": "2084693319188439211",
+      "author": "XinBuilds",
+      "text": "@tianyi GitHub ID：XinBuilds\n项目地址：https://github.com/XinBuilds/mwrs\nMWRS是一个为 Agent 世界状态设计的“世界运行时”：完全脱离“模型说什么就是什么”的写法，通过 MCP 把世界状态、规则、权限与历史暴露成Agent 易读、易验证的格式.初衷是给 Agent 提供一个真正属于它的世界边界",
       "createdAt": null,
       "likes": 0
     },
@@ -7573,6 +7589,30 @@
       "likes": 0
     },
     {
+      "id": "2085232312548036783",
+      "sourceTweetId": "2084693319188439211",
+      "author": "arparvar",
+      "text": "DeepSeek Harness 发布时可以第一时间做接入支持。\n\nGitHub ID: arparvar\nhttps://github.com/nosistech/nosis-harness\n\nnosis-harness (nh):  orchestrator + aggregator + UI + MCP server in one Rust binary (MIT), for open-weight models. DeepSeek / Kimi / GLM / MiMo / local Ollama + llama.cpp behind one route interface; deepseek-v4-flash is the default route. Every call metered honestly from provider-reported usage- no guessed numbers.\n\nEmail sent by DM.",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085236849925378524",
+      "sourceTweetId": "2084693319188439211",
+      "author": "PratapAshi82415",
+      "text": "@tianyi killer-block-coder-95",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085238060258910277",
+      "sourceTweetId": "2084693319188439211",
+      "author": "XieWalker",
+      "text": "@tianyi GitHub: Xieweikang123 | AIALL（https://github.com/Xieweikang123/AIALL）：开源 Cursor 类编程助手，Tauri2+Vue3，本地项目 Agent + Ask/Build/Plan + 流式/续跑/stall 恢复，Rust 行为真相源。希望第一时间接入 DSH。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085248222617125346",
       "sourceTweetId": "2083519855203078320",
       "author": "DuXupeng",
@@ -7587,6 +7627,30 @@
       "text": "@tianyi https://github.com/zanwei/design-dna",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2085256325840376161",
+      "sourceTweetId": "2084693319188439211",
+      "author": "kanhaishibukan",
+      "text": "@tianyi https://github.com/ucloud/ucloud-cli ucloud agent ready  skill",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085256447236182455",
+      "sourceTweetId": "2084693319188439211",
+      "author": "zenwill_ai",
+      "text": "@tianyi paradoxzw\n\nhttps://github.com/ParadoxZW/council.skill",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085259817179132132",
+      "sourceTweetId": "2084693319188439211",
+      "author": "zhongyanknight",
+      "text": "@tianyi @tianyi 是不是要出coding plan了  大的要来了吗？",
+      "createdAt": null,
+      "likes": 1
     },
     {
       "id": "2085271420888891690",
@@ -7637,6 +7701,14 @@
       "likes": 0
     },
     {
+      "id": "2085287383097094290",
+      "sourceTweetId": "2084693319188439211",
+      "author": "kakakbibibi",
+      "text": "**Search-o1** is one of the most basic and popular search-agent harnesses:  \nhttps://github.com/RUC-NLPIR/Search-o1\n\n**WebThinker** is the first open-source deep report generation harness built on search agents:  \nhttps://github.com/RUC-NLPIR/WebThinker\n\n**DeepAgent** further builds on Search-o1 by introducing a scalable tool set:  \nhttps://github.com/RUC-NLPIR/DeepAgent\n\nAll of these GitHub repos have over 1k stars. I see them as foundational and highly important agent harnesses, and I really hope DeepSeek can take a look.",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085288611097047523",
       "sourceTweetId": "2084693319188439211",
       "author": "KarnaughK",
@@ -7665,6 +7737,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "hongyi_zheng",
       "text": "@tianyi Github ID: jaxonhowie\n项目地址: https://github.com/jaxonhowie/sprite-forge\n一个小型全栈游戏素材处理工具，包含四条独立工作流：\n视频处理\n多视频拼帧\n提取要素\n图片处理",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085296171694866593",
+      "sourceTweetId": "2084693319188439211",
+      "author": "amazontt18925",
+      "text": "@tianyi Github id :amazont\ngithub项目：https://github.com/amazont/feishu-meeting-minutes-share\n介绍：\n把当天所有飞书会议录音(妙记)自动整理成结论前置式纪要(核心结论以可视化「核心结论看板」画板呈现, 并可由 AI 按内容自动配图、图文分栏排版),归档到你飞书知识库的「会议纪要 / &lt;日期&gt;」下，并发飞书通知。可设成每天自动跑。",
       "createdAt": null,
       "likes": 0
     },
@@ -7749,6 +7829,22 @@
       "likes": 0
     },
     {
+      "id": "2085315198492221885",
+      "sourceTweetId": "2084693319188439211",
+      "author": "LukeParkerDev",
+      "text": "@tianyi OpenCode",
+      "createdAt": null,
+      "likes": 2
+    },
+    {
+      "id": "2085316654377168941",
+      "sourceTweetId": "2084693319188439211",
+      "author": "sagacity",
+      "text": "@tianyi 报名：\nhttps://github.com/mowenxd/cli",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085316889237127333",
       "sourceTweetId": "2084693319188439211",
       "author": "yang5944",
@@ -7761,6 +7857,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "MarbleMWS",
       "text": "@tianyi githubiD：forlornMWS \nhttps://github.com/forlornMWS/office-ir",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085322149804519669",
+      "sourceTweetId": "2084693319188439211",
+      "author": "mixinju",
+      "text": "@tianyi Github地址：https://github.com/mixinju/skill-eval \n项目概述：Skill-Eval 是一个基于 Go 语言开发的 AI Agent 技能评测框架，专注于对 LLM（大语言模型）驱动的智能体在执行任务时的技能调用能力、产出质量、执行效率进行系统化的评估与可视化分析。",
       "createdAt": null,
       "likes": 0
     },
@@ -7821,6 +7925,14 @@
       "likes": 0
     },
     {
+      "id": "2085346251256869129",
+      "sourceTweetId": "2084693319188439211",
+      "author": "SunnyZh36130386",
+      "text": "@tianyi 请问私人邮箱是什么？我目前的是opencode的harness插件",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085347220988231694",
       "sourceTweetId": "2084693319188439211",
       "author": "hellowind666",
@@ -7853,10 +7965,26 @@
       "likes": 0
     },
     {
+      "id": "2085368612148375963",
+      "sourceTweetId": "2084693319188439211",
+      "author": "PlanckYTL",
+      "text": "@tianyi Github ID: YuntaoOvO\n项目地址：https://github.com/YuntaoOvO/RAG-RAW\n\nBased on arxiv_vectordb, we developed RAG-RAW(Retrieval-Augmented Generation with Reason-Acting Workflow). With high spirits, we are here providing a LLM-powered workflow for deeper and more practical research.",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
       "id": "2085376802843972076",
       "sourceTweetId": "2084693319188439211",
       "author": "williamshi666",
       "text": "@tianyi GitHub ID:WilliamShi666\nhttps://github.com/WilliamShi666/William-AI-Studio\n崔老师好！这是我给公司内部做的AI系统，我是owner且打算离职，所以开源了哈。其中有一个类Manus企业内部Agent平台，里面的sandbox可以接各种harness，也包括一个我自己搭的harness。我想试试接入DeepSeek的Harness多学习学习！",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085377530006241525",
+      "sourceTweetId": "2084693319188439211",
+      "author": "zjp73",
+      "text": "@tianyi 这条下面已经快成 Agent Harness 开源项目黄页了。相比单纯换个模型，我更关心 DSH 会不会把状态持久化、工具权限和多 Agent协作协议做成稳定接口；这三样才决定生态能不能真的接进来。",
       "createdAt": null,
       "likes": 0
     },
@@ -7917,10 +8045,26 @@
       "likes": 1
     },
     {
+      "id": "2085411552031871035",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Pqponet",
+      "text": "@tianyi AI work shouldn’t disappear into chat history.\nPragma turns the way you work with AI into a reusable asset: workflows, private knowledge, and eval sets—composing Gemini, Claude Code, Codex, PI, and more into one portable system.\nGitHub: https://github.com/pqpo/pragma ",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085418532326809786",
       "sourceTweetId": "2084693319188439211",
       "author": "WeareZank76692",
       "text": "@tianyi github id weare20202020\nhttps://github.com/weare20202020/Openpurple\n多Agent多信道架构Fork OpenCode的Coding Agent",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085446268239905025",
+      "sourceTweetId": "2084693319188439211",
+      "author": "HeadyZhang",
+      "text": "@tianyi Hey :)\nid HeadyZhang\nrepo https://github.com/HeadyZhang/agent-audit\ndetermistic agent security auditing",
       "createdAt": null,
       "likes": 0
     }
