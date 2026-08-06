@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T05:08:17.833701+00:00",
+  "fetchedAt": "2026-08-06T10:08:06.379302+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1153,
-      "capturedReplyCount": 384,
-      "lastCheckedAt": "2026-08-06T05:07:57.924750+00:00"
+      "sourceReplyCount": 1154,
+      "capturedReplyCount": 385,
+      "lastCheckedAt": "2026-08-06T10:07:46.971788+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 579,
-      "capturedReplyCount": 467,
-      "lastCheckedAt": "2026-08-06T05:08:11.720584+00:00"
+      "sourceReplyCount": 617,
+      "capturedReplyCount": 482,
+      "lastCheckedAt": "2026-08-06T10:07:58.857755+00:00"
     }
   ],
   "summary": {
-    "tweets": 851,
-    "authors": 755,
-    "sourceCount": 1732,
-    "added": 6,
+    "tweets": 867,
+    "authors": 771,
+    "sourceCount": 1771,
+    "added": 16,
     "mode": "incremental"
   },
   "replies": [
@@ -6841,6 +6841,134 @@
       "sourceTweetId": "2084693319188439211",
       "author": "kestiny18",
       "text": "@tianyi 你好，崔老师\nGitHub id： kestiny18\n项目地址： https://github.com/kestiny18/Noval\nNoval 是面向知识工作者的通用 Agent 尝试",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085231236814106894",
+      "sourceTweetId": "2084693319188439211",
+      "author": "changgaowei",
+      "text": "@tianyi Agent Network Protocol（ANP），为agent提供原生的身份、消息、描述、发现能力，让agent形成一个开放、高效的协作网络。\nGitHub ID：chgaowei\ngithub地址：https://github.com/agent-network-protocol/AgentNetworkProtocol\nANP最大的优势的Agent原生身份，能够让不同平台的智能体互联互通，让上下文在互联网中自由流动。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085254286297145723",
+      "sourceTweetId": "2083519855203078320",
+      "author": "zanweiguo",
+      "text": "@tianyi https://github.com/zanwei/design-dna",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085276325036904536",
+      "sourceTweetId": "2084693319188439211",
+      "author": "limngjn10",
+      "text": "@tianyi Github id：RandallLiuXin\n项目地址：https://github.com/RandallLiuXin/GodotMaker\n基于 Claude Code、Codex 和 Opencode 的，通过自然语言生成godot游戏的项目\n\n目前有200+常驻用户，非常希望能有机会测试体验并接入deepseek harness！",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085279333606965740",
+      "sourceTweetId": "2084693319188439211",
+      "author": "claw_pro_bench",
+      "text": "@tianyi githubid：suyoumo\n我的项目clawprobench，目前有800多star，用来评估不同模型加harness组合在openclaw下的能力：\nhttps://github.com/suyoumo/ClawProBench\n最近也在做的新的长程游戏生成benchmark，也会去评估不同模型加harness组合下游戏生成的能力。",
+      "createdAt": null,
+      "likes": 2
+    },
+    {
+      "id": "2085279546828582956",
+      "sourceTweetId": "2084693319188439211",
+      "author": "nmgwddj",
+      "text": "@tianyi 我们正在构建平台厂商无关的 Rust 生态 Agent SDK，期望能第一时间体验到 DeepSeek Harness 并对接。\n我们今天刚刚开源，还有很多事情要做：\nGithub ID：nmgwddj\n项目地址：https://github.com/tea-hq/tea-rs",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085282721866322008",
+      "sourceTweetId": "2084693319188439211",
+      "author": "mc3545dada",
+      "text": "@tianyi GitHub ID：mc3545dada\n项目地址：https://github.com/mc3545dada/mspm0-skill⁠\nMSPM0 Skill 是面向嵌入式开发的 Agent Skill，具有自动编译烧录固件到嵌入式设备等功能。希望作为嵌入式垂直场景参与 DSH 内测，并愿意第一时间完成适配、测试与反馈。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085283065484513723",
+      "sourceTweetId": "2084693319188439211",
+      "author": "sirui_lu97",
+      "text": "你好崔老师，我是 @texra_ai 的开发者（GitHub: LionSR / org: texra-ai）。\n我们主要做面向数学、理论物理/计算机的 multi-agent Harness 系统，相关开源项目如下：\n核心相关\n•  TeXRA（https://texra.ai/）：Theorist专用 multi-agent 系统（VS Code 扩展 + CLI） Orchestrator + 多个 specialized agents（文献检索、写作、Lean 形式化、符号计算、证明验证、图生成、反思迭代），支持 tool use、YAML 自定义 agent、reflection loop，已原生支持 DeepSeek 模型。TeXRA 本体即将开源。\n•  mcp-server-mathematica（texra-ai） MCP Server，让 agent 直接调用本地 Mathematica / Wolframscript 执行计算并验证推导步骤。\n•  texra-lean-skills（texra-ai） 理论数学 Skills 套件（Claude Code / Codex 兼容）：lean-blueprint、lean-proof-assistant、lean-search、lean-simplifier，专门服务 Lean 4 + Mathlib 形式化工作流。\n个人账号相关（LionSR）\n•  AgenticPublicationProtocol 把论文以 AI Agent 形式发布的协议（AGENTS.md + skills），让读者可以用 agent 直接解释、复现、追问论文。\n•  agent-ci-actions 可复用的 GitHub Actions，支持 DeepSeek / Anthropic / Kimi 等多 provider，实现 agent 驱动的 code review + self-healing auto-fix 循环。我们在理论数学项目和 Claude Code / TeXRA 工作流中大量使用。\n•  TNLean / is-my-lean-proof-vacuous Lean 4 形式化相关工具（矩阵乘积态定理形式化 + 检测空证明的工具）。\n我们日常大量用 DeepSeek 跑理论数学相关的 agent 工作流。非常希望能第一时间接入 DeepSeek Harness（plugin / skill / MCP / orchestrator / UI 方向），并参与内测。\n邮箱已私信。期待能有机会体验并反馈！\n谢谢。\nSirui/ @texra_ai",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085288611097047523",
+      "sourceTweetId": "2084693319188439211",
+      "author": "KarnaughK",
+      "text": "@tianyi GitHub ID: KarnaughK\n\n项目：https://github.com/KarnaughK/AIPD\n\n邮箱：a292214146@gmail.com\n\n简介：\nAIPD 是一套面向 AI 协作的软件开发框架；\n通过构建项目级知识库，引入任务目标系统，以及沉淀开发经验，来辅助 agent 更好的开发项目",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085290059092447279",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Poul_Ya",
+      "text": "@tianyi 老师你好\nGitHub ID: PouLJenny\n项目地址: https://github.com/PouLJenny/trundle\n\ntrundle-discuss:Claude Code skill,把单人对话变成多 agent 回合制\n群聊,codex/gemini 作为固定站位的参与者被拉进讨论。\n\n适配层是 agents.yaml 七字段,接一个新 CLI 只需登记一条并实测验证，希望能在DSH 发布当天接入",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085292165807128806",
+      "sourceTweetId": "2084693319188439211",
+      "author": "supermumucoming",
+      "text": "@tianyi GitHub ID: linkaiheng2233-cyber\n\n项目地址: https://github.com/linkaiheng2233-cyber/oclivenewnew\n\n您好，我有兴趣参与 DSH 内测。\n\n项目: OCLive — 开源AI角色运行时内核，六槽可替换架构，支持插件/Agent编排/蓝图调度\n联系方式：13603048744@163.com\n期待能第一时间接入支持。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085293793079664955",
+      "sourceTweetId": "2084693319188439211",
+      "author": "hongyi_zheng",
+      "text": "@tianyi Github ID: jaxonhowie\n项目地址: https://github.com/jaxonhowie/sprite-forge\n一个小型全栈游戏素材处理工具，包含四条独立工作流：\n视频处理\n多视频拼帧\n提取要素\n图片处理",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085297673964568761",
+      "sourceTweetId": "2084693319188439211",
+      "author": "mbluostudio",
+      "text": "@tianyi GitHub id：AAAAAnson\n\nMBEditor https://github.com/AAAAAnson/mbeditor\n首款支持 agent cli 操作的微信公众号编辑器。功能全是 API 端点，自带 skill 文件，已接 Claude Code / Codex / OpenClaw，BYOK 默认示例就是 DeepSeek。MIT / 66★\n\nDSH 发布后做 skill + MCP server 两种形态，争取首日可用。邮箱已私信",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085300465169039666",
+      "sourceTweetId": "2084693319188439211",
+      "author": "yi_meet_ai",
+      "text": "@tianyi github ID: wyq09\n开源项目：https://github.com/wyq09/nine-claw\n一个基于pi-agent的个人通用智能体\n申请 DeepSeek Harness的内测，谢谢",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085300817637355779",
+      "sourceTweetId": "2084693319188439211",
+      "author": "mnem05yne",
+      "text": "@tianyi GitHub 4t145\n1. rust mcp sdk：https://github.com/modelcontextprotocol/rust-sdk\n我是mcp官方rust sdk早期开发者和维护者，现在已经参与了，但是这个项目早期代码基本上都是我写的。\n\n2. defect\nhttps://github.com/4t145/defect\n一个无头llm harness，服务器与自动化等环境使用\n3. lark-acp 飞书 acp桥接层\nhttps://github.com/4t145/lark-acp",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085302918690095178",
+      "sourceTweetId": "2084693319188439211",
+      "author": "abcccnpc",
+      "text": "@tianyi GitHub ID：LiangJue\n项目地址：https://github.com/LiangJue/Snap-Research\n\nSnap Research是一个 Chrome 插件，想解决的痛点是用户在社交媒体上看到带有数据、事实判断或因果观点的帖子后，插件会抽取其中可核查的论点，执行网页研究，并生成逐条证据和结论。有点类似抖音评论区的@抖音求真和x下面的@grok",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085306690002632809",
+      "sourceTweetId": "2084693319188439211",
+      "author": "coderyi9",
+      "text": "@tianyi codeyi，https://github.com/coderyi/buildthread",
       "createdAt": null,
       "likes": 0
     }
