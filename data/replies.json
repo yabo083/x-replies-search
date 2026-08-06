@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T01:07:17.882969+00:00",
+  "fetchedAt": "2026-08-06T02:07:41.915062+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 559,
-      "capturedReplyCount": 451,
-      "lastCheckedAt": "2026-08-06T01:07:14.733074+00:00"
+      "sourceReplyCount": 561,
+      "capturedReplyCount": 455,
+      "lastCheckedAt": "2026-08-06T02:07:37.117475+00:00"
     }
   ],
   "summary": {
-    "tweets": 834,
-    "authors": 738,
-    "sourceCount": 1709,
+    "tweets": 838,
+    "authors": 742,
+    "sourceCount": 1711,
     "added": 4,
     "mode": "incremental"
   },
@@ -6037,6 +6037,14 @@
       "likes": 0
     },
     {
+      "id": "2084940843664998410",
+      "sourceTweetId": "2084693319188439211",
+      "author": "cukzzboiybeg7l",
+      "text": "@tianyi Evan\n😀\nSibyl\n💩\n2026-08-05 17:53:27",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2084941569313194074",
       "sourceTweetId": "2084693319188439211",
       "author": "yeemio",
@@ -6677,10 +6685,26 @@
       "likes": 0
     },
     {
+      "id": "2085129885287379062",
+      "sourceTweetId": "2084693319188439211",
+      "author": "mmlong8",
+      "text": "@tianyi 必须报名\nGitHub ID：mmlong818 \n项目名称：一款带长期记忆的 AI 对话与复合工具的应用，记忆系统是专门开发的\n项目地址：https://github.com/mmlong818/nemos",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085159376109842495",
       "sourceTweetId": "2084693319188439211",
       "author": "Andy8647L",
       "text": "@tianyi 报名 GitHub ID: https://github.com/Andy8647\nhttps://github.com/Andy8647/pi-starline - Starship 风 statusline + Opencode 风 TUI\nhttps://github.com/Andy8647/pi-agent-loop - 跨 provider 限流检测 + 自动恢复：区已适配 DeepSeek\nhttps://github.com/Andy8647/pi-ide-context - pi 的 /ide",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085162761970188439",
+      "sourceTweetId": "2084693319188439211",
+      "author": "jazzyalex",
+      "text": "@tianyi https://github.com/jazzyalex/agent-sessions\n\nOpen source, popular (759 stars and thousands of active users) session manager and live quota meter for Claude, Codex, Cursor and 7 more agent harnesses.  \n\nhttps://jazzyalex.github.io/agent-sessions/\nmacOS  • open source • ⭐️ 759",
       "createdAt": null,
       "likes": 0
     },
@@ -6705,6 +6729,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "chuanzhubin",
       "text": "@tianyi GitHub ID: foxden-app，\n项目foxclaw（https://github.com/foxden-app/foxclaw）。\n它是Telegram Bot，但本质是聚合型UI/Aggregator，已实现多账号/节点管理、消息梯次聚合。接入DSH后，用户可一键调用DeepSeek，并享受多模型对比体验。我们承诺发布后第一时间适配",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085172813229412633",
+      "sourceTweetId": "2084693319188439211",
+      "author": "stevenyuyy",
+      "text": "@tianyi GitHub ID: 54yyyu\n项目：https://github.com/54yyyu/zotero-mcp\n\nZotero MCP：把科研文库接入 Agent，支持检索、语义搜索、PDF 全文与批注、写入，本地与云端均可。4.5k stars，PyPI 月下载 2.5 万。\n\n科研场景对长文本处理和多轮工具调用的稳定性要求较高，希望在 DSH 发布时第一时间适配。邮箱已私信。",
       "createdAt": null,
       "likes": 0
     }
