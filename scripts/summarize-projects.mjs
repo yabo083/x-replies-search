@@ -87,7 +87,10 @@ async function summarizeWithModel(batch, selectedModel) {
       if (!response.ok) {
         const detail = (await response.text()).slice(0, 240);
         const error = new Error(`LLM HTTP ${response.status}: ${detail}`);
-        error.channelUnavailable = detail.includes("get_channel_failed") || detail.includes("可用渠道不存在");
+        error.channelUnavailable = detail.includes("get_channel_failed")
+          || detail.includes("model_not_found")
+          || detail.includes("可用渠道不存在")
+          || detail.includes("无可用渠道");
         throw error;
       }
       const payload = await response.json();
