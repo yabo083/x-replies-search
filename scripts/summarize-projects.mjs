@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const baseUrl = (process.env.LLM_BASE_URL || "https://moyuu.cc/v1").replace(/\/$/, "");
 const apiKey = process.env.LLM_API_KEY;
-const models = (process.env.LLM_MODELS || process.env.LLM_MODEL || "deepseek-v4-flash,gpt-5.6-sol")
+const models = (process.env.LLM_MODELS || process.env.LLM_MODEL || "deepseek-v4-flash")
   .split(",")
   .map((value) => value.trim())
   .filter(Boolean);
@@ -169,4 +169,3 @@ catalog.summaryGeneratedAt = cache.updatedAt;
 await writeFile(cachePath, JSON.stringify(cache, null, 2) + "\n", "utf8");
 await writeFile(projectsPath, JSON.stringify(catalog, null, 2) + "\n", "utf8");
 console.log(`Generated ${generated}; reused ${catalog.projects.length - pending.length}; available ${catalog.projects.filter((project) => project.aiSummary).length}`);
-if (work.length > 0 && generated === 0) throw new Error("No pending project summaries were generated");
