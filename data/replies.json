@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T02:07:41.915062+00:00",
+  "fetchedAt": "2026-08-06T03:08:54.139369+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -12,7 +12,7 @@
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
       "sourceReplyCount": 1150,
       "capturedReplyCount": 383,
-      "lastCheckedAt": "2026-08-05T17:07:14.652951+00:00"
+      "lastCheckedAt": "2026-08-06T03:08:00.335090+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 561,
-      "capturedReplyCount": 455,
-      "lastCheckedAt": "2026-08-06T02:07:37.117475+00:00"
+      "sourceReplyCount": 565,
+      "capturedReplyCount": 456,
+      "lastCheckedAt": "2026-08-06T03:08:37.139480+00:00"
     }
   ],
   "summary": {
-    "tweets": 838,
-    "authors": 742,
-    "sourceCount": 1711,
-    "added": 4,
-    "mode": "incremental"
+    "tweets": 839,
+    "authors": 743,
+    "sourceCount": 1715,
+    "added": 1,
+    "mode": "full"
   },
   "replies": [
     {
@@ -6737,6 +6737,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "stevenyuyy",
       "text": "@tianyi GitHub ID: 54yyyu\n项目：https://github.com/54yyyu/zotero-mcp\n\nZotero MCP：把科研文库接入 Agent，支持检索、语义搜索、PDF 全文与批注、写入，本地与云端均可。4.5k stars，PyPI 月下载 2.5 万。\n\n科研场景对长文本处理和多轮工具调用的稳定性要求较高，希望在 DSH 发布时第一时间适配。邮箱已私信。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085197557354139912",
+      "sourceTweetId": "2084693319188439211",
+      "author": "skadai1",
+      "text": "@tianyi 老师你好\ngithub id  skadai\nhttps://t.co/TdrzgnCO8I\n我们团队开发的 skill, 支持常见电商(amazon, tmall, tiktok) 以及社媒（meta, reddit, xiaohongshu, douyin)的数据查询能力，并内置了目前主流的图像视频生成模型",
       "createdAt": null,
       "likes": 0
     }
