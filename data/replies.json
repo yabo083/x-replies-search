@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T03:08:54.139369+00:00",
+  "fetchedAt": "2026-08-06T04:08:23.002761+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1150,
-      "capturedReplyCount": 383,
-      "lastCheckedAt": "2026-08-06T03:08:00.335090+00:00"
+      "sourceReplyCount": 1152,
+      "capturedReplyCount": 384,
+      "lastCheckedAt": "2026-08-06T04:07:55.818705+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 565,
-      "capturedReplyCount": 456,
-      "lastCheckedAt": "2026-08-06T03:08:37.139480+00:00"
+      "sourceReplyCount": 572,
+      "capturedReplyCount": 461,
+      "lastCheckedAt": "2026-08-06T04:08:15.467003+00:00"
     }
   ],
   "summary": {
-    "tweets": 839,
-    "authors": 743,
-    "sourceCount": 1715,
-    "added": 1,
-    "mode": "full"
+    "tweets": 845,
+    "authors": 749,
+    "sourceCount": 1724,
+    "added": 6,
+    "mode": "incremental"
   },
   "replies": [
     {
@@ -6745,6 +6745,54 @@
       "sourceTweetId": "2084693319188439211",
       "author": "skadai1",
       "text": "@tianyi 老师你好\ngithub id  skadai\nhttps://t.co/TdrzgnCO8I\n我们团队开发的 skill, 支持常见电商(amazon, tmall, tiktok) 以及社媒（meta, reddit, xiaohongshu, douyin)的数据查询能力，并内置了目前主流的图像视频生成模型",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085202846023323859",
+      "sourceTweetId": "2084693319188439211",
+      "author": "RockChinCN",
+      "text": "@tianyi GitHub: https://github.com/langbot-app/LangBot\n\nLangBot 将各个平台上构建的 Agent 接入 Slack、Discord、Telegram、微信、QQ 等多种即时通信场景，并内置 Agent 编排支持使用各种模型，已有多家企业采用用于生产环境，最近在实现 Agent Harness 插件化，希望能参与 DSH 的内测",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085204497064943963",
+      "sourceTweetId": "2084693319188439211",
+      "author": "hanjiang66666",
+      "text": "@tianyi GITid:hanjiang-215\nhanjiang-215/cognitive-exoskeleton-mcp: Personal Cognitive Exoskeleton - MCP Server powered by knowledge graph + LLM reasoning (8 tools, 138 tests, model-agnostic)\nCognitive Exoskeleton（认知外骨骼）是一款帮你把笔记变成「会思考的知识网络」的工具。 https://x.com/hanjiang66666/status/2085204497064943963",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085205312177377414",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Adgai115",
+      "text": "@tianyi 老师您好，我非常喜欢DeepSeek，希望能第一时间体验到：DeepSeek Harness\nGitHub ID：Adgai115\nhttps://github.com/Adgai115/kestrel-agent\n这个项目是我自己在学习的过程中开发的agent",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085207227665907794",
+      "sourceTweetId": "2083519855203078320",
+      "author": "langcli_",
+      "text": "@tianyi 报名参加内测。\nGitHub id: keydexofficial\n代表作：https://github.com/LangcliTeam/langcli",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085209567491948967",
+      "sourceTweetId": "2084693319188439211",
+      "author": "S0UIMateK",
+      "text": "@tianyi 老师您好，我非常喜欢deepseek，想第一时间体验到deepseek harness用于优化当前的项目：\nGithub ID:Wdclouds\n项目地址：https://github.com/Wdclouds/FEAGLEwxbot\n想通过deepseek harness优化自身的处理逻辑 https://x.com/S0UIMateK/status/2085209567491948967",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085216157594771870",
+      "sourceTweetId": "2084693319188439211",
+      "author": "langgejiang1",
+      "text": "@tianyi 崔老师 您好\n我也非常喜欢deepseek 开发了四个系统在邮件里\nGitHubID： LANGGEParametricPlan\n项目：https://github.com/LANGGEParametricPlan/Parameter-Plan-V1000V1000基础标准（Parameter-Plan-V1000）——参数化视频语言控制最小系统架构，已公开，全部基于同一套跨领域规则引擎。不依赖特定模型，不依赖后训练 \n想试试加入deepseek harness https://x.com/langgejiang1/status/2085216157594771870",
       "createdAt": null,
       "likes": 0
     }
