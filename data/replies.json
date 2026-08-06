@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-05T23:07:16.844075+00:00",
+  "fetchedAt": "2026-08-06T01:07:17.882969+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 554,
-      "capturedReplyCount": 447,
-      "lastCheckedAt": "2026-08-05T23:07:13.492571+00:00"
+      "sourceReplyCount": 559,
+      "capturedReplyCount": 451,
+      "lastCheckedAt": "2026-08-06T01:07:14.733074+00:00"
     }
   ],
   "summary": {
-    "tweets": 830,
-    "authors": 735,
-    "sourceCount": 1704,
-    "added": 1,
+    "tweets": 834,
+    "authors": 738,
+    "sourceCount": 1709,
+    "added": 4,
     "mode": "incremental"
   },
   "replies": [
@@ -6673,6 +6673,38 @@
       "sourceTweetId": "2084693319188439211",
       "author": "fluct2814",
       "text": "@tianyi https://github.com/agent-substrate/substrate\nGoogle的的高性能、高密度 Agent 运行时系统",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085159376109842495",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Andy8647L",
+      "text": "@tianyi 报名 GitHub ID: https://github.com/Andy8647\nhttps://github.com/Andy8647/pi-starline - Starship 风 statusline + Opencode 风 TUI\nhttps://github.com/Andy8647/pi-agent-loop - 跨 provider 限流检测 + 自动恢复：区已适配 DeepSeek\nhttps://github.com/Andy8647/pi-ide-context - pi 的 /ide",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085167837258428735",
+      "sourceTweetId": "2084693319188439211",
+      "author": "lnxi269983",
+      "text": "@tianyi 崔老师您好，我是 GitHub @Linxiushen\n\n看到您的帖子后，我做并开源了 HarnessLab：\nhttps://github.com/Linxiushen/harnesslab\n\n项目把 Agent Harness 的模型回合、工具调用、审批与结果统一成严格有序 trace，并提供可执行 conformance matrix、MCP bridge 和调试 UI，CI 已通过",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085169568625070573",
+      "sourceTweetId": "2084693319188439211",
+      "author": "bluth111",
+      "text": "报名，yuanchenglu001@gmail.com：【DeepSeek 开源全家桶】\n五件套的关系：\nllm-harness-agent（理论研究）\n↓ 验证\ndeepseek_runtime（运行时内核）\n↓ 封装为产品\ndeepseekagent（\"一人公司\"操作系统）\n↓ 派生\n├─ deepcode（编程助手）\n└─ oh-my-deepseek-harness（Hermes 插件）\n1. 理论研究入口llm-harness-agent：\n18 篇深度分析把 Agent 架构的坑和方案讲清楚，附带完整论文引用数据库。不用从零啃论文。\n适合：想理解 Agent 技术选型的产品经理和开发者\nhttps://github.com/yuanchenglu/ll…\n2. 可复用运行时内核deepseek_runtime：\n在 DeepSeek API 上搭本地 Agent，不用自己写安全、会话、证据——fork 了就能用。\n适合：在 DeepSeek API 上做二次开发的 Python 开发者\nhttps://github.com/yuanchenglu/de…\n3. 面向普通用户的产品deepseekagent：\n说需求，它帮你调度一整家公司的 AI 部门——出代码、出文案、出报表，你不需要会写代码。\n适合：想一个人干一个团队活的创业者/独立开发者\nhttps://github.com/yuanchenglu/de…\n4. 编程助手deepcode：\n专为 DeepSeek V4 定制的编程助手，reasoning_effort 控制、Harness 约束、飞书/微信里也能管代码。\n适合：用 DeepSeek V4 写代码的开发者\nhttps://github.com/yuanchenglu/de…\n5. Hermes 插件oh-my-deepseek-harness：\n一条命令给 Hermes Agent 装上 DeepSeek 满血插件——意图路由、推理强度自动切、上下文自动压缩。\n适合：Hermes Agent 用户\nhttps://github.com/yuanchenglu/oh…",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085170337097158666",
+      "sourceTweetId": "2084693319188439211",
+      "author": "chuanzhubin",
+      "text": "@tianyi GitHub ID: foxden-app，\n项目foxclaw（https://github.com/foxden-app/foxclaw）。\n它是Telegram Bot，但本质是聚合型UI/Aggregator，已实现多账号/节点管理、消息梯次聚合。接入DSH后，用户可一键调用DeepSeek，并享受多模型对比体验。我们承诺发布后第一时间适配",
       "createdAt": null,
       "likes": 0
     }
