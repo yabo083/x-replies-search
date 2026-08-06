@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-06T12:07:18.404058+00:00",
+  "fetchedAt": "2026-08-06T13:07:16.034155+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 632,
-      "capturedReplyCount": 493,
-      "lastCheckedAt": "2026-08-06T12:07:15.931139+00:00"
+      "sourceReplyCount": 639,
+      "capturedReplyCount": 496,
+      "lastCheckedAt": "2026-08-06T13:07:11.933723+00:00"
     }
   ],
   "summary": {
-    "tweets": 879,
-    "authors": 776,
-    "sourceCount": 1788,
-    "added": 6,
+    "tweets": 882,
+    "authors": 779,
+    "sourceCount": 1795,
+    "added": 3,
     "mode": "incremental"
   },
   "replies": [
@@ -7065,6 +7065,30 @@
       "sourceTweetId": "2084693319188439211",
       "author": "Cornoutlook",
       "text": "@tianyi GitHub ID: sweetcornna\nhttps://github.com/sweetcornna/corlinman\n自托管 AI Agent 平台，支持持久记忆、混合检索、沙箱工具、多渠道及 Web 管理。模型后端可插拔，DSH 可直接接入。申请 DeepSeek Harness 内测",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085345414463828257",
+      "sourceTweetId": "2084693319188439211",
+      "author": "QiyangXiao",
+      "text": "@tianyi GitHub ID: M2artiD\n  项目地址: https://github.com/M2artiD/pis-harness\n\n  pis-harness 是一个 public-safe Agent Harness / orchestrator control plane：模型只能提出完成，必须经过 approval gate、append-only evidence ledger 和 independent verifier 才能进入\n  DONE，形成可审计的 agent run。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085347220988231694",
+      "sourceTweetId": "2084693319188439211",
+      "author": "hellowind666",
+      "text": "@tianyi 报名，希望可以参与内测：）\nGitHub id：hellowind777\nGitHub 项目地址：https://github.com/hellowind777/helloagents",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085347459216388528",
+      "sourceTweetId": "2084693319188439211",
+      "author": "jiobozi",
+      "text": "@tianyi Github ID:. metalnino\nhttps://github.com/metalnino/guanghe_agent \n一个简单的家庭植物医生智能体",
       "createdAt": null,
       "likes": 0
     }
