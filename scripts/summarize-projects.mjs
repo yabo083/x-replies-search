@@ -3,7 +3,7 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const baseUrl = (process.env.LLM_BASE_URL || "https://moyuu.cc/v1").replace(/\/$/, "");
 const apiKey = process.env.LLM_API_KEY;
-const models = (process.env.LLM_MODELS || process.env.LLM_MODEL || "gpt-5.6-luna,gpt-5.6-sol")
+const models = (process.env.LLM_MODELS || process.env.LLM_MODEL || "deepseek-v4-flash,gpt-5.6-sol")
   .split(",")
   .map((value) => value.trim())
   .filter(Boolean);
