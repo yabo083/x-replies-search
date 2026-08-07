@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-07T16:09:00.680Z",
+  "updatedAt": "2026-08-07T17:09:40.840Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -373,9 +373,9 @@
       "generatedAt": "2026-08-05T01:17:05.056Z"
     },
     "cjackhwang/sunamai": {
-      "signature": "e3fa367f4f123c093c2ba9e63d48c444ade178635978d8cd81937342041f7297",
-      "summary": "tetr5354 报名的 CJackHwang/SunamAI 是一个使用 TypeScript 构建的 Agent Harness 项目。",
-      "generatedAt": "2026-08-05T03:37:03.406Z"
+      "signature": "9ae87e3f17b2ae2b0444dd21fbdf058f44a8223caccf0a9059fe7ea5b182018a",
+      "summary": "CJackHwang的CJackHwang/SunamAI是TypeScript编写的Agent Harness，用于构建和运行AI智能体。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
     },
     "eloklam/siyuan-agent": {
       "signature": "1db1683f778b5b6e55107cdba59c794c2a0a54692091c269cc97c38348e9bdf1",
@@ -3118,9 +3118,9 @@
       "generatedAt": "2026-08-05T13:08:54.087Z"
     },
     "brigealong/skills": {
-      "signature": "0f505836ee3f86c2de20166e0cebc80395949b00d35a413a9a1ad86ef576625a",
-      "summary": "Bowie_Fengg报名用户的brigealong/skills提供Agent任务定义、跨Agent交接和多Agent编排所需的工作流技能",
-      "generatedAt": "2026-08-05T13:08:54.087Z"
+      "signature": "e32ba3f77dfe0771463462993985549e0d5f487a74f991551f1aa3d86f4df43e",
+      "summary": "brigealong的brigealong/skills包含一组Agent Workflow Skills，用于任务定义、跨Agent交接与多Agent编排。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
     },
     "e29denghy/kaiwu": {
       "signature": "965442045f50c92a549eda52e9e20ddb702e54d7fdfe330d7dc395263e85316f",
@@ -3538,9 +3538,9 @@
       "generatedAt": "2026-08-07T04:10:52.456Z"
     },
     "luyu2026/skill-bible": {
-      "signature": "0f557b428bb1962c0a2f47d526b9fc8f5b31bd822c58c8fe557061637cb475db",
-      "summary": "LuyuHenry 报名 Luyu2026/Skill-Bible，是面向中文用户的跨 Agent 开源 Skill 社区。",
-      "generatedAt": "2026-08-07T04:10:52.456Z"
+      "signature": "69a6eeb71b29e99ecf9f06f3b87a178c9e980a06bf66cc2fe799206289d19e19",
+      "summary": "Luyu2026的Luyu2026/Skill-Bible是面向中文用户的跨Agent开源Skill社区，将真实工作流沉淀为可安装Skill。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
     },
     "matrixmapai/openabcode": {
       "signature": "402fbdd3c63df7df4cec95eed8fa5465081857bcbe5aca158a02bca30d552b9b",
@@ -3941,6 +3941,41 @@
       "signature": "35ab7644f9336464f3451bd3a86cbdd65e8bd42b7d58296d5736a4b1ab69c08a",
       "summary": "SAIHMemory 的 SAIHM-Admin/saihm-mcp-server-pro 是加密、可移植、Agent 无关的记忆层，将密文存于盲化端点。",
       "generatedAt": "2026-08-07T16:09:00.675Z"
+    },
+    "sixdog06/meguri": {
+      "signature": "4ce1127612202a8997e715e643fb1e477436ba42f1de8dedac80a8b55983a57c",
+      "summary": "sixdog06的sixdog06/meguri是对话式圣地巡礼行程规划Agent，基于FastAPI与Vue3推荐动漫巡礼计划。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
+    },
+    "wangkang1019/kk-agent": {
+      "signature": "e0270749b8eff06b21a87f5a026c25dc6b374336225f1edc800252c89dfac27c",
+      "summary": "wangkang1019的wangkang1019/kk-agent是终端AI编程助手，支持接入DeepSeek模型辅助编码。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
+    },
+    "winstern1998-commits/opencode-loop-detector": {
+      "signature": "c320180d005037847ab1ea50b8b12866f73daeef83a47151a3c5fbca22f6915f",
+      "summary": "winstern1998-commits的winstern1998-commits/opencode-loop-detector插件可实时检测并纠正LLM循环。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
+    },
+    "4t145/defect": {
+      "signature": "9d9481477fb2203ff393a45334a2040b52b3545467efab35011bca27436b3f51",
+      "summary": "4t145的4t145/defect是无头LLM harness，专为服务器与自动化环境设计。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
+    },
+    "alsolisa/digital-tools-guide": {
+      "signature": "4f3c32d93b19ecdeb2c11c4c4a078d856334b498ee75ea603f9d6a2ddd20abb5",
+      "summary": "alsolisa的alsolisa/digital-tools-guide是面向中国大陆新手的机场、AI订阅与官方下载指南。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
+    },
+    "andy8647/pi-agent-loop": {
+      "signature": "29f12dd340f6627ef34f6d89a7973b39b5615b64f46d23d2aeaadba9144badb8",
+      "summary": "Andy8647的Andy8647/pi-agent-loop实现跨provider限流检测与自动恢复，已适配DeepSeek。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
+    },
+    "andy8647/pi-ide-context": {
+      "signature": "77bca8abf9b01ebd3dd215aa90d3691af514c3659a717899fca9ead010fc2d71",
+      "summary": "Andy8647的Andy8647/pi-ide-context为pi提供/ide上下文支持。",
+      "generatedAt": "2026-08-07T17:09:40.835Z"
     }
   }
 }
