@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T06:08:20.268788+00:00",
+  "fetchedAt": "2026-08-07T07:09:03.199802+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1162,
-      "capturedReplyCount": 480,
-      "lastCheckedAt": "2026-08-07T06:08:02.065724+00:00"
+      "sourceReplyCount": 1164,
+      "capturedReplyCount": 481,
+      "lastCheckedAt": "2026-08-07T07:08:11.033571+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 678,
-      "capturedReplyCount": 538,
-      "lastCheckedAt": "2026-08-07T06:08:13.728286+00:00"
+      "sourceReplyCount": 684,
+      "capturedReplyCount": 541,
+      "lastCheckedAt": "2026-08-07T07:08:41.103179+00:00"
     }
   ],
   "summary": {
-    "tweets": 1018,
-    "authors": 896,
-    "sourceCount": 1840,
-    "added": 1,
+    "tweets": 1022,
+    "authors": 899,
+    "sourceCount": 1848,
+    "added": 4,
     "mode": "incremental"
   },
   "replies": [
@@ -8177,6 +8177,38 @@
       "sourceTweetId": "2084693319188439211",
       "author": "osmondyYang",
       "text": "@tianyi 您好，申请报名参与内测。\nGitHub ID: Light-Towers\n项目地址: https://github.com/Light-Towers/reliable-agent\n\nreliable-agent 是一组框架无关的 LLM / Agent 生产可靠性原语库，定位是\"让已有的 LLM 应用 / Agent 在生产环境里更稳、更可控、更可排查\"——而非又一个 Agent 框架或运行时。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085610775889207806",
+      "sourceTweetId": "2084693319188439211",
+      "author": "lonyon475303",
+      "text": "@tianyi 您好，报名参加harness测试\nai工具的重度使用者\n曾尝试开发过一款自我进化的宪法式harness，希望能得到内侧资格\n项目地址：https://github.com/Conansgithub/MyClaw",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085617306701578459",
+      "sourceTweetId": "2083519855203078320",
+      "author": "changgaowei",
+      "text": "@tianyi Agent Network Protocol（ANP），为agent提供原生的身份、消息、描述、发现能力，让agent形成一个开放、高效的协作网络。\nGitHub ID：chgaowei\ngithub地址：https://github.com/agent-network-protocol/AgentNetworkProtocol\nANP最大的优势的Agent原生身份，能够让不同平台的智能体互联互通，让上下文在互联网中自由流动。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085619124508692573",
+      "sourceTweetId": "2084693319188439211",
+      "author": "LunRenyi39815",
+      "text": "@tianyi GitHub ID: x-cmd \n项目地址: https://github.com/x-cmd/x-cmd\nx-cmd 是一套轻量级 CLI 工具链与终端自动化生态，定位是“为开发者与 AI Agent 提供开箱即用的命令行环境感知、工具链扩展与终端交互原语”——可作为 DeepSeek Harness 在 MCP / Skill 供给及终端 Orchestration 上的基础设施补充。",
+      "createdAt": null,
+      "likes": 2
+    },
+    {
+      "id": "2085621361280766047",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Cube_007",
+      "text": "@tianyi 您好！申请报名参与内测\nGitHub ID：xCube007\n项目地址：\nhttps://yuandun.gitee.com/\nhttps://t.co/QvofQ6M9IX\n\n我本身是gitee开源社区的yuandun的开发者之一，目前要做mcp各个AI Agent的兼容\nhttps://cube007.cn/是我的个人小站，包含编程 / 后端 / AI 学习笔记和一些开发小工具",
       "createdAt": null,
       "likes": 0
     }
