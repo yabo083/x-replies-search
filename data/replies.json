@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T03:08:06.603540+00:00",
+  "fetchedAt": "2026-08-07T04:08:16.096692+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1158,
+      "sourceReplyCount": 1159,
       "capturedReplyCount": 480,
-      "lastCheckedAt": "2026-08-07T03:07:38.038140+00:00"
+      "lastCheckedAt": "2026-08-07T04:08:00.429935+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 666,
-      "capturedReplyCount": 532,
-      "lastCheckedAt": "2026-08-07T03:07:57.287916+00:00"
+      "sourceReplyCount": 673,
+      "capturedReplyCount": 536,
+      "lastCheckedAt": "2026-08-07T04:08:12.128387+00:00"
     }
   ],
   "summary": {
-    "tweets": 1012,
-    "authors": 890,
-    "sourceCount": 1824,
+    "tweets": 1016,
+    "authors": 894,
+    "sourceCount": 1832,
     "added": 4,
-    "mode": "full"
+    "mode": "incremental"
   },
   "replies": [
     {
@@ -8129,6 +8129,38 @@
       "sourceTweetId": "2084693319188439211",
       "author": "yihu1113791",
       "text": "@tianyi Hi, I’m one of the contributors to Tianshu.\n\nGitHub ID: Eason412\nProject: https://github.com/huiliyi37/Tianshu-Tui\n\nTianshu is a Harness-based terminal coding-agent runtime optimized for DeepSeek V4 and long-context development workflows.",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085564318624711130",
+      "sourceTweetId": "2084693319188439211",
+      "author": "X1YTJ7uM8aSiS7B",
+      "text": "@tianyi 仓库：jnchen/code_dejavu\ngithub ID: jnchen\nCode Déjà Vu 是一个基于 Tauri、SvelteKit 与 Rust 的本地桌面工具，用于统一浏览和管理 Claude Code、Codex CLI 与 OpenCode 留在本机的会话、指令和配置资料。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085567422434841009",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Jonatha77438880",
+      "text": "@tianyi @tianyi 申请报名参与内测\nGitHub ID： Code-MonkeyZhang\nPersona Agent\nhttps://github.com/Code-MonkeyZhang/persona-agent\n面向角色扮演和轻度日常场景的Harness平台，支持桌面端+远程操控的移动端\n- cloud-music-mcp 29⭐️\n支持Agent接入网易云音乐，实现登录/播放/歌单自动收集。\n- ticktick-mcp-enhanced 30⭐️ 让AI管理待办",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085572540391706933",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ann0y1n9g",
+      "text": "@tianyi @tianyi 申请内测\nGitHub ID：abab996\n项目：https://github.com/abab996/AI_MIDI\nAI 辅助 midi 创作 harness 工具，可以通过自然语言描述，让大模型读取，创作，修改，评价 midi 音频。支持多mid 文件读取，绑定工作区，且内置乐理知识库。",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085573515177287947",
+      "sourceTweetId": "2084693319188439211",
+      "author": "git_mono_AI",
+      "text": "@tianyi 项目：https://github.com/libra-tools/libra\n一个 AI 原生vcs，将传统版本控制从跟踪代码变更扩展到整个软件创建过程，帮助开发者理解代码如何产生、如何演进，并支持 Agent 在不同任务和项目之间复用经过验证的解决方案，提升 AI 开发的修复和协作效率，特别适用于 AI Coding、Agent工作流程和大型软件工程场景。",
       "createdAt": null,
       "likes": 0
     }
