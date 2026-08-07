@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T08:08:09.633884+00:00",
+  "fetchedAt": "2026-08-07T10:07:24.489501+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1164,
-      "capturedReplyCount": 481,
-      "lastCheckedAt": "2026-08-07T07:08:11.033571+00:00"
+      "sourceReplyCount": 1167,
+      "capturedReplyCount": 482,
+      "lastCheckedAt": "2026-08-07T10:07:11.470986+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 690,
-      "capturedReplyCount": 544,
-      "lastCheckedAt": "2026-08-07T08:07:45.507428+00:00"
+      "sourceReplyCount": 703,
+      "capturedReplyCount": 549,
+      "lastCheckedAt": "2026-08-07T10:07:21.765366+00:00"
     }
   ],
   "summary": {
-    "tweets": 1025,
-    "authors": 902,
-    "sourceCount": 1854,
-    "added": 3,
+    "tweets": 1031,
+    "authors": 907,
+    "sourceCount": 1870,
+    "added": 6,
     "mode": "incremental"
   },
   "replies": [
@@ -1603,6 +1603,14 @@
       "text": "@tianyi I am building @AlbatrossCoding, very interested in anyone doing innovative things with harnesses.\n\nWill DM now, very interested.",
       "createdAt": null,
       "likes": 6
+    },
+    {
+      "id": "2083734009008554112",
+      "sourceTweetId": "2083519855203078320",
+      "author": "LitoMore",
+      "text": "@tianyi GitHub ID: LitoMore\n我是 Simple Icons 和 https://shields.io/ 的核心成员，这两个项目是 GitHub 上的老牌开源项目了，我们项目的 issues 和 PRs 都很活跃，想通过 harness 来提升贡献者和维护者的参与体验\nhttps://github.com/simple-icons/simple-icons\nhttps://github.com/badges/shields",
+      "createdAt": null,
+      "likes": 5
     },
     {
       "id": "2083735967886905780",
@@ -8235,6 +8243,46 @@
       "text": "@tianyi 1flowbase 是一个面向个人与企业的自托管 AI 网关：在协议转换、分发与详细聊天日志之上，内置应用后端与 Native React 前端区块，帮你把 AI 与业务数据结合起来。更重要的是，这一切都能通过 MCP 交给你的 Agent 来操作和管理。\n希望能够拿到内侧\nhttps://github.com/taichuy/1flowbase",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2085652144263516350",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ziginCC",
+      "text": "@tianyi 您好，申请参与 DeepSeek Harness 内测。\nGitHub ID：Mrchen116\n项目：https://github.com/Mrchen116/nano-multiagent\nnano-multiagent 是开源多模型 Agent 项目，包含 Coding Agent、个人助手 Gateway 与 IM/Web 客户端，重点探索 Agent Harness、多模型与工具调用、会话编排和多渠道助手。期待首发接入测试，邮箱已私信。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085654909593210950",
+      "sourceTweetId": "2084693319188439211",
+      "author": "akakmakwiw57424",
+      "text": "@tianyi 大佬好，我目前在做ai影视理解相关harness，同时也有一篇相关论文准备投ICLR，GitHub ID：suki0dayo\n项目地址https://github.com/suki0dayo/AI_film_studio",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085665035981131909",
+      "sourceTweetId": "2084693319188439211",
+      "author": "wanda8846166546",
+      "text": "@tianyi @tianyi \nGithub ID: longyunfeigu\n项目：https://github.com/longyunfeigu/Charter\n最强的编程 Agent，都在命令行里。 Charter 是为它们而生的 IDE。保留 Claude Code、Codex、Pi 各自原生的能力，再给它们补上一套桌面工作流。吸收了各家ADE的优势，集成多code agent 编排工作流",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085665357797470486",
+      "sourceTweetId": "2084693319188439211",
+      "author": "galaxyeye8",
+      "text": "你好，已经私信。我是 Browser4 的作者。我们为 Agent 构建了一个原生的浏览器，通过网页数据挖掘提升智能体浏览器浏览性能，让智能体能够执行从小到大各种规模的网页任务。内置自动研发闭环，自主上网冲浪，自主发现问题，自主开发功能，根据 deepseek 品味自主优化接口。\n\nGithub ID：platonai\nGithub 地址：https://github.com/platonai/Browser4\n\n期待能够第一时间体验 deepseek harness",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085666338937168156",
+      "sourceTweetId": "2084693319188439211",
+      "author": "gmjneko",
+      "text": "@tianyi GitHub ID: gmjneko\n项目: https://github.com/koaks-ai/koaks\n这是一个专门为多 Agent 协作场景设计的 Agentic 框架和 Runtime，使用 Kotlin 开发，支持 Kotlin Multiplatform。",
+      "createdAt": null,
+      "likes": 1
     }
   ]
 }
