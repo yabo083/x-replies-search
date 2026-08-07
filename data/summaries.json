@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-07T06:10:21.238Z",
+  "updatedAt": "2026-08-07T07:11:12.678Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -1118,9 +1118,9 @@
       "generatedAt": "2026-08-05T03:35:53.725Z"
     },
     "atlascloudai/atlas-cloud-skills": {
-      "signature": "3a1142008627ad312cdf342a127971c7c85271174b059a1a1b23e23473762b88",
-      "summary": "alisaqqt 报名用户的 AtlasCloudAI/atlas-cloud-skills 为 Claude Code、Codex 和 Gemini CLI 提供技能，用于调用 AI 模型及生成图像和视频",
-      "generatedAt": "2026-08-05T03:35:53.725Z"
+      "signature": "e05d1416326d6158c77b4c7f54e978a26f1675eb5c68721538827fed9c4dd679",
+      "summary": "报名用户alisaqqt的AtlasCloudAI/atlas-cloud-skills为编码代理提供生成图像视频及调用多种AI模型的技能。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
     },
     "qiyuanhuakai/opencode-visualizer-cn": {
       "signature": "1fe76e3d6abf5b21bcbc955dfc52df54c23b794da19ba09dc2dcd7a6665e3fd9",
@@ -3418,9 +3418,9 @@
       "generatedAt": "2026-08-07T01:08:31.894Z"
     },
     "agent-network-protocol/agentnetworkprotocol": {
-      "signature": "7af3e4b0419f2a8f52c52c219a19876bfb52292c780fe28093c7dcb2daa25ede",
-      "summary": "changgaowei 报名 agent-network-protocol/AgentNetworkProtocol，为智能体提供身份、消息、发现等能力的开放协作网络协议。",
-      "generatedAt": "2026-08-07T01:08:31.894Z"
+      "signature": "a79f66867b79eeeeb44273d457fe1b79e20fb9161258f569e9a139d512fe77d4",
+      "summary": "报名用户changgaowei的agent-network-protocol/AgentNetworkProtocol协议让智能体互联互通，形成高效协作网络。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
     },
     "zanwei/design-dna": {
       "signature": "32a48f231d28686ff268afbaca222b30168d49352b538c7edb8a6fd940c2af5d",
@@ -3621,6 +3621,46 @@
       "signature": "b3fb4915274ff780fbd54554d414e294d04e89d1bdc35071561fbb6546d2f33d",
       "summary": "kingfish404报名的Kingfish404/raptor-chip是超标量乱序执行的RISC-V CPU。",
       "generatedAt": "2026-08-07T06:10:21.235Z"
+    },
+    "x-cmd/x-cmd": {
+      "signature": "3c235e7ea9b3c370ab508dc8b62652aded309340fbef16b7732fcaf4eee1cef5",
+      "summary": "报名用户LunRenyi39815的x-cmd/x-cmd提供轻量级CLI工具链与终端自动化生态，为AI代理补充命令行环境感知和工具链扩展能力。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
+    },
+    "qyiun666/memhop": {
+      "signature": "8da09b5da3ca06814fc5d45c26881bb28ae9b586022e26533a0dff34b299ef50",
+      "summary": "报名用户X1ao_Qx的qyiun666/MemHop是纯Go编写的AI代理记忆引擎，以单一.meh文件实现六层认知架构与混合检索，零基础设施运行。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
+    },
+    "tangtangtang1995/3d-claw": {
+      "signature": "437b1c844f59624ac11932ef5757f46019b2bf806d72f8663b736228612e257b",
+      "summary": "报名用户tayloroot162051的tangtangtang1995/3D-Claw提供AI辅助的3D几何处理工作空间，带上下文指导和算法可视化。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
+    },
+    "gadzan/xacpx": {
+      "signature": "6e5ad96febb53fc8c9ff0691b275b526b633653f54d2f24bc6bcded899373265",
+      "summary": "报名用户gadzan的gadzan/xacpx让你通过微信、飞书等聊天渠道远程控制Codex、Claude Code等AI代理，无需终端。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
+    },
+    "deconbear/hadamard": {
+      "signature": "c9c5ec3d771c173b261d55f224600311519800ec57c82aa35413d2ce13f24b71",
+      "summary": "报名用户ZhenqiXu6的DeconBear/hadamard是实验性AI代理，支持多工具、多会话和桥接辅助的代理工作流。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
+    },
+    "4t145/lark-acp": {
+      "signature": "1218f5c4d6d76a68572aefffeb7572b72cc1af00fecf9f6942dc314dd456778e",
+      "summary": "报名用户mnem05yne的4t145/lark-acp将飞书聊天消息桥接到ACP兼容的AI代理，如Copilot和Claude。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
+    },
+    "deeptoai-com/kin": {
+      "signature": "84fe69b61e5194156300e24316f614c6d7a3801712bdde9b147ef13122e8c9a9",
+      "summary": "报名用户Stephen4171127的deeptoai-com/kin是Web端协同AI代理工作台，支持技能、MCP与沙箱代码执行等能力。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
+    },
+    "mofrom-fg/g4w": {
+      "signature": "cac354f249d4d14b72e8302c487b2448bcc15a4919993035700e8bbe611c6e2d",
+      "summary": "报名用户FgMofrom73753的MoFrom-FG/G4W是Windows上的个人AI总管，通过微信长期陪伴并执行任务。",
+      "generatedAt": "2026-08-07T07:11:12.673Z"
     }
   }
 }
