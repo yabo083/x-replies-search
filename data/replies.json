@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T02:07:48.700512+00:00",
+  "fetchedAt": "2026-08-07T03:08:06.603540+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -12,7 +12,7 @@
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
       "sourceReplyCount": 1158,
       "capturedReplyCount": 480,
-      "lastCheckedAt": "2026-08-07T02:07:37.259181+00:00"
+      "lastCheckedAt": "2026-08-07T03:07:38.038140+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 662,
-      "capturedReplyCount": 528,
-      "lastCheckedAt": "2026-08-07T02:07:46.383172+00:00"
+      "sourceReplyCount": 666,
+      "capturedReplyCount": 532,
+      "lastCheckedAt": "2026-08-07T03:07:57.287916+00:00"
     }
   ],
   "summary": {
-    "tweets": 1008,
-    "authors": 886,
-    "sourceCount": 1820,
-    "added": 2,
-    "mode": "incremental"
+    "tweets": 1012,
+    "authors": 890,
+    "sourceCount": 1824,
+    "added": 4,
+    "mode": "full"
   },
   "replies": [
     {
@@ -8097,6 +8097,38 @@
       "sourceTweetId": "2084693319188439211",
       "author": "dengrenjie1215",
       "text": "@tianyi 仓库：https://github.com/longwuhen321/skills\n针对confluence知识库相关skill整理，方面从web端获取到内容为md，针对英文有翻译，然后上传到confluence,节省大量的复制时间，特别针对数学公式以及符号做了处理。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085543525236781066",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Kayano04Kaoru",
+      "text": "@tianyi GitHub ID：KayanoLiam 项目地址：https://github.com/KayanoLiam/ContextX\nClaude code codex重度用户，不过最近转向了更有扩展性的pi 期待DeepSeek agent也能有扩展性 我做了个MCP（用来弥补在DeepSeek接入其他agent没有搜索能力的问题）",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085551465649799607",
+      "sourceTweetId": "2084693319188439211",
+      "author": "JRuichard33737",
+      "text": "@tianyi OpenABCode是一个具有模型路由的Coding Agent，可以动态地将编码任务路由到最擅长这个任务的模型来处理\n\nhttps://github.com/matrixmapai/openabcode",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085556476471619840",
+      "sourceTweetId": "2084693319188439211",
+      "author": "gaotengjia62399",
+      "text": "@tianyi 你好，我是国内harness 开发者贡献者。 github id : KinoGao 项目：https://github.com/huiliyi37/Tianshu-Tui\n天枢 (Tianshu) 是一个基于harness工程的终端编程智能体运行时（TUI），针对DeepSeek V4 做了前缀缓存工程优化（长会话实测稳态命中率 95–99%）和深度适配的终端",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085561019863343499",
+      "sourceTweetId": "2084693319188439211",
+      "author": "yihu1113791",
+      "text": "@tianyi Hi, I’m one of the contributors to Tianshu.\n\nGitHub ID: Eason412\nProject: https://github.com/huiliyi37/Tianshu-Tui\n\nTianshu is a Harness-based terminal coding-agent runtime optimized for DeepSeek V4 and long-context development workflows.",
       "createdAt": null,
       "likes": 0
     }
