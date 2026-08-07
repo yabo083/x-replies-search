@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-07T17:09:40.840Z",
+  "updatedAt": "2026-08-07T18:10:06.659Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -653,9 +653,9 @@
       "generatedAt": "2026-08-05T01:19:15.220Z"
     },
     "colornote/pigo": {
-      "signature": "0a194eb755ab47bc67b407113d74790e1e3b1cfb1a24e173ebce1455f493b179",
-      "summary": "X报名用户 colorn0te：colornote/pigo 是用 Go 编写的单二进制终端编码代理，面向 DeepSeek 和老旧设备。",
-      "generatedAt": "2026-08-05T01:19:39.076Z"
+      "signature": "4f1f227bb0f0b2e38538b2d4a15c7600580e81fb11433b15eca28a91b0322505",
+      "summary": "colornote所开发的colornote/pigo是用Go编写的单二进制极简终端编码智能体，面向DeepSeek，适合老旧机器且能自我进化。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
     },
     "fanfan520zzq/hard-dsp-harness": {
       "signature": "14761019ecb4a14c0b48a31a80bb888571f490033be2bf8c7d4d5c2cbb2a1785",
@@ -1878,9 +1878,9 @@
       "generatedAt": "2026-08-05T03:42:06.552Z"
     },
     "frankshi811/ai-whatsapp-os": {
-      "signature": "3ace54e00ce35495f34a44dfbd317d95e29065e753049d1fdb1a38c9744fcd39",
-      "summary": "报名用户 FrankShi199119 的 FrankShi811/AI-whatsapp-OS 是面向全球销售的本地 AI 客户经营工作台。",
-      "generatedAt": "2026-08-05T03:42:06.552Z"
+      "signature": "3d5e9c10ca9180cbb8cf80a93e9affc3d7a533bda73c94ed3f2d9760a997ca9f",
+      "summary": "FrankShi811所开发的FrankShi811/Relvyn-CRM是本地AI客户经营工作台，面向全球销售。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
     },
     "gordonlu/aurapilot": {
       "signature": "66e89b6b10a964627e8c905d4a81d404617cd980f55478bfa5fb9ddfd2724ee8",
@@ -3976,6 +3976,46 @@
       "signature": "77bca8abf9b01ebd3dd215aa90d3691af514c3659a717899fca9ead010fc2d71",
       "summary": "Andy8647的Andy8647/pi-ide-context为pi提供/ide上下文支持。",
       "generatedAt": "2026-08-07T17:09:40.835Z"
+    },
+    "qainsights/jmeter-ai": {
+      "signature": "20d458616534e4341dd6569b88414cf939a8200e2b1bb4d789a4f1cbc2416b4d",
+      "summary": "QAInsights所开发的QAInsights/jmeter-ai是面向性能工程师的JMeter智能体，集成Codex与Claude Code。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
+    },
+    "gdwhisper/omniterm": {
+      "signature": "d2b12ac57454a098a795616c97ca9e4fdb66f78afe7cb79bae4d6648be1ae53f",
+      "summary": "GDWhisper所开发的GDWhisper/OmniTerm是浏览器端Web UI，基于tmux实时监控各类AI编码智能体。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
+    },
+    "conansgithub/myclaw": {
+      "signature": "96375f73e5d4bdcec8ac9ae081ae4f891fd6287cdc633e03562db88bfa4410e9",
+      "summary": "lonyon475303参与的Conansgithub/MyClaw是一个自我进化的宪法式harness，用于规范AI智能体行为。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
+    },
+    "do-fei/lovekurisu": {
+      "signature": "3ac9680781bccfe07e2a273a1f3e65736db066c122a1492435654097aff56a64",
+      "summary": "daweiorg参与的Do-fei/LoveKurisu是本地优先的macOS桌面编码智能体，由CodeWhale驱动。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
+    },
+    "forlornmws/office-ir": {
+      "signature": "187bc3890e906e2ca60783f9879d0905df415fc34e32274ccf9532ea47941d87",
+      "summary": "forlornMWS所开发的forlornMWS/office-ir将.xlsx和.docx解析为紧凑的LLM友好JSON中间表示，适用于Excel与Word。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
+    },
+    "greateyin/ltc-project-polaris": {
+      "signature": "92dfee9f37ef182f63474d08f447667781118eca2c08f0cc915dd390ca740b5a",
+      "summary": "greateyin所开发的greateyin/ltc-project-polaris为台湾长期照护定义未来操作系统，用AI Agent连接医院与居家照护。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
+    },
+    "hahnavi/alga": {
+      "signature": "eb9394845ccf38c04da8b75814d73a95e01e1e7553710e1d4a2a226301e57e64",
+      "summary": "hahnavi所开发的hahnavi/alga是开源AI事件管理平台，内置自主调查Agent，支持编排与插件。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
+    },
+    "haifa-agent/haifa-agent": {
+      "signature": "041ab3d8e3caab702604f74e76e22b2e81da06c9f89b0897dc8d3ca6ba320b19",
+      "summary": "CryptoAaron5参与的haifa-agent/haifa-agent是Java技术栈的智能体生态，包含SDK、个人助理与企业AI工作流。",
+      "generatedAt": "2026-08-07T18:10:06.654Z"
     }
   }
 }
