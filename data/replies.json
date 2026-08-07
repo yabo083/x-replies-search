@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T05:07:57.075771+00:00",
+  "fetchedAt": "2026-08-07T06:08:20.268788+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1160,
+      "sourceReplyCount": 1162,
       "capturedReplyCount": 480,
-      "lastCheckedAt": "2026-08-07T05:07:44.958690+00:00"
+      "lastCheckedAt": "2026-08-07T06:08:02.065724+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 675,
-      "capturedReplyCount": 537,
-      "lastCheckedAt": "2026-08-07T05:07:54.897213+00:00"
+      "sourceReplyCount": 678,
+      "capturedReplyCount": 538,
+      "lastCheckedAt": "2026-08-07T06:08:13.728286+00:00"
     }
   ],
   "summary": {
-    "tweets": 1017,
-    "authors": 895,
-    "sourceCount": 1835,
+    "tweets": 1018,
+    "authors": 896,
+    "sourceCount": 1840,
     "added": 1,
     "mode": "incremental"
   },
@@ -8169,6 +8169,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "Winstern155388",
       "text": "@tianyi @tianyi 你好！入行一年，用 opencode 做了 3 个小插件解决痛点：\n1. opencode-loop-detector 循环纠正\n2. opencode-message-pins 固定消息\n3. session-panel 会话跟踪\nGitHub: winstern1998-commits\nhttps://github.com/winstern1998-commits/opencode-loop-detector\nhttps://github.com/winstern1998-commits/opencode-message-pins\nhttps://github.com/winstern1998-commits/session-panel\n邮箱已私信",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085600147988472274",
+      "sourceTweetId": "2084693319188439211",
+      "author": "osmondyYang",
+      "text": "@tianyi 您好，申请报名参与内测。\nGitHub ID: Light-Towers\n项目地址: https://github.com/Light-Towers/reliable-agent\n\nreliable-agent 是一组框架无关的 LLM / Agent 生产可靠性原语库，定位是\"让已有的 LLM 应用 / Agent 在生产环境里更稳、更可控、更可排查\"——而非又一个 Agent 框架或运行时。",
       "createdAt": null,
       "likes": 0
     }
