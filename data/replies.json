@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T10:07:24.489501+00:00",
+  "fetchedAt": "2026-08-07T11:07:40.351809+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1167,
-      "capturedReplyCount": 482,
-      "lastCheckedAt": "2026-08-07T10:07:11.470986+00:00"
+      "sourceReplyCount": 1166,
+      "capturedReplyCount": 483,
+      "lastCheckedAt": "2026-08-07T11:07:30.298723+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 703,
-      "capturedReplyCount": 549,
-      "lastCheckedAt": "2026-08-07T10:07:21.765366+00:00"
+      "sourceReplyCount": 705,
+      "capturedReplyCount": 551,
+      "lastCheckedAt": "2026-08-07T11:07:37.238607+00:00"
     }
   ],
   "summary": {
-    "tweets": 1031,
-    "authors": 907,
-    "sourceCount": 1870,
-    "added": 6,
+    "tweets": 1034,
+    "authors": 910,
+    "sourceCount": 1871,
+    "added": 3,
     "mode": "incremental"
   },
   "replies": [
@@ -2921,6 +2921,14 @@
       "sourceTweetId": "2083519855203078320",
       "author": "arcadia822",
       "text": "@tianyi https://github.com/Arcadia822/mystra 申请",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084182038392000749",
+      "sourceTweetId": "2083519855203078320",
+      "author": "ungetsucaspian",
+      "text": "@tianyi 天翼老师好，申请内测。我的 GitHub 是：YunyueLi\n\n代表作是三款 Agent 产品：\nTelos：目标→图谱→诊断→教学\nGreenroom：研究→故事库→模拟面试→复盘\nLoreGraph：8-pass 多模型抽取＋证据验证\n\n代码：https://github.com/YunyueLi\n产品：https://ungetsu.net/projects/\n希望从真实产品场景参与测试。",
       "createdAt": null,
       "likes": 0
     },
@@ -8281,6 +8289,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "gmjneko",
       "text": "@tianyi GitHub ID: gmjneko\n项目: https://github.com/koaks-ai/koaks\n这是一个专门为多 Agent 协作场景设计的 Agentic 框架和 Runtime，使用 Kotlin 开发，支持 Kotlin Multiplatform。",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2085673676222222453",
+      "sourceTweetId": "2084693319188439211",
+      "author": "admnhf",
+      "text": "@tianyi GitHub ID: hahnavi  \n项目地址：https://github.com/hahnavi/alga  \n\nAlga 是一个开源的 AI 驱动事件管理平台，内置自主调查 Agent。支持 Agent 编排、Hermes/OpenClaw 插件、Agent SDK 以及完整的事件响应工作流。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085682975300272129",
+      "sourceTweetId": "2084693319188439211",
+      "author": "sanyueqi879",
+      "text": "@tianyi Id :xunchahaha\nrepo:https://github.com/hicccc77/WeFlow\nhttps://github.com/hicccc77/weflow-releases\n\n这是一个微信聊天记录导出的项目 目前内置了一个agent 用来分析用户的聊天记录 已经可以做到读取图片和语音等信息并且生成总结或建议 这个项目由我后续接手",
       "createdAt": null,
       "likes": 1
     }
