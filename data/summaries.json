@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-07T08:10:49.659Z",
+  "updatedAt": "2026-08-07T10:08:38.797Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -2228,9 +2228,9 @@
       "generatedAt": "2026-08-05T05:09:40.741Z"
     },
     "amplifthq/opentag": {
-      "signature": "e08261aba45926c38a63a14c82a963933acde47a070b238053322b2ab7b3d8bf",
-      "summary": "报名用户 kangkona 的 amplifthq/opentag 面向 Slack 和 GitHub，将标记请求路由至 Codex、Claude Code 并回传线程。",
-      "generatedAt": "2026-08-05T10:09:30.792Z"
+      "signature": "eaf7ce9a4aa8622aee2804322eaa5fcfe1cc942d8082cd297429647992743ec2",
+      "summary": "kangkona 报名的 amplifthq/opentag，将协作平台线程转为可审计的本地 Agent 执行闭环，支持多模型。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
     },
     "vizards/deepseek-v4-for-copilot": {
       "signature": "59fecc1f059aeffcf63819dbf93ad38f15500307a6f8c48b8ccf584596c9873c",
@@ -3663,9 +3663,9 @@
       "generatedAt": "2026-08-07T07:11:12.673Z"
     },
     "taichuy/1flowbase": {
-      "signature": "970a01e9fcbbae049d4621e1d47d6b5de3c7ec02d3935d31370e42b576050c67",
-      "summary": "Tacihu2021 的 taichuy/1flowbase 是自托管 AI 网关平台，集成 AI/MCP 网关与内置后端，让 Agent 操作管理 AI 业务。",
-      "generatedAt": "2026-08-07T08:10:49.654Z"
+      "signature": "d1707f3e19c095de961fe29c96b8e255cfd701d3406f65fd3ed1d32759d6974e",
+      "summary": "Tacihu2021 报名的 taichuy/1flowbase，自托管 AI 网关，支持协议转换分发，并可由 Agent 经 MCP 管理。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
     },
     "andy8647/pi-starline": {
       "signature": "0bf2ebcc5dde9ac7870cd95cd00f0d14f4ef0104614b86e93fc78c8d0aabcff7",
@@ -3706,6 +3706,46 @@
       "signature": "30e3c0496d5357ab0146e2fec03abb3b2eb7abb881be9baa7b578f08caa923e2",
       "summary": "gusibix 的 gusibi/molibot 是记忆优先的个人 AI 代理，随工作成长且开源开箱即用。",
       "generatedAt": "2026-08-07T08:10:49.654Z"
+    },
+    "badges/shields": {
+      "signature": "c34e1baededcf08e5e36c00e55fa7f6d0a598dc3078ec102d604cd49a2f6740d",
+      "summary": "LitoMore 参与维护的 badges/shields 项目，提供简洁、一致、清晰的 SVG 与位图格式徽章。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
+    },
+    "simple-icons/simple-icons": {
+      "signature": "8f0ed712158c6416a4ca4b74e87d564fab6b99da547d71bccd5e2d6344f5285e",
+      "summary": "LitoMore 参与维护的 simple-icons/simple-icons，为知名品牌提供 SVG 格式图标。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
+    },
+    "platonai/browser4": {
+      "signature": "e6ae530c05cf12eae1a5ca1c0a8fbd821fdf5387494f78f841221d43f075655b",
+      "summary": "galaxyeye8 报名的 platonai/Browser4，为智能体构建原生浏览器，通过网页数据挖掘提升任务执行能力。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
+    },
+    "suki0dayo/ai_film_studio": {
+      "signature": "d1e283d0ab26ed954bf8d06ad11331df1c663de79f1d8f5a64b24c852dc064e7",
+      "summary": "akakmakwiw57424 报名的 suki0dayo/AI_film_studio，用节点式界面调用生成 API 制作多镜头 AI 视频。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
+    },
+    "longyunfeigu/charter": {
+      "signature": "b0c0f9cc5a4d7e48685b61d40688393637f600f8efaa554e9a84f591eda82849",
+      "summary": "wanda8846166546 报名的 longyunfeigu/Charter，为命令行编码代理提供桌面 IDE，支持多代理编排工作流。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
+    },
+    "koaks-ai/koaks": {
+      "signature": "a5fcec8ea241fe3e99db65d24f773c2b12da1d2ef07a21b786e04b6332a026b8",
+      "summary": "gmjneko 报名的 koaks-ai/koaks，面向 Kotlin 多平台的智能体框架，专注多 Agent 协作场景。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
+    },
+    "andyduck-ops/omp-flow": {
+      "signature": "b3b3954639ad4b554a0a759e24971cfdd4c41f51ab721e85a1aa74fb9f1a81c9",
+      "summary": "R2Rps4qI8sK25Go 报名的 Andyduck-ops/omp-flow，跨 Harness 的多智能体软件开发工作流，侧重持续学习研究。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
+    },
+    "sweetcornna/open-claude-code": {
+      "signature": "1cea7562c55ad4ed2ccbe5726d4189b487dc5f98186b2fc7489e77d711242f19",
+      "summary": "Cornoutlook 报名的 sweetcornna/open-claude-code，开源的终端编码代理框架，支持多模型、MCP 与 ACP，已适配 DeepSeek。",
+      "generatedAt": "2026-08-07T10:08:38.793Z"
     }
   }
 }
