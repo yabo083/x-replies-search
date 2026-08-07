@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-07T01:08:31.898Z",
+  "updatedAt": "2026-08-07T02:08:53.327Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -3338,9 +3338,9 @@
       "generatedAt": "2026-08-05T18:08:31.595Z"
     },
     "agent-substrate/substrate": {
-      "signature": "fc2164c297009799f88512d7267148cb240654ba5a9456e4c6b7d5f15a35e176",
-      "summary": "TinsleyShi 报名的 agent-substrate/substrate 是 Agent Substrate 核心系统，用于构建和支撑 AI Agent 运行。",
-      "generatedAt": "2026-08-05T18:08:31.595Z"
+      "signature": "1677408cc7fd99db4ce691ce09d1b76e660707c408f9b076465e3c9a8533962d",
+      "summary": "fluct2814 等报名 agent-substrate/substrate，这是一个高性能、高密度的 Agent 运行时系统。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
     },
     "zioder/taskbarquota": {
       "signature": "52ab7962ae763447c3d0fc2ac32647266ca7f05114a0d1b03af7b79a448b8d58",
@@ -3431,6 +3431,51 @@
       "signature": "d9d197c1056454a6fbb8f5b2d608b64754038156a4d95388b559a16b33a9d342",
       "summary": "kakakbibibi 报名 RUC-NLPIR/Search-o1，基于搜索增强的大型推理模型，提升智能体检索能力。",
       "generatedAt": "2026-08-07T01:08:31.895Z"
+    },
+    "ruc-nlpir/deepagent": {
+      "signature": "0171450c1fe89cee4117783d08994993557cd9656bce60f8e1ed3591d7bb8639",
+      "summary": "kakakbibibi 参与 RUC-NLPIR/DeepAgent，构建可扩展工具集的通用推理智能体，论文为 WWW'26 Oral。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "chesterra/cccc": {
+      "signature": "0642d56aa05b2c9598c410dce7c36bd84f944eb08bb58285e675edbda0df32d2",
+      "summary": "waterbang1 报名的 ChesterRa/cccc 以群聊方式协调多个编码智能体，支持回执、派发与远程操作。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "suyoumo/clawprobench": {
+      "signature": "9aff4ab07ae048bc6f436db78ccac5bc0fec8f9b2e7f2eb6bde85e2053ee3be5",
+      "summary": "claw_pro_bench 报名的 suyoumo/ClawProBench 用于评估 OpenClaw 运行时下不同 LLM 智能体组合的能力。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "jazzyalex/agent-sessions": {
+      "signature": "b245d693e80b1c50b1f98d0d255bd84c2f11b4076608fa963a6b31532e1b1149",
+      "summary": "jazzyalex 开发 jazzyalex/agent-sessions，这是本地优先的 macOS 应用，用于浏览检索和续接多种编码智能体会话。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "loocor/codmate": {
+      "signature": "ca1920fa90926e4a706d8ff84c02f0912f035199442abc2b494ba84d604118ba",
+      "summary": "umatedotai 报名的 loocor/codmate 是 macOS SwiftUI 应用，用于管理 Codex、Claude Code 等 CLI 智能体会话。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "hellowind777/helloagents": {
+      "signature": "40685710253c3ed2f887c8089ef24c07d207a412f1219efe6b075635dd8aacb5",
+      "summary": "hellowind666 报名的 hellowind777/helloagents 是能自主分析问题并持续工作直至完成验证的智能伙伴。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "itwanger/paiagent": {
+      "signature": "5b0838a962d385ae16e1b10ef926233988269080bd77befa7b3b42ea9284dd34",
+      "summary": "itwanger 报名的 itwanger/PaiAgent 是轻量级 AI 工作流编排系统，类似 Dify、n8n。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "openteams-lab/openteams": {
+      "signature": "113068873ccfc4859f395015300d70a686fb32885c8abdddc862f3218f2c32c0",
+      "summary": "mingyu8h 报名的 openteams-lab/openteams 是本地优先的开源 AI 桌面应用，集成多种 CLI 编码智能体协作交付软件。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
+    },
+    "onetoken-oss/k3flight": {
+      "signature": "c03e7419554359a8de11fcfce4e5c68699afcb5ca54b90110d795ff6192bea6e",
+      "summary": "VincentW0W 报名的 onetoken-oss/K3Flight 是单文件 Linux 推理服务，可在约 55GB 内存下本地运行 Kimi K3。",
+      "generatedAt": "2026-08-07T02:08:53.323Z"
     }
   }
 }
