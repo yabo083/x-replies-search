@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-07T13:09:54.355Z",
+  "updatedAt": "2026-08-07T14:09:24.878Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -1158,9 +1158,9 @@
       "generatedAt": "2026-08-05T03:36:22.579Z"
     },
     "btspoony/mstar-harness": {
-      "signature": "8bdf52da966b993ec934545ede0c31f46979625434dc5d9f51aa9e30521de96c",
-      "summary": "btspoony 报名的 btspoony/mstar-harness 是一个以 Skill 驱动的 Harness/Loop 工程框架。",
-      "generatedAt": "2026-08-05T11:10:15.097Z"
+      "signature": "72c5d7d781741e3c98ce3c59fc0de6f29759b3d2a7fb9a7cc959dcda6c4fa2e6",
+      "summary": "btspoony 报名 mstar-harness 项目，这是一个由技能驱动的 Harness 与循环工程工作流代理插件。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
     },
     "rocky2431/ultra-builder-pro": {
       "signature": "7ef561da80d00ad9920c2cd37aac0a2ce7c5d786febbbce7cac092a97648f617",
@@ -1588,9 +1588,9 @@
       "generatedAt": "2026-08-05T03:39:32.341Z"
     },
     "reon-jin/jyy-code": {
-      "signature": "91ab6a10dc6ee40fc0c5cc8728147dfe9c8b1cc07ce9a1bca039b851e7402c5d",
-      "summary": "EeR1718877 报名的 Reon-Jin/JYY-Code 是一个基于 OpenCode 的多智能体系统，用于协同处理复杂任务。",
-      "generatedAt": "2026-08-05T03:39:49.777Z"
+      "signature": "e2e1baa3053054ebbc934e09e08e3dcb5aa9fa32bf79341e78a2e1649b75d635",
+      "summary": "EeR1718877 报名 Reon-Jin/JYY-Code，一个开源多智能体开发平台，支持动态生成执行方案、多 Agent 分工协作与共享黑板同步。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
     },
     "samelabs/kungfu": {
       "signature": "d0eb04d408978b69a1a86449440df36e6ab9a2dd1edced39aa8ae16af4cb9f62",
@@ -3253,9 +3253,9 @@
       "generatedAt": "2026-08-05T14:08:38.442Z"
     },
     "hilt21/adaptive-harness": {
-      "signature": "4adb55dd8975dda8b19e03e7e99271ebc692a70fbc7a235caa037faa2a844268",
-      "summary": "报名用户 Toby_Elk 的 hilt21/Adaptive-Harness 是本地优先、与客户端无关的 Agent Harness，管理工作区身份、执行记录、完成门槛与反馈模块推荐。",
-      "generatedAt": "2026-08-05T14:08:38.442Z"
+      "signature": "d09441fc103b2429b74614ed554bda896860a426279c398d5d07182cd6a7ca3a",
+      "summary": "Toby_Elk 报名 hilt21/Adaptive-Harness，一个本地优先且客户端无关的渐进式代理框架，提供工作区身份验证、能力边界和可信执行记录。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
     },
     "qufei1993/skills": {
       "signature": "cc602bc0b1a19fd5d8eb7a9ea96f9def117a83aa2306f93797b85a88b285a4c6",
@@ -3821,6 +3821,41 @@
       "signature": "06bfced50e54172a87fa44f3efec8b97fd5a2bc0474c1c55a61bedb57cbc3b00",
       "summary": "用户QianxWang的仓库FutrixDev/FutrixData是面向AI智能体的数据库网关，提供危险操作风控、敏感数据脱敏与访问审计。",
       "generatedAt": "2026-08-07T13:09:54.351Z"
+    },
+    "good-boy4069/deepseek-omnimodal": {
+      "signature": "c191362f17a61fed663d87ea2944df54ce4a6c39e67544b9acbb9033aea0a0cc",
+      "summary": "s9p3o 报名 good-boy4069/Deepseek-omnimodal，一个开源多模态 MCP 插件，为纯文本 AI 代理补齐图片、视频、音频识别与生成能力。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
+    },
+    "imperorofplanets/client": {
+      "signature": "0f8b01942e960015df62f9c67048730bbf6b380f39df2e1774f6100ce9a61648",
+      "summary": "Mata_Yadro 报名 ImperorOfPlanets/client，一个 AI 飞行助手项目，用于提供飞行相关的智能辅助功能。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
+    },
+    "ishowshao/tinker": {
+      "signature": "5111922ae6e6638c5891f57a6974c4009bfa5d430ad0d3e6875ae3279d0c4ff6",
+      "summary": "ByteNeon 报名 ishowshao/tinker，一个带交互式终端界面与持久会话的个人编程助手，采用无限上下文架构。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
+    },
+    "jaxonhowie/sprite-forge": {
+      "signature": "4601b287f6dbf01e7fbd63398e0cd67fef0d6ccbf1b37d1f8c24c25fdaacae34",
+      "summary": "hongyi_zheng 报名 jaxonhowie/sprite-forge，一个小型全栈游戏素材处理工具，包含视频处理、多视频拼帧、要素提取和图片处理四类工作流。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
+    },
+    "lanyusea/screeps": {
+      "signature": "8ca880efdcf700e8e65639ee997e88a06578a83610cff2b72d5e90b57effc02d",
+      "summary": "lanyusea 报名的 lanyusea/screeps 是一个围绕编程游戏 Screeps 所编写的代理代码仓库。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
+    },
+    "linkaiheng2233-cyber/oclivenewnew": {
+      "signature": "3f78dda2463943ea488a079b0d9820a54cf7201abb58e97a3a3381e6da51f030",
+      "summary": "supermumucoming 报名 linkaiheng2233-cyber/oclivenewnew，一个开源 AI 角色运行时内核，支持插件、Agent 编排与蓝图调度，采用六槽可替换架构。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
+    },
+    "wdclouds/feaglewxbot": {
+      "signature": "686951c539e9c37bcb3a95b93fd9443299746065f855bafe46006a2adbf24d84",
+      "summary": "S0UIMateK 报名 Wdclouds/FEAGLEwxbot，一个自托管的微信到 OneBot 桥接服务，提供 Docker、仪表盘、自愈与 AstrBot 集成。",
+      "generatedAt": "2026-08-07T14:09:24.874Z"
     }
   }
 }
