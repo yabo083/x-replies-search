@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-07T04:10:52.460Z",
+  "updatedAt": "2026-08-07T05:10:27.380Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -228,9 +228,9 @@
       "generatedAt": "2026-08-05T01:15:47.714Z"
     },
     "fanfan-de/anybox": {
-      "signature": "2442068f08fb6cc1d83dbd874b4e8c80fa8060ddd913c498e2031fe66d31ccea",
-      "summary": "报名用户 fanfan45136808 的 fanfan-de/anybox 是开源 AI Agent 桌面工作空间，提供运行时、插件体系、多 Agent 工作流和工具调用追踪。",
-      "generatedAt": "2026-08-05T01:15:47.714Z"
+      "signature": "414cf554d8f6110bf92f3bbc33d6af78e963540f3fc63496ff326195c82ee5fa",
+      "summary": "fanfan45136808 的 fanfan-de/anybox 是开源 AI Agent 桌面工作台，支持多 Agent、MCP 与技能插件。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
     },
     "levi-qiao/longgraph-skill": {
       "signature": "3cc2ccd7c854204526186ffd9dfddc1d662892648707af76c6aeaacc3a00422c",
@@ -783,9 +783,9 @@
       "generatedAt": "2026-08-05T03:33:14.044Z"
     },
     "libra-tools/libra": {
-      "signature": "a0f6e994ca874811e6b2c4c5d0a12e3395641a43d3903cd380cc03ea15f51fd0",
-      "summary": "genedna报名用户，libra-tools/libra是一个用Rust开发的面向AI Agent的原生版本控制工具。",
-      "generatedAt": "2026-08-05T03:33:14.044Z"
+      "signature": "c571a87b137eb4460770c5029d107f2bef9bd8cd8d44d7359b627c072b2645da",
+      "summary": "genedna 等开发 libra-tools/libra，构建 AI 原生版本控制系统，跟踪代码到整个软件创建过程。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
     },
     "dazuiba/handoff": {
       "signature": "1dd001bee4408b1965ee523123fd6c9bf64bf9d91aa77ccc45ae63516963abf8",
@@ -2873,9 +2873,9 @@
       "generatedAt": "2026-08-05T12:09:41.991Z"
     },
     "anionex/agent-vision-toolkit": {
-      "signature": "5b6a806606052e96c5b4f444414c1e2a406b01fa4562f63ba00125399c368e6c",
-      "summary": "anion_ex的Anionex/agent-vision-toolkit为纯文本模型提供视觉能力，支持多图理解与GUI自动化。",
-      "generatedAt": "2026-08-07T03:10:09.306Z"
+      "signature": "432befb6e335fc1e34adbb494a6127d59ce1f4c802332ffb9a7f49f8fef90edf",
+      "summary": "anion_ex 的 Anionex/agent-vision-toolkit 为纯文本模型赋予视觉能力，支持多图理解、长图识别、UI 还原与 GUI 自动化。",
+      "generatedAt": "2026-08-07T05:10:27.375Z"
     },
     "qverisai/qveris-agent-toolkit": {
       "signature": "e00c2e846d43fa4883d2b2f9ab8824ffae096f57b2fe16906561fbc09669ef72",
@@ -3556,6 +3556,41 @@
       "signature": "56c57011d351747353ca1f93ddd30cbf21bf565779545363f8df421234530dbc",
       "summary": "Kayano04Kaoru 报名 KayanoLiam/ContextX，是免费远程 MCP 搜索服务器，无需 API 密钥。",
       "generatedAt": "2026-08-07T04:10:52.456Z"
+    },
+    "lbiceman/icecoder": {
+      "signature": "be639b95bccdef948ea75859c2703233adf666ba988ea258bba3489683353764",
+      "summary": "lbiceman 开发 lbiceman/iceCoder，一款自托管 AI 编码代理，提供桌面与移动端 UI 及双模式监督。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
+    },
+    "nimachu/my-wiki": {
+      "signature": "76659ab56735e8c915465049d14d1dbc26e8ec3e411b479c9a7a6b26ef4b892f",
+      "summary": "NimaChu666 的 NimaChu/my-wiki 是本地优先 AI 知识应用，提供交互式知识宇宙与可分享知识星系。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
+    },
+    "aaaaanson/mbeditor": {
+      "signature": "376861d468fd6ca3b9be265aab625f169c91989d28cf3144536d2cdbc702b5b2",
+      "summary": "mbluostudio 开发 AAAAAmson/mbeditor，首款支持 CLI 化操作的微信公众号编辑器，让 Agent 直接写出精美推文。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
+    },
+    "sweetcornna/mathodology": {
+      "signature": "8804afa1321f3f13c00ff88f08c0198b3a2d65579473e98c92bbea0a2001dd6e",
+      "summary": "Cornoutlook 的 sweetcornna/mathodology 为数学建模竞赛提供 Agent 技能，覆盖美赛国赛等全流程建模辅助。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
+    },
+    "felixchaos/rpg-roleplay-platform": {
+      "signature": "02fd0ba61bf6b7a80399bfbfd75e9af478fb5342cf1bda88487e8e5a90d034e8",
+      "summary": "ConarFelix 的 felixchaos/rpg-roleplay-platform 提供通用 RPG 后端与前端，支持以任意小说为剧本进行角色扮演。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
+    },
+    "sweetcornna/free-search-mcp": {
+      "signature": "357c5457b78779bec9f73b08d3a89214a13d06af80e98927040c572e2ba4131d",
+      "summary": "Cornoutlook 的 sweetcornna/free-search-mcp 是免 API Key 的本地 MCP 搜索服务，聚合多引擎与文档解析。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
+    },
+    "loocor/mcpmate": {
+      "signature": "5b559de38c472a2304f874d4dbbb26f3e8f7be9c055e043c9b25013690033d03",
+      "summary": "umatedotai 的 loocor/mcpmate 提供本地一体化 MCP 管理中心，统一组织服务器、客户端与能力配置。",
+      "generatedAt": "2026-08-07T05:10:27.376Z"
     }
   }
 }
