@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T17:07:32.477230+00:00",
+  "fetchedAt": "2026-08-08T18:07:38.940388+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1171,
-      "capturedReplyCount": 485,
-      "lastCheckedAt": "2026-08-08T17:07:30.907517+00:00"
+      "sourceReplyCount": 1172,
+      "capturedReplyCount": 487,
+      "lastCheckedAt": "2026-08-08T18:07:30.245053+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 737,
-      "capturedReplyCount": 579,
-      "lastCheckedAt": "2026-08-08T16:07:50.067946+00:00"
+      "sourceReplyCount": 738,
+      "capturedReplyCount": 580,
+      "lastCheckedAt": "2026-08-08T18:07:36.862296+00:00"
     }
   ],
   "summary": {
-    "tweets": 1064,
-    "authors": 938,
-    "sourceCount": 1908,
-    "added": 0,
+    "tweets": 1067,
+    "authors": 941,
+    "sourceCount": 1910,
+    "added": 3,
     "mode": "incremental"
   },
   "replies": [
@@ -2297,6 +2297,22 @@
       "sourceTweetId": "2083519855203078320",
       "author": "DavidRiggs_",
       "text": "@tianyi Just dropped you a DM. Hope you get a chance to check it out!",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2083852450381935081",
+      "sourceTweetId": "2083519855203078320",
+      "author": "stas_sorokin_",
+      "text": "@tianyi Where does a harness draw its test oracle: tool return, or the artifact users receive? Beta tasks need a destination-level assertion after each action; otherwise a successful API call masks a wrong state. Practical receipt: https://x.com/stas_sorokin_/status/2083842469536371108",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2083856236081184868",
+      "sourceTweetId": "2083519855203078320",
+      "author": "lfrodriguesit",
+      "text": "@tianyi Love seeing more teams invest in the harness layer. That's where a lot of the long-term value will be built.",
       "createdAt": null,
       "likes": 0
     },
@@ -8545,6 +8561,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "yc2166",
       "text": "@tianyi GitHub ID: hicccc77 \n项目：https://github.com/hicccc77/WeFlow\n完全本地的微信实时聊天记录查看、分析与导出工具。\n它可以获取你的微信聊天记录并将其导出，还可以根据你的聊天记录为你生成独一无二的数据与年度报告",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086147489502302596",
+      "sourceTweetId": "2084693319188439211",
+      "author": "KangshunZ30083",
+      "text": "@tianyi 崔老师您好，我是计算机专业学生，长期使用 Claude，关注大模型、Agent、深度学习等方向。虽然目前不是 Agent 框架开发者，但有一定代码开发经验，并基于 claude-obsidian 搭建过 AI 知识库管理工作流。希望能以深度用户和学生视角参与内测，提供实际使用反馈。\nGitHub：https://github.com/shanec7825/claude-obsidian ",
       "createdAt": null,
       "likes": 0
     }
