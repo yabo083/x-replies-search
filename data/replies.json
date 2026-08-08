@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-07T21:07:28.934942+00:00",
+  "fetchedAt": "2026-08-08T01:07:57.209116+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1168,
+      "sourceReplyCount": 1169,
       "capturedReplyCount": 484,
-      "lastCheckedAt": "2026-08-07T21:07:27.228374+00:00"
+      "lastCheckedAt": "2026-08-08T01:07:34.452955+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 726,
-      "capturedReplyCount": 560,
-      "lastCheckedAt": "2026-08-07T18:07:36.679012+00:00"
+      "sourceReplyCount": 727,
+      "capturedReplyCount": 574,
+      "lastCheckedAt": "2026-08-08T01:07:54.692193+00:00"
     }
   ],
   "summary": {
-    "tweets": 1044,
-    "authors": 919,
-    "sourceCount": 1894,
-    "added": 0,
+    "tweets": 1058,
+    "authors": 932,
+    "sourceCount": 1896,
+    "added": 14,
     "mode": "incremental"
   },
   "replies": [
@@ -8165,6 +8165,14 @@
       "likes": 0
     },
     {
+      "id": "2085570929879588986",
+      "sourceTweetId": "2084693319188439211",
+      "author": "BruceBlue",
+      "text": "GitHub ID: BruceLanLan\n项目地址：https://github.com/BruceLanLan/augur\n\nAugur 是一个开源的 Multi-Agent 投资分析系统（Orchestrator + Aggregator）：\n- 18位虚拟投资大师独立分析同一标的，再做加权共识 + Kelly 仓位\n- 原生 MCP Server（13个工具），已对接 Hermes / Claude Desktop / OpenClaw\n- 带 Bloomberg 风格 Web Dashboard（UI）\n- 每位大师可单独作为 Hermes Skill 使用\n\n希望能第一时间接入 DeepSeek Harness，提供多 Agent 协作 + MCP 支持。",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
       "id": "2085572540391706933",
       "sourceTweetId": "2084693319188439211",
       "author": "ann0y1n9g",
@@ -8189,6 +8197,14 @@
       "likes": 0
     },
     {
+      "id": "2085596306534547718",
+      "sourceTweetId": "2084693319188439211",
+      "author": "snwkng50462474",
+      "text": "@tianyi UncertaintyDeterminesYou4ndMe\nrepo:\nhttps://github.com/UncertaintyDeterminesYou4ndMe/flintrade/blob/master/README.zh-CN.md\n--\nthx",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085600147988472274",
       "sourceTweetId": "2084693319188439211",
       "author": "osmondyYang",
@@ -8209,6 +8225,14 @@
       "sourceTweetId": "2083519855203078320",
       "author": "changgaowei",
       "text": "@tianyi Agent Network Protocol（ANP），为agent提供原生的身份、消息、描述、发现能力，让agent形成一个开放、高效的协作网络。\nGitHub ID：chgaowei\ngithub地址：https://github.com/agent-network-protocol/AgentNetworkProtocol\nANP最大的优势的Agent原生身份，能够让不同平台的智能体互联互通，让上下文在互联网中自由流动。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085618763446313167",
+      "sourceTweetId": "2084693319188439211",
+      "author": "macCoffeeSM",
+      "text": "@tianyi 申请 DeepSeek Harness 内测 🙋\n\nGitHub ID: williamnie\n项目：https://github.com/williamnie/xuanwu\n\nXuanwu 让 Coding Agent 7×24 小时持续工作：跨项目、跨 Provider 自动推进任务，内置监督、故障恢复和可复查交付。希望第一时间接入 DeepSeek Harness，提供 Provider 支持。邮箱将私信。",
       "createdAt": null,
       "likes": 0
     },
@@ -8253,6 +8277,14 @@
       "likes": 0
     },
     {
+      "id": "2085645370827452728",
+      "sourceTweetId": "2084693319188439211",
+      "author": "yuuko1410",
+      "text": "@tianyi 您好，我是一位普通开发者，冒昧申请。\n - GitHub ID： shibin1410\n - 项目： https://github.com/yuuko-1410/gemini-live-group-interpreter\n - 简介： 个人做着玩的小玩具，基于 Gemini Live 的群组实时语音翻译工具\n - 邮箱： shibin1410@163.com\n\n 项目虽小，但对 Agent Harness 一直很感兴趣。希望有机会参与 DSH 内测！",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085652144263516350",
       "sourceTweetId": "2084693319188439211",
       "author": "ziginCC",
@@ -8267,6 +8299,30 @@
       "text": "@tianyi 大佬好，我目前在做ai影视理解相关harness，同时也有一篇相关论文准备投ICLR，GitHub ID：suki0dayo\n项目地址https://github.com/suki0dayo/AI_film_studio",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2085655412188299435",
+      "sourceTweetId": "2084693319188439211",
+      "author": "hqmank",
+      "text": "@tianyi Just sent you a DM. I'd love to apply for the DSH beta. Could you take a look?",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085659340212494687",
+      "sourceTweetId": "2084693319188439211",
+      "author": "notjazii",
+      "text": "@tianyi Would love to get in",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085661087916282340",
+      "sourceTweetId": "2084693319188439211",
+      "author": "suen_gpt",
+      "text": "https://github.com/SUNRNEHUI/agent-reliability-harness 携个人丑作来报名。\nAgent Reliability Harness 是一个用于提升 AI Agent 执行可靠性的工具，适用于 Codex、Claude Code、Grok 等能够操作文件和 Shell 的 Agent。它主要解决复杂任务中常见的上下文丢失、跨会话/跨模型任务续接、多 Agent 协作混乱、重复规划、无效推理以及“声称完成但缺少实际验证”等问题。\n\n它不会为 Agent 再造一套复杂的任务系统，而是尽量复用 Agent 原生的 Plan；只有在任务需要长期执行、跨 Agent 交接或存在较高风险时，才持久化关键状态、执行进度和验证证据。这样可以让复杂 Agent 任务做到可续跑、可交接、可验证、可追踪，并且在出现异常或长期没有实际进展时及时停止或重新诊断。\n\n简单来说，它解决的是一个问题：让 AI Agent 不只是“能干活”，而是能够更可靠地把复杂任务真正做完，并证明自己确实做完了。\n\n我也是 deepseek v4 flash 的忠实用户，实测下来感觉 deepseek v4 能胜任大部分任务，对贵公司 harness 试用非常感兴趣，谢谢！",
+      "createdAt": null,
+      "likes": 2
     },
     {
       "id": "2085665035981131909",
@@ -8301,6 +8357,14 @@
       "likes": 0
     },
     {
+      "id": "2085679956940427428",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Kekeha228",
+      "text": "@tianyi https://github.com/sbrejnev988-coder/hermes-memory-wiki\nI have quite a few plugins, but I'm mostly proud of the Hermes agent memory plugin.\nhttps://github.com/sbrejnev988-coder",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085682975300272129",
       "sourceTweetId": "2084693319188439211",
       "author": "sanyueqi879",
@@ -8325,6 +8389,14 @@
       "likes": 0
     },
     {
+      "id": "2085703674337108160",
+      "sourceTweetId": "2084693319188439211",
+      "author": "dedene",
+      "text": "@tianyi I’d love to get in! My gh id is “dedene”, I’d work on supporting it in https://zentty.org/ (https://github.com/dedene/zentty) 🙏",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085718679480844461",
       "sourceTweetId": "2084693319188439211",
       "author": "hexclawapp",
@@ -8341,10 +8413,34 @@
       "likes": 0
     },
     {
+      "id": "2085724203966468227",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Wing8Aqua",
+      "text": "@tianyi 报名报名！\nhttps://github.com/tranfu-labs/moebius",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2085735963922211205",
       "sourceTweetId": "2084693319188439211",
       "author": "deepseekailover",
       "text": "@tianyi https://github.com/HologramSteve/deepseek-harness",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085742701027508452",
+      "sourceTweetId": "2084693319188439211",
+      "author": "somehah",
+      "text": "@tianyi 报名 vuuihc\nhttps://github.com/vuuihc/openkin",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085743738542821788",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Mateovger",
+      "text": "@tianyi github: Mateooo93\nhttps://github.com/Mateooo93/cortex-cli",
       "createdAt": null,
       "likes": 0
     },
@@ -8361,6 +8457,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "xjlfu",
       "text": "@tianyi https://github.com/LYY/ai-toolkits\n我个人自用的skills，是基于opencode以及oh-my-openagent开发使用的。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085753385173537150",
+      "sourceTweetId": "2084693319188439211",
+      "author": "mihaldmo",
+      "text": "@tianyi github id: https://github.com/mhdimo/\n\nproject: https://github.com/mhdimo/ai-sdk-cpp\n\nhttps://github.com/mhdimo/deepseek-code",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085759873812468040",
+      "sourceTweetId": "2084693319188439211",
+      "author": "aiqiji",
+      "text": "@tianyi https://github.com/ILoveBingLu/CipherTalk\n我们的开源项目，已接入常见AI提供商，也想要更完美的Agent Harness供用户使用",
       "createdAt": null,
       "likes": 0
     },
