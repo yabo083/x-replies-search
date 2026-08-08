@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T03:07:54.190791+00:00",
+  "fetchedAt": "2026-08-08T09:07:22.915581+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 728,
-      "capturedReplyCount": 575,
-      "lastCheckedAt": "2026-08-08T03:07:54.190400+00:00"
+      "sourceReplyCount": 730,
+      "capturedReplyCount": 577,
+      "lastCheckedAt": "2026-08-08T09:07:22.915216+00:00"
     }
   ],
   "summary": {
-    "tweets": 1059,
-    "authors": 933,
-    "sourceCount": 1897,
-    "added": 1,
-    "mode": "full"
+    "tweets": 1061,
+    "authors": 935,
+    "sourceCount": 1899,
+    "added": 2,
+    "mode": "incremental"
   },
   "replies": [
     {
@@ -8507,6 +8507,22 @@
       "text": "@tianyi repo: Sevendogs077/siete-rl: Reinforcement learning for verifiable software-engineering agents.\nid: Sevendogs077\nintro: Reinforcement learning for verifiable software-engineering agents.",
       "createdAt": null,
       "likes": 1
+    },
+    {
+      "id": "2086009539556745393",
+      "sourceTweetId": "2084693319188439211",
+      "author": "anrayama",
+      "text": "@tianyi github : alfep",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2086010435300647006",
+      "sourceTweetId": "2084693319188439211",
+      "author": "cffgdhtrxf14902",
+      "text": "@tianyi 仓库：cffgdhtrxf/neo-code\nGitHub ID：cffgdhtrxf\n\nNeo Code 是一个基于 DeepSeek V4 API 的单文件交互式 CLI Agent，内置 51 个工具、PolicyPipeline 权限分层、MCP 支持、多智能体编排与向量记忆。已稳定运行数月，177 个测试全绿。非常适合作为 DSH 的早期接入案例。",
+      "createdAt": null,
+      "likes": 0
     }
   ]
 }
