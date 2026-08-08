@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-08T03:09:17.277Z",
+  "updatedAt": "2026-08-08T09:09:52.981Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -683,9 +683,9 @@
       "generatedAt": "2026-08-05T01:19:39.076Z"
     },
     "qinchaomeishenmeshi/book-note-ddg": {
-      "signature": "08b8b75a97ab6ea7e7e04715f4eca7afe1b16da8e82add0a5dde089fc9b319c2",
-      "summary": "X报名用户 ZhaoxuanQ：qinchaomeishenmeshi/book-note-ddg 是使用 DuckDuckGo MCP 在线搜索并整理结构化中文读书笔记的技能。",
-      "generatedAt": "2026-08-05T01:19:39.076Z"
+      "signature": "30b4aae1e0b75fe55f3e71d0a053be22bdb9ca078d59da1b52cd06bc6c92ef46",
+      "summary": "ZhaoxuanQ的qinchaomeishenmeshi/book-note-ddg用DuckDuckGo MCP搜索并整理中文读书笔记。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
     },
     "roacherm/open-managed-agents": {
       "signature": "55ef933cd910aae29006b48219b0d3c987691784560566668d7651e362cc2ad3",
@@ -3718,9 +3718,9 @@
       "generatedAt": "2026-08-07T10:08:38.793Z"
     },
     "platonai/browser4": {
-      "signature": "e6ae530c05cf12eae1a5ca1c0a8fbd821fdf5387494f78f841221d43f075655b",
-      "summary": "galaxyeye8 报名的 platonai/Browser4，为智能体构建原生浏览器，通过网页数据挖掘提升任务执行能力。",
-      "generatedAt": "2026-08-07T10:08:38.793Z"
+      "signature": "bdc4430513d6d9f6425ed87d3bb009320b22bdece2eaef1c37239227e63c148c",
+      "summary": "galaxyeye8的platonai/Browser4是为智能体构建的AI原生浏览器引擎，支持网页数据挖掘与大规模自动化。",
+      "generatedAt": "2026-08-08T09:09:52.975Z"
     },
     "suki0dayo/ai_film_studio": {
       "signature": "d1e283d0ab26ed954bf8d06ad11331df1c663de79f1d8f5a64b24c852dc064e7",
@@ -4156,6 +4156,46 @@
       "signature": "84819a486b1c766813123c32173407dfdcf20bb3acbb3ccfdfe0468fb55c922b",
       "summary": "mrkoi_is 报名的 mrkoi-is/koi_blueprint_python 是 Python 智能体服务端工程蓝图，含技能、可读路由与 CI 验证。",
       "generatedAt": "2026-08-08T03:09:17.272Z"
+    },
+    "neeboo/ouroboros": {
+      "signature": "1ccd06df17cc777602bc2de9847af83bbbfe8d0973f1c7c1c5692e4111ee91ec",
+      "summary": "ghostcorn的neeboo/ouroboros是一个TypeScript编写的Agent Harness工程。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
+    },
+    "nosistech/nosis-harness": {
+      "signature": "f753b6e7b41a9940037d82380bb30e88a9541a0d8218f31dd02675338fd984e9",
+      "summary": "arparvar的nosistech/nosis-harness是Rust编写的多模型终端代理，集成编排聚合与MCP服务，支持DeepSeek等开源模型。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
+    },
+    "ophielel/middle-cat-localization": {
+      "signature": "e0b18318055411f3b94262b4b062d78241d3e53a212817d8556f5426689dcb29",
+      "summary": "iEaDJiwk0A192的ophielel/middle-cat-localization是SCP-CN本地Agent Harness，含MCP。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
+    },
+    "pjq/yodaai": {
+      "signature": "0d64ffaeb776319ee1b00bf0ff1633923e488522066c00f952c1bdbbc023c387",
+      "summary": "pengjianqing的pjq/YoDaAI是Swift编写的业余项目。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
+    },
+    "pouljenny/trundle": {
+      "signature": "db525c5b53b90b48a770a26d3bfc3fffd21eb619a10f51b7755dd5b1e075a4fa",
+      "summary": "Poul_Ya的PouLJenny/trundle是Claude Code skill，把单人对话变成多Agent回合制群聊。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
+    },
+    "sakjijdidji55/termclerk": {
+      "signature": "e7b648ac7302258152f4c260096e712159a4478c212cd5e7edb9ce09d546a1b8",
+      "summary": "sheen2tn的Sakjijdidji55/termclerk是轻量C++终端AI编程代理，适配DeepSeek模型。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
+    },
+    "scratchai-labs/scratch-ai-local-client": {
+      "signature": "20be67fe56da0ef058c749b78f3b16c9c6e9a4774e740f7d2c51ed8e9df27baa",
+      "summary": "judi0713的scratchai-labs/scratch-ai-local-client是小学编程用Scratch助手，接入DeepSeek提示。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
+    },
+    "sesiting/ti-agent": {
+      "signature": "71aaf536193ed0ddb0d9cf0a8c80cee6fd8aea124aff5e23a08cbaaa5b5192e9",
+      "summary": "sesiting666的SeSiTing/ti-agent是极简自建Agent运行时，具有清晰工具与提供商边界。",
+      "generatedAt": "2026-08-08T09:09:52.976Z"
     }
   }
 }
