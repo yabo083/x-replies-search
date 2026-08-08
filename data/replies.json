@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T12:07:17.163586+00:00",
+  "fetchedAt": "2026-08-08T16:07:52.753888+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1169,
-      "capturedReplyCount": 484,
-      "lastCheckedAt": "2026-08-08T03:07:34.035620+00:00"
+      "sourceReplyCount": 1170,
+      "capturedReplyCount": 485,
+      "lastCheckedAt": "2026-08-08T16:07:29.493502+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 736,
-      "capturedReplyCount": 578,
-      "lastCheckedAt": "2026-08-08T12:07:13.201133+00:00"
+      "sourceReplyCount": 737,
+      "capturedReplyCount": 579,
+      "lastCheckedAt": "2026-08-08T16:07:50.067946+00:00"
     }
   ],
   "summary": {
-    "tweets": 1062,
-    "authors": 936,
-    "sourceCount": 1905,
-    "added": 1,
+    "tweets": 1064,
+    "authors": 938,
+    "sourceCount": 1907,
+    "added": 2,
     "mode": "incremental"
   },
   "replies": [
@@ -1451,6 +1451,14 @@
       "text": "@tianyi 我用周末时间做的，刚刚起步。\n\n还没有什么star，但是我自认为harness理解比较深刻，我申请体验",
       "createdAt": null,
       "likes": 5
+    },
+    {
+      "id": "2083683812870131869",
+      "sourceTweetId": "2083519855203078320",
+      "author": "pymhq",
+      "text": "@tianyi Interested to participate https://github.com/pymhq",
+      "createdAt": null,
+      "likes": 0
     },
     {
       "id": "2083695221834150263",
@@ -8529,6 +8537,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "Bitplus888",
       "text": "@tianyi ▎ GitHub: dongsheng123132\n  ▎ 2Origin — 开源 AI 计算机架构：模型是 CPU，harness 是主机。\n参考 harness（零依赖/模型可换/状态持久/写入审计）：https://github.com/dongsheng123132/2origin-harness\n  ▎ 已实测 deepseek-v4-flash→v4-pro 仅凭状态文件零追问接续任务。DSH 发布当天接入。邮箱已私",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086112317331456018",
+      "sourceTweetId": "2084693319188439211",
+      "author": "yc2166",
+      "text": "@tianyi GitHub ID: hicccc77 \n项目：https://github.com/hicccc77/WeFlow\n完全本地的微信实时聊天记录查看、分析与导出工具。\n它可以获取你的微信聊天记录并将其导出，还可以根据你的聊天记录为你生成独一无二的数据与年度报告",
       "createdAt": null,
       "likes": 0
     }
