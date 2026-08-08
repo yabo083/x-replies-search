@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T11:07:25.199889+00:00",
+  "fetchedAt": "2026-08-08T12:07:17.163586+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 733,
-      "capturedReplyCount": 577,
-      "lastCheckedAt": "2026-08-08T11:07:25.199545+00:00"
+      "sourceReplyCount": 736,
+      "capturedReplyCount": 578,
+      "lastCheckedAt": "2026-08-08T12:07:13.201133+00:00"
     }
   ],
   "summary": {
-    "tweets": 1061,
-    "authors": 935,
-    "sourceCount": 1902,
-    "added": 0,
+    "tweets": 1062,
+    "authors": 936,
+    "sourceCount": 1905,
+    "added": 1,
     "mode": "incremental"
   },
   "replies": [
@@ -8521,6 +8521,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "cffgdhtrxf14902",
       "text": "@tianyi 仓库：cffgdhtrxf/neo-code\nGitHub ID：cffgdhtrxf\n\nNeo Code 是一个基于 DeepSeek V4 API 的单文件交互式 CLI Agent，内置 51 个工具、PolicyPipeline 权限分层、MCP 支持、多智能体编排与向量记忆。已稳定运行数月，177 个测试全绿。非常适合作为 DSH 的早期接入案例。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086051821731361218",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Bitplus888",
+      "text": "@tianyi ▎ GitHub: dongsheng123132\n  ▎ 2Origin — 开源 AI 计算机架构：模型是 CPU，harness 是主机。\n参考 harness（零依赖/模型可换/状态持久/写入审计）：https://github.com/dongsheng123132/2origin-harness\n  ▎ 已实测 deepseek-v4-flash→v4-pro 仅凭状态文件零追问接续任务。DSH 发布当天接入。邮箱已私",
       "createdAt": null,
       "likes": 0
     }
