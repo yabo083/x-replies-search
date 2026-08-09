@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T13:07:14.500530+00:00",
+  "fetchedAt": "2026-08-09T14:07:15.875383+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 751,
-      "capturedReplyCount": 589,
-      "lastCheckedAt": "2026-08-09T13:07:12.346427+00:00"
+      "sourceReplyCount": 756,
+      "capturedReplyCount": 592,
+      "lastCheckedAt": "2026-08-09T14:07:13.350879+00:00"
     }
   ],
   "summary": {
-    "tweets": 1079,
-    "authors": 950,
-    "sourceCount": 1924,
-    "added": 1,
+    "tweets": 1082,
+    "authors": 953,
+    "sourceCount": 1929,
+    "added": 3,
     "mode": "incremental"
   },
   "replies": [
@@ -8665,6 +8665,30 @@
       "sourceTweetId": "2084693319188439211",
       "author": "JasKiwi565",
       "text": "@tianyi 作为第一个支持ds用于codex的网关，必须来申请一下。GithubID: BenedictKing 项目地址 https://github.com/BenedictKing/ccx/ 项目官网 https://benedictking.github.io/ccx/",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086442522465714619",
+      "sourceTweetId": "2084693319188439211",
+      "author": "lliovoiill",
+      "text": "@tianyi jsonseek ：面向llm的json/jsonl快速查询工具\nhttps://github.com/lo2589/JSONSEEK\n按需取值，相比于cat全文节省90%以上token\n支持快速查询/定位/修改/插入/删除/坏json诊断",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086452459472638385",
+      "sourceTweetId": "2084693319188439211",
+      "author": "chen951555",
+      "text": "@tianyi 希望能够参与内测：\nGithub ID：lakeofsky347\nhttps://github.com/lakeofsky347/VibeBus",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086452859537617192",
+      "sourceTweetId": "2084693319188439211",
+      "author": "wxrn2026332",
+      "text": "@tianyi GitHub ID: wuxiran\n项目: https://github.com/wuxiran/cc-pane  \nCC-Panes，Agent 多实例编排桌面应用（orchestrator + UI）。基于 Tauri 2，把 Cc / Codex 等 CLI Agent 。以分屏终端形式统一管理：多实例并行派工、leader/worker 编排会话恢复worktree、MCP ，跨 Windows/WSL/SSH 运行时。希望第一时间接入 DSH",
       "createdAt": null,
       "likes": 0
     }
