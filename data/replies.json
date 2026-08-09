@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-08T19:07:30.349239+00:00",
+  "fetchedAt": "2026-08-09T00:07:14.539814+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 739,
-      "capturedReplyCount": 580,
-      "lastCheckedAt": "2026-08-08T19:07:30.348862+00:00"
+      "sourceReplyCount": 740,
+      "capturedReplyCount": 581,
+      "lastCheckedAt": "2026-08-09T00:07:12.581077+00:00"
     }
   ],
   "summary": {
-    "tweets": 1067,
-    "authors": 941,
-    "sourceCount": 1911,
-    "added": 0,
+    "tweets": 1068,
+    "authors": 942,
+    "sourceCount": 1912,
+    "added": 1,
     "mode": "incremental"
   },
   "replies": [
@@ -8569,6 +8569,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "KangshunZ30083",
       "text": "@tianyi 崔老师您好，我是计算机专业学生，长期使用 Claude，关注大模型、Agent、深度学习等方向。虽然目前不是 Agent 框架开发者，但有一定代码开发经验，并基于 claude-obsidian 搭建过 AI 知识库管理工作流。希望能以深度用户和学生视角参与内测，提供实际使用反馈。\nGitHub：https://github.com/shanec7825/claude-obsidian ",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086241565039636813",
+      "sourceTweetId": "2084693319188439211",
+      "author": "aotebiu",
+      "text": "@tianyi GitHub ID: aote6\n\n1. Veritas (Orchestrator/Kernel)\nhttps://github.com/aote6/veritas\nRust 事务内核，提供确定性状态管理与 capability 隔离，可作 DSH 底层执行内核。\n\n2. Forge (Tools/Framework)\nhttps://github.com/aote6/forge\n事务型编码/工具执行框架，支持 Patch 引擎与自动回滚。",
       "createdAt": null,
       "likes": 0
     }
