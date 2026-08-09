@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T03:07:46.604502+00:00",
+  "fetchedAt": "2026-08-09T04:08:07.257782+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1172,
-      "capturedReplyCount": 487,
-      "lastCheckedAt": "2026-08-09T03:07:31.695668+00:00"
+      "sourceReplyCount": 1173,
+      "capturedReplyCount": 489,
+      "lastCheckedAt": "2026-08-09T04:07:36.991639+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 743,
-      "capturedReplyCount": 582,
-      "lastCheckedAt": "2026-08-09T03:07:46.604127+00:00"
+      "sourceReplyCount": 744,
+      "capturedReplyCount": 584,
+      "lastCheckedAt": "2026-08-09T04:08:04.752015+00:00"
     }
   ],
   "summary": {
-    "tweets": 1069,
-    "authors": 943,
-    "sourceCount": 1915,
-    "added": 0,
-    "mode": "full"
+    "tweets": 1073,
+    "authors": 946,
+    "sourceCount": 1917,
+    "added": 4,
+    "mode": "incremental"
   },
   "replies": [
     {
@@ -2077,6 +2077,14 @@
       "likes": 0
     },
     {
+      "id": "2083803662863028332",
+      "sourceTweetId": "2083519855203078320",
+      "author": "dao_leno",
+      "text": "@tianyi 来报名了，希望将 DeepSeek Harness 第一时间适配到移动端优先的编排器上。https://github.com/daoleno/zen",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2083805766608470442",
       "sourceTweetId": "2083519855203078320",
       "author": "Mileson07",
@@ -2659,6 +2667,14 @@
       "text": "@tianyi 我对 Agent Harness 很感兴趣，想参加 DeepSeek Harness 内测。GitHub id：agentdev88，代表作：https://github.com/agentdev88/agent-harness-core",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2084070978855072052",
+      "sourceTweetId": "2083519855203078320",
+      "author": "dlxeva",
+      "text": "@tianyi 报名。\n\nGitHub ID：dlxeva\n\n代表作：\nCanvas Prompt：https://github.com/dlxeva/canvas-prompt\nFlowGrid：https://github.com/dlxeva/FlowGrid\n\n目前主要关注 Agent Harness 中的过程上下文、长期项目状态和跨 Agent handoff，很希望参与内测并提供实际项目反馈。",
+      "createdAt": null,
+      "likes": 1
     },
     {
       "id": "2084072918255124535",
@@ -6981,6 +6997,14 @@
       "likes": 0
     },
     {
+      "id": "2084970337796808919",
+      "sourceTweetId": "2084693319188439211",
+      "author": "dao_leno",
+      "text": "@tianyi 报名！ https://github.com/daoleno/zen",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2084970357254136251",
       "sourceTweetId": "2084693319188439211",
       "author": "choo_richie",
@@ -8585,6 +8609,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "qianqiongge",
       "text": "@tianyi 比“能接入”更关键的是 Harness 的可观测契约：工具调用轨迹、状态恢复、成本和失败原因能否统一导出。开源项目如果只适配接口，很快会被版本变化拖垮。DSH 内测会提供标准 trace schema 或可回放的失败样本吗？",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086302742054920646",
+      "sourceTweetId": "2084693319188439211",
+      "author": "lun_hong72284",
+      "text": "@tianyi https://github.com/github-world192/CKA101G2TheStar\nid : github-world192",
       "createdAt": null,
       "likes": 0
     }
