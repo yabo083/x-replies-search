@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-09T13:08:41.988Z",
+  "updatedAt": "2026-08-09T14:09:10.562Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -3303,9 +3303,9 @@
       "generatedAt": "2026-08-05T15:09:14.318Z"
     },
     "zhyfeng/paihuo": {
-      "signature": "dd391964f990d34c881ecd710a3048d221f0f2886d92d672399ac9a84a015800",
-      "summary": "yuhao2222 报名的 ZHYfeng/paihuo 是自托管 agent 调度平台，可将任务派给指定 agent 角色，并通过看板跟踪进度、审批与定时任务。",
-      "generatedAt": "2026-08-09T11:08:45.496Z"
+      "signature": "39116acaa2a211986d25113d70d6691cae2637a470ef12a04c7e2edab2c4590f",
+      "summary": "yuhao2222 报名 ZHYfeng/paihuo，自托管 Agent 调度平台，向指定角色派发任务并实时跟踪进度。",
+      "generatedAt": "2026-08-09T14:09:10.557Z"
     },
     "mgdaaslab/wharttest": {
       "signature": "40bb27295fec73bc87a5285c56781fadae7e5e2534066553282467b14b1c7c64",
@@ -4386,6 +4386,21 @@
       "signature": "a0c58758f07b4cf55f8f2fec35a9f36bca8a0503d62ddf7161ffa3b174a09f7c",
       "summary": "报名用户JasKiwi565的BenedictKing/ccx是Claude、Codex、Gemini的API代理网关，并支持DeepSeek。",
       "generatedAt": "2026-08-09T13:08:41.981Z"
+    },
+    "wuxiran/cc-pane": {
+      "signature": "9ac343601caec31f375ff478aee226f657d3c384615e554d4243c72a21f2ab9b",
+      "summary": "wxrn2026332 报名 wuxiran/cc-pane，Tauri 2 多实例分屏终端，编排管理 Claude Code 等 CLI Agent。",
+      "generatedAt": "2026-08-09T14:09:10.556Z"
+    },
+    "lo2589/jsonseek": {
+      "signature": "238f2cac5a1be659c68056cb98ee4808439d8014a7d91cd1499cb33ded8dc603",
+      "summary": "lliovoiill 报名 lo2589/JSONSEEK，面向 LLM 的 JSON/JSONL 路径查询 CLI，可快速定位、修改并诊断坏 JSON。",
+      "generatedAt": "2026-08-09T14:09:10.557Z"
+    },
+    "lakeofsky347/vibebus": {
+      "signature": "9ece3ef46cd989b8ad3a9d34dcdb575430bc20c7c1513240d86c8e01c2076e04",
+      "summary": "chen951555 报名 lakeofsky347/VibeBus，SQLite 本地事实总线，为 CodingAgent 提供 CLI/MCP 与插件封装。",
+      "generatedAt": "2026-08-09T14:09:10.557Z"
     }
   }
 }
