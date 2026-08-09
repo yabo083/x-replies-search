@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T14:07:15.875383+00:00",
+  "fetchedAt": "2026-08-09T15:07:17.594694+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 756,
-      "capturedReplyCount": 592,
-      "lastCheckedAt": "2026-08-09T14:07:13.350879+00:00"
+      "sourceReplyCount": 759,
+      "capturedReplyCount": 594,
+      "lastCheckedAt": "2026-08-09T15:07:13.943855+00:00"
     }
   ],
   "summary": {
-    "tweets": 1082,
-    "authors": 953,
-    "sourceCount": 1929,
-    "added": 3,
+    "tweets": 1084,
+    "authors": 955,
+    "sourceCount": 1932,
+    "added": 2,
     "mode": "incremental"
   },
   "replies": [
@@ -8689,6 +8689,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "wxrn2026332",
       "text": "@tianyi GitHub ID: wuxiran\n项目: https://github.com/wuxiran/cc-pane  \nCC-Panes，Agent 多实例编排桌面应用（orchestrator + UI）。基于 Tauri 2，把 Cc / Codex 等 CLI Agent 。以分屏终端形式统一管理：多实例并行派工、leader/worker 编排会话恢复worktree、MCP ，跨 Windows/WSL/SSH 运行时。希望第一时间接入 DSH",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086457502229835963",
+      "sourceTweetId": "2084693319188439211",
+      "author": "QiuPika69179",
+      "text": "@tianyi GitHub ID：bungabungawoda\n项目地址：https://github.com/bungabungawoda/lark-remote\n飞书私聊 与 本地 Coding Agent 桥接。在飞书里和 Claude Code（或 Codex / opencode / pi / Kimi）对话，agent 在你指定的本地目录里读写文件、跑命令，执行过程以 CardKit 2.0 卡片单卡实时流式呈现",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086462230489694474",
+      "sourceTweetId": "2084693319188439211",
+      "author": "haoli33546623",
+      "text": "@tianyi 您好！申请报名参与内测。GitHub ID：030611\n项目地址：https://github.com/030611/qiushi-harness  \nQiushi Harness 是一个面向 coding agent 的 evidence-first runtime middleware，在编辑和提交等关键动作前检查事实、假设、行动依据与验证证据，并保留结构化的 block、repair 和 verification trace。",
       "createdAt": null,
       "likes": 0
     }
