@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-09T10:07:28.907470+00:00",
+  "fetchedAt": "2026-08-09T11:07:16.500002+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 746,
-      "capturedReplyCount": 585,
-      "lastCheckedAt": "2026-08-09T10:07:26.565763+00:00"
+      "sourceReplyCount": 748,
+      "capturedReplyCount": 587,
+      "lastCheckedAt": "2026-08-09T11:07:13.752174+00:00"
     }
   ],
   "summary": {
-    "tweets": 1074,
-    "authors": 947,
-    "sourceCount": 1918,
-    "added": 1,
+    "tweets": 1076,
+    "authors": 948,
+    "sourceCount": 1920,
+    "added": 2,
     "mode": "incremental"
   },
   "replies": [
@@ -8625,6 +8625,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "PMAndDog",
       "text": "@tianyi Github id：robotbird\nGihub 地址 ：https://github.com/robotbird/skillkit\n\n一个多 Agent skill 管理工具\n\n一次性把 skill 装到一个或多个工具\n\n支持skill 分享功能\n\n安装支持 GitHub URL、分享链接、本地 .zip 三种来源",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086395995081032110",
+      "sourceTweetId": "2084693319188439211",
+      "author": "dlxeva",
+      "text": "GitHub ID：dlxeva\n\n想报名参与 DSH 内测。目前有几个正在持续开发的开源项目和 Agent Harness 接入比较相关：\n\nCanvas Prompt\nhttps://github.com/dlxeva/canvas-prompt\n目前已经支持 Codex Plugin + MCP + 本地 UI，主要探索画布、语音、标注等多模态信息如何形成结构化上下文，再交给 Agent 继续执行。很希望第一时间尝试适配 DSH。\n\nFlowGrid\nhttps://github.com/dlxeva/FlowGrid\n一个 local-first 的项目状态与上下文协议，通过 Skill 让 Codex、Claude、OpenClaw、Hermes 等不同 Agent Host 可以续接同一份项目状态、决策链和 handoff context。\n\nFDE Operator OS\nhttps://github.com/dlxeva/fde-operator-os\n一套面向 Applied AI / FDE 场景的开源 Skill Suite，包含任务判断、现实流程还原、Pilot 设计、Eval 和 Production Readiness 等工作流。\n\n如果有机会参与 DSH 内测，我可以基于这些项目第一时间做 Plugin / Skill / MCP 侧的适配和实际项目验证，也很愿意把适配过程和问题反馈沉淀到开源仓库。\n\n邮箱已私信。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086404958363005111",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Manticore0918",
+      "text": "@tianyi 报名，agent cli with custom harness。https://github.com/Manticore0918/mikucli",
       "createdAt": null,
       "likes": 0
     }
