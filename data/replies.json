@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-10T03:08:08.158976+00:00",
+  "fetchedAt": "2026-08-10T05:07:21.102051+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 765,
-      "capturedReplyCount": 604,
-      "lastCheckedAt": "2026-08-10T03:08:00.666557+00:00"
+      "sourceReplyCount": 769,
+      "capturedReplyCount": 606,
+      "lastCheckedAt": "2026-08-10T05:07:18.767329+00:00"
     }
   ],
   "summary": {
-    "tweets": 1095,
-    "authors": 963,
-    "sourceCount": 1941,
+    "tweets": 1097,
+    "authors": 964,
+    "sourceCount": 1945,
     "added": 2,
-    "mode": "full"
+    "mode": "incremental"
   },
   "replies": [
     {
@@ -8793,6 +8793,22 @@
       "sourceTweetId": "2083519855203078320",
       "author": "MARTINPARK111",
       "text": "@tianyi 我想试试 ！！",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086668797340270669",
+      "sourceTweetId": "2084693319188439211",
+      "author": "TuTouPower",
+      "text": "@tianyi Github project: https://github.com/TuTouPower/repo_template\nGithub ID: https://github.com/TuTouPower\n\n这是我为 Claude Code 等 Coding Agent 设计的工作流，里面有很多 skill hook 的 harness 设计。希望参与内测",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086670388692652501",
+      "sourceTweetId": "2084693319188439211",
+      "author": "stevwjroa9",
+      "text": "@tianyi GitHub ID：1while1\nhttps://github.com/1while1/studyAgent⁠�\n是我正在开发的一个开源代码学习 Agent，目标是做一个能够长期记录学习状态，并结合代码、教材和实际编码过程持续教学的 Agent。\n目前已经实现  双模式，并在逐步完善 planner、tool calling、上下文管理代码读取与构建验证、学习者长期状态和可观测",
       "createdAt": null,
       "likes": 0
     }
