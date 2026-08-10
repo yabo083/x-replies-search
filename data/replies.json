@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-10T15:07:15.407048+00:00",
+  "fetchedAt": "2026-08-10T16:07:35.885431+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 781,
-      "capturedReplyCount": 612,
-      "lastCheckedAt": "2026-08-10T15:07:13.080256+00:00"
+      "sourceReplyCount": 783,
+      "capturedReplyCount": 613,
+      "lastCheckedAt": "2026-08-10T16:07:30.950644+00:00"
     }
   ],
   "summary": {
-    "tweets": 1103,
-    "authors": 969,
-    "sourceCount": 1962,
+    "tweets": 1104,
+    "authors": 970,
+    "sourceCount": 1964,
     "added": 1,
     "mode": "incremental"
   },
@@ -8857,6 +8857,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "fanggong4",
       "text": "@tianyi Github ID：StarDreamG\n\nhttps://github.com/StarDreamG/contextGraph\n\n这是我的 mcp 面向 aiagent 的上下文管理工具，在 codex，deepseek 等不同模型之间以项目为单位积累项目经验，文档，测试方法和任务进度，目前没有人使用，就我自己",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2086840339600707993",
+      "sourceTweetId": "2084693319188439211",
+      "author": "yan_bei99518",
+      "text": "@tianyi I'm trying to integrate all the tools I can get my hands on, but it's a small project\n\nhttps://github.com/chenbihao/blink",
       "createdAt": null,
       "likes": 0
     }
