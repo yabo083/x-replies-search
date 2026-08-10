@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-10T15:10:09.579Z",
+  "updatedAt": "2026-08-10T16:08:47.276Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -58,9 +58,9 @@
       "generatedAt": "2026-08-05T01:14:34.459Z"
     },
     "kenryu42/cc-safety-net": {
-      "signature": "c4cb7c4f9f0a643033d245e386aa6a1e955203adec848cec5339ade93d3a0da2",
-      "summary": "kenryu42 报名的 kenryu42/cc-safety-net 是编码代理 CLI 钩子，可在执行前拦截破坏性 Git、文件系统命令及敏感文件访问。",
-      "generatedAt": "2026-08-05T01:14:34.459Z"
+      "signature": "bc29f0ad1857c059753db863a4dfd16c6e9cea60b774daf23a1749142b27d81f",
+      "summary": "kenryu42的cc-safety-net，为AI编码代理提供命令行防护，拦截破坏性git与文件系统命令及秘密文件访问。",
+      "generatedAt": "2026-08-10T16:08:47.269Z"
     },
     "mem9-ai/mem9": {
       "signature": "f8999cde7cd637fb37fdfe7d79662e5176b1b04e1333ceb51423276b9cde8d56",
@@ -4471,6 +4471,16 @@
       "signature": "1f9819b9870aac61f9d705171a44928b2579ca54033a4f9ecc2ba895ad17f141",
       "summary": "报名用户Shelkeni的shelken/pi-extensions是个人维护的Pi插件扩展集合。",
       "generatedAt": "2026-08-10T13:09:13.857Z"
+    },
+    "chenbihao/blink": {
+      "signature": "70c22c22039dc4452d74f7d5d9d2854fc33f6ab11794d9d6b0afa081f18884ac",
+      "summary": "yan_bei99518报名的chenbihao/blink，是Rust编写的丝滑启动器，具备Chord增强能力，让搜索截图等操作更快。",
+      "generatedAt": "2026-08-10T16:08:47.270Z"
+    },
+    "stardreamg/contextgraph": {
+      "signature": "01e561ef5df33b81b537a4d87649bc88e1a8ac5a421164800ec6e8d7ef61dbf3",
+      "summary": "fanggong4报名的StarDreamG/contextGraph，为AI代理提供本地优先上下文记忆，在编码前继承项目规则、测试与任务进度。",
+      "generatedAt": "2026-08-10T16:08:47.270Z"
     }
   }
 }
