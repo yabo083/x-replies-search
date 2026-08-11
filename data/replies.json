@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-11T15:07:45.218807+00:00",
+  "fetchedAt": "2026-08-11T16:07:44.381898+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1187,
-      "capturedReplyCount": 493,
-      "lastCheckedAt": "2026-08-11T15:07:32.363674+00:00"
+      "sourceReplyCount": 1188,
+      "capturedReplyCount": 494,
+      "lastCheckedAt": "2026-08-11T16:07:33.646726+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 793,
-      "capturedReplyCount": 629,
-      "lastCheckedAt": "2026-08-11T15:07:39.192269+00:00"
+      "sourceReplyCount": 797,
+      "capturedReplyCount": 632,
+      "lastCheckedAt": "2026-08-11T16:07:41.276155+00:00"
     }
   ],
   "summary": {
-    "tweets": 1122,
-    "authors": 988,
-    "sourceCount": 1980,
-    "added": 1,
+    "tweets": 1126,
+    "authors": 992,
+    "sourceCount": 1985,
+    "added": 4,
     "mode": "incremental"
   },
   "replies": [
@@ -2825,6 +2825,14 @@
       "sourceTweetId": "2083519855203078320",
       "author": "keane42443",
       "text": "github: zqiren\n\n代表作：orbital - https://github.com/zqiren/Orbital\n\n开源的project agent\n\nOrbital会和Claude Code、Codex一样干活：调研、规划、写作、执行命令、浏览网页，调用各种工具。\n\n不同的是，Orbital会把本地的一个文件夹当作长期项目来维护。\n\n干活的同时，Orbital会把项目的当前状态、决策、经验教训、任务队列和产出成果沉淀并记录在这个文件夹里。每一次新任务都从此前工作积累的上下文开始，agent 的工作因此能够不断复利。\n\nOrbital也可以把任务派给Claude Code、Codex、Gemini CLI、Cursor 等 CLI agent（用他们的订阅套餐）。每次任务派发都会向子agent交代项目背景和任务背景，并告诉它们相关的项目文件。用户就不需要每次任务都重讲一遍。Orbital会监控任务的运行情况，结合项目上下文解读返回的结果，并把产出写回项目。项目持续复利。",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2084114904123056135",
+      "sourceTweetId": "2083519855203078320",
+      "author": "zephyr_kongge",
+      "text": "@tianyi https://github.com/SpaceZephyr/cowrite/\n\nCoWrite ：Agent 的可视化工作台，帮用户组建 Skill 和上下文管理平台，统一管理本地 Skill，以及和 Agent 共同创作文章",
       "createdAt": null,
       "likes": 1
     },
@@ -9009,6 +9017,30 @@
       "sourceTweetId": "2084693319188439211",
       "author": "AllenYZL",
       "text": "@tianyi GitHub ID: appleaa123 \n项目地址:https://github.com/appleaa123/skills-wiki \n主做Skill管理，定制，多skill harness.",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087202063931552059",
+      "sourceTweetId": "2084693319188439211",
+      "author": "LLLLLLESTER",
+      "text": "@tianyi 报名 报名\nGitHub ID: cyberlesterr \n项目地址：https://github.com/cyberlesterr/paper-collage-video\n项目介绍：自动生成帧动画Skill",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087203564569403586",
+      "sourceTweetId": "2084693319188439211",
+      "author": "teach_fireworks",
+      "text": "@tianyi 基于 loop 工程生成专业得架构图，已经快 1w star :\n\nhttps://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2087205036480970796",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Mrse7enth",
+      "text": "@tianyi https://github.com/mr7thing/openspec-video   mr7thing  mr7th@qq.com  这是一个基于spec（资产文档）来进行视频创作的agent 服务框架， 目前正在参考trellis来做agent harness hook机制， 提升spec的可执行性。",
       "createdAt": null,
       "likes": 0
     }
