@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-11T02:08:00.017545+00:00",
+  "fetchedAt": "2026-08-11T04:07:53.746304+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1183,
-      "capturedReplyCount": 491,
-      "lastCheckedAt": "2026-08-11T02:07:47.487729+00:00"
+      "sourceReplyCount": 1184,
+      "capturedReplyCount": 492,
+      "lastCheckedAt": "2026-08-11T04:07:40.169466+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 785,
-      "capturedReplyCount": 614,
-      "lastCheckedAt": "2026-08-11T01:07:32.134792+00:00"
+      "sourceReplyCount": 786,
+      "capturedReplyCount": 615,
+      "lastCheckedAt": "2026-08-11T04:07:51.310386+00:00"
     }
   ],
   "summary": {
-    "tweets": 1105,
-    "authors": 971,
-    "sourceCount": 1968,
-    "added": 0,
+    "tweets": 1107,
+    "authors": 973,
+    "sourceCount": 1970,
+    "added": 2,
     "mode": "incremental"
   },
   "replies": [
@@ -8873,6 +8873,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "yan_bei99518",
       "text": "@tianyi I'm trying to integrate all the tools I can get my hands on, but it's a small project\n\nhttps://github.com/chenbihao/blink",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087005891950428222",
+      "sourceTweetId": "2083519855203078320",
+      "author": "drdrz1206",
+      "text": "@tianyi 现在报名还来得及吗，希望还有机会\nGitHub id：DrDrZ95\n内部在做一个传统工业场景项目（包括GUI）：https://github.com/DrDrZ95/AgentProject",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087024285672251449",
+      "sourceTweetId": "2084693319188439211",
+      "author": "leebernard8689",
+      "text": "@tianyi 报名:\nid:Bernardleex526\n受 SLAM（即时定位与地图构建）和 LiDAR 建图中 PGO（位姿图优化）、Scan Context（扫描上下文）等核心思想启发，专为编码 Agent 设计的多层级验证框架。\nhttps://github.com/bernardleex526/lidar_harness",
       "createdAt": null,
       "likes": 0
     }
