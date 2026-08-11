@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-10T19:07:23.549657+00:00",
+  "fetchedAt": "2026-08-11T01:07:34.406339+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 784,
-      "capturedReplyCount": 613,
-      "lastCheckedAt": "2026-08-10T19:07:23.549314+00:00"
+      "sourceReplyCount": 785,
+      "capturedReplyCount": 614,
+      "lastCheckedAt": "2026-08-11T01:07:32.134792+00:00"
     }
   ],
   "summary": {
-    "tweets": 1104,
-    "authors": 970,
-    "sourceCount": 1965,
-    "added": 0,
+    "tweets": 1105,
+    "authors": 971,
+    "sourceCount": 1966,
+    "added": 1,
     "mode": "incremental"
   },
   "replies": [
@@ -6705,6 +6705,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "phylosra",
       "text": "@tianyi GitHub id :test27818\n地址:https://github.com/test27818/rikkahub-math-plus\n\nRikkaHub二改，增加了TikZ 图表自动渲染（pdflatex 工作区管线）以及相关缓存/UI显示优化，可以丝滑渲染tikz交换图公式。同时附带ai4math-lean数学形式化技能与案例。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2084932212492026020",
+      "sourceTweetId": "2084693319188439211",
+      "author": "0xDing",
+      "text": "@tianyi https://github.com/AgentBull/ankole\n具有基于本地轮记忆能力的数字同事，类似 claude tag",
       "createdAt": null,
       "likes": 0
     },
