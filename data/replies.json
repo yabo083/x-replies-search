@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T03:07:51.642454+00:00",
+  "fetchedAt": "2026-08-12T04:07:49.618462+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1194,
+      "sourceReplyCount": 1196,
       "capturedReplyCount": 496,
-      "lastCheckedAt": "2026-08-12T03:07:27.534561+00:00"
+      "lastCheckedAt": "2026-08-12T04:07:36.523417+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 806,
-      "capturedReplyCount": 644,
-      "lastCheckedAt": "2026-08-12T03:07:46.984717+00:00"
+      "sourceReplyCount": 810,
+      "capturedReplyCount": 647,
+      "lastCheckedAt": "2026-08-12T04:07:46.990242+00:00"
     }
   ],
   "summary": {
-    "tweets": 1140,
-    "authors": 1005,
-    "sourceCount": 2000,
-    "added": 5,
-    "mode": "full"
+    "tweets": 1143,
+    "authors": 1008,
+    "sourceCount": 2006,
+    "added": 3,
+    "mode": "incremental"
   },
   "replies": [
     {
@@ -9155,6 +9155,30 @@
       "text": "@tianyi 我做了 Agent Memory System：一个面向 Codex、Claude Code 和 OpenCode 的本地优先、证据驱动记忆层。原始轨迹留在本地，只有经评审和脱敏的记忆才通过私有 Git 同步；评估用于检验检索是否真正改善后续任务。 https://github.com/rrrrrredy/agent-memory-system",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2087375602571686003",
+      "sourceTweetId": "2084693319188439211",
+      "author": "reed_leo_build",
+      "text": "@tianyi 你好，cui。\n我是 Quill 公文写作产品的开发者。同时也是 10W+AI 领域公众号博主。长期从事于 Agent 应用方向，期望第一时间介入并使用DeepSeek Harness。\n邮箱：idiotleo521@gmail.com https://x.com/reed_leo_build/status/2087375602571686003",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087375718728773752",
+      "sourceTweetId": "2084693319188439211",
+      "author": "3UZPvnGZv163648",
+      "text": "@tianyi GitHub ID: hubertshelley\n项目地址：https://github.com/silent-rs/silent-Tiangong 桌面级 AI 自动化中枢：支持 GUI、CLI、Server、嵌入式浏览器、多智能体协作，MCP/Skill、定时任务、长期记忆、多媒体生成等能力均以 WASM 插件提供，并支持移动端控制（飞书/微信/QQ）与 Computer Use。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087376903728746738",
+      "sourceTweetId": "2084693319188439211",
+      "author": "wjiho7",
+      "text": "@tianyi https://github.com/DeadWaveWave/opencove \nid：wosuxiongmao\n我参与维护了opencove，这是一个终端画布项目，支持把终端、agent平铺在画布",
+      "createdAt": null,
+      "likes": 1
     }
   ]
 }
