@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-12T02:09:11.616Z",
+  "updatedAt": "2026-08-12T03:09:05.972Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -1138,9 +1138,9 @@
       "generatedAt": "2026-08-05T03:35:53.726Z"
     },
     "yangkgcsdms/antlegion-platform": {
-      "signature": "5b6f9af9385b4bd52ad12c6bbb12533982a2b1342d1e038404395c31ff2aad47",
-      "summary": "crazydovebiling 报名的 YangKGcsdms/antlegion-platform，将汽车 ECU 黑板架构迁移到 Agent 协同系统，让节点通过总线广播事实并自主响应。",
-      "generatedAt": "2026-08-05T03:36:22.579Z"
+      "signature": "d4f1d76697e510a2ab04c3508d8f4091d4c630ea72f625ffe185fb87a2123c2b",
+      "summary": "crazydovebiling 报名 YangKGcsdms/AntLegion，借鉴汽车 CAN 总线黑板架构实现 Agent 无中心协同。",
+      "generatedAt": "2026-08-12T03:09:05.966Z"
     },
     "petrikuittinen/ainiux": {
       "signature": "b0c0ecd93c010bff4d61bbfd6c51512b0cdddefaf20d098be31a3ae359f1e6c9",
@@ -4626,6 +4626,26 @@
       "signature": "c232b743a2dc2528f8e12b69295032b0cf92511524951cf016029f09072d09b9",
       "summary": "aiRobertDaily 的 anxiong2025/loopbase 为 TypeScript 项目，报名时未说明具体用途。",
       "generatedAt": "2026-08-12T02:09:11.610Z"
+    },
+    "rongxinzy/rongxinai": {
+      "signature": "01471ca1ae7c0f18ef73c1995960a67601164e1d13cc7ce194fe1bb704cb9236",
+      "summary": "hawkli-1994 报名 rongxinzy/RongxinAI，全自研技术栈的本地一体化 AI Agent 工作台。",
+      "generatedAt": "2026-08-12T03:09:05.966Z"
+    },
+    "duan-1128/my-agent-system": {
+      "signature": "ebba20b9a9da0468687fb8823d08180f36a6e1403eaeadfa04a8cf0a1242c815",
+      "summary": "duan-1128 报名 duan-1128/My-Agent-System，基于 Claude Code 与 DeepSeek，含 17 技能与角色调度的 Agent Harness。",
+      "generatedAt": "2026-08-12T03:09:05.966Z"
+    },
+    "hadestructhor/format-bench": {
+      "signature": "2b511d4f952f9fb07e5a2595f5727c6399a0c2e1e2e708db8e998dc9d5e2962d",
+      "summary": "hadestructhor 报名 hadestructhor/format-bench，用于评测模型在文本、JSON、YAML、CSV 间格式转换能力的基准。",
+      "generatedAt": "2026-08-12T03:09:05.966Z"
+    },
+    "rrrrrredy/agent-memory-system": {
+      "signature": "0a9b04f50ca34474f90a8c976a535d9e35e866a0b6b463bd30f04e1e23ff34e5",
+      "summary": "rrrrrredy 报名 rrrrrredy/agent-memory-system，面向编码代理的本地优先、证据驱动的连续记忆层。",
+      "generatedAt": "2026-08-12T03:09:05.966Z"
     }
   }
 }
