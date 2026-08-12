@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-11T21:07:33.012134+00:00",
+  "fetchedAt": "2026-08-12T01:07:14.712379+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 801,
-      "capturedReplyCount": 636,
-      "lastCheckedAt": "2026-08-11T20:07:33.249428+00:00"
+      "sourceReplyCount": 802,
+      "capturedReplyCount": 637,
+      "lastCheckedAt": "2026-08-12T01:07:12.349333+00:00"
     }
   ],
   "summary": {
-    "tweets": 1131,
-    "authors": 997,
-    "sourceCount": 1993,
+    "tweets": 1132,
+    "authors": 998,
+    "sourceCount": 1994,
     "added": 1,
     "mode": "incremental"
   },
@@ -9083,6 +9083,14 @@
       "text": "@tianyi https://github.com/YuanShiJiLoong/author\n报名！",
       "createdAt": null,
       "likes": 1
+    },
+    {
+      "id": "2087338951191457968",
+      "sourceTweetId": "2084693319188439211",
+      "author": "lj0497562341504",
+      "text": "@tianyi GitHub ID: ustoolscn \n项目地址： https://github.com/ustoolscn/imageweb\n\n一个纯中文的图片生成工作台，前端使用 Vue 3 + Vite + TypeScript，后端使用 Go，并且只使用 MySQL 8.0+ 持久化。页面不需要登录，通过 URL 或页面设置配置 baseurl 和 apikey 后保存到浏览器本地，并由后端异步执行图片生成任务。",
+      "createdAt": null,
+      "likes": 0
     }
   ]
 }
