@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-12T08:08:39.570Z",
-  "sourceFetchedAt": "2026-08-12T08:07:32.890409+00:00",
+  "generatedAt": "2026-08-12T09:08:44.979Z",
+  "sourceFetchedAt": "2026-08-12T09:07:34.271261+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -24,24 +24,24 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 815,
-      "capturedReplyCount": 652,
-      "lastCheckedAt": "2026-08-12T08:07:31.219657+00:00"
+      "sourceReplyCount": 816,
+      "capturedReplyCount": 653,
+      "lastCheckedAt": "2026-08-12T09:07:29.121550+00:00"
     }
   ],
-  "sourceReplyCount": 1149,
-  "sourceDisplayedReplyCount": 2013,
+  "sourceReplyCount": 1150,
+  "sourceDisplayedReplyCount": 2014,
   "sourceAuthorCount": 1011,
-  "projectCount": 937,
-  "availableProjectCount": 919,
-  "totalStars": 1754204,
+  "projectCount": 938,
+  "availableProjectCount": 920,
+  "totalStars": 1763198,
   "languages": {
     "Python": 260,
     "Rust": 77,
     "TypeScript": 287,
     "Go": 59,
     "Java": 14,
-    "JavaScript": 77,
+    "JavaScript": 78,
     "PowerShell": 2,
     "HTML": 13,
     "C++": 9,
@@ -74,13 +74,13 @@
       "fullName": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
-      "stars": 229243,
+      "stars": 229266,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:07:36Z",
+      "pushedAt": "2026-08-12T09:01:25Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/134168893?v=4",
       "available": true,
@@ -110,13 +110,13 @@
       "fullName": "farion1231/cc-switch",
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
-      "stars": 126582,
+      "stars": 126594,
       "language": {
         "name": "Rust",
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T15:23:26Z",
+      "pushedAt": "2026-08-12T08:14:11Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44939412?u=730e85639662b2f4e29a6b1b1c92c1b9461baa10&v=4",
       "available": true,
@@ -144,13 +144,13 @@
       "fullName": "nexu-io/open-design",
       "url": "https://github.com/nexu-io/open-design",
       "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-      "stars": 85197,
+      "stars": 85207,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:07:22Z",
+      "pushedAt": "2026-08-12T09:07:05Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/263625318?v=4",
       "available": true,
@@ -189,13 +189,13 @@
       "fullName": "lobehub/lobehub",
       "url": "https://github.com/lobehub/lobehub",
       "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "stars": 81541,
+      "stars": 81544,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:07:36Z",
+      "pushedAt": "2026-08-12T09:00:22Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/131470832?v=4",
       "available": true,
@@ -227,7 +227,7 @@
       "fullName": "bytedance/deer-flow",
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "stars": 79785,
+      "stars": 79794,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -265,7 +265,7 @@
       "fullName": "Egonex-AI/Understand-Anything",
       "url": "https://github.com/Egonex-AI/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "stars": 79036,
+      "stars": 79043,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -302,7 +302,7 @@
       "fullName": "headroomlabs-ai/headroom",
       "url": "https://github.com/headroomlabs-ai/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "stars": 66002,
+      "stars": 66006,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -337,13 +337,13 @@
       "fullName": "stablyai/orca",
       "url": "https://github.com/stablyai/orca",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "stars": 43180,
+      "stars": 43227,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:04:13Z",
+      "pushedAt": "2026-08-12T09:04:03Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/127256420?v=4",
       "available": true,
@@ -407,7 +407,7 @@
       "fullName": "AstrBotDevs/AstrBot",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 39025,
+      "stars": 39031,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -480,13 +480,13 @@
       "fullName": "esengine/DeepSeek-Reasonix",
       "url": "https://github.com/esengine/DeepSeek-Reasonix",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "stars": 34062,
+      "stars": 34091,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:48:42Z",
+      "pushedAt": "2026-08-12T08:42:19Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?u=fc4ecdcb50e317c5c8104135158a8bc4608c5ea5&v=4",
       "available": true,
@@ -517,13 +517,13 @@
       "fullName": "volcengine/OpenViking",
       "url": "https://github.com/volcengine/OpenViking",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-      "stars": 28254,
+      "stars": 28253,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:01:00Z",
+      "pushedAt": "2026-08-12T09:01:54Z",
       "license": "AGPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/67365215?v=4",
       "available": true,
@@ -627,13 +627,13 @@
       "fullName": "QwenLM/qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
-      "stars": 26936,
+      "stars": 26938,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:05:20Z",
+      "pushedAt": "2026-08-12T09:04:09Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/141221163?v=4",
       "available": true,
@@ -668,7 +668,7 @@
       "fullName": "simple-icons/simple-icons",
       "url": "https://github.com/simple-icons/simple-icons",
       "description": "SVG icons for popular brands",
-      "stars": 25608,
+      "stars": 25609,
       "language": {
         "name": "JavaScript",
         "color": "#f1e05a"
@@ -710,7 +710,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:32:15Z",
+      "pushedAt": "2026-08-12T08:37:10Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/23586922?v=4",
       "available": true,
@@ -733,47 +733,13 @@
       "aiSummary": "chemzqm 报名的 neoclide/coc.nvim 是 Vim 与 Neovim 的 Node.js 扩展宿主，可加载类似 VS Code 的扩展和语言服务器。"
     },
     {
-      "key": "everyinc/compound-engineering-plugin",
-      "owner": "EveryInc",
-      "repo": "compound-engineering-plugin",
-      "fullName": "EveryInc/compound-engineering-plugin",
-      "url": "https://github.com/EveryInc/compound-engineering-plugin",
-      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
-      "stars": 24204,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-12T07:55:02Z",
-      "license": "MIT",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76073155?v=4",
-      "available": true,
-      "xUsers": [
-        "trevin"
-      ],
-      "githubIds": [
-        "EveryInc"
-      ],
-      "sourceTweetIds": [
-        "2083519855203078320"
-      ],
-      "replyIds": [
-        "2083588583706055044"
-      ],
-      "excerpts": [
-        "@tianyi tmchow\n\nhttps://github.com/EveryInc/compound-engineering-plugin"
-      ],
-      "aiSummary": "trevin报名用户推荐 EveryInc/compound-engineering-plugin，为 Claude Code、Codex、Cursor 等提供官方复合工程插件。"
-    },
-    {
       "key": "zhaoxuya520/reverse-skill",
       "owner": "zhaoxuya520",
       "repo": "reverse-skill",
       "fullName": "zhaoxuya520/reverse-skill",
       "url": "https://github.com/zhaoxuya520/reverse-skill",
       "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "stars": 24176,
+      "stars": 24218,
       "language": {
         "name": "PowerShell",
         "color": "#012456"
@@ -799,6 +765,40 @@
         "@tianyi 你好 这是我的项目地址：https://github.com/zhaoxuya520/reverse-skill 主要是安全方面的智能路由技能包 https://github.com/zhaoxuya520 这是我的github个人主页，我本人十分喜欢deepseek，希望能入选。"
       ],
       "aiSummary": "EchoXuAI报名用户推荐 zhaoxuya520/reverse-skill，为逆向工程、授权渗透测试和安全研究提供 AI 技能路由与工具链。"
+    },
+    {
+      "key": "everyinc/compound-engineering-plugin",
+      "owner": "EveryInc",
+      "repo": "compound-engineering-plugin",
+      "fullName": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "stars": 24205,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-12T09:05:31Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76073155?v=4",
+      "available": true,
+      "xUsers": [
+        "trevin"
+      ],
+      "githubIds": [
+        "EveryInc"
+      ],
+      "sourceTweetIds": [
+        "2083519855203078320"
+      ],
+      "replyIds": [
+        "2083588583706055044"
+      ],
+      "excerpts": [
+        "@tianyi tmchow\n\nhttps://github.com/EveryInc/compound-engineering-plugin"
+      ],
+      "aiSummary": "trevin报名用户推荐 EveryInc/compound-engineering-plugin，为 Claude Code、Codex、Cursor 等提供官方复合工程插件。"
     },
     {
       "key": "readest/readest",
@@ -842,7 +842,7 @@
       "fullName": "coze-dev/coze-studio",
       "url": "https://github.com/coze-dev/coze-studio",
       "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
-      "stars": 21436,
+      "stars": 21438,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -877,7 +877,7 @@
       "fullName": "TencentCloud/TencentDB-Agent-Memory",
       "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "stars": 20148,
+      "stars": 20193,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -914,7 +914,7 @@
       "fullName": "Mikubill/sd-webui-controlnet",
       "url": "https://github.com/Mikubill/sd-webui-controlnet",
       "description": "WebUI extension for ControlNet",
-      "stars": 17852,
+      "stars": 17853,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -949,13 +949,13 @@
       "fullName": "langbot-app/LangBot",
       "url": "https://github.com/langbot-app/LangBot",
       "description": "Production-grade platform for building agentic IM bots - 生产级多平台智能机器人开发平台/ Agent、知识库编排、插件系统 / Bots for Discord / Slack / LINE / Telegram / WeChat(企业微信, 企微智能机器人, 公众号) / 飞书 / 钉钉 / QQ / Matrix e.g. Integrated with ChatGPT(GPT), DeepSeek, Dify, n8n, Langflow, Coze, Claude, Gemini, GLM, Ollama, SiliconFlow, Moonshot, openclaw / hermes agent, deerflow",
-      "stars": 17371,
+      "stars": 17373,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:53:40Z",
+      "pushedAt": "2026-08-12T08:59:13Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/189527454?v=4",
       "available": true,
@@ -983,7 +983,7 @@
       "fullName": "jlcodes99/cockpit-tools",
       "url": "https://github.com/jlcodes99/cockpit-tools",
       "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
-      "stars": 15581,
+      "stars": 15588,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -1019,7 +1019,7 @@
       "fullName": "chenhg5/cc-connect",
       "url": "https://github.com/chenhg5/cc-connect",
       "description": "Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messaging platforms (Feishu/Lark, DingTalk, Slack, Telegram, Discord, LINE, WeChat Work). Chat with your AI dev assistant from anywhere — no public IP required for most platforms.",
-      "stars": 14865,
+      "stars": 14868,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -1059,7 +1059,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:53:02Z",
+      "pushedAt": "2026-08-12T08:56:47Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/87694465?v=4",
       "available": true,
@@ -1087,7 +1087,7 @@
       "fullName": "NanmiCoder/cc-haha",
       "url": "https://github.com/NanmiCoder/cc-haha",
       "description": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
-      "stars": 14043,
+      "stars": 14044,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1124,7 +1124,7 @@
       "fullName": "mindfold-ai/Trellis",
       "url": "https://github.com/mindfold-ai/Trellis",
       "description": "The best agent harness.",
-      "stars": 13864,
+      "stars": 13867,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1163,7 +1163,7 @@
       "fullName": "HBAI-Ltd/Toonflow-app",
       "url": "https://github.com/HBAI-Ltd/Toonflow-app",
       "description": "Toonflow 是开源一站式 AI 短剧创作工具，将小说、剧本快速转化为动画短剧。集成 AI 编剧、智能分镜、角色与视频生成，跨平台桌面端轻量部署，助力创作者低成本批量产出视觉内容。Toonflow is an open-source AI tool that turns stories and scripts into animated short dramas. Features AI scriptwriting, storyboarding, character and video generation. A cross-platform desktop app for efficient content creation.",
-      "stars": 13769,
+      "stars": 13770,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1270,7 +1270,7 @@
       "fullName": "tt-a1i/archify",
       "url": "https://github.com/tt-a1i/archify",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "stars": 11537,
+      "stars": 11551,
       "language": {
         "name": "HTML",
         "color": "#e34c26"
@@ -1305,7 +1305,7 @@
       "fullName": "yizhiyanhua-ai/fireworks-tech-graph",
       "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
       "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
-      "stars": 9847,
+      "stars": 9848,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -1373,13 +1373,13 @@
       "fullName": "omnigent-ai/omnigent",
       "url": "https://github.com/omnigent-ai/omnigent",
       "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-      "stars": 8645,
+      "stars": 8658,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:57:08Z",
+      "pushedAt": "2026-08-12T08:41:37Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/292215228?v=4",
       "available": true,
@@ -1400,6 +1400,40 @@
         "@tianyi GitHub: fanzeyi\n\nAgent Orchestrator 项目，希望可以支持 DeepSeek harness :)\n\nhttps://github.com/omnigent-ai/omnigent\n\n谢谢！"
       ],
       "aiSummary": "fanzeyi 报名的 omnigent-ai/omnigent 是开源 AI 智能体编排框架，可统一调度多种 harness，并提供策略控制、沙箱和实时协作。"
+    },
+    {
+      "key": "justlovemaki/aiclient2api",
+      "owner": "justlovemaki",
+      "repo": "AIClient2API",
+      "fullName": "justlovemaki/AIClient2API",
+      "url": "https://github.com/justlovemaki/AIClient2API",
+      "description": "Self-hosted multi-protocol AI API proxy for Antigravity, Codex, Grok, Kiro, OpenAI, Claude, and custom providers. Supports OpenAI-compatible API, Claude API, Gemini protocol conversion, GPT, Grok Build, Claude Opus, Gemini Pro, Kimi, MiniMax, provider pools, smart routing, and automatic failover.",
+      "stars": 8625,
+      "language": {
+        "name": "JavaScript",
+        "color": "#f1e05a"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-07T10:18:34Z",
+      "license": "GPL-3.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22851716?u=9b77c12c89e06e2a04b636218bdad94aa280508a&v=4",
+      "available": true,
+      "xUsers": [
+        "justlikemaki"
+      ],
+      "githubIds": [
+        "justlovemaki"
+      ],
+      "sourceTweetIds": [
+        "2084693319188439211"
+      ],
+      "replyIds": [
+        "2087457935891030388"
+      ],
+      "excerpts": [
+        "@tianyi 非常希望参与内测：\nGithub ID ： justlovemaki\n\nGithub 项目：客户端2API项目，可针对性的做一个适配插件\n\nhttps://github.com/justlovemaki/AIClient2API"
+      ],
+      "aiSummary": "justlikemaki的justlovemaki/AIClient2API是自托管AI API代理，支持多协议转换与容错。"
     },
     {
       "key": "valuecell-ai/clawx",
@@ -1481,7 +1515,7 @@
       "fullName": "ChatLab/ChatLab",
       "url": "https://github.com/ChatLab/ChatLab",
       "description": "Local-first chat history analyzer with AI. | 本地优先的 AI 聊天记录分析工具",
-      "stars": 7159,
+      "stars": 7160,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1692,7 +1726,7 @@
       "fullName": "KunAgent/Kun",
       "url": "https://github.com/KunAgent/Kun",
       "description": "Local-first AI agent workspace for coding, writing, design, research, and automation — one runtime for desktop GUI and TUI.",
-      "stars": 6081,
+      "stars": 6083,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1726,7 +1760,7 @@
       "fullName": "liliMozi/openhanako",
       "url": "https://github.com/liliMozi/openhanako",
       "description": "A personal AI agent with memory, personality, and autonomy.",
-      "stars": 5948,
+      "stars": 5949,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -1799,13 +1833,13 @@
       "fullName": "netease-youdao/LobsterAI",
       "url": "https://github.com/netease-youdao/LobsterAI",
       "description": "Open-source, desktop-grade AI agent that gets real work done — data analysis, slides, docs, video & web research. Built on OpenClaw; runs tools on your real desktop and takes commands from your phone via WeChat, Feishu, DingTalk & Telegram.",
-      "stars": 5865,
+      "stars": 5866,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T05:48:50Z",
+      "pushedAt": "2026-08-12T08:22:21Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3909232?u=7ce4aa36eb20b8f2076d25a98aead8932d76ef36&v=4",
       "available": true,
@@ -1972,7 +2006,7 @@
       "fullName": "volcengine/MineContext",
       "url": "https://github.com/volcengine/MineContext",
       "description": "MineContext is your proactive context-aware AI partner（Context-Engineering+ChatGPT Pulse）",
-      "stars": 5459,
+      "stars": 5458,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -2038,13 +2072,13 @@
       "fullName": "binaricat/Netcatty",
       "url": "https://github.com/binaricat/Netcatty",
       "description": "SSH workspace, SFTP, and terminals in one",
-      "stars": 4928,
+      "stars": 4930,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:49:45Z",
+      "pushedAt": "2026-08-12T08:58:02Z",
       "license": "GPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16399091?u=dbfffdb3c29bcb88516d14d1d016977fbb3291b3&v=4",
       "available": true,
@@ -2072,7 +2106,7 @@
       "fullName": "ZSeven-W/openpencil",
       "url": "https://github.com/ZSeven-W/openpencil",
       "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
-      "stars": 4800,
+      "stars": 4801,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -2176,7 +2210,7 @@
       "fullName": "54yyyu/zotero-mcp",
       "url": "https://github.com/54yyyu/zotero-mcp",
       "description": "Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.",
-      "stars": 4620,
+      "stars": 4621,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -2210,7 +2244,7 @@
       "fullName": "oomol-lab/open-connector",
       "url": "https://github.com/oomol-lab/open-connector",
       "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
-      "stars": 4600,
+      "stars": 4601,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -2319,7 +2353,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:05:52Z",
+      "pushedAt": "2026-08-12T08:26:59Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/148051844?v=4",
       "available": true,
@@ -2348,13 +2382,13 @@
       "fullName": "huangruiteng/loopx",
       "url": "https://github.com/huangruiteng/loopx",
       "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-      "stars": 4260,
+      "stars": 4272,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:06:08Z",
+      "pushedAt": "2026-08-12T08:14:07Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/14976749?u=d79dafb168ec1009f26a64d7bf38974b7d762d33&v=4",
       "available": true,
@@ -2388,7 +2422,7 @@
         "color": "#89e051"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:49:14Z",
+      "pushedAt": "2026-08-12T08:40:42Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/211385051?v=4",
       "available": true,
@@ -2417,7 +2451,7 @@
       "fullName": "BenedictKing/ccx",
       "url": "https://github.com/BenedictKing/ccx",
       "description": "Claude / Codex / Gemini API Proxy - CCX",
-      "stars": 3939,
+      "stars": 3940,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -2486,7 +2520,7 @@
       "fullName": "crafter-station/petdex",
       "url": "https://github.com/crafter-station/petdex",
       "description": "The public gallery of animated pet for Codex, Claude Code, OpenCode y Gemini CLI",
-      "stars": 3749,
+      "stars": 3750,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -2524,13 +2558,13 @@
       "fullName": "MaaEnd/MaaEnd",
       "url": "https://github.com/MaaEnd/MaaEnd",
       "description": "MaaEnd 终末地小助手：基于视觉 AI 的「明日方舟：终末地」自动化工具",
-      "stars": 3624,
+      "stars": 3626,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T21:29:45Z",
+      "pushedAt": "2026-08-12T08:51:09Z",
       "license": "AGPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/246811593?v=4",
       "available": true,
@@ -2559,7 +2593,7 @@
       "fullName": "OpenMinis/OpenMinis",
       "url": "https://github.com/OpenMinis/OpenMinis",
       "description": "OpenMinis — The AI Agent app across platforms. Fully free and open source.",
-      "stars": 3550,
+      "stars": 3553,
       "language": {
         "name": "Swift",
         "color": "#F05138"
@@ -2628,13 +2662,13 @@
       "fullName": "EverMind-AI/Raven",
       "url": "https://github.com/EverMind-AI/Raven",
       "description": "The memory-first, self-improving agent harness built on EverOS, with MiroThinker-powered deep research and reasoning.",
-      "stars": 3491,
+      "stars": 3490,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:59:08Z",
+      "pushedAt": "2026-08-12T09:03:14Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/229275294?v=4",
       "available": true,
@@ -2662,7 +2696,7 @@
       "fullName": "kubernetes-sigs/agent-sandbox",
       "url": "https://github.com/kubernetes-sigs/agent-sandbox",
       "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes.",
-      "stars": 3485,
+      "stars": 3486,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -2739,7 +2773,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:37:23Z",
+      "pushedAt": "2026-08-12T08:41:15Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/248286111?v=4",
       "available": true,
@@ -2768,13 +2802,13 @@
       "fullName": "jihe520/MathModelAgent",
       "url": "https://github.com/jihe520/MathModelAgent",
       "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
-      "stars": 3393,
+      "stars": 3396,
       "language": {
         "name": "Python",
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:01:08Z",
+      "pushedAt": "2026-08-12T08:40:30Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/36144612?u=d7011b8ffb072b74fe6be4d119f4362e1df15781&v=4",
       "available": true,
@@ -2877,7 +2911,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:40:38Z",
+      "pushedAt": "2026-08-12T08:39:38Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1309360?v=4",
       "available": true,
@@ -2906,7 +2940,7 @@
       "fullName": "liaohch3/claude-tap",
       "url": "https://github.com/liaohch3/claude-tap",
       "description": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
-      "stars": 3032,
+      "stars": 3036,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -2941,7 +2975,7 @@
       "fullName": "GordenSun/GordenPPTSkill",
       "url": "https://github.com/GordenSun/GordenPPTSkill",
       "description": "AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a real .pptx with the layout intact. Personal/research use only.",
-      "stars": 2928,
+      "stars": 2929,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -3009,13 +3043,13 @@
       "fullName": "FB208/OpenBidKit_Yibiao",
       "url": "https://github.com/FB208/OpenBidKit_Yibiao",
       "description": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用",
-      "stars": 2323,
+      "stars": 2325,
       "language": {
         "name": "JavaScript",
         "color": "#f1e05a"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:38:44Z",
+      "pushedAt": "2026-08-12T08:45:15Z",
       "license": "AGPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8197476?u=7b13d1287db7f730128e2a7ac9df4f3b15db5e78&v=4",
       "available": true,
@@ -3044,13 +3078,13 @@
       "fullName": "aipoch/open-science",
       "url": "https://github.com/aipoch/open-science",
       "description": "Open Science is an open-source, local-first, model-agnostic AI research workbench for scientific discovery.",
-      "stars": 2051,
+      "stars": 2054,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:49:46Z",
+      "pushedAt": "2026-08-12T09:01:51Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/243506841?v=4",
       "available": true,
@@ -3079,13 +3113,13 @@
       "fullName": "proma-ai/Proma",
       "url": "https://github.com/proma-ai/Proma",
       "description": "Proma brings a seamless general-purpose Agent experience to your workflow. Built for 100× professionals and the proactive Agent era",
-      "stars": 2018,
+      "stars": 2019,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:06:23Z",
+      "pushedAt": "2026-08-12T08:57:16Z",
       "license": "AGPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/289228233?v=4",
       "available": true,
@@ -3114,13 +3148,13 @@
       "fullName": "makecindy/cindy",
       "url": "https://github.com/makecindy/cindy",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
-      "stars": 2009,
+      "stars": 2011,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:05:00Z",
+      "pushedAt": "2026-08-12T08:53:43Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/306974279?v=4",
       "available": true,
@@ -3152,13 +3186,13 @@
       "fullName": "yologdev/yoyo-evolve",
       "url": "https://github.com/yologdev/yoyo-evolve",
       "description": "A coding agent that evolves its own source, in public — 200 lines of Rust on day one, every commit since agent-written and tests-gated.",
-      "stars": 1858,
+      "stars": 1857,
       "language": {
         "name": "Rust",
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:59:23Z",
+      "pushedAt": "2026-08-12T08:26:41Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/237869261?u=f4b714b64fde99cef36dd3a43ec320dc64a1b7b1&v=4",
       "available": true,
@@ -3187,7 +3221,7 @@
       "fullName": "ILoveBingLu/CipherTalk",
       "url": "https://github.com/ILoveBingLu/CipherTalk",
       "description": "查无此人？",
-      "stars": 1842,
+      "stars": 1847,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -3256,7 +3290,7 @@
       "fullName": "phodal/routa",
       "url": "https://github.com/phodal/routa",
       "description": "Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orchestration, and MCP/ACP/   A2A support across web and desktop.",
-      "stars": 1783,
+      "stars": 1784,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -3296,7 +3330,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T16:15:30Z",
+      "pushedAt": "2026-08-12T08:23:47Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3350171?v=4",
       "available": true,
@@ -3398,7 +3432,7 @@
       "fullName": "benchflow-ai/skillsbench",
       "url": "https://github.com/benchflow-ai/skillsbench",
       "description": "SkillsBench evaluates how well skills work and how effective agents are at using them.",
-      "stars": 1667,
+      "stars": 1668,
       "language": {
         "name": "PDDL",
         "color": "#0d00ff"
@@ -3673,7 +3707,7 @@
       "fullName": "zanwei/design-dna",
       "url": "https://github.com/zanwei/design-dna",
       "description": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
-      "stars": 1390,
+      "stars": 1391,
       "language": null,
       "archived": false,
       "pushedAt": "2026-04-13T01:30:34Z",
@@ -3704,7 +3738,7 @@
       "fullName": "agent-network-protocol/AgentNetworkProtocol",
       "url": "https://github.com/agent-network-protocol/AgentNetworkProtocol",
       "description": "AgentNetworkProtocol(ANP) is an open source protocol for agent communication. Our vision is to define how agents connect with each other, building an open, secure, and efficient collaboration network for billions of intelligent agents.",
-      "stars": 1389,
+      "stars": 1388,
       "language": {
         "name": "HTML",
         "color": "#e34c26"
@@ -3742,7 +3776,7 @@
       "fullName": "amplifthq/opentag",
       "url": "https://github.com/amplifthq/opentag",
       "description": "Mention any ACP coding agent from Slack, GitHub, GitLab, Linear, or Lark. OpenTag runs Claude Code, Codex, Cursor and more on your own machine, then replies in-thread with verified, evidence-backed results.",
-      "stars": 1375,
+      "stars": 1376,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -3786,7 +3820,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:05:19Z",
+      "pushedAt": "2026-08-12T09:00:42Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/293868520?v=4",
       "available": true,
@@ -3890,7 +3924,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T04:19:14Z",
+      "pushedAt": "2026-08-12T08:15:05Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70219915?u=688d5d0a8f03482fea61609e1ab3348929e27b97&v=4",
       "available": true,
@@ -3924,7 +3958,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:54:09Z",
+      "pushedAt": "2026-08-12T09:07:49Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197545937?v=4",
       "available": true,
@@ -3952,7 +3986,7 @@
       "fullName": "ShenSeanChen/waku-agent",
       "url": "https://github.com/ShenSeanChen/waku-agent",
       "description": "Waku Waku! Waku Agent is a local-first AI agent harness you actually own, including loop, memory, eval, all in code built to stay legible as it grows.",
-      "stars": 1268,
+      "stars": 1270,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -3986,7 +4020,7 @@
       "fullName": "Alisa0808/vox-director",
       "url": "https://github.com/Alisa0808/vox-director",
       "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
-      "stars": 1260,
+      "stars": 1263,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -4200,7 +4234,7 @@
       "fullName": "clacky-ai/openclacky",
       "url": "https://github.com/clacky-ai/openclacky",
       "description": "The most Token-efficient open-source AI Agent",
-      "stars": 1155,
+      "stars": 1156,
       "language": {
         "name": "Ruby",
         "color": "#701516"
@@ -4234,7 +4268,7 @@
       "fullName": "Orkas-AI/Orkas",
       "url": "https://github.com/Orkas-AI/Orkas",
       "description": "Open-source multi-agent AI desktop client — build and command your AI agent team through conversation. A commander LLM dispatches sub-agents in parallel or in series; agents self-evolve via reflection and skill crystallization. Local-first, BYO LLM keys (Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen). macOS / Windows / Linux.",
-      "stars": 1154,
+      "stars": 1155,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -4311,7 +4345,7 @@
         "color": "#e34c26"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:58:26Z",
+      "pushedAt": "2026-08-12T09:06:47Z",
       "license": "AGPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19432485?u=003e033b34b3777b6825a8ca3d0b7f19e0218574&v=4",
       "available": true,
@@ -4414,7 +4448,7 @@
         "color": "#A97BFF"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:05:55Z",
+      "pushedAt": "2026-08-12T09:08:38Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/37785921?u=15403d8d6d36a889580a962a93003ae12c16577f&v=4",
       "available": true,
@@ -4516,7 +4550,7 @@
         "color": "#f1e05a"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T05:56:32Z",
+      "pushedAt": "2026-08-12T08:12:45Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3365650?u=42710ade3c931445c4eccbc25951f41764e26f02&v=4",
       "available": true,
@@ -4718,7 +4752,7 @@
       "fullName": "usewhale/Whale",
       "url": "https://github.com/usewhale/Whale",
       "description": "Whale — blazingly fast, terminal-first AI coding agent for DeepSeek. ~98% prompt cache hit rate, 1M context, MCP tools, dynamic workflows.",
-      "stars": 937,
+      "stars": 936,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -4961,7 +4995,7 @@
       "fullName": "formulahendry/wechat-acp",
       "url": "https://github.com/formulahendry/wechat-acp",
       "description": "Bridge WeChat chat messages to any ACP-compatible AI agent (Claude, Codex, Copilot, Qwen, Gemini, OpenCode, OpenClaw, Hermes, Kiro, Kimi, Pi and more)",
-      "stars": 803,
+      "stars": 804,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -5097,7 +5131,7 @@
       "fullName": "jazzyalex/agent-sessions",
       "url": "https://github.com/jazzyalex/agent-sessions",
       "description": "Local-first macOS app to browse, search, analyze, and resume supported AI coding-agent session history across Codex, Claude Code, OpenCode, Cursor Agent, Hermes, OpenClaw, Copilot CLI, and more.",
-      "stars": 772,
+      "stars": 773,
       "language": {
         "name": "Swift",
         "color": "#F05138"
@@ -5162,6 +5196,41 @@
       "aiSummary": "报名用户 cgnot996：RongleCat/grok-app 是 Grok Build CLI 的非官方桌面工作台，管理会话、项目、媒体与自动化。"
     },
     {
+      "key": "xytom/coding-tools-mcp",
+      "owner": "xyTom",
+      "repo": "coding-tools-mcp",
+      "fullName": "xyTom/coding-tools-mcp",
+      "url": "https://github.com/xyTom/coding-tools-mcp",
+      "description": "Give any AI agent the ability to code",
+      "stars": 738,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-11T21:42:02Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75466119?u=966e40b519ef20c85f1d229de2194323644d9584&v=4",
+      "available": true,
+      "xUsers": [
+        "xytom_"
+      ],
+      "githubIds": [
+        "xytom",
+        "xyTom"
+      ],
+      "sourceTweetIds": [
+        "2084693319188439211"
+      ],
+      "replyIds": [
+        "2084764647941628245"
+      ],
+      "excerpts": [
+        "@tianyi Github id: xytom\nGitHub Repo: https://github.com/xyTom/coding-tools-mcp"
+      ],
+      "aiSummary": "xytom_ 报名的 xyTom/coding-tools-mcp 是一个通过 MCP 为 AI 代理提供编码能力的 Python 工具项目。"
+    },
+    {
       "key": "migoxlab/dingo",
       "owner": "MigoXLab",
       "repo": "dingo",
@@ -5197,41 +5266,6 @@
         "@tianyi 报名。\n开源项目，Dingo: A Comprehensive AI Data, Model and Application Quality Evaluation Tool：https://github.com/MigoXLab/dingo\ngithub id：https://github.com/e06084"
       ],
       "aiSummary": "报名用户 pp50490376 的 MigoXLab/dingo 是用于评估 AI 数据、模型与应用质量的开源工具。"
-    },
-    {
-      "key": "xytom/coding-tools-mcp",
-      "owner": "xyTom",
-      "repo": "coding-tools-mcp",
-      "fullName": "xyTom/coding-tools-mcp",
-      "url": "https://github.com/xyTom/coding-tools-mcp",
-      "description": "Give any AI agent the ability to code",
-      "stars": 736,
-      "language": {
-        "name": "Python",
-        "color": "#3572A5"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-11T21:42:02Z",
-      "license": "Apache-2.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/75466119?u=966e40b519ef20c85f1d229de2194323644d9584&v=4",
-      "available": true,
-      "xUsers": [
-        "xytom_"
-      ],
-      "githubIds": [
-        "xytom",
-        "xyTom"
-      ],
-      "sourceTweetIds": [
-        "2084693319188439211"
-      ],
-      "replyIds": [
-        "2084764647941628245"
-      ],
-      "excerpts": [
-        "@tianyi Github id: xytom\nGitHub Repo: https://github.com/xyTom/coding-tools-mcp"
-      ],
-      "aiSummary": "xytom_ 报名的 xyTom/coding-tools-mcp 是一个通过 MCP 为 AI 代理提供编码能力的 Python 工具项目。"
     },
     {
       "key": "cai-aa/cae-agent-hub",
@@ -5311,7 +5345,7 @@
       "fullName": "datagallery-lab/datafoundry",
       "url": "https://github.com/datagallery-lab/datafoundry",
       "description": "DataFoundry is an open-source AI workbench for data analysis, unifying data sources, knowledge, tools, and agent runtime into a governed workspace for interactive analytics.",
-      "stars": 683,
+      "stars": 685,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -5696,7 +5730,7 @@
         "color": "#555555"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:35:09Z",
+      "pushedAt": "2026-08-12T09:05:35Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/111646515?v=4",
       "available": true,
@@ -5968,6 +6002,40 @@
       "aiSummary": "报名用户 vwRKgeYdGC1fwzE：anymouschina/TapCanvas 是沉浸式无限画布，并集成可通过 CLI 调用画布功能的视频创作智能体。"
     },
     {
+      "key": "wuxiran/cc-pane",
+      "owner": "wuxiran",
+      "repo": "cc-pane",
+      "fullName": "wuxiran/cc-pane",
+      "url": "https://github.com/wuxiran/cc-pane",
+      "description": "Multi-instance split-pane manager for Claude Code — a cross-platform desktop app built with Tauri 2",
+      "stars": 523,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-11T21:15:51Z",
+      "license": "GPL-3.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20816380?v=4",
+      "available": true,
+      "xUsers": [
+        "wxrn2026332"
+      ],
+      "githubIds": [
+        "wuxiran"
+      ],
+      "sourceTweetIds": [
+        "2084693319188439211"
+      ],
+      "replyIds": [
+        "2086452859537617192"
+      ],
+      "excerpts": [
+        "@tianyi GitHub ID: wuxiran\n项目: https://github.com/wuxiran/cc-pane  \nCC-Panes，Agent 多实例编排桌面应用（orchestrator + UI）。基于 Tauri 2，把 Cc / Codex 等 CLI Agent 。以分屏终端形式统一管理：多实例并行派工、leader/worker 编排会话恢复worktree、MCP ，跨 Windows/WSL/SSH 运行时。希望第一时间接入 DSH"
+      ],
+      "aiSummary": "wxrn2026332 报名 wuxiran/cc-pane，Tauri 2 多实例分屏终端，编排管理 Claude Code 等 CLI Agent。"
+    },
+    {
       "key": "orkas-ai/orkas-videostudio",
       "owner": "Orkas-AI",
       "repo": "Orkas-VideoStudio",
@@ -6000,40 +6068,6 @@
         "@tianyi 报名内测，deepseek忠实用户。https://github.com/Orkas-AI/Orkas-VideoStudio"
       ],
       "aiSummary": "报名用户 vaintwyt：Orkas-AI/Orkas-VideoStudio 将自然语言视频描述交给编码智能体生成时间线并输出视频文件。"
-    },
-    {
-      "key": "wuxiran/cc-pane",
-      "owner": "wuxiran",
-      "repo": "cc-pane",
-      "fullName": "wuxiran/cc-pane",
-      "url": "https://github.com/wuxiran/cc-pane",
-      "description": "Multi-instance split-pane manager for Claude Code — a cross-platform desktop app built with Tauri 2",
-      "stars": 522,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-11T21:15:51Z",
-      "license": "GPL-3.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/20816380?v=4",
-      "available": true,
-      "xUsers": [
-        "wxrn2026332"
-      ],
-      "githubIds": [
-        "wuxiran"
-      ],
-      "sourceTweetIds": [
-        "2084693319188439211"
-      ],
-      "replyIds": [
-        "2086452859537617192"
-      ],
-      "excerpts": [
-        "@tianyi GitHub ID: wuxiran\n项目: https://github.com/wuxiran/cc-pane  \nCC-Panes，Agent 多实例编排桌面应用（orchestrator + UI）。基于 Tauri 2，把 Cc / Codex 等 CLI Agent 。以分屏终端形式统一管理：多实例并行派工、leader/worker 编排会话恢复worktree、MCP ，跨 Windows/WSL/SSH 运行时。希望第一时间接入 DSH"
-      ],
-      "aiSummary": "wxrn2026332 报名 wuxiran/cc-pane，Tauri 2 多实例分屏终端，编排管理 Claude Code 等 CLI Agent。"
     },
     {
       "key": "eddyzzl/marvis-risk-agent",
@@ -6082,7 +6116,7 @@
         "color": "#e34c26"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T05:17:30Z",
+      "pushedAt": "2026-08-12T08:50:20Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/61730227?u=0f17af4ccc68cbaf6f579eb6235eeb0369855724&v=4",
       "available": true,
@@ -6491,7 +6525,7 @@
       "fullName": "SponsioLabs/Sponsio",
       "url": "https://github.com/SponsioLabs/Sponsio",
       "description": "Deterministic safety solutions for probabilistic AI agents",
-      "stars": 446,
+      "stars": 445,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -6560,7 +6594,7 @@
       "fullName": "mnemon-dev/mnemon",
       "url": "https://github.com/mnemon-dev/mnemon",
       "description": "LLM-supervised persistent memory for AI agents — graph-based recall, cross-session knowledge, single binary. Works with Claude Code, OpenClaw, and any CLI agent.",
-      "stars": 422,
+      "stars": 423,
       "language": {
         "name": "Go",
         "color": "#00ADD8"
@@ -6669,7 +6703,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:36:42Z",
+      "pushedAt": "2026-08-12T09:03:50Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/264091041?v=4",
       "available": true,
@@ -6733,7 +6767,7 @@
       "fullName": "Anionex/agent-vision-toolkit",
       "url": "https://github.com/Anionex/agent-vision-toolkit",
       "description": "为纯文本模型\"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode",
-      "stars": 394,
+      "stars": 396,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -6869,7 +6903,7 @@
       "fullName": "formulahendry/vscode-acp",
       "url": "https://github.com/formulahendry/vscode-acp",
       "description": "Agent Client Protocol client for VS Code — connect to any ACP-compatible AI coding agent (Claude, Codex, Copilot, Qwen, Gemini, OpenCode, Kiro, OpenClaw, Hermes and more)",
-      "stars": 349,
+      "stars": 350,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -6937,7 +6971,7 @@
       "fullName": "physiclaw/PhysiClaw",
       "url": "https://github.com/physiclaw/PhysiClaw",
       "description": "The AI agent that interacts with you in the real world.",
-      "stars": 337,
+      "stars": 339,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -7107,7 +7141,7 @@
       "fullName": "suki0dayo/AI_film_studio",
       "url": "https://github.com/suki0dayo/AI_film_studio",
       "description": "完全免费开源的AI影视制作工具。采用模块化节点式界面（类似Maya/Nuke），通过调用视频/图片生成API一键生成多镜头视频。每个节点均可独立编辑API参数及缓存内容。本项目绝不收费，任何售卖行为均为骗子！",
-      "stars": 318,
+      "stars": 319,
       "language": {
         "name": "JavaScript",
         "color": "#f1e05a"
@@ -8110,7 +8144,7 @@
       "fullName": "Ray-Code-Svg/SuperNovaAgent",
       "url": "https://github.com/Ray-Code-Svg/SuperNovaAgent",
       "description": "SuperNova is a Windows-first desktop AI Workbench that turns chat into traceable tasks. It combines a Tauri + React Workbench, Rust Product Runtime, typed protocol, and Process Kernel so actions can produce visible artifacts, runtime receipts, replayable evidence, and controlled workspace execution.",
-      "stars": 198,
+      "stars": 197,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -8260,7 +8294,7 @@
         "color": "#f1e05a"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:22:00Z",
+      "pushedAt": "2026-08-12T08:30:08Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/118975437?u=b7250def5cac5541604a27d5f2328b5f0724decb&v=4",
       "available": true,
@@ -8527,6 +8561,43 @@
       "aiSummary": "X 用户 vista8 报名的 joeseesun/qmreader 是中文 RSS 阅读工作台，支持订阅源管理、双语翻译、乔木风格改写和公开阅读资产。"
     },
     {
+      "key": "zhuzhaoyun/molio",
+      "owner": "zhuzhaoyun",
+      "repo": "Molio",
+      "fullName": "zhuzhaoyun/Molio",
+      "url": "https://github.com/zhuzhaoyun/Molio",
+      "description": "A local-first personal knowledge layer for AI agents. Build evolving knowledge spaces with LLM Wiki, knowledge graphs, and agent workflows.",
+      "stars": 175,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-12T07:35:36Z",
+      "license": "NOASSERTION",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49101861?v=4",
+      "available": true,
+      "xUsers": [
+        "yosn883271"
+      ],
+      "githubIds": [
+        "zhuzhaoyun"
+      ],
+      "sourceTweetIds": [
+        "2083519855203078320",
+        "2084693319188439211"
+      ],
+      "replyIds": [
+        "2083550783854051601",
+        "2084786452324585680"
+      ],
+      "excerpts": [
+        "@tianyi GitHub id: zhuzhaoyun\nmolio ，一款 local first 的知识生产应用工作。 底层接入用户本地 harness 能力，如 claude code, codex 等，也可以接入 deepseek harness 能力进行工作。\nhttps://github.com/zhuzhaoyun/Molio",
+        "@tianyi https://github.com/zhuzhaoyun/Molio"
+      ],
+      "aiSummary": "yosn883271 报名 zhuzhaoyun/Molio，是本地优先的 AI Agent 个人知识层，支持知识图谱与代理工作流。"
+    },
+    {
       "key": "superagents-lab/search1api-mcp",
       "owner": "superagents-lab",
       "repo": "search1api-mcp",
@@ -8559,43 +8630,6 @@
         "@tianyi MCP for search：https://github.com/superagents-lab/search1api-mcp"
       ],
       "aiSummary": "fatwang2ai，superagents-lab/search1api-mcp 是 Search1API 的 MCP 服务，支持网页搜索、新闻、抓取、站点地图和趋势查询。"
-    },
-    {
-      "key": "zhuzhaoyun/molio",
-      "owner": "zhuzhaoyun",
-      "repo": "Molio",
-      "fullName": "zhuzhaoyun/Molio",
-      "url": "https://github.com/zhuzhaoyun/Molio",
-      "description": "A local-first personal knowledge layer for AI agents. Build evolving knowledge spaces with LLM Wiki, knowledge graphs, and agent workflows.",
-      "stars": 173,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-12T07:35:36Z",
-      "license": "NOASSERTION",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/49101861?v=4",
-      "available": true,
-      "xUsers": [
-        "yosn883271"
-      ],
-      "githubIds": [
-        "zhuzhaoyun"
-      ],
-      "sourceTweetIds": [
-        "2083519855203078320",
-        "2084693319188439211"
-      ],
-      "replyIds": [
-        "2083550783854051601",
-        "2084786452324585680"
-      ],
-      "excerpts": [
-        "@tianyi GitHub id: zhuzhaoyun\nmolio ，一款 local first 的知识生产应用工作。 底层接入用户本地 harness 能力，如 claude code, codex 等，也可以接入 deepseek harness 能力进行工作。\nhttps://github.com/zhuzhaoyun/Molio",
-        "@tianyi https://github.com/zhuzhaoyun/Molio"
-      ],
-      "aiSummary": "yosn883271 报名 zhuzhaoyun/Molio，是本地优先的 AI Agent 个人知识层，支持知识图谱与代理工作流。"
     },
     {
       "key": "jianglin-code/android-virtualcamera",
@@ -8638,7 +8672,7 @@
       "fullName": "yologdev/yoagent",
       "url": "https://github.com/yologdev/yoagent",
       "description": "The agent loop for Rust — stream from 7 LLM protocols, run tools, loop until done.",
-      "stars": 171,
+      "stars": 170,
       "language": {
         "name": "Rust",
         "color": "#dea584"
@@ -8701,40 +8735,6 @@
       "aiSummary": "EchoNoteAI报名的 Zhenyu98/codex-chatgpt-bridge，是在 Codex 与 ChatGPT 之间安全交接编码任务并控制本地执行的桥接工具。"
     },
     {
-      "key": "patdolitse/piia-engram",
-      "owner": "Patdolitse",
-      "repo": "piia-engram",
-      "fullName": "Patdolitse/piia-engram",
-      "url": "https://github.com/Patdolitse/piia-engram",
-      "description": "Local-first AI memory you can see, edit, and override — portable across Claude Code, Codex, Cursor, Windsurf, and other MCP coding tools.",
-      "stars": 165,
-      "language": {
-        "name": "Python",
-        "color": "#3572A5"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-06T09:14:33Z",
-      "license": "AGPL-3.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/168504668?u=01ef304a0292107e39dedf0f77fcfd17f9a003a8&v=4",
-      "available": true,
-      "xUsers": [
-        "PatDoLi"
-      ],
-      "githubIds": [
-        "Patdolitse"
-      ],
-      "sourceTweetIds": [
-        "2083519855203078320"
-      ],
-      "replyIds": [
-        "2084597290107613233"
-      ],
-      "excerpts": [
-        "@tianyi 希望参加内测。GitHub ID：Patdolitse\n代表作 Piia Engram：https://github.com/Patdolitse/piia-engram\n项目为 Agent Harness 提供本地优先的记忆与上下文层，支持 MCP 和跨会话恢复。愿提交可复现反馈。"
-      ],
-      "aiSummary": "PatDoLi 的 Patdolitse/piia-engram 为 Agent Harness 提供本地优先记忆层，支持 MCP 跨会话恢复。"
-    },
-    {
       "key": "fakechris/obsidian_vault_pipeline",
       "owner": "fakechris",
       "repo": "obsidian_vault_pipeline",
@@ -8769,6 +8769,40 @@
       "aiSummary": "fakechris，fakechris/obsidian_vault_pipeline 是使用大语言模型自动处理 Obsidian 知识库内容的流水线。"
     },
     {
+      "key": "patdolitse/piia-engram",
+      "owner": "Patdolitse",
+      "repo": "piia-engram",
+      "fullName": "Patdolitse/piia-engram",
+      "url": "https://github.com/Patdolitse/piia-engram",
+      "description": "Local-first AI memory you can see, edit, and override — portable across Claude Code, Codex, Cursor, Windsurf, and other MCP coding tools.",
+      "stars": 164,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-06T09:14:33Z",
+      "license": "AGPL-3.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/168504668?u=01ef304a0292107e39dedf0f77fcfd17f9a003a8&v=4",
+      "available": true,
+      "xUsers": [
+        "PatDoLi"
+      ],
+      "githubIds": [
+        "Patdolitse"
+      ],
+      "sourceTweetIds": [
+        "2083519855203078320"
+      ],
+      "replyIds": [
+        "2084597290107613233"
+      ],
+      "excerpts": [
+        "@tianyi 希望参加内测。GitHub ID：Patdolitse\n代表作 Piia Engram：https://github.com/Patdolitse/piia-engram\n项目为 Agent Harness 提供本地优先的记忆与上下文层，支持 MCP 和跨会话恢复。愿提交可复现反馈。"
+      ],
+      "aiSummary": "PatDoLi 的 Patdolitse/piia-engram 为 Agent Harness 提供本地优先记忆层，支持 MCP 跨会话恢复。"
+    },
+    {
       "key": "lencx/skills",
       "owner": "lencx",
       "repo": "skills",
@@ -8781,7 +8815,7 @@
         "color": "#89e051"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:03:44Z",
+      "pushedAt": "2026-08-12T08:42:00Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16164244?u=e494bcc61f8128a85aaa9c717958a053f8747402&v=4",
       "available": true,
@@ -8909,7 +8943,7 @@
       "fullName": "liigoQi/defficiency-skills",
       "url": "https://github.com/liigoQi/defficiency-skills",
       "description": "降效插件集合，降低 Claude Code Agent 工作效率的行为艺术插件。目前支持 ADHD 及 ASD 模式。A collection of anti-productivity skills for Claude Code. Currently ships with ADHD and ASD mode. More chaos coming soon.",
-      "stars": 156,
+      "stars": 157,
       "language": null,
       "archived": false,
       "pushedAt": "2026-06-28T07:57:09Z",
@@ -9182,7 +9216,7 @@
       "fullName": "JudgePeach/math-question-bank",
       "url": "https://github.com/JudgePeach/math-question-bank",
       "description": "本地化高中数学题库管理系统，支持 LaTeX 实时渲染、智能大模型 AI 解析与 OCR 公式识别。Localized High School Math Question Bank Management System, supporting real-time LaTeX rendering, smart LLM AI parsing & solving, and formula OCR recognition.",
-      "stars": 130,
+      "stars": 131,
       "language": {
         "name": "TeX",
         "color": "#3D6117"
@@ -9361,7 +9395,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:48:38Z",
+      "pushedAt": "2026-08-12T09:04:53Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/209578638?v=4",
       "available": true,
@@ -9469,7 +9503,7 @@
         "color": "#F05138"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T02:04:59Z",
+      "pushedAt": "2026-08-12T09:06:02Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13579374?u=c00b331ed4569a3b4bd4ecd3577f685374761055&v=4",
       "available": true,
@@ -9503,7 +9537,7 @@
         "color": "#f1e05a"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:04:28Z",
+      "pushedAt": "2026-08-12T08:38:56Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/210636628?u=b7225f0ba080f2c26875d97f7acc0279aef09cac&v=4",
       "available": true,
@@ -10181,7 +10215,7 @@
       "fullName": "sweetcornna/mathodology",
       "url": "https://github.com/sweetcornna/mathodology",
       "description": "专为数学建模竞赛设计的数模 Agent Skills：MCM/ICM 美赛、CUMCM 国赛、华数杯、M3、HiMCM 等，面向 Claude Code 与 Codex 的获奖级建模工作流。Math modeling contest skills for Claude Code & Codex.",
-      "stars": 84,
+      "stars": 85,
       "language": {
         "name": "Python",
         "color": "#3572A5"
@@ -10528,6 +10562,40 @@
       "aiSummary": "VanLaw1661942报名用户，PzMNo1/PzMCiphertool是一个网页密码工具箱，提供密码相关的工具集合。"
     },
     {
+      "key": "talesofai/cohub",
+      "owner": "talesofai",
+      "repo": "cohub",
+      "fullName": "talesofai/cohub",
+      "url": "https://github.com/talesofai/cohub",
+      "description": "A living space where people and agents create, play, and build together.",
+      "stars": 73,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-12T09:06:04Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120728204?v=4",
+      "available": true,
+      "xUsers": [
+        "xiuhan_xhu"
+      ],
+      "githubIds": [
+        "talesofai"
+      ],
+      "sourceTweetIds": [
+        "2083519855203078320"
+      ],
+      "replyIds": [
+        "2084111745833189461"
+      ],
+      "excerpts": [
+        "We open-sourced a multiagent harness: https://github.com/talesofai/cohub We spent 34B tokens/week inside our own 20-person team stress testing it.  Cohub gives you a creative one.  Checkpoints you fork like git branches. Native text/image/video/music generation. Works you publish"
+      ],
+      "aiSummary": "xiuhan_xhu 开源 talesofai/cohub：人与智能体共创空间，支持分支检查点与多模态生成。"
+    },
+    {
       "key": "blushyes/reef",
       "owner": "Blushyes",
       "repo": "reef",
@@ -10645,7 +10713,7 @@
         "color": "#555555"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T06:22:57Z",
+      "pushedAt": "2026-08-12T08:26:31Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/1826685?u=ac005ce87c0ed35f8161bbfd6d557d801a902835&v=4",
       "available": true,
@@ -10667,47 +10735,13 @@
       "aiSummary": "报名用户 lloydzhou1210 的 lloydzhou/bash-agent 是用 Bash 与 awk 实现、无需运行时依赖的极简 AI 编程代理运行时。"
     },
     {
-      "key": "talesofai/cohub",
-      "owner": "talesofai",
-      "repo": "cohub",
-      "fullName": "talesofai/cohub",
-      "url": "https://github.com/talesofai/cohub",
-      "description": "A living space where people and agents create, play, and build together.",
-      "stars": 70,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-12T07:38:52Z",
-      "license": "Apache-2.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/120728204?v=4",
-      "available": true,
-      "xUsers": [
-        "xiuhan_xhu"
-      ],
-      "githubIds": [
-        "talesofai"
-      ],
-      "sourceTweetIds": [
-        "2083519855203078320"
-      ],
-      "replyIds": [
-        "2084111745833189461"
-      ],
-      "excerpts": [
-        "We open-sourced a multiagent harness: https://github.com/talesofai/cohub We spent 34B tokens/week inside our own 20-person team stress testing it.  Cohub gives you a creative one.  Checkpoints you fork like git branches. Native text/image/video/music generation. Works you publish"
-      ],
-      "aiSummary": "xiuhan_xhu 开源 talesofai/cohub：人与智能体共创空间，支持分支检查点与多模态生成。"
-    },
-    {
       "key": "spacezephyr/cowrite",
       "owner": "SpaceZephyr",
       "repo": "cowrite",
       "fullName": "SpaceZephyr/cowrite",
       "url": "https://github.com/SpaceZephyr/cowrite",
       "description": "Local AI co-writing canvas with MCP and bundled Image2, HTML diagram, and writing skills",
-      "stars": 69,
+      "stars": 70,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
@@ -11042,6 +11076,41 @@
       "aiSummary": "pqpo 的 pqpo/pragma 将 AI 工作方式沉淀为可复用资产，整合工作流、私有知识与评估集。"
     },
     {
+      "key": "agentconnect-md/agentconnect",
+      "owner": "agentconnect-md",
+      "repo": "agentconnect",
+      "fullName": "agentconnect-md/agentconnect",
+      "url": "https://github.com/agentconnect-md/agentconnect",
+      "description": "Tag any agent, wherever work happens, your agents work alongside your team and each other, learning as they go.",
+      "stars": 59,
+      "language": {
+        "name": "TypeScript",
+        "color": "#3178c6"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-12T09:00:23Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/297117619?v=4",
+      "available": true,
+      "xUsers": [
+        "getAgentConnect"
+      ],
+      "githubIds": [
+        "agentconnect-md",
+        "zfy0701"
+      ],
+      "sourceTweetIds": [
+        "2084693319188439211"
+      ],
+      "replyIds": [
+        "2084900862066040918"
+      ],
+      "excerpts": [
+        "@tianyi Hey @tianyi we would like to support DS in our impending public release:\n\nGithubID: zfy0701\nGithub project: https://github.com/agentconnect-md/agentconnect\n\nalso just DMed our email"
+      ],
+      "aiSummary": "getAgentConnect 报名的 agentconnect-md/agentconnect 用于让不同 Agent 在工作场景中协作并持续学习。"
+    },
+    {
       "key": "quantumbfs/quantum.harness",
       "owner": "QuantumBFS",
       "repo": "quantum.harness",
@@ -11150,41 +11219,6 @@
       "aiSummary": "yifanxu_ephai 等报名 synvo-ai/local-cocoa，这是一个运行在本地设备上的 AI 助手，可将用户文件转化为可执行的记忆。"
     },
     {
-      "key": "agentconnect-md/agentconnect",
-      "owner": "agentconnect-md",
-      "repo": "agentconnect",
-      "fullName": "agentconnect-md/agentconnect",
-      "url": "https://github.com/agentconnect-md/agentconnect",
-      "description": "Tag any agent, wherever work happens, your agents work alongside your team and each other, learning as they go.",
-      "stars": 57,
-      "language": {
-        "name": "TypeScript",
-        "color": "#3178c6"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-12T08:07:57Z",
-      "license": "Apache-2.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/297117619?v=4",
-      "available": true,
-      "xUsers": [
-        "getAgentConnect"
-      ],
-      "githubIds": [
-        "agentconnect-md",
-        "zfy0701"
-      ],
-      "sourceTweetIds": [
-        "2084693319188439211"
-      ],
-      "replyIds": [
-        "2084900862066040918"
-      ],
-      "excerpts": [
-        "@tianyi Hey @tianyi we would like to support DS in our impending public release:\n\nGithubID: zfy0701\nGithub project: https://github.com/agentconnect-md/agentconnect\n\nalso just DMed our email"
-      ],
-      "aiSummary": "getAgentConnect 报名的 agentconnect-md/agentconnect 用于让不同 Agent 在工作场景中协作并持续学习。"
-    },
-    {
       "key": "bladeofgod/flutter-ai-harness",
       "owner": "bladeofgod",
       "repo": "flutter-ai-harness",
@@ -11231,7 +11265,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:54:08Z",
+      "pushedAt": "2026-08-12T08:33:46Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221729561?u=1d90341f931c6f14c3e49de184cfb37a0807060f&v=4",
       "available": true,
@@ -11334,7 +11368,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:07:03Z",
+      "pushedAt": "2026-08-12T09:03:52Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19658300?u=1eb9733a3d6f5752d800c90a8c9bdb086e7823ce&v=4",
       "available": true,
@@ -11608,7 +11642,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T01:45:29Z",
+      "pushedAt": "2026-08-12T08:45:57Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/48146623?v=4",
       "available": true,
@@ -11990,7 +12024,7 @@
         "color": "#6e4a7e"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T20:53:24Z",
+      "pushedAt": "2026-08-12T08:42:17Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/206976762?v=4",
       "available": true,
@@ -12412,7 +12446,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T15:18:14Z",
+      "pushedAt": "2026-08-12T09:03:03Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/112941741?v=4",
       "available": true,
@@ -12515,7 +12549,7 @@
         "color": "#663399"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:45:28Z",
+      "pushedAt": "2026-08-12T08:45:03Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/144748577?v=4",
       "available": true,
@@ -12687,7 +12721,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-08T10:56:28Z",
+      "pushedAt": "2026-08-12T08:49:43Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43122877?u=f21c37cf78a9aaff5b722b900ec1eec0694010c6&v=4",
       "available": true,
@@ -13396,6 +13430,41 @@
       "aiSummary": "axlee26报名的AX1202/pi-feishu-lark是连接飞书与Pi Agent的远程对话扩展。"
     },
     {
+      "key": "cuplivo/cuplivo",
+      "owner": "cuplivo",
+      "repo": "cuplivo",
+      "fullName": "cuplivo/cuplivo",
+      "url": "https://github.com/cuplivo/cuplivo",
+      "description": "A fork of Kelivo with compatible backup files, more reliable data storage via SQLite, support for incremental backups, and faster integration of new features.",
+      "stars": 25,
+      "language": {
+        "name": "Dart",
+        "color": "#00B4AB"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-12T08:24:38Z",
+      "license": "AGPL-3.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/299388880?v=4",
+      "available": true,
+      "xUsers": [
+        "sese233333"
+      ],
+      "githubIds": [
+        "cuplivo",
+        "Pheobe-Southwood"
+      ],
+      "sourceTweetIds": [
+        "2084693319188439211"
+      ],
+      "replyIds": [
+        "2084836751550652614"
+      ],
+      "excerpts": [
+        "@tianyi Github ID:Pheobe-Southwood\n项目:https://github.com/cuplivo/cuplivo\ncuplivo是基于kelivo(一个全平台对话app)的一个fork，修复了kelivo的许多bug，添加了SKILL、Subagent、File system、等新功能。\n本人的贡献为：\n1.实现了Windows、Android、Linux、iOS、Mac五平台统一Linux沙箱雏形\n2. ai主动发消息与多Ai群"
+      ],
+      "aiSummary": "sese233333 报名用户的 cuplivo/cuplivo 是 Kelivo 的分支对话应用，改进数据存储与备份并扩展多平台及智能体功能"
+    },
+    {
       "key": "drlinglong/remis",
       "owner": "Drlinglong",
       "repo": "Remis",
@@ -13566,41 +13635,6 @@
         "@tianyi Github ID: flame4\n开源项目：https://github.com/CiferaTeam/GitIM"
       ],
       "aiSummary": "arknights60 报名用户提交的 CiferaTeam/GitIM 是简约协作工具，将本地运行的 AI 智能体与人类共同纳入工作区。"
-    },
-    {
-      "key": "cuplivo/cuplivo",
-      "owner": "cuplivo",
-      "repo": "cuplivo",
-      "fullName": "cuplivo/cuplivo",
-      "url": "https://github.com/cuplivo/cuplivo",
-      "description": "A fork of Kelivo with compatible backup files, more reliable data storage via SQLite, support for incremental backups, and faster integration of new features.",
-      "stars": 24,
-      "language": {
-        "name": "Dart",
-        "color": "#00B4AB"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-12T08:04:03Z",
-      "license": "AGPL-3.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/299388880?v=4",
-      "available": true,
-      "xUsers": [
-        "sese233333"
-      ],
-      "githubIds": [
-        "cuplivo",
-        "Pheobe-Southwood"
-      ],
-      "sourceTweetIds": [
-        "2084693319188439211"
-      ],
-      "replyIds": [
-        "2084836751550652614"
-      ],
-      "excerpts": [
-        "@tianyi Github ID:Pheobe-Southwood\n项目:https://github.com/cuplivo/cuplivo\ncuplivo是基于kelivo(一个全平台对话app)的一个fork，修复了kelivo的许多bug，添加了SKILL、Subagent、File system、等新功能。\n本人的贡献为：\n1.实现了Windows、Android、Linux、iOS、Mac五平台统一Linux沙箱雏形\n2. ai主动发消息与多Ai群"
-      ],
-      "aiSummary": "sese233333 报名用户的 cuplivo/cuplivo 是 Kelivo 的分支对话应用，改进数据存储与备份并扩展多平台及智能体功能"
     },
     {
       "key": "flippedround/deepseek-kit",
@@ -13822,7 +13856,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T05:50:07Z",
+      "pushedAt": "2026-08-12T08:41:11Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/289117728?v=4",
       "available": true,
@@ -13959,7 +13993,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:15:21Z",
+      "pushedAt": "2026-08-12T09:00:03Z",
       "license": "AGPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/201866052?v=4",
       "available": true,
@@ -13994,7 +14028,7 @@
         "color": "#f1e05a"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T04:18:51Z",
+      "pushedAt": "2026-08-12T09:01:42Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/249862100?v=4",
       "available": true,
@@ -14029,7 +14063,7 @@
         "color": "#f1e05a"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T05:24:03Z",
+      "pushedAt": "2026-08-12T08:49:08Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/313666831?v=4",
       "available": true,
@@ -14482,7 +14516,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:18:48Z",
+      "pushedAt": "2026-08-12T08:14:31Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/151917424?v=4",
       "available": true,
@@ -14778,6 +14812,40 @@
       "aiSummary": "qiyuanhuakai 报名用户的 qiyuanhuakai/opencode-visualizer-cn 是 OpenCode 的中文本地化第三方网页与桌面图形界面"
     },
     {
+      "key": "xiaomingx/mimofan",
+      "owner": "XiaomingX",
+      "repo": "mimofan",
+      "fullName": "XiaomingX/mimofan",
+      "url": "https://github.com/XiaomingX/mimofan",
+      "description": "mimofan - AI coding agent platform",
+      "stars": 16,
+      "language": {
+        "name": "Rust",
+        "color": "#dea584"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-12T08:02:11Z",
+      "license": "MIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5387930?u=1cd0cfa4ab9c6e30da495e621b850e4f61a203aa&v=4",
+      "available": true,
+      "xUsers": [
+        "seclink"
+      ],
+      "githubIds": [
+        "XiaomingX"
+      ],
+      "sourceTweetIds": [
+        "2083519855203078320"
+      ],
+      "replyIds": [
+        "2083524212808147007"
+      ],
+      "excerpts": [
+        "@tianyi https://github.com/XiaomingX/mimofan 报名，让我测测，可以私聊我地址"
+      ],
+      "aiSummary": "seclink 报名的 XiaomingX/mimofan 是一个使用 Rust 编写的 AI 编程代理平台。"
+    },
+    {
       "key": "xnmk029/etharness",
       "owner": "Xnmk029",
       "repo": "ETharness",
@@ -14848,40 +14916,6 @@
         "@tianyi 你好，我来报名一下\n\ngithub: https://github.com/hawkingrei\n\nhttps://github.com/hawkingrei/agenthub\nhttps://github.com/linkerdog/rara"
       ],
       "aiSummary": "suohawking 报名用户的 linkerdog/rara，报名资料未提供明确的项目用途说明"
-    },
-    {
-      "key": "xiaomingx/mimofan",
-      "owner": "XiaomingX",
-      "repo": "mimofan",
-      "fullName": "XiaomingX/mimofan",
-      "url": "https://github.com/XiaomingX/mimofan",
-      "description": "mimofan - AI coding agent platform",
-      "stars": 15,
-      "language": {
-        "name": "Rust",
-        "color": "#dea584"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-12T08:02:11Z",
-      "license": "MIT",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5387930?u=1cd0cfa4ab9c6e30da495e621b850e4f61a203aa&v=4",
-      "available": true,
-      "xUsers": [
-        "seclink"
-      ],
-      "githubIds": [
-        "XiaomingX"
-      ],
-      "sourceTweetIds": [
-        "2083519855203078320"
-      ],
-      "replyIds": [
-        "2083524212808147007"
-      ],
-      "excerpts": [
-        "@tianyi https://github.com/XiaomingX/mimofan 报名，让我测测，可以私聊我地址"
-      ],
-      "aiSummary": "seclink 报名的 XiaomingX/mimofan 是一个使用 Rust 编写的 AI 编程代理平台。"
     },
     {
       "key": "aulafy/r",
@@ -15208,7 +15242,7 @@
         "color": "#f1e05a"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:32:34Z",
+      "pushedAt": "2026-08-12T09:01:43Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/41895036?u=43440f580dde0f15b448521e4806d278fc2193d7&v=4",
       "available": true,
@@ -15242,7 +15276,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T05:45:15Z",
+      "pushedAt": "2026-08-12T08:45:47Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1629308?u=80cce434b8bd8e5041c1adfd39ba56c34697540c&v=4",
       "available": true,
@@ -15269,14 +15303,14 @@
       "repo": "antlegion-platform",
       "fullName": "YangKGcsdms/AntLegion",
       "url": "https://github.com/YangKGcsdms/AntLegion",
-      "description": null,
+      "description": "A fact bus for AI agent fleets — append-only, exactly-once claiming as a theorem, no orchestrator. npx @antlegion/bus demo",
       "stars": 13,
       "language": {
         "name": "TypeScript",
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:24:06Z",
+      "pushedAt": "2026-08-12T09:06:00Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/67580387?u=0cc9446c5fb038e3c82969c588d7b4ef46bcc442&v=4",
       "available": true,
@@ -15295,7 +15329,7 @@
       "excerpts": [
         "你好,我是一名独立开发者,日常重度使用 Claude Code、Codex、Kimi Code 完成工程交付,对 DeepSeek 的 harness 工程很感兴趣,想申请一个内测资格。\n\n开源项目:https://github.com/YangKGcsdms/antlegion-platform\n\n我的技术起点是汽车车身控制器硬件工程师,熟悉 CAN 协议,以及各个独立 ECU 之间如何在没有中心调度的情况下协同工作。我认为这正是一套非常经典的黑板架构:节点不下达指令,只向总线广播事实,由各节点自行判断是否响应。这个项目就是把这套思路迁移到 Agent"
       ],
-      "aiSummary": "crazydovebiling 报名 YangKGcsdms/AntLegion，借鉴汽车 CAN 总线黑板架构实现 Agent 无中心协同。"
+      "aiSummary": "crazydovebiling的YangKGcsdms/AntLegion是一个无编排器的AI代理事实总线，支持追加写入与恰好一次声明。"
     },
     {
       "key": "zzir/agents-go",
@@ -16169,7 +16203,7 @@
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T12:13:19Z",
+      "pushedAt": "2026-08-12T09:04:30Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/19749151?u=3432a767fd9f28d8cd7fb9b8c7209b151239c0ca&v=4",
       "available": true,
@@ -16721,7 +16755,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:57:14Z",
+      "pushedAt": "2026-08-12T09:03:22Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/289946007?v=4",
       "available": true,
@@ -17334,7 +17368,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-07-26T06:09:53Z",
+      "pushedAt": "2026-08-12T08:38:06Z",
       "license": "AGPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10215297?v=4",
       "available": true,
@@ -17440,7 +17474,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:54:41Z",
+      "pushedAt": "2026-08-12T08:27:22Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/238787999?u=a0f3dd080d5c19fffe2b507b3dea09584e7eb979&v=4",
       "available": true,
@@ -17684,7 +17718,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T06:33:21Z",
+      "pushedAt": "2026-08-12T08:17:35Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/221853032?u=66e9a99c4655667a6281c325a9dca730d3a7aeaf&v=4",
       "available": true,
@@ -18101,7 +18135,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T03:17:26Z",
+      "pushedAt": "2026-08-12T09:04:26Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11614123?u=61675c1ae6d22f4d7ef5a36ea142a027966a5bac&v=4",
       "available": true,
@@ -18241,7 +18275,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T04:56:28Z",
+      "pushedAt": "2026-08-12T08:54:37Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/297112303?v=4",
       "available": true,
@@ -18314,7 +18348,7 @@
         "color": "#6E4C13"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:25:36Z",
+      "pushedAt": "2026-08-12T09:04:40Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/30018599?u=3a6f6cb0bea0661f46166a4339a66d98e9ab7e59&v=4",
       "available": true,
@@ -19482,7 +19516,7 @@
         "color": "#F05138"
       },
       "archived": false,
-      "pushedAt": "2026-08-07T11:52:19Z",
+      "pushedAt": "2026-08-12T09:05:37Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5096749?v=4",
       "available": true,
@@ -19673,6 +19707,40 @@
         "@tianyi https://github.com/tttpob/jcli jupyter能力 https://github.com/TTTPOB/opencode-task-plugin opencode插件可以自由选择subagent model   jcli是我目前主要维护的项目，我高强度使用它作为我科研的脚手架，用到hook特性做上下文管理。虽然只有我和同学用但我觉得在jupyter体验这块还是很优秀的。"
       ],
       "aiSummary": "tttpob 报名的 TTTPOB/jcli 是面向科研工作的 Jupyter 脚手架，使用 hook 机制进行上下文管理，改善交互式研究开发体验。"
+    },
+    {
+      "key": "uncertaintydeterminesyou4ndme/flintrade",
+      "owner": "UncertaintyDeterminesYou4ndMe",
+      "repo": "flintrade",
+      "fullName": "UncertaintyDeterminesYou4ndMe/flintrade",
+      "url": "https://github.com/UncertaintyDeterminesYou4ndMe/flintrade",
+      "description": "An autonomous LLM paper-trading agent that dreams, remembers, and reviews its own trades",
+      "stars": 4,
+      "language": {
+        "name": "Python",
+        "color": "#3572A5"
+      },
+      "archived": false,
+      "pushedAt": "2026-08-06T08:46:29Z",
+      "license": "Apache-2.0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72533078?v=4",
+      "available": true,
+      "xUsers": [
+        "snwkng50462474"
+      ],
+      "githubIds": [
+        "UncertaintyDeterminesYou4ndMe"
+      ],
+      "sourceTweetIds": [
+        "2084693319188439211"
+      ],
+      "replyIds": [
+        "2085596306534547718"
+      ],
+      "excerpts": [
+        "@tianyi UncertaintyDeterminesYou4ndMe\nrepo:\nhttps://github.com/UncertaintyDeterminesYou4ndMe/flintrade/blob/master/README.zh-CN.md\n--\nthx"
+      ],
+      "aiSummary": "snwkng50462474的UncertaintyDeterminesYou4ndMe/flintrade是自主LLM模拟交易代理，能记忆并复盘自身交易。"
     },
     {
       "key": "vadaski/va-auto-pilot",
@@ -20407,7 +20475,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-11T18:54:14Z",
+      "pushedAt": "2026-08-12T09:00:49Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/276097456?v=4",
       "available": true,
@@ -20632,40 +20700,6 @@
         "@tianyi 希望参加 DeepSeek Harness 内测。GitHub ID：trynhexagon\n\nHermes Console：多 Agent Harness 控制台，含 Pipeline、Skill/Memory 观测、模型路由及 DeepSeek 流式链路\nhttps://github.com/trynhexagon/hermes-console\n\nTide：本地优先 Agent 工作流，含定时编排、Run 观测与 Token 熔断\nhttps://github.com/trynhexagon/tide"
       ],
       "aiSummary": "tryncharles报名用户的trynhexagon/hermes-console是用于编排多智能体系统的操作控制台，提供流水线、技能与记忆观测及模型路由。"
-    },
-    {
-      "key": "uncertaintydeterminesyou4ndme/flintrade",
-      "owner": "UncertaintyDeterminesYou4ndMe",
-      "repo": "flintrade",
-      "fullName": "UncertaintyDeterminesYou4ndMe/flintrade",
-      "url": "https://github.com/UncertaintyDeterminesYou4ndMe/flintrade",
-      "description": "An autonomous LLM paper-trading agent that dreams, remembers, and reviews its own trades",
-      "stars": 3,
-      "language": {
-        "name": "Python",
-        "color": "#3572A5"
-      },
-      "archived": false,
-      "pushedAt": "2026-08-06T08:46:29Z",
-      "license": "Apache-2.0",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/72533078?v=4",
-      "available": true,
-      "xUsers": [
-        "snwkng50462474"
-      ],
-      "githubIds": [
-        "UncertaintyDeterminesYou4ndMe"
-      ],
-      "sourceTweetIds": [
-        "2084693319188439211"
-      ],
-      "replyIds": [
-        "2085596306534547718"
-      ],
-      "excerpts": [
-        "@tianyi UncertaintyDeterminesYou4ndMe\nrepo:\nhttps://github.com/UncertaintyDeterminesYou4ndMe/flintrade/blob/master/README.zh-CN.md\n--\nthx"
-      ],
-      "aiSummary": "snwkng50462474的UncertaintyDeterminesYou4ndMe/flintrade是自主LLM模拟交易代理，能记忆并复盘自身交易。"
     },
     {
       "key": "viloris-org/runa",
@@ -21090,7 +21124,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:47:05Z",
+      "pushedAt": "2026-08-12T08:16:14Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/55937128?v=4",
       "available": true,
@@ -21781,7 +21815,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-10T09:46:45Z",
+      "pushedAt": "2026-08-12T09:01:47Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/80518792?u=b5e8a0d34bd09787ba23c05449b4c521e40ed51b&v=4",
       "available": true,
@@ -24859,7 +24893,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T04:14:18Z",
+      "pushedAt": "2026-08-12T09:02:06Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/288188157?v=4",
       "available": true,
@@ -25580,7 +25614,7 @@
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T06:10:14Z",
+      "pushedAt": "2026-08-12T09:01:37Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/27732503?u=dbb03f6f60c8df59eba835b339190bf2e381405a&v=4",
       "available": true,
@@ -26781,7 +26815,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:56:06Z",
+      "pushedAt": "2026-08-12T08:08:46Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/58295733?u=fb4982a6a52381393a2c8b260a27e456d1a3215c&v=4",
       "available": true,
@@ -26849,7 +26883,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T06:54:43Z",
+      "pushedAt": "2026-08-12T08:38:06Z",
       "license": "GPL-3.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/254938169?u=e4ec4ca58fdf3fbb6b0b79e2920f060877a0bdec&v=4",
       "available": true,
@@ -27708,7 +27742,7 @@
         "color": "#178600"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:50:16Z",
+      "pushedAt": "2026-08-12T08:45:19Z",
       "license": "NOASSERTION",
       "avatarUrl": "https://avatars.githubusercontent.com/u/210300529?v=4",
       "available": true,
@@ -28584,7 +28618,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:03:17Z",
+      "pushedAt": "2026-08-12T09:07:21Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10169236?v=4",
       "available": true,
@@ -29264,7 +29298,7 @@
         "color": "#3572A5"
       },
       "archived": false,
-      "pushedAt": "2026-07-29T06:55:58Z",
+      "pushedAt": "2026-08-12T09:04:17Z",
       "license": null,
       "avatarUrl": "https://avatars.githubusercontent.com/u/10487555?u=60bb230f7707cd1fc419eadc88098ddb2a0fc0ea&v=4",
       "available": true,
@@ -29945,7 +29979,7 @@
         "color": "#00ADD8"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T07:29:37Z",
+      "pushedAt": "2026-08-12T08:24:03Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/133665654?u=9fc4f31a7abc313dd7c507ea60672515ab567b4e&v=4",
       "available": true,
@@ -30117,7 +30151,7 @@
         "color": "#3178c6"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T00:59:33Z",
+      "pushedAt": "2026-08-12T08:52:44Z",
       "license": "MIT",
       "avatarUrl": "https://avatars.githubusercontent.com/u/140579809?u=ee68d03ffde6c3a60dd8924b30d37812c8309791&v=4",
       "available": true,
@@ -30459,7 +30493,7 @@
         "color": "#dea584"
       },
       "archived": false,
-      "pushedAt": "2026-08-12T08:00:09Z",
+      "pushedAt": "2026-08-12T08:12:46Z",
       "license": "Apache-2.0",
       "avatarUrl": "https://avatars.githubusercontent.com/u/308670409?v=4",
       "available": true,
@@ -32352,5 +32386,5 @@
     }
   ],
   "summaryModel": "deepseek-v4-flash",
-  "summaryGeneratedAt": "2026-08-12T08:10:05.765Z"
+  "summaryGeneratedAt": "2026-08-12T09:09:20.657Z"
 }
