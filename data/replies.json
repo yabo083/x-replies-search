@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T15:07:40.662219+00:00",
+  "fetchedAt": "2026-08-12T16:07:36.341237+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 823,
-      "capturedReplyCount": 656,
-      "lastCheckedAt": "2026-08-12T15:07:35.474511+00:00"
+      "sourceReplyCount": 825,
+      "capturedReplyCount": 658,
+      "lastCheckedAt": "2026-08-12T16:07:26.376168+00:00"
     }
   ],
   "summary": {
-    "tweets": 1157,
-    "authors": 1018,
-    "sourceCount": 2029,
+    "tweets": 1159,
+    "authors": 1019,
+    "sourceCount": 2031,
     "added": 2,
     "mode": "incremental"
   },
@@ -9261,6 +9261,14 @@
       "likes": 1
     },
     {
+      "id": "2087495721314648234",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Flashpoint493",
+      "text": "@tianyi VibeCollab = MCP agent with context memory. 20k downloads, zero-deps. Works with Cursor/Cline. Perfect for Harness! 👾\ngithubid flashpoint493\n GitHub: https://github.com/flashpoint493/…\n📊 Stats: https://clickpy.clickhouse.com/dashboard/vibe…",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2087497810338001043",
       "sourceTweetId": "2083519855203078320",
       "author": "wiedymi",
@@ -9281,6 +9289,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "2xingluo",
       "text": "@tianyi GitHub ID: xingluo-wink\n报名。两个 opencode plugin：\nphone-notify（https://github.com/xingluo-wink/phone-notify）：agent 长任务完成 → 手机推送通知，零依赖自建 ntfy\nvision-bridge（https://github.com/xingluo-wink/vision-bridge）：给纯文本模型加视觉，粘贴图片自动落盘并委托视觉子代理分析\nDSH 发布后第一时间移植适配。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087549748119310731",
+      "sourceTweetId": "2084693319188439211",
+      "author": "q8684930938607",
+      "text": "@tianyi @tianyi DSH 内测报名。\n\nGitHub: minrenczq\n\n项目: https://github.com/minrenczq/larkcc — Feishu/Lark 网关，为 AI agent 提供交互卡片、按钮回调、流式消息与任务生命周期管理；另对 suj1e/larkcc 上游贡献 10 commits（session 污染修复、/stoo 死锁修复、按钮渲染与回调、R9 任务生命周期）。邮箱请私信。",
       "createdAt": null,
       "likes": 0
     },
