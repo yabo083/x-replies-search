@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T04:07:49.618462+00:00",
+  "fetchedAt": "2026-08-12T07:08:08.192075+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1196,
-      "capturedReplyCount": 496,
-      "lastCheckedAt": "2026-08-12T04:07:36.523417+00:00"
+      "sourceReplyCount": 1198,
+      "capturedReplyCount": 497,
+      "lastCheckedAt": "2026-08-12T07:07:40.962698+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 810,
-      "capturedReplyCount": 647,
-      "lastCheckedAt": "2026-08-12T04:07:46.990242+00:00"
+      "sourceReplyCount": 812,
+      "capturedReplyCount": 648,
+      "lastCheckedAt": "2026-08-12T07:08:06.806042+00:00"
     }
   ],
   "summary": {
-    "tweets": 1143,
+    "tweets": 1145,
     "authors": 1008,
-    "sourceCount": 2006,
-    "added": 3,
+    "sourceCount": 2010,
+    "added": 2,
     "mode": "incremental"
   },
   "replies": [
@@ -843,6 +843,14 @@
       "text": "@tianyi ousia, 一个极简主义 Agent 客户端\nhttps://github.com/s1dashu/ousia",
       "createdAt": null,
       "likes": 2
+    },
+    {
+      "id": "2083573992695157106",
+      "sourceTweetId": "2083519855203078320",
+      "author": "nourelislem83",
+      "text": "@tianyi Hi @tianyi! I'd love to participate in the DeepSeek Harness beta.\n\nGitHub ID: Nour833\nProject: StegoForge (https://github.com/Nour833/StegoForge) — 569 ⭐ / 80 🍴\n\nExcited to test out the agent execution and tool-calling capabilities on complex multistep digital forensics &amp; security workflows!",
+      "createdAt": null,
+      "likes": 1
     },
     {
       "id": "2083574092079542470",
@@ -9177,6 +9185,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "wjiho7",
       "text": "@tianyi https://github.com/DeadWaveWave/opencove \nid：wosuxiongmao\n我参与维护了opencove，这是一个终端画布项目，支持把终端、agent平铺在画布",
+      "createdAt": null,
+      "likes": 1
+    },
+    {
+      "id": "2087385371286106422",
+      "sourceTweetId": "2084693319188439211",
+      "author": "rainforest868",
+      "text": "@tianyi 崔神求内测资格，项目是多agent之间的memory的跨越联系，从而使得agent之间的协作更高效 项目地址是https://github.com/TencentCloud/TencentDB-Agent-Memory，我是其中hermes、codebuddy、claudecode记忆的适配者；并且我还有自己的harness https://github.com/rainforest888/raincode",
       "createdAt": null,
       "likes": 1
     }
