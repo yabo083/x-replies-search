@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T14:07:41.453057+00:00",
+  "fetchedAt": "2026-08-12T15:07:40.662219+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -10,9 +10,9 @@
       "publishedAt": "2026-08-01T11:46:58.064Z",
       "url": "https://x.com/tianyi/status/2083519855203078320",
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
-      "sourceReplyCount": 1205,
-      "capturedReplyCount": 500,
-      "lastCheckedAt": "2026-08-12T14:07:30.108711+00:00"
+      "sourceReplyCount": 1206,
+      "capturedReplyCount": 501,
+      "lastCheckedAt": "2026-08-12T15:07:28.747728+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 821,
-      "capturedReplyCount": 655,
-      "lastCheckedAt": "2026-08-12T14:07:38.334272+00:00"
+      "sourceReplyCount": 823,
+      "capturedReplyCount": 656,
+      "lastCheckedAt": "2026-08-12T15:07:35.474511+00:00"
     }
   ],
   "summary": {
-    "tweets": 1155,
-    "authors": 1016,
-    "sourceCount": 2026,
+    "tweets": 1157,
+    "authors": 1018,
+    "sourceCount": 2029,
     "added": 2,
     "mode": "incremental"
   },
@@ -9273,6 +9273,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "StagoMax",
       "text": "@tianyi GitHub ID：StagoMax\nhttps://github.com/StagoMax/OpenTopia\nOpenTopia 是开源 Coding/Work Agent。通过高效 Agent Loop、合并工具调用、按需加载工具/MCP/Skill、分层压缩工具处理信息和稳定前缀缓存，在同等任务质量下减少请求数量与 Token，降低总成本。希望参与 DSH 内测。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087545065824821656",
+      "sourceTweetId": "2084693319188439211",
+      "author": "2xingluo",
+      "text": "@tianyi GitHub ID: xingluo-wink\n报名。两个 opencode plugin：\nphone-notify（https://github.com/xingluo-wink/phone-notify）：agent 长任务完成 → 手机推送通知，零依赖自建 ntfy\nvision-bridge（https://github.com/xingluo-wink/vision-bridge）：给纯文本模型加视觉，粘贴图片自动落盘并委托视觉子代理分析\nDSH 发布后第一时间移植适配。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087555925704053137",
+      "sourceTweetId": "2083519855203078320",
+      "author": "HBX_hbx",
+      "text": "@tianyi Thanks! GitHub ID is \"HBX-hbx\". Here is a repo for investigating the mechanism of On-Policy Distillation.\n\nhttps://github.com/thunlp/OPD",
       "createdAt": null,
       "likes": 0
     }
