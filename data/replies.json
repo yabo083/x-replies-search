@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-12T02:07:55.648611+00:00",
+  "fetchedAt": "2026-08-12T03:07:51.642454+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -12,7 +12,7 @@
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
       "sourceReplyCount": 1194,
       "capturedReplyCount": 496,
-      "lastCheckedAt": "2026-08-12T02:07:30.350734+00:00"
+      "lastCheckedAt": "2026-08-12T03:07:27.534561+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 804,
-      "capturedReplyCount": 639,
-      "lastCheckedAt": "2026-08-12T02:07:40.701199+00:00"
+      "sourceReplyCount": 806,
+      "capturedReplyCount": 644,
+      "lastCheckedAt": "2026-08-12T03:07:46.984717+00:00"
     }
   ],
   "summary": {
-    "tweets": 1135,
-    "authors": 1001,
-    "sourceCount": 1998,
-    "added": 3,
-    "mode": "incremental"
+    "tweets": 1140,
+    "authors": 1005,
+    "sourceCount": 2000,
+    "added": 5,
+    "mode": "full"
   },
   "replies": [
     {
@@ -6133,6 +6133,14 @@
       "likes": 0
     },
     {
+      "id": "2084865279075516534",
+      "sourceTweetId": "2084693319188439211",
+      "author": "Saber_AI_Agent",
+      "text": "@tianyi 报名，个人ID https://github.com/hawkli-1994, 作品是 https://github.com/rongxinzy/RongxinAI 我们是北京容芯致远科技有限公司，除了Agent开发，我们还在做智算服务器，2卡，4卡，8卡，32卡，64卡整机，全部兼容国产GPU和Nvidia, AMD等GPU. 团队来自清华和中科院计算所。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
       "id": "2084865600610783640",
       "sourceTweetId": "2084693319188439211",
       "author": "QingzeDeng1",
@@ -6995,6 +7003,14 @@
       "text": "@tianyi 毛遂自荐一下自己日常开发，并且使用的 Agent, Github 链接: https://github.com/ltoddy/aries , 使用方式类似 claude-code,同时也支持 acp 协议,目前 Harness 能力也比较成熟，能满足我当然肯定也能满足其他人日常工作需要。也在不断拓展中.想获取 DeepSeek Harness 的内测资格,邮箱 liutao.rs@bytedance.com",
       "createdAt": null,
       "likes": 1
+    },
+    {
+      "id": "2084967644961153330",
+      "sourceTweetId": "2084693319188439211",
+      "author": "hadesdevs",
+      "text": "@tianyi Github id: hadestructhor\n\nFormat-bench: testing models at their ability to transform text to formats, and formats to one another, the DeepSeek on there is before the 0731 release and did 69% overall:\nhttps://github.com/hadestructhor/format-bench",
+      "createdAt": null,
+      "likes": 0
     },
     {
       "id": "2084967815912824874",
@@ -9113,6 +9129,30 @@
       "sourceTweetId": "2084693319188439211",
       "author": "lj0497562341504",
       "text": "@tianyi GitHub ID: ustoolscn \n项目地址： https://github.com/ustoolscn/imageweb\n\n一个纯中文的图片生成工作台，前端使用 Vue 3 + Vite + TypeScript，后端使用 Go，并且只使用 MySQL 8.0+ 持久化。页面不需要登录，通过 URL 或页面设置配置 baseurl 和 apikey 后保存到浏览器本地，并由后端异步执行图片生成任务。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087358234881667200",
+      "sourceTweetId": "2084693319188439211",
+      "author": "DreamDreamriwe",
+      "text": "@tianyi GitHub:duan-1128(https://github.com/duan-1128)My-Agent-System —— 基于 Claude Code + DeepSeek 的自定义 Agent Harness,含 17 个 Skill、角色调度器(计划/执行/测试/管理)、Hook 自动化、跨会话记忆和代码知识图谱,覆盖\"设计→实现→测试→审查→合并\"全链路工作流。GitHub: https://github.com/duan-1128/My-Agent-System",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087358513874116650",
+      "sourceTweetId": "2084693319188439211",
+      "author": "DDcamulee",
+      "text": "@tianyi GitHub ID: shuimo07 项目地址：shuimo07/tiangandizhi2048：基于codex和trae的vibe coding作品 另：shuimo07/deep-seekv4pro-api-novel-writing-skill：基于v4pro的写作skill",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087364393868898514",
+      "sourceTweetId": "2084693319188439211",
+      "author": "rrrrrredy",
+      "text": "@tianyi 我做了 Agent Memory System：一个面向 Codex、Claude Code 和 OpenCode 的本地优先、证据驱动记忆层。原始轨迹留在本地，只有经评审和脱敏的记忆才通过私有 Git 同步；评估用于检验检索是否真正改善后续任务。 https://github.com/rrrrrredy/agent-memory-system",
       "createdAt": null,
       "likes": 0
     }
