@@ -1,6 +1,6 @@
 {
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-08-13T03:08:54.064Z",
+  "updatedAt": "2026-08-13T05:09:00.220Z",
   "items": {
     "lobehub/lobehub": {
       "signature": "a37275e7830b203d40a58417f58ac12c75cc450bc11f1137deb2a585f351b8ba",
@@ -3083,9 +3083,9 @@
       "generatedAt": "2026-08-05T13:08:37.742Z"
     },
     "sutongwuyanzu/taskhandoff": {
-      "signature": "dcd4c86b1229f7046c03a54e97d2923a1d0616409de0ac6db6204343e8512f66",
-      "summary": "报名用户 WukongNumber1：sutongwuyanzu/TaskHandoff 通过 Skill、CLI 与 MCP 保存项目状态，帮助编码 Agent 衔接长任务和跨会话记忆。",
-      "generatedAt": "2026-08-05T13:08:37.742Z"
+      "signature": "c2e492535f44559c8c33586766e68f9fe0fe9c91f5f7ded6e9080aefeee93a4b",
+      "summary": "WukongNumber1 报名 sutongwuyanzu/TaskHandoff，为编码智能体提供跨会话长任务记忆与交接能力。",
+      "generatedAt": "2026-08-13T05:09:00.215Z"
     },
     "tttpob/opencode-task-plugin": {
       "signature": "d52421d125bd649ec1bb3f3058ac302bf784d84ed4ad813b8d1a4e87691ad2db",
@@ -4736,6 +4736,11 @@
       "signature": "85e14ff71787284323c43c944dfd1126fbe10643148f72b92048d9ef28683399",
       "summary": "tianyi_gc 报名的 crabtalk/crabtalk 是 agent 调度中心与分发框架，支持进程内与 IPC 分发。",
       "generatedAt": "2026-08-13T02:08:59.413Z"
+    },
+    "agent-dance/luban": {
+      "signature": "2a42d4f8f2d5726069c53e2e1f8c4ca2b800afe89c948e0887bba7dc654482a3",
+      "summary": "xme1947289 报名 agent-dance/luban，通过无损上下文压缩与缓存复用提升大模型信息容量。",
+      "generatedAt": "2026-08-13T05:09:00.215Z"
     }
   }
 }
