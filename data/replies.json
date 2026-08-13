@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-13T05:07:33.175693+00:00",
+  "fetchedAt": "2026-08-13T06:07:37.078772+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 840,
-      "capturedReplyCount": 668,
-      "lastCheckedAt": "2026-08-13T05:07:31.735156+00:00"
+      "sourceReplyCount": 842,
+      "capturedReplyCount": 670,
+      "lastCheckedAt": "2026-08-13T06:07:35.603083+00:00"
     }
   ],
   "summary": {
-    "tweets": 1171,
-    "authors": 1027,
-    "sourceCount": 2048,
+    "tweets": 1173,
+    "authors": 1029,
+    "sourceCount": 2050,
     "added": 2,
     "mode": "incremental"
   },
@@ -9401,6 +9401,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "xme1947289",
       "text": "@tianyi GitHub ID: Beckers26\n项目地址：https://github.com/agent-dance/luban\n\nLuban(鲁班) 的独特优化:\n\n1. 支持无损渐进式上下文压缩，同样的上下文窗口大小能容纳 +60% 的信息量\n2. 全局 prompt_cache_key 管理，跨会话、跨 subagent 缓存复用\n3. 工具体系优先为批模式，允许一次性调用多工具减少轮次",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087775240613142885",
+      "sourceTweetId": "2084693319188439211",
+      "author": "zsssmingddd",
+      "text": "@tianyi GitHub ID: HirezmingD\n项目地址：https://github.com/HirezmingD/Knowe-agent-groupchat\nKnowe是一款多Agent团队群聊的桌面应用，提供极简友好的可视化操作界面、全图形化群聊交互，像用聊天软件一样驾驭多智能体。\n希望拿到内测资格🥲",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087775740695924778",
+      "sourceTweetId": "2084693319188439211",
+      "author": "contactchienlin",
+      "text": "@tianyi github ID: devRickyyy\n项目: https://github.com/tutti-os/tutti\nTutti 是一个支持多 Provider 的实时共享工作空间，将上下文、文件、应用、任务，全部打通。希望获得内测机会来第一时间接入 DSH",
       "createdAt": null,
       "likes": 0
     }
