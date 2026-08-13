@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-13T07:07:33.849490+00:00",
+  "fetchedAt": "2026-08-13T11:07:11.659119+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,16 +23,16 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 843,
-      "capturedReplyCount": 670,
-      "lastCheckedAt": "2026-08-13T07:07:33.849028+00:00"
+      "sourceReplyCount": 844,
+      "capturedReplyCount": 671,
+      "lastCheckedAt": "2026-08-13T11:07:10.204519+00:00"
     }
   ],
   "summary": {
-    "tweets": 1173,
-    "authors": 1029,
-    "sourceCount": 2051,
-    "added": 0,
+    "tweets": 1174,
+    "authors": 1030,
+    "sourceCount": 2052,
+    "added": 1,
     "mode": "incremental"
   },
   "replies": [
@@ -9419,6 +9419,14 @@
       "text": "@tianyi github ID: devRickyyy\n项目: https://github.com/tutti-os/tutti\nTutti 是一个支持多 Provider 的实时共享工作空间，将上下文、文件、应用、任务，全部打通。希望获得内测机会来第一时间接入 DSH",
       "createdAt": null,
       "likes": 0
+    },
+    {
+      "id": "2087854328677904825",
+      "sourceTweetId": "2084693319188439211",
+      "author": "ChaoYu96227",
+      "text": "@tianyi GitHub ID：ChaoYuZhang001\n开源代表作：https://github.com/ChaoYuZhang001/CaoGen\n\nCaoGen 是 AGPL-3.0 开源的本地优先、多 Provider Agent 工作桌面，已实现工具调用、Git worktree 隔离、Diff 审查与受控故障切换。我长期关注 Agent Harness 的任务恢复、权限门禁和可验证执行，希望参与内测并提供真实项目反馈。",
+      "createdAt": null,
+      "likes": 1
     }
   ]
 }
