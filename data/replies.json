@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-13T03:07:52.618860+00:00",
+  "fetchedAt": "2026-08-13T05:07:33.175693+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,17 +23,17 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 838,
-      "capturedReplyCount": 666,
-      "lastCheckedAt": "2026-08-13T03:07:52.618442+00:00"
+      "sourceReplyCount": 840,
+      "capturedReplyCount": 668,
+      "lastCheckedAt": "2026-08-13T05:07:31.735156+00:00"
     }
   ],
   "summary": {
-    "tweets": 1169,
-    "authors": 1025,
-    "sourceCount": 2046,
-    "added": 0,
-    "mode": "full"
+    "tweets": 1171,
+    "authors": 1027,
+    "sourceCount": 2048,
+    "added": 2,
+    "mode": "incremental"
   },
   "replies": [
     {
@@ -9385,6 +9385,22 @@
       "sourceTweetId": "2084693319188439211",
       "author": "songxiandong",
       "text": "@tianyi Github项目： https://github.com/ftsxd/jelly-agent\nGithub id： https://github.com/ftsxd\n1. 多 Agent 转交 —— 协调者 + 子 Agent 树\n2. 分层记忆 —— L1：USER.md / MEMORY.md 每轮注入 system prompt，；L2：会话文本进 SQLite FTS5（trigram 分词，中英文子串检索）等等",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087758453947383941",
+      "sourceTweetId": "2084693319188439211",
+      "author": "EricLi404",
+      "text": "@tianyi 今天 dsh 可以公测吗？",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087759163019714808",
+      "sourceTweetId": "2084693319188439211",
+      "author": "xme1947289",
+      "text": "@tianyi GitHub ID: Beckers26\n项目地址：https://github.com/agent-dance/luban\n\nLuban(鲁班) 的独特优化:\n\n1. 支持无损渐进式上下文压缩，同样的上下文窗口大小能容纳 +60% 的信息量\n2. 全局 prompt_cache_key 管理，跨会话、跨 subagent 缓存复用\n3. 工具体系优先为批模式，允许一次性调用多工具减少轮次",
       "createdAt": null,
       "likes": 0
     }
