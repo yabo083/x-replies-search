@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-13T17:07:27.035818+00:00",
+  "fetchedAt": "2026-08-13T18:07:25.009795+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 843,
-      "capturedReplyCount": 673,
-      "lastCheckedAt": "2026-08-13T17:07:25.151723+00:00"
+      "sourceReplyCount": 844,
+      "capturedReplyCount": 674,
+      "lastCheckedAt": "2026-08-13T18:07:23.523728+00:00"
     }
   ],
   "summary": {
-    "tweets": 1177,
-    "authors": 1033,
-    "sourceCount": 2053,
+    "tweets": 1178,
+    "authors": 1034,
+    "sourceCount": 2054,
     "added": 1,
     "mode": "incremental"
   },
@@ -9449,6 +9449,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "jason_yuan23147",
       "text": "@tianyi GitHub ID：haoyuan-sjtu\n项目地址：\nhttps://github.com/haoyuan-sjtu/pi-sjtu-self-correction-harness\npi-sjtu-self-correction-harness 是面向 SJTU HPC DeepSeek 的受限代码修复 Agent Harness。针对速率、并发与配额受限场景，运行时负责 verifier 证据、文件范围与权限门禁、preimage 校验、失败回滚、预算管理。",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2087959189545013368",
+      "sourceTweetId": "2084693319188439211",
+      "author": "weeb0",
+      "text": "would love to have our product integrated! \n\nwe have a couple open source projects but this one is more popular: https://github.com/HYPD-AI/openai-ads-mcp\n\nand another one which is a wrapper on our main MCP:\nhttps://github.com/HYPD-AI/hypd-claude-plugin\n\nMy Github handle is: https://github.com/ionut85\n\nwill share my email via DM",
       "createdAt": null,
       "likes": 0
     }
