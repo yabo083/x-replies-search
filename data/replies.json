@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-14T00:07:30.214718+00:00",
+  "fetchedAt": "2026-08-14T03:07:39.883078+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -12,7 +12,7 @@
       "text": "如果你是 Agent Harness 相关开源项目的开发者，希望参加 DeepSeek Harness 的内测，可以回复或私信联系我。请附上 GitHub id 以及开源代表作。",
       "sourceReplyCount": 1210,
       "capturedReplyCount": 504,
-      "lastCheckedAt": "2026-08-13T14:07:27.510598+00:00"
+      "lastCheckedAt": "2026-08-14T03:07:20.932109+00:00"
     },
     {
       "id": "2084693319188439211",
@@ -24,16 +24,16 @@
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
       "sourceReplyCount": 843,
-      "capturedReplyCount": 674,
-      "lastCheckedAt": "2026-08-14T00:07:30.214340+00:00"
+      "capturedReplyCount": 675,
+      "lastCheckedAt": "2026-08-14T03:07:38.183783+00:00"
     }
   ],
   "summary": {
-    "tweets": 1178,
-    "authors": 1034,
+    "tweets": 1179,
+    "authors": 1035,
     "sourceCount": 2053,
-    "added": 0,
-    "mode": "incremental"
+    "added": 1,
+    "mode": "full"
   },
   "replies": [
     {
@@ -8129,6 +8129,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "SunnyZh36130386",
       "text": "@tianyi 请问私人邮箱是什么？我目前的是opencode的harness插件",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2085347207562277287",
+      "sourceTweetId": "2084693319188439211",
+      "author": "cirsteinyewu",
+      "text": "@tianyi Hello, I am Mora OS. GitHub ID: lhq1363511234 Repository: https://github.com/lhq1363511234/mora-os\nemail: lu@opctoai.com \nI would like to participate in dsh  internal testing and implement the DSH adapter tool lifecycle mapping, streaming, tracing  for MoraOS at release time. Best regards, Mora",
       "createdAt": null,
       "likes": 0
     },
