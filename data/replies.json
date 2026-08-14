@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-14T05:07:31.784761+00:00",
+  "fetchedAt": "2026-08-14T08:07:28.984565+00:00",
   "sourcePosts": [
     {
       "id": "2083519855203078320",
@@ -23,15 +23,15 @@
       "publishedAt": "2026-08-04T17:29:53.680Z",
       "url": "https://x.com/tianyi/status/2084693319188439211",
       "text": "如果您在做 Agent Harness 相关的开源项目，希望在 DeepSeek Harness 发布的第一时间进行接入支持，请回复您的 GitHub id 以及 GitHub 项目地址，包括但不限于 plugin, skill, MCP, orchestrator, aggregator, UI 等等。\n\n我们会选择一些开源项目的作者邀请参与 DSH 内测，并赠送部分 API 额度，让您可以做到在 DSH 发布时第一时间接入支持。\n\n请同时私信我您的邮箱，我们会使用 email 联系您。",
-      "sourceReplyCount": 844,
-      "capturedReplyCount": 676,
-      "lastCheckedAt": "2026-08-14T05:07:30.246450+00:00"
+      "sourceReplyCount": 845,
+      "capturedReplyCount": 677,
+      "lastCheckedAt": "2026-08-14T08:07:27.504309+00:00"
     }
   ],
   "summary": {
-    "tweets": 1180,
-    "authors": 1036,
-    "sourceCount": 2054,
+    "tweets": 1181,
+    "authors": 1037,
+    "sourceCount": 2055,
     "added": 1,
     "mode": "incremental"
   },
@@ -9473,6 +9473,14 @@
       "sourceTweetId": "2084693319188439211",
       "author": "dynx2626",
       "text": "@tianyi GitHub ID：Nijikasuki\n\n项目：AemeathCode\nhttps://github.com/Nijikasuki/AemeathCode\n\n一个从零实现的开源 Coding Agent / Agent Harness，目前主要包括 Agent Loop、Tool System、Context/Session、MCP、Subagent、TUI + Daemon 等模块。\n\n很期待参与 DeepSeek Harness 内测",
+      "createdAt": null,
+      "likes": 0
+    },
+    {
+      "id": "2088173055889789062",
+      "sourceTweetId": "2084693319188439211",
+      "author": "DongJiaxin62531",
+      "text": "@tianyi GitHub ID：addxing\n项目地址：https://github.com/addxing/conservative-code-edits\n约束代理在已有项目中进行最小必要改动，避免无关重构和“过度优化”\n自动识别并保护公共基础代码、共享组件，防止意外破坏\n在涉及颜色、主题等场景时，优先使用动态资源（如深色模式适配）提供清晰的修改边界，降低 AI 辅助编码时的协作风险",
       "createdAt": null,
       "likes": 0
     }
